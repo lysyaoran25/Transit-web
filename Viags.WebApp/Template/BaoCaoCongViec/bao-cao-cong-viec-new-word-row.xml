@@ -1,0 +1,190 @@
+﻿<w:tr w:rsidR="00A4302E" w:rsidTr="00A4302E">
+  <w:trPr>
+    <w:trHeight w:val="413"/>
+    <w:jc w:val="center"/>
+  </w:trPr>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="790" w:type="dxa"/>
+      <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+    </w:tcPr>
+    <w:p w:rsidR="00A4302E" w:rsidRDefault="00A4302E" w:rsidP="0048565B">
+      <w:pPr>
+        <w:jc w:val="center"/>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+        <w:t>[STT]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="1688" w:type="dxa"/>
+      <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+    </w:tcPr>
+    <w:p w:rsidR="00A4302E" w:rsidRDefault="00A4302E" w:rsidP="0048565B">
+      <w:pPr>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+        <w:t>[BaoCaoTen]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="2112" w:type="dxa"/>
+      <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+    </w:tcPr>
+    <w:p w:rsidR="00A4302E" w:rsidRDefault="00A4302E" w:rsidP="0048565B">
+      <w:pPr>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+        <w:t>[BaoCaoLoai]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="1890" w:type="dxa"/>
+      <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+    </w:tcPr>
+    <w:p w:rsidR="00A4302E" w:rsidRDefault="00A4302E" w:rsidP="0048565B">
+      <w:pPr>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+        <w:t>[BaoCaoDonVi]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="1620" w:type="dxa"/>
+      <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+    </w:tcPr>
+    <w:p w:rsidR="00A4302E" w:rsidRDefault="00A4302E" w:rsidP="0048565B">
+      <w:pPr>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+        <w:t>[BaoCaoThoiGianGui]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="3870" w:type="dxa"/>
+      <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+    </w:tcPr>
+    <w:p w:rsidR="00A4302E" w:rsidRDefault="00A4302E" w:rsidP="0048565B">
+      <w:pPr>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+        <w:t>[BaoCaoNoiDung]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="1800" w:type="dxa"/>
+      <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+    </w:tcPr>
+    <w:p w:rsidR="00A4302E" w:rsidRDefault="00A4302E" w:rsidP="0048565B">
+      <w:pPr>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+        <w:t>[BaoCaoTrangThaiGui]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="1620" w:type="dxa"/>
+    </w:tcPr>
+    <w:p w:rsidR="00A4302E" w:rsidRDefault="00A4302E" w:rsidP="0048565B">
+      <w:pPr>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+        <w:t>[BaoCaoDanhGia]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+</w:tr>

@@ -1,0 +1,651 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblAnBanGhiDaChon" xml:space="preserve">
+    <value>Hide selected record</value>
+  </data>
+  <data name="lblCapNhatDaDoc" xml:space="preserve">
+    <value>Mark all as read</value>
+  </data>
+  <data name="lblCapNhatLichCaNhanThanhCong" xml:space="preserve">
+    <value>Update personal calendar successfully</value>
+  </data>
+  <data name="lblCapNhatLichHopCongTacThanhCong" xml:space="preserve">
+    <value>Updated meeting schedule successfully</value>
+  </data>
+  <data name="lblCapNhatThanhCongTrangThai" xml:space="preserve">
+    <value>Status update successfully</value>
+  </data>
+  <data name="lblCapNhatThanhCongUyQuyen" xml:space="preserve">
+    <value>Successfully updated authorization</value>
+  </data>
+  <data name="lblCapNhatThanhCongVaiTroQuyenHan" xml:space="preserve">
+    <value>Successful update role powers</value>
+  </data>
+  <data name="lblCapNhatThongTinDatBaoThanhCong" xml:space="preserve">
+    <value>Update booking information successfully</value>
+  </data>
+  <data name="lblChonChucNang" xml:space="preserve">
+    <value>Select function</value>
+  </data>
+  <data name="lblChonPhamViTimKiem" xml:space="preserve">
+    <value>Select search scope</value>
+  </data>
+  <data name="lblChucNang" xml:space="preserve">
+    <value>Function</value>
+  </data>
+  <data name="lblChuongTrinhCongTac" xml:space="preserve">
+    <value>Information working</value>
+  </data>
+  <data name="lblCongViec" xml:space="preserve">
+    <value>Task</value>
+  </data>
+  <data name="lblDaAnThanhCongVaiTro" xml:space="preserve">
+    <value>Successfully hidden the role</value>
+  </data>
+  <data name="lblDaCapNhatLaiThuTuVaiTro" xml:space="preserve">
+    <value>Updated role order</value>
+  </data>
+  <data name="lblDaCoLoiVuiLongXemLai" xml:space="preserve">
+    <value>There was an error please review</value>
+  </data>
+  <data name="lblDaHienThiThanhCongVaiTro" xml:space="preserve">
+    <value>Successfully displayed role</value>
+  </data>
+  <data name="lblDangTaiDuLieu" xml:space="preserve">
+    <value>Loading data</value>
+  </data>
+  <data name="lblDaTonTai" xml:space="preserve">
+    <value>already exists</value>
+  </data>
+  <data name="lblDatPhong" xml:space="preserve">
+    <value>Book meeting room</value>
+  </data>
+  <data name="lblDatXe" xml:space="preserve">
+    <value>Book car</value>
+  </data>
+  <data name="lblDaXoaThanhCong" xml:space="preserve">
+    <value>Deleted successfully</value>
+  </data>
+  <data name="lblDong" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="lblDuThao" xml:space="preserve">
+    <value>Drafting</value>
+  </data>
+  <data name="lblGuiUyQuyenThanhCong" xml:space="preserve">
+    <value>Send an authorization successfully</value>
+  </data>
+  <data name="lblKhongCoVaiTroNaoDuocChon" xml:space="preserve">
+    <value>No role is selected</value>
+  </data>
+  <data name="lblKhongTheUyQuyenChoTaiKhoanChinhMinh" xml:space="preserve">
+    <value>Do not authorize the account yourself</value>
+  </data>
+  <data name="lblKhongTonTaiVaiTroTrongHeThong" xml:space="preserve">
+    <value>No role in the system</value>
+  </data>
+  <data name="lblLichLamViec" xml:space="preserve">
+    <value>Schedule of working</value>
+  </data>
+  <data name="lblLichLamViecKhongXoaDuocDoDangSuDung" xml:space="preserve">
+    <value>The calendar does not delete because it is in use</value>
+  </data>
+  <data name="lblLoiThoiGianBatDauPhaiLonHonThoiGianKetThuc" xml:space="preserve">
+    <value>Error! The start time can not be longer than the end time</value>
+  </data>
+  <data name="lblNhapTuKhoaTimKiem" xml:space="preserve">
+    <value>Input search keywords</value>
+  </data>
+  <data name="lblNoiDung" xml:space="preserve">
+    <value>Content</value>
+  </data>
+  <data name="lblPhamVi" xml:space="preserve">
+    <value>Scope</value>
+  </data>
+  <data name="lblSTT" xml:space="preserve">
+    <value>No.</value>
+  </data>
+  <data name="lblTaiKhoanCuaBanKhongCoQuyenCapNhatVaiTro" xml:space="preserve">
+    <value>Your account does not have permission to update roles</value>
+  </data>
+  <data name="lblThemMoiLichCaNhanThanhCong" xml:space="preserve">
+    <value>Add new personal calendar successfully</value>
+  </data>
+  <data name="lblThemMoiLichHopCongTacTuanThanhCong" xml:space="preserve">
+    <value>Add a new weekly meeting schedule for success</value>
+  </data>
+  <data name="lblThemMoiThanhCongTrangThai" xml:space="preserve">
+    <value>Add new state successfully</value>
+  </data>
+  <data name="lblThemMoiThanhCongVaiTro" xml:space="preserve">
+    <value>Add new role successfully</value>
+  </data>
+  <data name="lblThemMoiThongTinDatBaoThanhCong" xml:space="preserve">
+    <value>Add new booking information successfully</value>
+  </data>
+  <data name="lblThemMoiUyQuyenThanhCong" xml:space="preserve">
+    <value>Add new authorization successfully</value>
+  </data>
+  <data name="lblThemMoiYKienThanhCong" xml:space="preserve">
+    <value>Add new comments for successfully</value>
+  </data>
+  <data name="lblThoiGian" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="lblThongBaoCuaBan" xml:space="preserve">
+    <value>Notification</value>
+  </data>
+  <data name="lblThuHoiUyQuyenThanhCong" xml:space="preserve">
+    <value>Reject the authorization successfully</value>
+  </data>
+  <data name="lblTimKiem" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="lblTimKiemTrong" xml:space="preserve">
+    <value>Search in</value>
+  </data>
+  <data name="lblTrangChu" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="lblTrangThaiDaTonTai" xml:space="preserve">
+    <value>Status already exists</value>
+  </data>
+  <data name="lblTrangThaiKhongXoaDuocDoDangSuDung" xml:space="preserve">
+    <value>The status is not deleted because it is in use</value>
+  </data>
+  <data name="lblTuKhoa" xml:space="preserve">
+    <value>Keyword</value>
+  </data>
+  <data name="lblUyQuyenKhongXoaDuocDoDangSuDung" xml:space="preserve">
+    <value>Authorization failed to delete due to being in use</value>
+  </data>
+  <data name="lblVaiTro" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="lblVaiTroDaAn" xml:space="preserve">
+    <value>The role has been hidden</value>
+  </data>
+  <data name="lblVaiTroDaHienThi" xml:space="preserve">
+    <value>Role shown</value>
+  </data>
+  <data name="lblVaiTroKhongXoaDuocDoDangSuDung" xml:space="preserve">
+    <value>Role can not be erased due to being in use</value>
+  </data>
+  <data name="lblVanBanDen" xml:space="preserve">
+    <value>Incoming documents</value>
+  </data>
+  <data name="lblVanBanDi" xml:space="preserve">
+    <value>Transferring out documents</value>
+  </data>
+  <data name="lblXoaDanhSachDaChon" xml:space="preserve">
+    <value>Remove selected list</value>
+  </data>
+  <data name="lblXuLyKienNghi" xml:space="preserve">
+    <value>Handle the petition</value>
+  </data>
+  <data name="lblAnQuyenHan" xml:space="preserve">
+    <value>Hidden role</value>
+  </data>
+  <data name="lblAnThanhCongDanhMucGiaTri" xml:space="preserve">
+    <value>Successfully hiding value categories</value>
+  </data>
+  <data name="lblAnThanhCongLoaiVanBan" xml:space="preserve">
+    <value>Hidden documents category successfully</value>
+  </data>
+  <data name="lblAnThanhCongPhongHop" xml:space="preserve">
+    <value>Hides the meeting room successfully</value>
+  </data>
+  <data name="lblAnThanhCongThongBao" xml:space="preserve">
+    <value>Hidden notification successfully</value>
+  </data>
+  <data name="lblAnThanhCongVanBan" xml:space="preserve">
+    <value>Hidden print register book successfully</value>
+  </data>
+  <data name="lblBanChuaChonFileDinhKem" xml:space="preserve">
+    <value>You have not selected attachments</value>
+  </data>
+  <data name="lblBanDaChonBanGiaoCongViec" xml:space="preserve">
+    <value>You have chosen to hand over the task</value>
+  </data>
+  <data name="lblBanGiaoCongViecKhongXoaDuocDoDangSuDung" xml:space="preserve">
+    <value>Work handover can not be deleted because it is in use</value>
+  </data>
+  <data name="lblBaoCaoCVKhongXoaDuocDoDangSuDung" xml:space="preserve">
+    <value>Work reports can not be deleted because they are in use</value>
+  </data>
+  <data name="lblCapNhatBanGiaoCongViecThanhCong" xml:space="preserve">
+    <value>Update handover task successfully</value>
+  </data>
+  <data name="lblCapNhatCauHinhSMSEmail" xml:space="preserve">
+    <value>Update SMS - Email configuration</value>
+  </data>
+  <data name="lblCapNhatDaDocThongBaoThanhCong" xml:space="preserve">
+    <value>Update read notification successfully</value>
+  </data>
+  <data name="lblCapNhatDanhMucGiaTri" xml:space="preserve">
+    <value>Update the value category</value>
+  </data>
+  <data name="lblCapNhatDanhMucPhongHop" xml:space="preserve">
+    <value>Updated meeting room directory</value>
+  </data>
+  <data name="lblCapNhatLoaiVanBan" xml:space="preserve">
+    <value>Update documents category</value>
+  </data>
+  <data name="lblCapNhatThanhCong" xml:space="preserve">
+    <value>Update successfully</value>
+  </data>
+  <data name="lblCapNhatThanhCongBaoCaoCongViec" xml:space="preserve">
+    <value>Updated work reports successfully</value>
+  </data>
+  <data name="lblCapNhatThanhCongChuongTrinhCongTac" xml:space="preserve">
+    <value>Successful update of work program</value>
+  </data>
+  <data name="lblCapNhatThanhCongQuyenHan" xml:space="preserve">
+    <value>Update role successfully</value>
+  </data>
+  <data name="lblCapNhatThanhCongSoVanBan" xml:space="preserve">
+    <value>Update print register book successfully</value>
+  </data>
+  <data name="lblCapNhatThongBao" xml:space="preserve">
+    <value>Update notification</value>
+  </data>
+  <data name="lblCapNhatThuTuHienThiThanhCong" xml:space="preserve">
+    <value>Update order of display successfully</value>
+  </data>
+  <data name="lblCapNhatTienDoCTCTThanhCong" xml:space="preserve">
+    <value>Update the progress of the work program successfully</value>
+  </data>
+  <data name="lblCapNhatVanBanDiVaoCTCT" xml:space="preserve">
+    <value>Update the document goes to the agenda</value>
+  </data>
+  <data name="lblCapNhatVanBanVaoCTCT" xml:space="preserve">
+    <value>Update document incoming to the agenda</value>
+  </data>
+  <data name="lblChonLoaiVanBan" xml:space="preserve">
+    <value>Select document category</value>
+  </data>
+  <data name="lblChuongTrinhCongTacKhongXoaDuoc" xml:space="preserve">
+    <value>The program can not be deleted because it is in use</value>
+  </data>
+  <data name="lblChuyenChuongTrinhPheDuyetCongTacThanhCong" xml:space="preserve">
+    <value>Transfer approved work program successfully</value>
+  </data>
+  <data name="lblChuyenCTCTDenDonViThanhCong" xml:space="preserve">
+    <value>Transfer work program to successful units</value>
+  </data>
+  <data name="lblChuyenPheDuyetLoTrinhChiTietThanhCong" xml:space="preserve">
+    <value>Transfer approved detailed roadmap successfully</value>
+  </data>
+  <data name="lblCoLoiTrongViecXoaThongTinThongBao" xml:space="preserve">
+    <value>There was an error deleting the notification information</value>
+  </data>
+  <data name="lblCoLoiXayRa" xml:space="preserve">
+    <value>An error occurred</value>
+  </data>
+  <data name="lblDaDuocGuiThanhCong" xml:space="preserve">
+    <value>was submitted successfully</value>
+  </data>
+  <data name="lblDanhGiaCongViecThanhCong" xml:space="preserve">
+    <value>Evaluate work successfully</value>
+  </data>
+  <data name="lblDanhGiaThanhCongBaoCaoCongViec" xml:space="preserve">
+    <value>Evaluate successful work reports</value>
+  </data>
+  <data name="lblDanhMucGiaTriHienDangHienThi" xml:space="preserve">
+    <value>The value category is currently displayed</value>
+  </data>
+  <data name="lblDanhMucGiaTriKhongXoaDuoc" xml:space="preserve">
+    <value>Value category can not be deleted because it is in use</value>
+  </data>
+  <data name="lblDanhMucKhongXoaDuocDoDangSuDung" xml:space="preserve">
+    <value>Category is not deleted as it is in use</value>
+  </data>
+  <data name="lblDanhMucPhongHop" xml:space="preserve">
+    <value>List of meeting rooms</value>
+  </data>
+  <data name="lblDanhMucPhongHopKhongXoaDuoc" xml:space="preserve">
+    <value>The meeting room list can not be deleted because it is in use</value>
+  </data>
+  <data name="lblDaTonTaiThongBao" xml:space="preserve">
+    <value>Notification already exists</value>
+  </data>
+  <data name="lblDaTonTaiTrongDonVi" xml:space="preserve">
+    <value>already exists in the unit</value>
+  </data>
+  <data name="lblDaTuChoiLoTrinhChiTietDonViThanhCong" xml:space="preserve">
+    <value>Did not deny the details of the unit success</value>
+  </data>
+  <data name="lblDaXoaThanhCongBaoCaoCongViec" xml:space="preserve">
+    <value>Deleted work reports successfully</value>
+  </data>
+  <data name="lblDaXoaThanhCongLoaiVanBan" xml:space="preserve">
+    <value>Deleted documents category successfully</value>
+  </data>
+  <data name="lblDonViChuaCoNguoiDaiDienNhanCTCT" xml:space="preserve">
+    <value>The unit does not have a representative to receive the Work Program</value>
+  </data>
+  <data name="lblDonViPhongBanChuaCoNguoiDaiDien" xml:space="preserve">
+    <value>Units and departments do not have a representative to receive the work program</value>
+  </data>
+  <data name="lblDuaYKienXuLyThanhCong" xml:space="preserve">
+    <value>Feeback of ​​successful processing</value>
+  </data>
+  <data name="lblDuyetChuongTrinhCongTacThanhCong" xml:space="preserve">
+    <value>Approve work program successfully</value>
+  </data>
+  <data name="lblDuyetYeuCauGiaHanChuongTrinhCTThanhCong" xml:space="preserve">
+    <value>Approve for a successful extension of your work program</value>
+  </data>
+  <data name="lblGiaTriDanhMuc" xml:space="preserve">
+    <value>Category value</value>
+  </data>
+  <data name="lblGiaTriDanhMucHienDangAn" xml:space="preserve">
+    <value>Category value is currently hidden</value>
+  </data>
+  <data name="lblGuiBaoCaoCongViec" xml:space="preserve">
+    <value>Send work report</value>
+  </data>
+  <data name="lblGuiThanhCongBanGiaoCongViec" xml:space="preserve">
+    <value>Submit work handover successfully</value>
+  </data>
+  <data name="lblHanXuLyPhaiLonHonHoacBangNgayBatDau" xml:space="preserve">
+    <value>Processing timelines must be greater than or equal to the start date</value>
+  </data>
+  <data name="lblHanXuLyPhaiLonHonNgayBatDau" xml:space="preserve">
+    <value>Processing time must be greater than start date</value>
+  </data>
+  <data name="lblHienThiQuyenHan" xml:space="preserve">
+    <value>Display role</value>
+  </data>
+  <data name="lblHienThiThanhCongDanhMucGiaTri" xml:space="preserve">
+    <value>Successfully displayed value categories</value>
+  </data>
+  <data name="lblHienThiThanhCongLoaiVanBan" xml:space="preserve">
+    <value>Show documents category successfully</value>
+  </data>
+  <data name="lblHienThiThanhCongPhongHop" xml:space="preserve">
+    <value>Successfully displaying the meeting room</value>
+  </data>
+  <data name="lblHienThiThanhCongSoVanBan" xml:space="preserve">
+    <value>Show print register book successfully</value>
+  </data>
+  <data name="lblHienThiThanhCongThongBao" xml:space="preserve">
+    <value>Show notification successfully</value>
+  </data>
+  <data name="lblKetThucChuongTrinhCongTac" xml:space="preserve">
+    <value>Finish the work program</value>
+  </data>
+  <data name="lblKhongThucHienXoaDoDaCoLoTrinhCon" xml:space="preserve">
+    <value>Do not delete due to a subroutine</value>
+  </data>
+  <data name="lblKhongTimThayThongTinQuyenHan" xml:space="preserve">
+    <value>No permissions found</value>
+  </data>
+  <data name="lblKiemTraLaiCacTruongThuTuPhaiSo" xml:space="preserve">
+    <value>Check the numerical order of numbers</value>
+  </data>
+  <data name="lblLoaiVanBan" xml:space="preserve">
+    <value>Documents category</value>
+  </data>
+  <data name="lblLoaiVanBanDangAn" xml:space="preserve">
+    <value>Documents category is hidden</value>
+  </data>
+  <data name="lblLoaiVanBanDangHienThi" xml:space="preserve">
+    <value>Documents category is displayed</value>
+  </data>
+  <data name="lblLoaiVanBanKhongXoaDuocDoDangSuDung" xml:space="preserve">
+    <value>Document category can not be deleted because it is in use</value>
+  </data>
+  <data name="lblLoTrinhChiTietKhongTonTai" xml:space="preserve">
+    <value>Detailed roadmap does not exist</value>
+  </data>
+  <data name="lblLoTrinhCongTac" xml:space="preserve">
+    <value>Route of work</value>
+  </data>
+  <data name="lblMoiQuyChiDuocGuiMotBaoCao" xml:space="preserve">
+    <value>Only one report per quarter!</value>
+  </data>
+  <data name="lblMoiQuyChiDuocTaoMotBaoCao" xml:space="preserve">
+    <value>Only one report per quarter!</value>
+  </data>
+  <data name="lblMoiThangChiDuocGuiMotBaoCao" xml:space="preserve">
+    <value>Only one report per month!</value>
+  </data>
+  <data name="lblMoiThangChiDuocTaoMotBaoCao" xml:space="preserve">
+    <value>Only one report per month is generated!</value>
+  </data>
+  <data name="lblMoiTuanChiDuocGuiMotBaoCao" xml:space="preserve">
+    <value>Only one report per week!</value>
+  </data>
+  <data name="lblMoiTuanChiDuocTaoMotBaoCao" xml:space="preserve">
+    <value>Only one report per week is generated!</value>
+  </data>
+  <data name="lblNgayThangLoTrinhConPhaiNamTrong" xml:space="preserve">
+    <value>The date of the child route must be within the timeframe of the parenting route</value>
+  </data>
+  <data name="lblPhongHopHienDangAn" xml:space="preserve">
+    <value>Meeting rooms are currently hidden or in use</value>
+  </data>
+  <data name="lblPhongHopHienDangHienThi" xml:space="preserve">
+    <value>Meeting rooms are now displayed</value>
+  </data>
+  <data name="lblQuyenHan" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="lblQuyenHanKhongXoaDuocDoDangSuDung" xml:space="preserve">
+    <value>Authorizations can not be deleted because they are in use</value>
+  </data>
+  <data name="lblSoVanBan" xml:space="preserve">
+    <value>Print register book</value>
+  </data>
+  <data name="lblSoVanBanDangHienThi" xml:space="preserve">
+    <value>Print register book are currently display</value>
+  </data>
+  <data name="lblSoVanBanDaTonTai" xml:space="preserve">
+    <value>The print register book already exists</value>
+  </data>
+  <data name="lblSoVanBanHienDangAn" xml:space="preserve">
+    <value>Print register book are currently hidden</value>
+  </data>
+  <data name="lblSoVanBanKhongXoaDuocDoDangSuDung" xml:space="preserve">
+    <value>Print register book are not deleted as they are in use</value>
+  </data>
+  <data name="lblThanhCong" xml:space="preserve">
+    <value>successfully</value>
+  </data>
+  <data name="lblThemMoiBanGiaoCongViecThanhCong" xml:space="preserve">
+    <value>Add new handover task successfully</value>
+  </data>
+  <data name="lblThemMoiCauHinhSMSEmail" xml:space="preserve">
+    <value>Add new SMS - Email configuration</value>
+  </data>
+  <data name="lblThemMoiDanhMucGiaTri" xml:space="preserve">
+    <value>Add new value categories</value>
+  </data>
+  <data name="lblThemMoiDanhMucPhongHop" xml:space="preserve">
+    <value>Add new meeting room list</value>
+  </data>
+  <data name="lblThemMoiLoaiVanBan" xml:space="preserve">
+    <value>Add new documents category</value>
+  </data>
+  <data name="lblThemMoiThanhCongBaoCaoCongViec" xml:space="preserve">
+    <value>Add new work report successfully</value>
+  </data>
+  <data name="lblThemMoiThanhCongChuongTrinhCongTac" xml:space="preserve">
+    <value>Add new work program successfully</value>
+  </data>
+  <data name="lblThemMoiThanhCongLoTrinhChiTiet" xml:space="preserve">
+    <value>Successfully added a new detailed route</value>
+  </data>
+  <data name="lblThemMoiThanhCongQuyenHan" xml:space="preserve">
+    <value>Add new role successfully</value>
+  </data>
+  <data name="lblthemMoiThanhCongSoVanBan" xml:space="preserve">
+    <value>Add new print register book successfully</value>
+  </data>
+  <data name="lblThemMoiThongBao" xml:space="preserve">
+    <value>Add new notification</value>
+  </data>
+  <data name="lblThoiGianBDPhaiNhoHonThoiGianKT" xml:space="preserve">
+    <value>The start time must be less than the end time. Please retype</value>
+  </data>
+  <data name="lblThongBaoHienDangAn" xml:space="preserve">
+    <value>Notifications are currently hidden</value>
+  </data>
+  <data name="lblThongBaoHienDangHienThi" xml:space="preserve">
+    <value>Notifications are currently display</value>
+  </data>
+  <data name="lblThongBaoKhongXoaDuocDoDangSuDung" xml:space="preserve">
+    <value>Notifications are not deleted as they are in use</value>
+  </data>
+  <data name="lblThuHoiLuanChuyenThanhCong" xml:space="preserve">
+    <value>Recirculation successfully</value>
+  </data>
+  <data name="lblThuTuPhaiLaSo" xml:space="preserve">
+    <value>Order must be a number</value>
+  </data>
+  <data name="lblTraLaiBaoCaoCongViecThanhCong" xml:space="preserve">
+    <value>Return a successful work report</value>
+  </data>
+  <data name="lblTraLaiThanhCongCTCT" xml:space="preserve">
+    <value>Return successful work program</value>
+  </data>
+  <data name="lblTuChoiPheDuyetChuongTrinhCongTacThanhCong" xml:space="preserve">
+    <value>Reject to approve the successful work program</value>
+  </data>
+  <data name="lblTuChoiYeuCauGiaHanCTCTThanhCong" xml:space="preserve">
+    <value>Reject request for successful extension of work program</value>
+  </data>
+  <data name="lblXoaThanhCongLoTrinhChiTiet" xml:space="preserve">
+    <value>Successfully deleted detailed route</value>
+  </data>
+  <data name="lblXoaThongBaoThanhCong" xml:space="preserve">
+    <value>Delete notification successfully</value>
+  </data>
+  <data name="lblYeuCauGiaHanChuongTrinhCT" xml:space="preserve">
+    <value>Request for extension of work program </value>
+  </data>
+  <data name="lblYeuCauLamLaiThanhCong" xml:space="preserve">
+    <value>Request to remake successfully</value>
+  </data>
+  <data name="lblClearNotification" xml:space="preserve">
+    <value>Clear notifications</value>
+  </data>
+</root>

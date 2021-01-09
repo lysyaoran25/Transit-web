@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{32F351FE-8F40-42AD-8EFF-46BDA1CA1D2E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Viags.Utils</RootNamespace>
+    <AssemblyName>Viags.Utils</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Win32Resource>
+    </Win32Resource>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp">
+      <HintPath>..\Viags.WebApp\DLL\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\Viags.WebApp\DLL\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.DirectoryServices.AccountManagement" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Constant\Constant.cs" />
+    <Compile Include="DataHelper.cs" />
+    <Compile Include="Enum\ChucNang.cs" />
+    <Compile Include="Enum\ChuyenMuc.cs" />
+    <Compile Include="Enum\ConfigSoBanGhi.cs" />
+    <Compile Include="Enum\HinhThucKhaiThac.cs" />
+    <Compile Include="Enum\KieuHienThiColumn.cs" />
+    <Compile Include="Enum\LoaiBaoCaoCongViec.cs" />
+    <Compile Include="Enum\LoaiBaoCaoCoSo.cs" />
+    <Compile Include="Enum\LoaiBaoCaoKienNghi.cs" />
+    <Compile Include="Enum\LoaiBaoCaoVanBanDen.cs" />
+    <Compile Include="Enum\LoaiDatPhong.cs" />
+    <Compile Include="Enum\LoaiHinhTaiLieu.cs" />
+    <Compile Include="Enum\LoaiKienNghi.cs" />
+    <Compile Include="Enum\LoaiVanBanDi.cs" />
+    <Compile Include="Enum\LogTypes.cs" />
+    <Compile Include="Enum\MenuIcon.cs" />
+    <Compile Include="Enum\QuyenHan.cs" />
+    <Compile Include="Enum\TaiLieuBieuMau.cs" />
+    <Compile Include="Enum\ThongBao.cs" />
+    <Compile Include="Enum\TrangThai.cs" />
+    <Compile Include="Enum\TrangThaiBaoCaoCoSo.cs" />
+    <Compile Include="Enum\TrangThaiCHuongTrinhHop.cs" />
+    <Compile Include="Enum\TrangThaiDatComTuan.cs" />
+    <Compile Include="Enum\TrangThaiKhaiThac.cs" />
+    <Compile Include="Enum\TrangThaiLichLD.cs" />
+    <Compile Include="Enum\TrangThaiTinTuc.cs" />
+    <Compile Include="Enum\TrangThai_ISO.cs" />
+    <Compile Include="Enum\TypeOfAction.cs" />
+    <Compile Include="Enum\TypeOfKieuVanBan.cs" />
+    <Compile Include="Enum\TypeOfPermission.cs" />
+    <Compile Include="Enum\TypeOfRole.cs" />
+    <Compile Include="FileAttach.cs" />
+    <Compile Include="FileAttachFrom.cs" />
+    <Compile Include="Message.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utility.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

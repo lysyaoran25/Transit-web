@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns2="Viags/common/envelope/serviceenvelope/1.0" xmlns:jndi="http://www.tibco.com/namespaces/ws/2004/soap/apis/jndi" xmlns:jms="http://www.tibco.com/namespaces/ws/2004/soap/binding/JMS" xmlns:tns="http://xmlns.example.com/1461385719163" xmlns:ns0="http://www.Viags.gov.vn/schema/global/utilities/sendnotification/SendNotification.xsd" xmlns:ns1="Viags/common/envelope/commonheader/1.0" name="Untitled" targetNamespace="http://xmlns.example.com/1461385719163" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:cmd-header="Viags/common/envelope/commonheader/1.0" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="Viags/common/envelope/commonheader/1.0" version="1.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <xsd:annotation>
+        <xsd:documentation xml:lang="en">Unique Application Identification to identify Traget application or system within an organization, e.g "SmartLender", "Murex, "Ipay"</xsd:documentation>
+      </xsd:annotation>
+      <xsd:complexType name="AppHdrType">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" ref="cmd-header:CharSet">
+            <xsd:annotation>
+              <xsd:documentation xml:lang="en">Character encoding</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element ref="cmd-header:ServVersion">
+            <xsd:annotation>
+              <xsd:documentation>Version of the service to invoke</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="From" type="cmd-header:PairsType">
+            <xsd:annotation>
+              <xsd:documentation>The Name and ID of the application send the message to the ESB</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="To" type="cmd-header:PairsType">
+            <xsd:annotation>
+              <xsd:documentation>The Name and ID of the application receive the message from the ESB</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element ref="cmd-header:MsgId">
+            <xsd:annotation>
+              <xsd:documentation xml:lang="en">This ID can be used by Service Client to correlate respond message.</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element minOccurs="0" ref="cmd-header:MsgPreId">
+            <xsd:annotation>
+              <xsd:documentation xml:lang="en">ID of the previous application.</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element minOccurs="0" ref="cmd-header:MsgSrcId">
+            <xsd:annotation>
+              <xsd:documentation xml:lang="en">ID of the initiate application.</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="BizServ" type="cmd-header:PairsType">
+            <xsd:annotation>
+              <xsd:documentation>Business Domain</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element ref="cmd-header:CreatedDate">
+            <xsd:annotation>
+              <xsd:documentation xml:lang="en">The Date of created message</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element minOccurs="0" ref="cmd-header:Signature">
+            <xsd:annotation>
+              <xsd:documentation xml:lang="en">Digital Signature</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ErrorInfoType">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" name="Id" type="xsd:string" />
+          <xsd:element minOccurs="0" name="ErrorCode" type="xsd:string">
+            <xsd:annotation>
+              <xsd:documentation>Error code returned by "SourceAppID" System.  This Error Code is unique to each System.</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element minOccurs="0" name="ErrorMessage" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="PairsType">
+        <xsd:sequence>
+          <xsd:element name="Id" type="xsd:string" />
+          <xsd:element name="Name" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ResponseStatusType">
+        <xsd:sequence>
+          <xsd:element name="Status" type="xsd:string">
+            <xsd:annotation>
+              <xsd:documentation>ESB Service's processing status</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element minOccurs="0" name="ErrorCode" type="xsd:string" />
+          <xsd:element minOccurs="0" name="ErrorMessage" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="ErrorInfo" type="cmd-header:ErrorInfoType" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="AppHdr" type="cmd-header:AppHdrType" />
+      <xsd:element name="CharSet" type="xsd:string">
+        <xsd:annotation>
+          <xsd:documentation xml:lang="en">Character encoding</xsd:documentation>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="CreatedDate" type="xsd:dateTime">
+        <xsd:annotation>
+          <xsd:documentation xml:lang="en">The Date of created message</xsd:documentation>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="MsgId" type="xsd:string">
+        <xsd:annotation>
+          <xsd:documentation xml:lang="en">This ID can be used by Service Client to correlate respond message.</xsd:documentation>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="MsgPreId" type="xsd:string">
+        <xsd:annotation>
+          <xsd:documentation xml:lang="en">ID of the previous application.</xsd:documentation>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="MsgSrcId" type="xsd:string">
+        <xsd:annotation>
+          <xsd:documentation xml:lang="en">ID of the initiate application.</xsd:documentation>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="NameValuePairs" type="cmd-header:PairsType" />
+      <xsd:element name="ResponseStatus" type="cmd-header:ResponseStatusType" />
+      <xsd:element name="ServVersion" type="xsd:string">
+        <xsd:annotation>
+          <xsd:documentation>Version of the service to invoke</xsd:documentation>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="Signature" type="xsd:string">
+        <xsd:annotation>
+          <xsd:documentation xml:lang="en">Digital Signature</xsd:documentation>
+        </xsd:annotation>
+      </xsd:element>
+    </xsd:schema>
+    <xs:schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:cmd-header="Viags/common/envelope/commonheader/1.0" xmlns:cmd-envelope="Viags/common/envelope/serviceenvelope/1.0" attributeFormDefault="unqualified" elementFormDefault="unqualified" targetNamespace="Viags/common/envelope/serviceenvelope/1.0" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:import namespace="Viags/common/envelope/commonheader/1.0" />
+      <xs:complexType name="BaseServiceEnvelopeRequestType">
+        <xs:sequence>
+          <xs:element ref="cmd-header:AppHdr" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="BaseServiceEnvelopeResponseType">
+        <xs:sequence>
+          <xs:element ref="cmd-header:AppHdr" />
+          <xs:element ref="cmd-header:ResponseStatus" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ServiceBodyType">
+        <xs:sequence>
+          <xs:any minOccurs="0" maxOccurs="unbounded" namespace="##any" processContents="lax" />
+        </xs:sequence>
+        <xs:anyAttribute namespace="##any" processContents="lax" />
+      </xs:complexType>
+      <xs:complexType name="ServiceEnverlopType">
+        <xs:sequence>
+          <xs:element ref="cmd-header:AppHdr" />
+          <xs:element minOccurs="0" ref="cmd-header:ResponseStatus" />
+          <xs:element name="ServiceBody" type="cmd-envelope:ServiceBodyType" />
+          <xs:element minOccurs="0" name="Other" type="xs:string" />
+        </xs:sequence>
+        <xs:anyAttribute namespace="##any" processContents="lax" />
+      </xs:complexType>
+      <xs:element name="BaseServiceEnvelopeRequest" type="cmd-envelope:BaseServiceEnvelopeRequestType" />
+      <xs:element name="BaseServiceEnvelopeResponse" type="cmd-envelope:BaseServiceEnvelopeResponseType" />
+      <xs:element name="ServiceEnverlop" type="cmd-envelope:ServiceEnverlopType" />
+      <xs:attribute name="actor" type="xs:anyURI" />
+      <xs:attribute name="mustUnderstand">
+        <xs:simpleType>
+          <xs:restriction base="xs:boolean">
+            <xs:pattern value="0|1" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+    </xs:schema>
+    <xs:schema xmlns="http://www.Viags.gov.vn/schema/global/utilities/sendnotification/SendNotification.xsd" xmlns:cmd-envelope="Viags/common/envelope/serviceenvelope/1.0" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.Viags.gov.vn/schema/global/utilities/sendnotification/SendNotification.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:import namespace="Viags/common/envelope/serviceenvelope/1.0" />
+      <xs:complexType name="createSendNotificationReqType">
+        <xs:complexContent mixed="false">
+          <xs:extension base="cmd-envelope:BaseServiceEnvelopeRequestType">
+            <xs:sequence>
+              <xs:element ref="ns0:SendNotificationInput" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:complexType name="createSendNotificationResType">
+        <xs:complexContent mixed="false">
+          <xs:extension base="cmd-envelope:BaseServiceEnvelopeResponseType" />
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="Authentication">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="SystemType" type="xs:string" />
+            <xs:element minOccurs="0" name="Username" type="xs:string" />
+            <xs:element minOccurs="0" name="Password" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SendNotificationEmail">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="SendFrom" type="xs:string" />
+            <xs:element minOccurs="0" name="SendTo" type="xs:string" />
+            <xs:element minOccurs="0" name="SendCC" type="xs:string" />
+            <xs:element minOccurs="0" name="SendBCC" type="xs:string" />
+            <xs:element minOccurs="0" name="Subject" type="xs:string" />
+            <xs:element minOccurs="0" name="Content" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SendNotificationInput">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="SendNotificationID" type="xs:string" />
+            <xs:element minOccurs="0" name="SendNotificationType" type="xs:string" />
+            <xs:element minOccurs="0" ref="ns0:Authentication" />
+            <xs:element minOccurs="0" ref="ns0:SendNotificationSMS" />
+            <xs:element minOccurs="0" ref="ns0:SendNotificationEmail" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SendNotificationSMS">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Destination" type="xs:string" />
+            <xs:element minOccurs="0" name="OutContent" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="createSendNotificationReq" type="ns0:createSendNotificationReqType" />
+      <xs:element name="createSendNotificationRes" type="ns0:createSendNotificationResType" />
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="createSendNotificationReq">
+    <wsdl:part name="Req" element="ns0:createSendNotificationReq" />
+  </wsdl:message>
+  <wsdl:message name="createSendNotificationRes">
+    <wsdl:part name="Res" element="ns0:createSendNotificationRes" />
+  </wsdl:message>
+  <wsdl:portType name="PortType">
+    <wsdl:operation name="createSendNotification">
+      <wsdl:input message="tns:createSendNotificationReq" />
+      <wsdl:output message="tns:createSendNotificationRes" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="PortTypeEndpoint1Binding" type="tns:PortType">
+    <soap:binding transport="http://www.tibco.com/namespaces/ws/2004/soap/binding/JMS" />
+    <jms:binding messageFormat="bytes" />
+    <wsdl:operation name="createSendNotification">
+      <soap:operation soapAction="/Services/Global/Utilities/SendNotification/OperationImpl/SendNotification.serviceagent/PortTypeEndpoint1/createSendNotification" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="Req" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="Res" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SendNotification">
+    <wsdl:port name="PortTypeEndpoint1" binding="tns:PortTypeEndpoint1Binding">
+      <soap:address location="" />
+      <jms:connectionFactory>FTQueueConnectionFactory</jms:connectionFactory>
+      <jms:targetAddress destination="queue">sendnotification1.0</jms:targetAddress>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

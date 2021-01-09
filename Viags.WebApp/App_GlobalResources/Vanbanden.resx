@@ -1,0 +1,1047 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnAnTimKiemNangCao" xml:space="preserve">
+    <value>Hide advanced search</value>
+  </data>
+  <data name="btnCapNhatTrangThai" xml:space="preserve">
+    <value>Update status</value>
+  </data>
+  <data name="btnChiTietVanBan" xml:space="preserve">
+    <value>Detail </value>
+  </data>
+  <data name="btnChon" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="btnChuyen" xml:space="preserve">
+    <value>Forward</value>
+  </data>
+  <data name="btnDong" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="btnDongLai" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="btnDongY" xml:space="preserve">
+    <value>Agreed</value>
+  </data>
+  <data name="btnGuiMail" xml:space="preserve">
+    <value>Send mail </value>
+  </data>
+  <data name="btnLuu" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="btnLuuVaGui" xml:space="preserve">
+    <value>Save and send </value>
+  </data>
+  <data name="btnNhapLai" xml:space="preserve">
+    <value>Input again</value>
+  </data>
+  <data name="btnThemMoi" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="btnThoat" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="btnTimKiem" xml:space="preserve">
+    <value>Search </value>
+  </data>
+  <data name="btnTimKiemNangCao" xml:space="preserve">
+    <value>Advanced search</value>
+  </data>
+  <data name="btnTrangChu" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="btnVanBanDen" xml:space="preserve">
+    <value>Receipt document</value>
+  </data>
+  <data name="btnVanBanDenCu" xml:space="preserve">
+    <value>Old Receipt document</value>
+  </data>
+  <data name="btnVanBanDenDonVi" xml:space="preserve">
+    <value>Departments Receipt document</value>
+  </data>
+  <data name="btnVanBanDenMoi" xml:space="preserve">
+    <value>New Receipt document</value>
+  </data>
+  <data name="btnVanBanDi" xml:space="preserve">
+    <value>Delivery document</value>
+  </data>
+  <data name="btnVanBanDiThuong" xml:space="preserve">
+    <value>Delivery document normally</value>
+  </data>
+  <data name="lblApproveVanBan" xml:space="preserve">
+    <value>Approve</value>
+  </data>
+  <data name="lblCanBoDauMoi" xml:space="preserve">
+    <value>Performer</value>
+  </data>
+  <data name="lblCanBoPhoiHop" xml:space="preserve">
+    <value>Coordinator</value>
+  </data>
+  <data name="lblCapNhat" xml:space="preserve">
+    <value>Update </value>
+  </data>
+  <data name="lblCapNhatTrangThaiNgDung" xml:space="preserve">
+    <value>Update user status</value>
+  </data>
+  <data name="lblCapNhatTrangThaiVanBan" xml:space="preserve">
+    <value>Update document status</value>
+  </data>
+  <data name="lblChacChanKhong" xml:space="preserve">
+    <value>Are you sure?</value>
+  </data>
+  <data name="lblChanhVanPhong" xml:space="preserve">
+    <value>Office Manager</value>
+  </data>
+  <data name="lblChiTiet" xml:space="preserve">
+    <value>Detail</value>
+  </data>
+  <data name="lblChiTietPhieuTrinh" xml:space="preserve">
+    <value>Detail</value>
+  </data>
+  <data name="lblChitietvanban" xml:space="preserve">
+    <value>Detail document</value>
+  </data>
+  <data name="lblCHITIETVANBANDEN" xml:space="preserve">
+    <value>Detail Receipt document</value>
+  </data>
+  <data name="lblChon" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="lblChonCanBo" xml:space="preserve">
+    <value>Select perfomer</value>
+  </data>
+  <data name="lblChonChucNang" xml:space="preserve">
+    <value>Select function</value>
+  </data>
+  <data name="lblChonCoQuanDonViGuiDen" xml:space="preserve">
+    <value>Select company</value>
+  </data>
+  <data name="lblChonCoQuanGui" xml:space="preserve">
+    <value>Select company</value>
+  </data>
+  <data name="lblChonDoMat" xml:space="preserve">
+    <value>zzzz</value>
+  </data>
+  <data name="lblChonDonVi" xml:space="preserve">
+    <value>Select department/branch</value>
+  </data>
+  <data name="lblChonFileDinhKem" xml:space="preserve">
+    <value>Select file attactment</value>
+  </data>
+  <data name="lblChonLanhDao" xml:space="preserve">
+    <value>Select signer</value>
+  </data>
+  <data name="lblChonLanhDaoButPhe" xml:space="preserve">
+    <value>Select manager signer</value>
+  </data>
+  <data name="lblChonLoaiVanBan" xml:space="preserve">
+    <value>Select document category</value>
+  </data>
+  <data name="lblChonMauBaocao" xml:space="preserve">
+    <value>Select template report</value>
+  </data>
+  <data name="lblChonMauPhieuTrinh" xml:space="preserve">
+    <value>Select template statement</value>
+  </data>
+  <data name="lblChonNguoiDung" xml:space="preserve">
+    <value>Select user</value>
+  </data>
+  <data name="lblChonNguoiKy" xml:space="preserve">
+    <value>Select signer</value>
+  </data>
+  <data name="lblChonPhamViTimKiem" xml:space="preserve">
+    <value>Select search scope</value>
+  </data>
+  <data name="lblChonSoVanBan" xml:space="preserve">
+    <value>Select register books</value>
+  </data>
+  <data name="lblChonTenLanhDao" xml:space="preserve">
+    <value>Select name manager</value>
+  </data>
+  <data name="lblChonThang" xml:space="preserve">
+    <value>Select month</value>
+  </data>
+  <data name="lblChonTrangThaiBanGoc" xml:space="preserve">
+    <value>Select original status</value>
+  </data>
+  <data name="lblChoVaoSo" xml:space="preserve">
+    <value>Waiting register</value>
+  </data>
+  <data name="lblChuaButPhe" xml:space="preserve">
+    <value>Unapproved</value>
+  </data>
+  <data name="lblChuaNhan" xml:space="preserve">
+    <value>Not received</value>
+  </data>
+  <data name="lblChuaXuLy" xml:space="preserve">
+    <value>Pending</value>
+  </data>
+  <data name="lblChuaXuLyConHan" xml:space="preserve">
+    <value>Pending in timeline</value>
+  </data>
+  <data name="lblChuaXuLyDenHan" xml:space="preserve">
+    <value>Pending ondue</value>
+  </data>
+  <data name="lblChuaXuLyQuaHan" xml:space="preserve">
+    <value>Pending overdue</value>
+  </data>
+  <data name="lblChucNang" xml:space="preserve">
+    <value>Function</value>
+  </data>
+  <data name="lblChuyenLanhDao" xml:space="preserve">
+    <value>Forward to Manager</value>
+  </data>
+  <data name="lblChuyenXuLy" xml:space="preserve">
+    <value>Forward</value>
+  </data>
+  <data name="lblCoLanhDao" xml:space="preserve">
+    <value>Have manager</value>
+  </data>
+  <data name="lblCongTyTINHVANVN" xml:space="preserve">
+    <value>TINHVAN VN company</value>
+  </data>
+  <data name="lblCongViec" xml:space="preserve">
+    <value>Task</value>
+  </data>
+  <data name="lblCoQuan" xml:space="preserve">
+    <value>Company</value>
+  </data>
+  <data name="lblCoQuanGui" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="lblCoQuanThanhTraGiamSat" xml:space="preserve">
+    <value>zzzz</value>
+  </data>
+  <data name="lblCua" xml:space="preserve">
+    <value>of</value>
+  </data>
+  <data name="lblCungHeThong" xml:space="preserve">
+    <value>The same system</value>
+  </data>
+  <data name="lblDaButPhe" xml:space="preserve">
+    <value>Commented on the treatment</value>
+  </data>
+  <data name="lblDangSoHoaDuLieu" xml:space="preserve">
+    <value>Digitizing data</value>
+  </data>
+  <data name="lblDangXuLy" xml:space="preserve">
+    <value>Processing</value>
+  </data>
+  <data name="lblDangXuLyConHan" xml:space="preserve">
+    <value>Processing in term</value>
+  </data>
+  <data name="lblDangXuLyDenHan" xml:space="preserve">
+    <value>Processing to due date</value>
+  </data>
+  <data name="lblDangXuLyQuaHan" xml:space="preserve">
+    <value>Processing out term</value>
+  </data>
+  <data name="lblDaNhan" xml:space="preserve">
+    <value>Received </value>
+  </data>
+  <data name="lblDanhSach" xml:space="preserve">
+    <value>List</value>
+  </data>
+  <data name="lblDanhSachChuongTrinhCongTac" xml:space="preserve">
+    <value>zzzz</value>
+  </data>
+  <data name="lblDaPheNhungChuaChuyen" xml:space="preserve">
+    <value>Commented on the treatment but not forward</value>
+  </data>
+  <data name="lblDaTrinhLanhDao" xml:space="preserve">
+    <value>Submited manager</value>
+  </data>
+  <data name="lblDauMoi" xml:space="preserve">
+    <value>Process</value>
+  </data>
+  <data name="lblDaXuLy" xml:space="preserve">
+    <value>Completed</value>
+  </data>
+  <data name="lblDaXuLyConHan" xml:space="preserve">
+    <value>Completed in term</value>
+  </data>
+  <data name="lblDaXuLyDenHan" xml:space="preserve">
+    <value>Completed due date</value>
+  </data>
+  <data name="lblDaXuLyQuaHan" xml:space="preserve">
+    <value>Completed out term</value>
+  </data>
+  <data name="lblDenSo" xml:space="preserve">
+    <value>Number</value>
+  </data>
+  <data name="lblDiaChi" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="lblDienThoai" xml:space="preserve">
+    <value>Tel</value>
+  </data>
+  <data name="lblDoKhan" xml:space="preserve">
+    <value>Precedence</value>
+  </data>
+  <data name="lblDoMat" xml:space="preserve">
+    <value>Confidentiality</value>
+  </data>
+  <data name="lblDonVi" xml:space="preserve">
+    <value>Dept / Branch</value>
+  </data>
+  <data name="lblDonViChuTri" xml:space="preserve">
+    <value>Dept / Branch Perform</value>
+  </data>
+  <data name="lblDonViDauMoi" xml:space="preserve">
+    <value>Dept / Branch Perform</value>
+  </data>
+  <data name="lblDonViGuiNhan" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="lblDonViNhan" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="lblDonViNhanDeBiet" xml:space="preserve">
+    <value>Dept / Branch recevied and see</value>
+  </data>
+  <data name="lblDonViPhoiHop" xml:space="preserve">
+    <value>Dept / Branch to combine</value>
+  </data>
+  <data name="lblDonViXuLy" xml:space="preserve">
+    <value>Dept / Branch process</value>
+  </data>
+  <data name="lblEmailNguoiDung" xml:space="preserve">
+    <value>User's email</value>
+  </data>
+  <data name="lblFileDinhKem" xml:space="preserve">
+    <value><i class='icon-paper-clip'></i></value>
+  </data>
+  <data name="lblFileVanBan" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="lblGhiChu" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="lblGioNhanLai" xml:space="preserve">
+    <value>Time recevied</value>
+  </data>
+  <data name="lblGioTrinhGiamDoc" xml:space="preserve">
+    <value>Time of submit director</value>
+  </data>
+  <data name="lblGuiQuaSms" xml:space="preserve">
+    <value>Send via sms</value>
+  </data>
+  <data name="lblGuiVanBanQuaMail" xml:space="preserve">
+    <value>Send document via email</value>
+  </data>
+  <data name="lblHanBanHanh" xml:space="preserve">
+    <value>Deadline</value>
+  </data>
+  <data name="lblHanGiaoXuLy" xml:space="preserve">
+    <value>Deadline</value>
+  </data>
+  <data name="lblHanTrenVanBan" xml:space="preserve">
+    <value>Deadline</value>
+  </data>
+  <data name="lblHanVanBan" xml:space="preserve">
+    <value>Deadline of document</value>
+  </data>
+  <data name="lblHanXuLy" xml:space="preserve">
+    <value>Deadline</value>
+  </data>
+  <data name="lblHanXuLyCuoi" xml:space="preserve">
+    <value>Deadline</value>
+  </data>
+  <data name="lblHanXuLyVanBan" xml:space="preserve">
+    <value>Deadline</value>
+  </data>
+  <data name="lblHinhThucXuLy" xml:space="preserve">
+    <value>Select type of process</value>
+  </data>
+  <data name="lblHOSOTAILIEULIENQUAN" xml:space="preserve">
+    <value>Related documents</value>
+  </data>
+  <data name="lblInNhanhPhieuTrinh" xml:space="preserve">
+    <value>Quick print statement </value>
+  </data>
+  <data name="lblInPhieuTrinh" xml:space="preserve">
+    <value>Print </value>
+  </data>
+  <data name="lblInPhieuTrinhVanBan" xml:space="preserve">
+    <value>Print statement Receipt document</value>
+  </data>
+  <data name="lblInPhieuVanBan" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="lblInSoVanBan" xml:space="preserve">
+    <value>Print register book</value>
+  </data>
+  <data name="lblKinhChuyen" xml:space="preserve">
+    <value>Dear</value>
+  </data>
+  <data name="lblKinhTringDongChiChoYKienGiaiQuyet" xml:space="preserve">
+    <value>zzzz</value>
+  </data>
+  <data name="lblKinhTrinh" xml:space="preserve">
+    <value>zzzz</value>
+  </data>
+  <data name="lblKyNhan" xml:space="preserve">
+    <value>Signing</value>
+  </data>
+  <data name="lblLanhDao" xml:space="preserve">
+    <value>Owned By</value>
+  </data>
+  <data name="lblLanhDaoButPhe" xml:space="preserve">
+    <value>Aprover</value>
+  </data>
+  <data name="lblLanhDaoChiDao" xml:space="preserve">
+    <value>Superviser</value>
+  </data>
+  <data name="lblLanhDaoPhong" xml:space="preserve">
+    <value>Manager</value>
+  </data>
+  <data name="lblLanhDaoPhongHanhChinh" xml:space="preserve">
+    <value>Office Manager</value>
+  </data>
+  <data name="lblLanhDaoPhongHanhChinh1" xml:space="preserve">
+    <value>Office Manager</value>
+  </data>
+  <data name="lblLanhDaoXuLy" xml:space="preserve">
+    <value>Manager handled</value>
+  </data>
+  <data name="lblLienThong" xml:space="preserve">
+    <value>zzzz</value>
+  </data>
+  <data name="lblLoaiVanBan" xml:space="preserve">
+    <value>Document category</value>
+  </data>
+  <data name="lblLoaiXuLy" xml:space="preserve">
+    <value>Type of process</value>
+  </data>
+  <data name="lblLyDo" xml:space="preserve">
+    <value>Reason</value>
+  </data>
+  <data name="lblMa" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="lblMaHoSo" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="lblMat" xml:space="preserve">
+    <value>zzzz</value>
+  </data>
+  <data name="lblMauBaocao" xml:space="preserve">
+    <value>Template Report</value>
+  </data>
+  <data name="lblMauCuaBLDTINHVAN" xml:space="preserve">
+    <value>Template of management committee TINHVAN </value>
+  </data>
+  <data name="lblMauPhieuTrinh" xml:space="preserve">
+    <value>Template Statement</value>
+  </data>
+  <data name="lblMoiTruong" xml:space="preserve">
+    <value>Enviroment</value>
+  </data>
+  <data name="lblMoTa" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="lblNam" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="lblNgay" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="lblNgayBanHanh" xml:space="preserve">
+    <value>Date of publish</value>
+  </data>
+  <data name="lblNgayBatDau" xml:space="preserve">
+    <value>Date of start</value>
+  </data>
+  <data name="lblNgayDen" xml:space="preserve">
+    <value>Received Date</value>
+  </data>
+  <data name="lblNgayGioChuyen" xml:space="preserve">
+    <value>Date, time send</value>
+  </data>
+  <data name="lblNgayLap" xml:space="preserve">
+    <value>Date </value>
+  </data>
+  <data name="lblNgayNhan" xml:space="preserve">
+    <value>Date received</value>
+  </data>
+  <data name="lblNgayTao" xml:space="preserve">
+    <value>Date of created</value>
+  </data>
+  <data name="lblNgayTra" xml:space="preserve">
+    <value>Date of feedback</value>
+  </data>
+  <data name="lblNgayVanBan" xml:space="preserve">
+    <value>Published Date</value>
+  </data>
+  <data name="lblNgayVB" xml:space="preserve">
+    <value>Published Date</value>
+  </data>
+  <data name="lblNgayXuLy" xml:space="preserve">
+    <value>Date process</value>
+  </data>
+  <data name="lblNguoiButPhe" xml:space="preserve">
+    <value>Approver</value>
+  </data>
+  <data name="lblNguoiChuyen" xml:space="preserve">
+    <value>Sender</value>
+  </data>
+  <data name="lblNguoiDung" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="lblNguoiDuyet" xml:space="preserve">
+    <value>Approver</value>
+  </data>
+  <data name="lblNguoiGui" xml:space="preserve">
+    <value>Sender</value>
+  </data>
+  <data name="lblNguoiLap" xml:space="preserve">
+    <value>Creater</value>
+  </data>
+  <data name="lblNguoiNhan" xml:space="preserve">
+    <value>Receiver</value>
+  </data>
+  <data name="lblNguoiNhanDeBiet" xml:space="preserve">
+    <value>Receiver and see</value>
+  </data>
+  <data name="lblNguoiPheDuyet" xml:space="preserve">
+    <value>Approver</value>
+  </data>
+  <data name="lblNguoiTao" xml:space="preserve">
+    <value>Creator</value>
+  </data>
+  <data name="lblNguoiXuLy" xml:space="preserve">
+    <value>Owned By</value>
+  </data>
+  <data name="lblNguoiYeuCau" xml:space="preserve">
+    <value>Requester</value>
+  </data>
+  <data name="lblNhan" xml:space="preserve">
+    <value>Receive</value>
+  </data>
+  <data name="lblNhanBanChinh" xml:space="preserve">
+    <value>Receive original</value>
+  </data>
+  <data name="lblNhanDeBiet" xml:space="preserve">
+    <value>Receive and reference</value>
+  </data>
+  <data name="lblNhanDuocCongVanSo" xml:space="preserve">
+    <value>Receive correspondence no.</value>
+  </data>
+  <data name="lblNhapGhiChu" xml:space="preserve">
+    <value>Input notes</value>
+  </data>
+  <data name="lblNhapHanVanBan" xml:space="preserve">
+    <value>Input deadline on document</value>
+  </data>
+  <data name="lblNhapHanXuLy" xml:space="preserve">
+    <value>Input deadline process</value>
+  </data>
+  <data name="lblNhapNgayDen" xml:space="preserve">
+    <value>Input date receive</value>
+  </data>
+  <data name="lblNhapNgayVanBan" xml:space="preserve">
+    <value>Input date of documents</value>
+  </data>
+  <data name="lblNhapNguoiDungXuLy" xml:space="preserve">
+    <value>Input username process</value>
+  </data>
+  <data name="lblNhapSoKyHieu" xml:space="preserve">
+    <value>Input S/N</value>
+  </data>
+  <data name="lblNhapTenCoQuan" xml:space="preserve">
+    <value>Input name company</value>
+  </data>
+  <data name="lblNhapTenCoQuan1" xml:space="preserve">
+    <value>Input name company</value>
+  </data>
+  <data name="lblNhapTenCoQuanDonViGuiDen" xml:space="preserve">
+    <value>Input name company send</value>
+  </data>
+  <data name="lblNhapTenCoQuanDonViGuiNhan" xml:space="preserve">
+    <value>Input name company receive</value>
+  </data>
+  <data name="lblNhapTenCoQuanGui" xml:space="preserve">
+    <value>Input name company send</value>
+  </data>
+  <data name="lblNhapTenNguoiNhan" xml:space="preserve">
+    <value>Input username receiver</value>
+  </data>
+  <data name="lblNhapThongTinPhanLoaiVanBan" xml:space="preserve">
+    <value>Input information classification of documents</value>
+  </data>
+  <data name="lblNhapTrichYeu" xml:space="preserve">
+    <value>Input subject</value>
+  </data>
+  <data name="lblNhapTuKhoaTimKiem" xml:space="preserve">
+    <value>Input search keywords</value>
+  </data>
+  <data name="lblNhayNgayVan" xml:space="preserve">
+    <value>Input date</value>
+  </data>
+  <data name="lblNhomDonVi" xml:space="preserve">
+    <value>Group departments/branch</value>
+  </data>
+  <data name="lblNhomNguoiDung" xml:space="preserve">
+    <value>Users group </value>
+  </data>
+  <data name="lblNhomNguoiNhan" xml:space="preserve">
+    <value>Receivers group </value>
+  </data>
+  <data name="lblNoiDung" xml:space="preserve">
+    <value>Content</value>
+  </data>
+  <data name="lblNoiDungYKien" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="lblNoiGui" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="lblPhamVi" xml:space="preserve">
+    <value>Scope</value>
+  </data>
+  <data name="lblPhamViTimKiem" xml:space="preserve">
+    <value>Search Scope</value>
+  </data>
+  <data name="lblPhanLoai" xml:space="preserve">
+    <value>Classification</value>
+  </data>
+  <data name="lblPhanLoaiVanBan" xml:space="preserve">
+    <value>Classification of documents</value>
+  </data>
+  <data name="lblPhieuTrinh" xml:space="preserve">
+    <value>Statement </value>
+  </data>
+  <data name="lblPhieuTrinhKhongTonTai" xml:space="preserve">
+    <value>Statement not exist</value>
+  </data>
+  <data name="lblPhieuTrinhVanBanDen" xml:space="preserve">
+    <value>Statement incoming document</value>
+  </data>
+  <data name="lblPhoiHop" xml:space="preserve">
+    <value>Coordinator</value>
+  </data>
+  <data name="lblPhongBan" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="lblPhongBanDauMoi" xml:space="preserve">
+    <value>Department execute</value>
+  </data>
+  <data name="lblPhongBanPhoiHop" xml:space="preserve">
+    <value>Department coordinator</value>
+  </data>
+  <data name="lblQLVBCVS" xml:space="preserve">
+    <value>Receipt document waiting add in diary</value>
+  </data>
+  <data name="lblQLVBDPB" xml:space="preserve">
+    <value>Receipt document department</value>
+  </data>
+  <data name="lblQLVBDYCBG" xml:space="preserve">
+    <value>Receipt document required original</value>
+  </data>
+  <data name="lblQuanLyCongViec" xml:space="preserve">
+    <value>To-do list</value>
+  </data>
+  <data name="lblQuanLySoVanBanPhongBan" xml:space="preserve">
+    <value>The department's register books</value>
+  </data>
+  <data name="lblQUANLYVANBANDEN" xml:space="preserve">
+    <value>RECEIPT DOCUMENT MANAGEMENT</value>
+  </data>
+  <data name="lblQuanLyVanBanDenDonVi" xml:space="preserve">
+    <value>Receipt Document Maanagement Dept/ branch</value>
+  </data>
+  <data name="lblQuanLyVanBanDi" xml:space="preserve">
+    <value>Delivery Document Management</value>
+  </data>
+  <data name="lblQuayLai" xml:space="preserve">
+    <value>Return</value>
+  </data>
+  <data name="lblScanVanBan" xml:space="preserve">
+    <value>Scan </value>
+  </data>
+  <data name="lblSo" xml:space="preserve">
+    <value>No.</value>
+  </data>
+  <data name="lblSoDen" xml:space="preserve">
+    <value>No.</value>
+  </data>
+  <data name="lblSoKyHieu" xml:space="preserve">
+    <value>S/N</value>
+  </data>
+  <data name="lblSoPhongBan" xml:space="preserve">
+    <value>Department books</value>
+  </data>
+  <data name="lblSoPhongBan1" xml:space="preserve">
+    <value>Department books</value>
+  </data>
+  <data name="lblSoVanBan" xml:space="preserve">
+    <value>Register books</value>
+  </data>
+  <data name="lblSoVanBan1" xml:space="preserve">
+    <value>Register books</value>
+  </data>
+  <data name="lblSOVANBANDEN" xml:space="preserve">
+    <value>RECEIPT DOCUMENT BOOKS</value>
+  </data>
+  <data name="lblSOVANBANMATDEN" xml:space="preserve">
+    <value>zzzz</value>
+  </data>
+  <data name="lblSoVanBanPhongBan" xml:space="preserve">
+    <value>Department Register book</value>
+  </data>
+  <data name="lblSuDung" xml:space="preserve">
+    <value>Used</value>
+  </data>
+  <data name="lblTaoCongViec" xml:space="preserve">
+    <value>Create task</value>
+  </data>
+  <data name="lblTatCa" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="lblTen" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="lblTenCTCT" xml:space="preserve">
+    <value>zzzz</value>
+  </data>
+  <data name="lblTenHoSo" xml:space="preserve">
+    <value>Filename</value>
+  </data>
+  <data name="lblTenSoVanBan" xml:space="preserve">
+    <value>Register books name</value>
+  </data>
+  <data name="lblTenVanBan" xml:space="preserve">
+    <value>Documents name</value>
+  </data>
+  <data name="lblThang" xml:space="preserve">
+    <value>Month</value>
+  </data>
+  <data name="lblThanhPhan" xml:space="preserve">
+    <value>Component</value>
+  </data>
+  <data name="lblThem" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="lblThemLienTiep" xml:space="preserve">
+    <value>Add consecutive</value>
+  </data>
+  <data name="lblTHEMMOIVANBANDEN" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="lblThoiGian" xml:space="preserve">
+    <value>Time </value>
+  </data>
+  <data name="lblThoiGianButPhe" xml:space="preserve">
+    <value>Time of approve</value>
+  </data>
+  <data name="lblThoiGianChuyen" xml:space="preserve">
+    <value>Time of forward</value>
+  </data>
+  <data name="lblThoiGianGui" xml:space="preserve">
+    <value>Time of send</value>
+  </data>
+  <data name="lblThoiGianNhan" xml:space="preserve">
+    <value>Time of recieved</value>
+  </data>
+  <data name="lblThoiGianYeuCau" xml:space="preserve">
+    <value>Time of request</value>
+  </data>
+  <data name="lblThoiHanXuLy" xml:space="preserve">
+    <value>Deadline</value>
+  </data>
+  <data name="lblThongKeVanBanDi" xml:space="preserve">
+    <value>Delivery document statistical</value>
+  </data>
+  <data name="lblThongTinLuanChuyen" xml:space="preserve">
+    <value>Information documents rotates</value>
+  </data>
+  <data name="lblThongTinPhieuTrinh" xml:space="preserve">
+    <value>Statement information </value>
+  </data>
+  <data name="lblThongTinVeTrangThaiXuLy" xml:space="preserve">
+    <value>Information about the department's processing status</value>
+  </data>
+  <data name="lblThongTinVeVanBanDen" xml:space="preserve">
+    <value>Receipt document information</value>
+  </data>
+  <data name="lblThongTinXuLy" xml:space="preserve">
+    <value>Information process</value>
+  </data>
+  <data name="lblThongTinYeuCauBanGoc" xml:space="preserve">
+    <value>Information require original</value>
+  </data>
+  <data name="lblThuong" xml:space="preserve">
+    <value>Normally</value>
+  </data>
+  <data name="lblThuTu" xml:space="preserve">
+    <value>No.</value>
+  </data>
+  <data name="lblToiNgay" xml:space="preserve">
+    <value>To date</value>
+  </data>
+  <data name="lblTomTatNoiDung" xml:space="preserve">
+    <value>Summary of content</value>
+  </data>
+  <data name="lblTraLai" xml:space="preserve">
+    <value>Return</value>
+  </data>
+  <data name="lblTraLaiVanBan" xml:space="preserve">
+    <value>Documents return </value>
+  </data>
+  <data name="lblTrangThai" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="lblTrangThaiBanGoc" xml:space="preserve">
+    <value>Original status</value>
+  </data>
+  <data name="lblTrangThaiCaNhan" xml:space="preserve">
+    <value>Personal Status</value>
+  </data>
+  <data name="lblTrangThaiVanBan" xml:space="preserve">
+    <value>Document Status </value>
+  </data>
+  <data name="lblTrichYeu" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="lblTrienKhaiDen" xml:space="preserve">
+    <value>zzzz</value>
+  </data>
+  <data name="lblTrinhLanhDao" xml:space="preserve">
+    <value>Submit manager</value>
+  </data>
+  <data name="lblTrinhNhanhLanhDao" xml:space="preserve">
+    <value>Quick submit</value>
+  </data>
+  <data name="lblTuChoiGuiBanGoc" xml:space="preserve">
+    <value>Reject to send original</value>
+  </data>
+  <data name="lblTuKhoa" xml:space="preserve">
+    <value>Keyword</value>
+  </data>
+  <data name="lblTuNgay" xml:space="preserve">
+    <value>From date</value>
+  </data>
+  <data name="lblTuSo" xml:space="preserve">
+    <value>From No.</value>
+  </data>
+  <data name="lblVanBanDaTonTai" xml:space="preserve">
+    <value>Documents existed</value>
+  </data>
+  <data name="lblVanBanDenDonVi" xml:space="preserve">
+    <value>Receipt document Dept/branch</value>
+  </data>
+  <data name="lblVanBanDenKhongTonTai" xml:space="preserve">
+    <value>Receipt document not exist</value>
+  </data>
+  <data name="lblVanBanDenLienQuan" xml:space="preserve">
+    <value>Receipt document related</value>
+  </data>
+  <data name="lblVanBanDenSoKyHieu" xml:space="preserve">
+    <value>Receipt document S/N</value>
+  </data>
+  <data name="lblVanBanDiLienQuan" xml:space="preserve">
+    <value>Delivery document related</value>
+  </data>
+  <data name="lblVanBanDiSo" xml:space="preserve">
+    <value>Delivery document number</value>
+  </data>
+  <data name="lblVanBanDiTraLoi" xml:space="preserve">
+    <value>Delivery document reply</value>
+  </data>
+  <data name="lblVanBanLienQuan" xml:space="preserve">
+    <value>Delivery document related</value>
+  </data>
+  <data name="lblVaoSo" xml:space="preserve">
+    <value>Add in diary</value>
+  </data>
+  <data name="lblVaoSoPhongBan" xml:space="preserve">
+    <value>Add in diary Dept</value>
+  </data>
+  <data name="lblVaoSoVanBanDenPhongBan" xml:space="preserve">
+    <value>Add in diary Receipt document</value>
+  </data>
+  <data name="lblVBCVS" xml:space="preserve">
+    <value>Receipt document waiting Add in diary</value>
+  </data>
+  <data name="lblVBDPB" xml:space="preserve">
+    <value>Receipt document department</value>
+  </data>
+  <data name="lblVBDYCBG" xml:space="preserve">
+    <value>Receipt document required original</value>
+  </data>
+  <data name="lblVN" xml:space="preserve">
+    <value>Vietnam</value>
+  </data>
+  <data name="lblVuiLongChonDoMatChoVB" xml:space="preserve">
+    <value>zzzz</value>
+  </data>
+  <data name="lblVuiLongThemMoiSoVanBan" xml:space="preserve">
+    <value>Please add new register books</value>
+  </data>
+  <data name="lblXemVanBan" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="lblXoaiFileDinhKem" xml:space="preserve">
+    <value>Delete file attachment</value>
+  </data>
+  <data name="lblXuLy" xml:space="preserve">
+    <value>Process</value>
+  </data>
+  <data name="lblXuLyCua" xml:space="preserve">
+    <value>Process of</value>
+  </data>
+  <data name="lblXuLyCuaDonViChucNang" xml:space="preserve">
+    <value>Process of Dept/branch</value>
+  </data>
+  <data name="lblXuLyCuaPhongHanhChinh" xml:space="preserve">
+    <value>Process of Office Dept</value>
+  </data>
+  <data name="lblXuLyCuaVanPhong" xml:space="preserve">
+    <value>Process of Office </value>
+  </data>
+  <data name="lblXuLyCuaVanThu" xml:space="preserve">
+    <value>Process of Receptionist</value>
+  </data>
+  <data name="lblYeuCauBanChinh" xml:space="preserve">
+    <value>Require original </value>
+  </data>
+  <data name="lblYKien" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="lblYKienCuaLanhDao" xml:space="preserve">
+    <value>Comment of manager</value>
+  </data>
+  <data name="lblYKienLanhDao" xml:space="preserve">
+    <value>Comment of manager</value>
+  </data>
+  <data name="lblYKienXuLy" xml:space="preserve">
+    <value>Comments process</value>
+  </data>
+  <data name="lblYKienXuLyVanBan" xml:space="preserve">
+    <value>Comments process of document</value>
+  </data>
+  <data name="lblApprove" xml:space="preserve">
+    <value>Approve</value>
+  </data>
+  <data name="lblINSOVANBANDEN" xml:space="preserve">
+    <value>Print incoming documents book</value>
+  </data>
+</root>

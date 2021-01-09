@@ -1,0 +1,234 @@
+﻿<w:tr w:rsidR="00821CAB" w:rsidRPr="00821CAB" w:rsidTr="00821CAB">
+  <w:trPr>
+    <w:trHeight w:val="575"/>
+  </w:trPr>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="895" w:type="dxa"/>
+    </w:tcPr>
+    <w:p w:rsidR="00821CAB" w:rsidRPr="00821CAB" w:rsidRDefault="00821CAB" w:rsidP="00821CAB">
+      <w:pPr>
+        <w:jc w:val="center"/>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/>
+          <w:sz w:val="28"/>
+          <w:szCs w:val="28"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w:rsidR="00821CAB" w:rsidRPr="00821CAB" w:rsidRDefault="00821CAB" w:rsidP="00821CAB">
+      <w:pPr>
+        <w:jc w:val="center"/>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/>
+          <w:sz w:val="28"/>
+          <w:szCs w:val="28"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w:rsidR="002106D4" w:rsidRPr="00821CAB" w:rsidRDefault="002106D4" w:rsidP="00821CAB">
+      <w:pPr>
+        <w:jc w:val="center"/>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/>
+          <w:b/>
+          <w:sz w:val="28"/>
+          <w:szCs w:val="28"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r w:rsidRPr="00821CAB">
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/>
+          <w:b/>
+          <w:sz w:val="28"/>
+          <w:szCs w:val="28"/>
+        </w:rPr>
+        <w:t>[HopCap]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="1080" w:type="dxa"/>
+    </w:tcPr>
+    <w:p w:rsidR="00821CAB" w:rsidRPr="00821CAB" w:rsidRDefault="00821CAB" w:rsidP="00821CAB">
+      <w:pPr>
+        <w:jc w:val="center"/>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/>
+          <w:sz w:val="28"/>
+          <w:szCs w:val="28"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w:rsidR="00821CAB" w:rsidRPr="00821CAB" w:rsidRDefault="00821CAB" w:rsidP="00821CAB">
+      <w:pPr>
+        <w:jc w:val="center"/>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/>
+          <w:sz w:val="28"/>
+          <w:szCs w:val="28"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w:rsidR="002106D4" w:rsidRPr="00821CAB" w:rsidRDefault="002106D4" w:rsidP="00821CAB">
+      <w:pPr>
+        <w:jc w:val="center"/>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/>
+          <w:sz w:val="28"/>
+          <w:szCs w:val="28"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r w:rsidRPr="00821CAB">
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/>
+          <w:sz w:val="28"/>
+          <w:szCs w:val="28"/>
+        </w:rPr>
+        <w:t>[HoSoSo]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="3510" w:type="dxa"/>
+    </w:tcPr>
+    [TenHoSo]
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="1800" w:type="dxa"/>
+    </w:tcPr>
+    <w:p w:rsidR="00821CAB" w:rsidRPr="00821CAB" w:rsidRDefault="00821CAB" w:rsidP="00821CAB">
+      <w:pPr>
+        <w:spacing w:before="60" w:after="80"/>
+        <w:jc w:val="center"/>
+        <w:rPr>
+          <w:rFonts w:ascii=".VnTime" w:hAnsi=".VnTime"/>
+          <w:sz w:val="28"/>
+          <w:szCs w:val="28"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w:rsidR="00821CAB" w:rsidRPr="00821CAB" w:rsidRDefault="00821CAB" w:rsidP="00821CAB">
+      <w:pPr>
+        <w:spacing w:before="60" w:after="80"/>
+        <w:jc w:val="center"/>
+        <w:rPr>
+          <w:rFonts w:ascii=".VnTime" w:hAnsi=".VnTime"/>
+          <w:sz w:val="28"/>
+          <w:szCs w:val="28"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r w:rsidRPr="00821CAB">
+        <w:rPr>
+          <w:rFonts w:ascii=".VnTime" w:hAnsi=".VnTime"/>
+          <w:sz w:val="28"/>
+          <w:szCs w:val="28"/>
+        </w:rPr>
+        <w:t>[ThoiGianBatDau]-[ThoiGianKetThuc]</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="002106D4" w:rsidRPr="00821CAB" w:rsidRDefault="00821CAB" w:rsidP="00821CAB">
+      <w:pPr>
+        <w:jc w:val="center"/>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/>
+          <w:sz w:val="28"/>
+          <w:szCs w:val="28"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r w:rsidRPr="00821CAB">
+        <w:rPr>
+          <w:rFonts w:ascii=".VnTime" w:hAnsi=".VnTime"/>
+          <w:b/>
+          <w:sz w:val="28"/>
+          <w:szCs w:val="28"/>
+        </w:rPr>
+        <w:t>[Nam]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="990" w:type="dxa"/>
+    </w:tcPr>
+    <w:p w:rsidR="00821CAB" w:rsidRPr="00821CAB" w:rsidRDefault="00821CAB">
+      <w:pPr>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/>
+          <w:sz w:val="28"/>
+          <w:szCs w:val="28"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w:rsidR="00821CAB" w:rsidRPr="00821CAB" w:rsidRDefault="00821CAB">
+      <w:pPr>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/>
+          <w:sz w:val="28"/>
+          <w:szCs w:val="28"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w:rsidR="002106D4" w:rsidRPr="00821CAB" w:rsidRDefault="00821CAB" w:rsidP="00821CAB">
+      <w:pPr>
+        <w:jc w:val="center"/>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/>
+          <w:sz w:val="28"/>
+          <w:szCs w:val="28"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r w:rsidRPr="00821CAB">
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/>
+          <w:sz w:val="28"/>
+          <w:szCs w:val="28"/>
+        </w:rPr>
+        <w:t>[SoTo]</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="00821CAB" w:rsidRPr="00821CAB" w:rsidRDefault="00821CAB">
+      <w:pPr>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/>
+          <w:sz w:val="28"/>
+          <w:szCs w:val="28"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="1800" w:type="dxa"/>
+    </w:tcPr>
+    <w:p w:rsidR="00821CAB" w:rsidRPr="00821CAB" w:rsidRDefault="00821CAB">
+      <w:pPr>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/>
+          <w:sz w:val="28"/>
+          <w:szCs w:val="28"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w:rsidR="002106D4" w:rsidRPr="00821CAB" w:rsidRDefault="00821CAB">
+      <w:pPr>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/>
+          <w:sz w:val="28"/>
+          <w:szCs w:val="28"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r w:rsidRPr="00821CAB">
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/>
+          <w:sz w:val="28"/>
+          <w:szCs w:val="28"/>
+        </w:rPr>
+        <w:t>[GhiChu]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+</w:tr>

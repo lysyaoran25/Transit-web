@@ -1,0 +1,24 @@
+﻿<Row ss:AutoFitHeight="1" ss:Height="45.5" ss:StyleID="s19">
+  <Cell ss:Index="2" ss:StyleID="s21">
+    <Data ss:Type="String">[ThuTu]</Data>
+  </Cell>
+  <Cell ss:MergeAcross="1" ss:StyleID="s27">
+    <Data ss:Type="String">[SKH]</Data>
+  </Cell>
+  <Cell ss:MergeAcross="1" ss:StyleID="s21">
+    <Data ss:Type="String">[NgayBH]</Data>
+  </Cell>
+  <Cell ss:StyleID="s27">
+    <Data ss:Type="String">[TrichYeu]</Data>
+  </Cell>
+  <Cell ss:MergeAcross="1" ss:StyleID="s27">
+    <Data ss:Type="String">[NguoiKy]</Data>
+  </Cell>
+  <Cell ss:MergeAcross="2"
+        ss:StyleID="s27">
+    <Data ss:Type="String">[DonViSoanThao]</Data>
+  </Cell>
+  <Cell ss:MergeAcross="4" ss:StyleID="s92">
+    <Data ss:Type="String">[NNTrongNganh]&#10;[NNNgoaiNganh]&#10;[NNNguoiNhan]</Data>
+  </Cell>
+</Row>

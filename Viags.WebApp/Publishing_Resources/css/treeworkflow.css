@@ -1,0 +1,32 @@
+﻿
+.listtree ul { display: inline; list-style: none; }
+
+    .listtree ul li { padding-bottom: 5px; padding-right: 15px; cursor: pointer; }
+
+.listtree .ulsub { float: left; background: url("/Publishing_Resources/img/grey15.jpg") no-repeat left top 16px; padding-left: 15px; margin-left: 5px; }
+
+    .listtree .ulsub li { background: url("/Publishing_Resources/img/grey.jpg") repeat-y left, url("/Publishing_Resources/img/arow.jpg") no-repeat left top 12px; padding-left: 25px; }
+
+        .listtree .ulsub li.first { background: url("/Publishing_Resources/img/arow.jpg") no-repeat left top 12px !important; padding-left: 25px; }
+
+        .listtree .ulsub li:first-child { background: url("/Publishing_Resources/img/white16.jpg") no-repeat left top, url("/Publishing_Resources/img/grey.jpg") repeat-y left top 12px, url("/Publishing_Resources/img/arow.jpg") no-repeat left top 12px; padding-left: 25px; }
+
+        .listtree .ulsub li:last-child { background: url("/Publishing_Resources/img/grey18.jpg") no-repeat left top, url("/Publishing_Resources/img/white.jpg") repeat-y left top 12px, url("/Publishing_Resources/img/arow.jpg") no-repeat left top 12px; padding-left: 25px; }
+
+.listtree .title { background: #e0e0e0; padding: 10px; width: 150px; float: left; text-align: center; }
+
+    .listtree .title span { font-size: 12px; color: #919191; }
+
+.listtree .green { background: #35aa47 !important; color: #fff !important; }
+
+    .listtree .green span { color: #B9DDBE !important; }
+
+.listtree .yellow { background: #3F8896 !important; color: #fff !important; }
+
+    .listtree .yellow span { color: #9AC2CA !important; }
+
+.listtree .red { background: #C54257 !important; color: #fff !important; }
+
+    .listtree .red span { color: #F0909F !important; }
+
+.clear { clear: both; }

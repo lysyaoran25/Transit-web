@@ -1,0 +1,62 @@
+﻿<Row>
+  <Cell ss:StyleID="s80">
+    <Data ss:Type="String">[STT]</Data>
+  </Cell>
+  <Cell ss:StyleID="s76">
+    <Data ss:Type="String">[NGAYTAO]</Data>
+  </Cell>
+  <Cell>
+    <Data ss:Type="String">[SODEN]</Data>
+  </Cell>
+  <Cell>
+    <Data ss:Type="String">[SOVANBAN]</Data>
+  </Cell>
+  <Cell>
+    <Data ss:Type="String">[LOAIVANBAN]</Data>
+  </Cell>
+  <Cell ss:StyleID="s76">
+    <Data ss:Type="String">[NGAYVANBAN]</Data>
+  </Cell>
+  <Cell>
+    <Data ss:Type="String">[COQUANBANHANH]</Data>
+  </Cell>
+  <Cell>
+    <Data ss:Type="String">[SOKYHIEU]</Data>
+  </Cell>
+  <Cell>
+    <Data ss:Type="String">[TRICHYEU]</Data>
+  </Cell>
+  <Cell ss:StyleID="s76">
+    <Data ss:Type="String">[HANXULY]</Data>
+  </Cell>
+  <Cell>
+    <Data ss:Type="String">[DAUMOI]</Data>
+  </Cell>
+  <Cell>
+    <Data ss:Type="String">[PHOIHOP]</Data>
+  </Cell>
+  <Cell>
+    <Data ss:Type="String">[DADOC]</Data>
+  </Cell>
+  <Cell>
+    <Data ss:Type="String">[CONGVIECLIENQUAN]</Data>
+  </Cell>
+  <Cell>
+    <Data ss:Type="String">[VANBANDUTHAO]</Data>
+  </Cell>
+  <Cell>
+    <Data ss:Type="String">[DONVINHAN]</Data>
+  </Cell>
+  <Cell>
+    <Data ss:Type="String">[LANHDAOPHONGPHEDUYET]</Data>
+  </Cell>
+  <Cell>
+    <Data ss:Type="String">[YKIENVANBAN]</Data>
+  </Cell>
+  <Cell>
+    <Data ss:Type="String">[LANHDAODONVIPHEDUYET]</Data>
+  </Cell>
+  <Cell>
+    <Data ss:Type="String">[SOVANBANDAPHATHANH]</Data>
+  </Cell>
+</Row>

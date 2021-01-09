@@ -1,0 +1,88 @@
+﻿<w:tr w:rsidR="00E06834" w:rsidRPr="008C41AC" w:rsidTr="008C41AC">
+  <w:trPr>
+    <w:trHeight w:val="1230"/>
+    <w:jc w:val="center"/>
+  </w:trPr>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="1711" w:type="dxa"/>
+      <w:tcBorders>
+        <w:top w:val="single" w:sz="12" w:space="0" w:color="2F5496"/>
+        <w:left w:val="single" w:sz="12" w:space="0" w:color="2F5496"/>
+        <w:right w:val="single" w:sz="12" w:space="0" w:color="2F5496"/>
+      </w:tcBorders>
+      <w:shd w:val="clear" w:color="auto" w:fill="DEEAF6"/>
+      <w:vAlign w:val="center"/>
+      <w:hideMark/>
+    </w:tcPr>
+    <w:p w:rsidR="004253B5" w:rsidRPr="008C41AC" w:rsidRDefault="004253B5" w:rsidP="008C41AC">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:jc w:val="center"/>
+        <w:rPr>
+          <w:b/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+          <w:lang w:val="vi-VN"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r w:rsidRPr="008C41AC">
+        <w:rPr>
+          <w:b/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+          <w:lang w:val="vi-VN"/>
+        </w:rPr>
+        <w:t>[TENDONVI]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="3134" w:type="dxa"/>
+      <w:tcBorders>
+        <w:top w:val="single" w:sz="12" w:space="0" w:color="2F5496"/>
+        <w:left w:val="single" w:sz="12" w:space="0" w:color="2F5496"/>
+        <w:right w:val="single" w:sz="12" w:space="0" w:color="2F5496"/>
+      </w:tcBorders>
+      <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+    </w:tcPr>
+    [TUAN1]
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="3134" w:type="dxa"/>
+      <w:tcBorders>
+        <w:top w:val="single" w:sz="12" w:space="0" w:color="2F5496"/>
+        <w:left w:val="single" w:sz="12" w:space="0" w:color="2F5496"/>
+        <w:right w:val="single" w:sz="12" w:space="0" w:color="2F5496"/>
+      </w:tcBorders>
+      <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+    </w:tcPr>
+    [TUAN2]
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="3134" w:type="dxa"/>
+      <w:tcBorders>
+        <w:top w:val="single" w:sz="12" w:space="0" w:color="2F5496"/>
+        <w:left w:val="single" w:sz="12" w:space="0" w:color="2F5496"/>
+        <w:right w:val="single" w:sz="12" w:space="0" w:color="2F5496"/>
+      </w:tcBorders>
+      <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+    </w:tcPr>
+    [TUAN3]
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="3134" w:type="dxa"/>
+      <w:tcBorders>
+        <w:top w:val="single" w:sz="12" w:space="0" w:color="2F5496"/>
+        <w:left w:val="single" w:sz="12" w:space="0" w:color="2F5496"/>
+        <w:right w:val="single" w:sz="12" w:space="0" w:color="2F5496"/>
+      </w:tcBorders>
+      <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+    </w:tcPr>
+    [TUAN4]
+  </w:tc>
+</w:tr>

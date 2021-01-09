@@ -1,0 +1,1506 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="bcrTrangChu" xml:space="preserve">
+    <value>Trang Chủ</value>
+  </data>
+  <data name="lblAnDanhSachDaChon" xml:space="preserve">
+    <value>Ẩn danh sách đã chọn </value>
+  </data>
+  <data name="lblBanChuaChonBieuMau" xml:space="preserve">
+    <value>Bạn chưa chọn biểu mẫu</value>
+  </data>
+  <data name="lblBanChuaChonCongViec" xml:space="preserve">
+    <value>Bạn chưa chọn công việc</value>
+  </data>
+  <data name="lblBanChuaChonFileDinhKem" xml:space="preserve">
+    <value>Bạn chưa chọn file đính kèm</value>
+  </data>
+  <data name="lblBanChuaChonFileVanBan" xml:space="preserve">
+    <value>Bạn chưa chọn văn bản</value>
+  </data>
+  <data name="lblBanChuaChonMucDanhGia" xml:space="preserve">
+    <value>Bạn chưa chọn mức đánh giá</value>
+  </data>
+  <data name="lblBanChuaChonThanhPhanThamGia" xml:space="preserve">
+    <value>Bạn chưa chọn thành phần tham gia</value>
+  </data>
+  <data name="lblBanChuaChonVanBoBanGiaoCV" xml:space="preserve">
+    <value>Bạn chưa chọn người bàn giao công việc.</value>
+  </data>
+  <data name="lblBanCoChacChanMuonGuiBanGiaoCV" xml:space="preserve">
+    <value>Bạn có chắc chắn muốn gửi bàn giao công việc?</value>
+  </data>
+  <data name="lblBanCoChacChanMuonKetThucCV" xml:space="preserve">
+    <value>Bạn có chắc muốn kết thúc công việc</value>
+  </data>
+  <data name="lblBanCoChacChanMuonXoaFile" xml:space="preserve">
+    <value>Bạn có chắc chắn muốn xóa file soạn thảo</value>
+  </data>
+  <data name="lblBanCoChacMuonDuyetYeuCauGiaHan" xml:space="preserve">
+    <value>Bạn có chắc chắn muốn duyệt yêu cầu gia hạn này?</value>
+  </data>
+  <data name="lblBanCoChacMuonMoLaiCV" xml:space="preserve">
+    <value>Bạn có chắc muốn mở lại công việc</value>
+  </data>
+  <data name="lblBanCoChacMuonXoaCanBoKhoiCV" xml:space="preserve">
+    <value>Bạn có chắc muốn xóa người tham gia khỏi công việc?</value>
+  </data>
+  <data name="lblBanCoChanMuonDuyetYCGiaHan" xml:space="preserve">
+    <value>Bạn có chắc chắn muốn duyệt yêu cầu gia hạn này?</value>
+  </data>
+  <data name="lblBanCoMuonThuHoiUyQuyenDaGui" xml:space="preserve">
+    <value>Bạn có muốn thu hồi ủy quyền đã gửi ? </value>
+  </data>
+  <data name="lblBanGiaoCongViec" xml:space="preserve">
+    <value>Bàn giao công việc</value>
+  </data>
+  <data name="lblBanGiaoCV" xml:space="preserve">
+    <value>Bàn giao công việc</value>
+  </data>
+  <data name="lblBanGiaoMotPhan" xml:space="preserve">
+    <value>Bàn giao một phần</value>
+  </data>
+  <data name="lblBanGiaoToanPhan" xml:space="preserve">
+    <value>Bàn giao toàn phần</value>
+  </data>
+  <data name="lblBanKhongCoQuyenThaoTacTrenCVNay" xml:space="preserve">
+    <value>Bạn không có quyền thao tác trên công việc này</value>
+  </data>
+  <data name="lblBanPhaiChonTuanThangQuyKhongBaoCao" xml:space="preserve">
+    <value>Bạn phải chọn tuần, tháng, hoặc quý không báo cáo!</value>
+  </data>
+  <data name="lblBanVuaXoaFile" xml:space="preserve">
+    <value>Bạn vừa xóa file</value>
+  </data>
+  <data name="lblBanVuiLongNhapLaiDinhDangNgayThang" xml:space="preserve">
+    <value>Bạn vui lòng nhập lại định dạng ngày tháng.</value>
+  </data>
+  <data name="lblBaoCaoCongViec" xml:space="preserve">
+    <value>Báo cáo công việc</value>
+  </data>
+  <data name="lblBaoCaoCuaDonVi" xml:space="preserve">
+    <value>Báo cáo của phòng ban/CN</value>
+  </data>
+  <data name="lblBaoCaoQuy" xml:space="preserve">
+    <value>Báo cáo quý</value>
+  </data>
+  <data name="lblBaoCaoQuyChuThuong" xml:space="preserve">
+    <value>Báo cáo quý</value>
+  </data>
+  <data name="lblBaoCaoThang" xml:space="preserve">
+    <value>Báo cáo tháng</value>
+  </data>
+  <data name="lblBaoCaoThangChuThuong" xml:space="preserve">
+    <value>Báo cáo tháng</value>
+  </data>
+  <data name="lblBaoCaoTuan" xml:space="preserve">
+    <value>Báo cáo tuần</value>
+  </data>
+  <data name="lblBaoCaoTuanChuThuong" xml:space="preserve">
+    <value>Báo cáo tuần</value>
+  </data>
+  <data name="lblBatBuocNhapThongTin" xml:space="preserve">
+    <value>Bắt buộc nhập thông tin</value>
+  </data>
+  <data name="lblBatDauTu" xml:space="preserve">
+    <value>Bắt đầu từ</value>
+  </data>
+  <data name="lblBieuMau" xml:space="preserve">
+    <value>Biểu mẫu</value>
+  </data>
+  <data name="lblCacTruongCoDau" xml:space="preserve">
+    <value>Các trường có dấu</value>
+  </data>
+  <data name="lblCanBoDauMoi" xml:space="preserve">
+    <value>zzzz</value>
+  </data>
+  <data name="lblCanBoPhoiHop" xml:space="preserve">
+    <value>Người phối hợp</value>
+  </data>
+  <data name="lblCanBoXuLy" xml:space="preserve">
+    <value>Người thực hiện</value>
+  </data>
+  <data name="lblCaNhan" xml:space="preserve">
+    <value>Cá nhân</value>
+  </data>
+  <data name="lblCapNhat" xml:space="preserve">
+    <value>Cập nhật</value>
+  </data>
+  <data name="lblCapNhatThanhPhanThamGiaCV" xml:space="preserve">
+    <value>Cập nhật thành phần tham gia công việc</value>
+  </data>
+  <data name="lblCapNhatTienDo" xml:space="preserve">
+    <value>Cập nhật tiến độ</value>
+  </data>
+  <data name="lblCapNhatTienDoCaNhan" xml:space="preserve">
+    <value>Cập nhật tiến độ cá nhân</value>
+  </data>
+  <data name="lblCapNhatTienDoCongViec" xml:space="preserve">
+    <value>Cập nhật tiến độ công việc</value>
+  </data>
+  <data name="lblCapNhatTrangThaiCaNhan" xml:space="preserve">
+    <value>Cập nhật trạng thái cá nhân</value>
+  </data>
+  <data name="lblCauHinhThoiGianNhacViec" xml:space="preserve">
+    <value>Cấu hình thời gian nhắc việc</value>
+  </data>
+  <data name="lblChatLuongBaoCao" xml:space="preserve">
+    <value>Chất lượng báo cáo</value>
+  </data>
+  <data name="lblChiaSe" xml:space="preserve">
+    <value>Chia sẻ</value>
+  </data>
+  <data name="lblChiTietBanGiaoCongViec" xml:space="preserve">
+    <value>Chi tiết bàn giao công việc</value>
+  </data>
+  <data name="lblChiTietBaoCao" xml:space="preserve">
+    <value>Chi tiết báo cáo</value>
+  </data>
+  <data name="lblChiTietCauHinhThoiGianBaoCao" xml:space="preserve">
+    <value>Chi tiết cấu hình thời gian báo cáo</value>
+  </data>
+  <data name="lblChiTietCauHinhThoiGianTuanThangQuyKhongBaoCao" xml:space="preserve">
+    <value>Chi tiết cấu hình thời gian tuần, tháng, quý không báo cáo</value>
+  </data>
+  <data name="lblChiTietCongViec" xml:space="preserve">
+    <value>Chi tiết công việc</value>
+  </data>
+  <data name="lblChiTietGiaoXuLy" xml:space="preserve">
+    <value>Chi tiết giao thực hiện</value>
+  </data>
+  <data name="lblChiTietThongBao" xml:space="preserve">
+    <value>Chi tiết thông báo</value>
+  </data>
+  <data name="lblChiTietUyQuyen" xml:space="preserve">
+    <value>Chi tiết ủy quyền</value>
+  </data>
+  <data name="lblChoDuyet" xml:space="preserve">
+    <value>Chờ duyệt</value>
+  </data>
+  <data name="lblChon" xml:space="preserve">
+    <value>Chọn</value>
+  </data>
+  <data name="lblChonCanBo" xml:space="preserve">
+    <value>Chọn nhân viên</value>
+  </data>
+  <data name="lblChonCanBoPhoiHop" xml:space="preserve">
+    <value>Chọn người phối hợp</value>
+  </data>
+  <data name="lblChonChatLuongBaoCao" xml:space="preserve">
+    <value>Chọn chất lượng báo cáo</value>
+  </data>
+  <data name="lblChonChucNangSuDung" xml:space="preserve">
+    <value>Chọn chức năng sử dụng</value>
+  </data>
+  <data name="lblChonCongViec" xml:space="preserve">
+    <value>Chọn công việc</value>
+  </data>
+  <data name="lblChonDonVi" xml:space="preserve">
+    <value>Chọn phòng ban/CN</value>
+  </data>
+  <data name="lblChonDonViDauMoi" xml:space="preserve">
+    <value>Chọn phòng ban/CN đầu mối</value>
+  </data>
+  <data name="lblChonDonViPhoiHop" xml:space="preserve">
+    <value>Chọn phòng ban/CN phối hợp</value>
+  </data>
+  <data name="lblChonDonViXuLy" xml:space="preserve">
+    <value>Chọn phòng ban/CN xử lý</value>
+  </data>
+  <data name="lblChonFile" xml:space="preserve">
+    <value>Chọn File</value>
+  </data>
+  <data name="lblChonFileDinhKem" xml:space="preserve">
+    <value>Chọn file đính kèm</value>
+  </data>
+  <data name="lblChonGioBaoCao" xml:space="preserve">
+    <value>Chọn giờ báo cáo</value>
+  </data>
+  <data name="lblChonHanXuLy" xml:space="preserve">
+    <value>Chọn Ngày kết thúc</value>
+  </data>
+  <data name="lblChonHinhThucBaoCao" xml:space="preserve">
+    <value>Chọn hình thức báo cáo</value>
+  </data>
+  <data name="lblChonLanhDaoBaoCao" xml:space="preserve">
+    <value>Chọn người quản lý báo cáo</value>
+  </data>
+  <data name="lblChonLanhDaoDauMoi" xml:space="preserve">
+    <value>zzzz</value>
+  </data>
+  <data name="lblChonLanhDaoPhong" xml:space="preserve">
+    <value>Chọn người quản lý phòng</value>
+  </data>
+  <data name="lblChonLoaiBanGiao" xml:space="preserve">
+    <value>Chọn loại bàn giao</value>
+  </data>
+  <data name="lblChonLoaiBaoCao" xml:space="preserve">
+    <value>Chọn loại báo cáo</value>
+  </data>
+  <data name="lblChonLoaiBieuMau" xml:space="preserve">
+    <value>Chọn loại biểu mẫu</value>
+  </data>
+  <data name="lblChonLoaiKetLuan" xml:space="preserve">
+    <value>Chọn loại kết luận</value>
+  </data>
+  <data name="lblChonLoaiVanBan" xml:space="preserve">
+    <value>Chọn loại văn bản</value>
+  </data>
+  <data name="lblChonLoaiXuLy" xml:space="preserve">
+    <value>Chọn loại xử lý</value>
+  </data>
+  <data name="lblChonMucDoDanhGia" xml:space="preserve">
+    <value>Chọn mức độ đánh giá</value>
+  </data>
+  <data name="lblChonNam" xml:space="preserve">
+    <value>Chọn năm</value>
+  </data>
+  <data name="lblChonNgayBaoCao" xml:space="preserve">
+    <value>Chọn ngày báo cáo</value>
+  </data>
+  <data name="lblChonNgayThucHien" xml:space="preserve">
+    <value>Chọn ngày thực hiện</value>
+  </data>
+  <data name="lblChonNguoiDung" xml:space="preserve">
+    <value>Chọn người dùng</value>
+  </data>
+  <data name="lblChonNguoiDuocUyQuyen" xml:space="preserve">
+    <value>Chọn người được ủy quyền</value>
+  </data>
+  <data name="lblChonNguoiNhanBanGiao" xml:space="preserve">
+    <value>Chọn người nhận bàn giao</value>
+  </data>
+  <data name="lblChonNguoiPhoiHop" xml:space="preserve">
+    <value>Chọn người phối hợp</value>
+  </data>
+  <data name="lblChonNguoiUyQuyen" xml:space="preserve">
+    <value>Chọn người ủy quyền</value>
+  </data>
+  <data name="lblChonNguoiXuLy" xml:space="preserve">
+    <value>Chọn người thực hiện</value>
+  </data>
+  <data name="lblChonNguoiXuLyPhoiHop" xml:space="preserve">
+    <value>Chọn người thực hiện / phối hợp</value>
+  </data>
+  <data name="lblChonNoiNhanNgoaiNganh" xml:space="preserve">
+    <value>zzzz</value>
+  </data>
+  <data name="lblChonNoiNhanTrongNganh" xml:space="preserve">
+    <value>zzzz</value>
+  </data>
+  <data name="lblChonPhamViTimKiem" xml:space="preserve">
+    <value>Chọn phạm vi tìm kiếm</value>
+  </data>
+  <data name="lblChonPhongBan" xml:space="preserve">
+    <value>Chọn phòng ban</value>
+  </data>
+  <data name="lblChonPhongBanPhoiHop" xml:space="preserve">
+    <value>Chọn phòng ban phối hợp</value>
+  </data>
+  <data name="lblChonQuyBaoCao" xml:space="preserve">
+    <value>Chọn quý báo cáo</value>
+  </data>
+  <data name="lblChonQuyKhongBaoCao" xml:space="preserve">
+    <value>Chọn quý không báo cáo</value>
+  </data>
+  <data name="lblChonTaiLieu" xml:space="preserve">
+    <value>Chọn tài liệu</value>
+  </data>
+  <data name="lblChonTatCaDonVi" xml:space="preserve">
+    <value>Chọn tất cả phòng ban/CN</value>
+  </data>
+  <data name="lblChonThangBaoCao" xml:space="preserve">
+    <value>Chọn tháng báo cáo</value>
+  </data>
+  <data name="lblChonThangKhongBaoCao" xml:space="preserve">
+    <value>Chọn tháng không báo cáo</value>
+  </data>
+  <data name="lblChonThu" xml:space="preserve">
+    <value>Chọn ngày</value>
+  </data>
+  <data name="lblChonThuKy" xml:space="preserve">
+    <value>Chọn thư ký</value>
+  </data>
+  <data name="lblChonTrangThai" xml:space="preserve">
+    <value>Chọn trạng thái</value>
+  </data>
+  <data name="lblChonTuanBaoCao" xml:space="preserve">
+    <value>Chọn tuần báo cáo</value>
+  </data>
+  <data name="lblChonTuanKhongBaoCao" xml:space="preserve">
+    <value>Chọn tuần không báo cáo</value>
+  </data>
+  <data name="lblChonVaiTro" xml:space="preserve">
+    <value>Chọn vai trò</value>
+  </data>
+  <data name="lblChonVanBanDenCanXuLy" xml:space="preserve">
+    <value>Chọn văn bản đến cần xử lý</value>
+  </data>
+  <data name="lblChonVanBanDenLienQuan" xml:space="preserve">
+    <value>Chọn văn bản đến liên quan</value>
+  </data>
+  <data name="lblChonVanBanDiLienQuan" xml:space="preserve">
+    <value>Chọn văn bản đi liên quan</value>
+  </data>
+  <data name="lblChonVanBanLienQuan" xml:space="preserve">
+    <value>Chọn văn bản liên quan</value>
+  </data>
+  <data name="lblChuaCoYKienXuLy" xml:space="preserve">
+    <value>Chưa có ý kiến xử lý</value>
+  </data>
+  <data name="lblChuaHoanThanh" xml:space="preserve">
+    <value>Chưa hoàn thành</value>
+  </data>
+  <data name="lblChuaHoanThanhCongViec" xml:space="preserve">
+    <value>Chưa hoàn thành công việc</value>
+  </data>
+  <data name="lblChuaNhapDungDinhDangThoiGian" xml:space="preserve">
+    <value>Chưa nhập đúng định dạng thời gian</value>
+  </data>
+  <data name="lblChuaXuLy" xml:space="preserve">
+    <value>Chưa thực hiện</value>
+  </data>
+  <data name="lblChuaXuLyConHan" xml:space="preserve">
+    <value>Chưa thực hiện còn hạn</value>
+  </data>
+  <data name="lblChuaXuLyDenHan" xml:space="preserve">
+    <value>Chưa thực hiện đến hạn</value>
+  </data>
+  <data name="lblChuaXuLyQuaHan" xml:space="preserve">
+    <value>Chưa thực hiện quá hạn</value>
+  </data>
+  <data name="lblChuaXuLyTrongHan" xml:space="preserve">
+    <value>Chưa thực hiện trong hạn</value>
+  </data>
+  <data name="lblChucNang" xml:space="preserve">
+    <value>Chức năng</value>
+  </data>
+  <data name="lblChuNhat" xml:space="preserve">
+    <value>Chủ nhật</value>
+  </data>
+  <data name="lblChuY" xml:space="preserve">
+    <value>Chú ý</value>
+  </data>
+  <data name="lblCoLoiXayRa" xml:space="preserve">
+    <value>Có lỗi xảy ra.!</value>
+  </data>
+  <data name="lblCongViec" xml:space="preserve">
+    <value>Công việc</value>
+  </data>
+  <data name="lblCongViecCha" xml:space="preserve">
+    <value>Công việc cha</value>
+  </data>
+  <data name="lblCongViecDaiHan" xml:space="preserve">
+    <value>Công việc dài hạn</value>
+  </data>
+  <data name="lblCongViecLienQuan" xml:space="preserve">
+    <value>Công việc liên quan</value>
+  </data>
+  <data name="lblCongViecNganHan" xml:space="preserve">
+    <value>Công việc ngắn hạn</value>
+  </data>
+  <data name="lblCongViecPhong" xml:space="preserve">
+    <value>Công việc phòng</value>
+  </data>
+  <data name="lblConHan" xml:space="preserve">
+    <value>Còn hạn</value>
+  </data>
+  <data name="lblCoYKienXuLy" xml:space="preserve">
+    <value>Có ý kiến xử lý</value>
+  </data>
+  <data name="lblCuoiKy" xml:space="preserve">
+    <value>Cuối kỳ</value>
+  </data>
+  <data name="lblCVKhongTonTaiTrenHeThong" xml:space="preserve">
+    <value>Công việc này không tồn tại trên hệ thống</value>
+  </data>
+  <data name="lblDaBanGiao" xml:space="preserve">
+    <value>Đã bàn giao</value>
+  </data>
+  <data name="lblDaCoLoiXayRa" xml:space="preserve">
+    <value>Đã có lỗi xảy ra</value>
+  </data>
+  <data name="lblDaDuyet" xml:space="preserve">
+    <value>Đã duyệt</value>
+  </data>
+  <data name="lblDaGui" xml:space="preserve">
+    <value>Đã gửi</value>
+  </data>
+  <data name="lblDaHoanThanh" xml:space="preserve">
+    <value>Đã hoàn thành</value>
+  </data>
+  <data name="lblDangXuLy" xml:space="preserve">
+    <value>Đang thực hiện</value>
+  </data>
+  <data name="lblDangXuLyConHan" xml:space="preserve">
+    <value>Đang xử lý còn hạn</value>
+  </data>
+  <data name="lblDangXuLyDenHan" xml:space="preserve">
+    <value>Đang xử lý đến hạn</value>
+  </data>
+  <data name="lblDangXuLyQuaHan" xml:space="preserve">
+    <value>Đang xử lý quá hạn</value>
+  </data>
+  <data name="lblDangXuLyTrongHan" xml:space="preserve">
+    <value>Đang xử lý trong hạn</value>
+  </data>
+  <data name="lblDanhGia" xml:space="preserve">
+    <value>Đánh giá</value>
+  </data>
+  <data name="lblDanhGiaBaoCao" xml:space="preserve">
+    <value>Đánh giá báo cáo</value>
+  </data>
+  <data name="lblDanhGiaCongViec" xml:space="preserve">
+    <value>Đánh giá công việc</value>
+  </data>
+  <data name="lblDanhSachCongViec" xml:space="preserve">
+    <value>Danh sách công việc</value>
+  </data>
+  <data name="lblDanhSachCongViecChuaXuLy" xml:space="preserve">
+    <value>Danh sách công việc chưa thực hiện</value>
+  </data>
+  <data name="lblDanhSachCongViecDangXuLy" xml:space="preserve">
+    <value>Danh sách công việc đang thực hiện</value>
+  </data>
+  <data name="lblDanhSachCongViecDaXuLy" xml:space="preserve">
+    <value>Danh sách công việc đã thực hiện</value>
+  </data>
+  <data name="lblDat" xml:space="preserve">
+    <value>Đạt </value>
+  </data>
+  <data name="lblDaThuHoi" xml:space="preserve">
+    <value>Đã thu hồi</value>
+  </data>
+  <data name="lblDauMoi" xml:space="preserve">
+    <value>zzzz</value>
+  </data>
+  <data name="lblDaXuLy" xml:space="preserve">
+    <value>Hoàn thành</value>
+  </data>
+  <data name="lblDaXuLyConHan" xml:space="preserve">
+    <value>Đã xử lý còn hạn</value>
+  </data>
+  <data name="lblDaXuLyDenHan" xml:space="preserve">
+    <value>Đã xử lý đến hạn</value>
+  </data>
+  <data name="lblDaXuLyQuaHan" xml:space="preserve">
+    <value>Đã xử lý quá hạn</value>
+  </data>
+  <data name="lblDaXuLySauHan" xml:space="preserve">
+    <value>Đã xử lý sau hạn</value>
+  </data>
+  <data name="lblDaXuLyTrongHan" xml:space="preserve">
+    <value>Đã xử lý trong hạn</value>
+  </data>
+  <data name="lblDenHan" xml:space="preserve">
+    <value>Đến hạn</value>
+  </data>
+  <data name="lblDienGiai" xml:space="preserve">
+    <value>Diễn giải</value>
+  </data>
+  <data name="lblDinhKyBaoCao" xml:space="preserve">
+    <value>Định kỳ báo cáo</value>
+  </data>
+  <data name="lblDinhKyNhac" xml:space="preserve">
+    <value>Đình kỳ nhắc</value>
+  </data>
+  <data name="lblDong" xml:space="preserve">
+    <value>Đóng </value>
+  </data>
+  <data name="lblDongLai" xml:space="preserve">
+    <value>Đóng lại</value>
+  </data>
+  <data name="lblDongTatCa" xml:space="preserve">
+    <value>Đóng tất cả</value>
+  </data>
+  <data name="lblDongY" xml:space="preserve">
+    <value>Đồng ý</value>
+  </data>
+  <data name="lblDonVi" xml:space="preserve">
+    <value>Phòng ban/CN</value>
+  </data>
+  <data name="lblDonViBaoCao" xml:space="preserve">
+    <value>Phòng ban/CN báo cáo</value>
+  </data>
+  <data name="lblDonViCanBo" xml:space="preserve">
+    <value>Đơn vị</value>
+  </data>
+  <data name="lblDonViDauMoi" xml:space="preserve">
+    <value>zzzz</value>
+  </data>
+  <data name="lblDonViNguoiNhan" xml:space="preserve">
+    <value>Phòng ban/CN người nhận</value>
+  </data>
+  <data name="lblDonViNguoiXuLy" xml:space="preserve">
+    <value>Phòng ban/CN người xử lý</value>
+  </data>
+  <data name="lblDonViNhan" xml:space="preserve">
+    <value>Phòng ban/CN nhận</value>
+  </data>
+  <data name="lblDonViPhoiHop" xml:space="preserve">
+    <value>Phòng ban/CN phối hợp</value>
+  </data>
+  <data name="lblDonViThongBao" xml:space="preserve">
+    <value>Phòng ban/CN thông báo</value>
+  </data>
+  <data name="lblDonViXuLy" xml:space="preserve">
+    <value>Phòng ban/CN xử lý</value>
+  </data>
+  <data name="lblDonViXuLyPhoiHop" xml:space="preserve">
+    <value>zzzz</value>
+  </data>
+  <data name="lblDuaYKienXuLy" xml:space="preserve">
+    <value>Đưa ý kiến xử lý</value>
+  </data>
+  <data name="lblDungHan" xml:space="preserve">
+    <value>Đúng hạn</value>
+  </data>
+  <data name="lblDuThaoVanBan" xml:space="preserve">
+    <value>Dự thảo văn bản</value>
+  </data>
+  <data name="lblDuyet" xml:space="preserve">
+    <value>Duyệt</value>
+  </data>
+  <data name="lblFileBaoCao" xml:space="preserve">
+    <value>File báo cáo</value>
+  </data>
+  <data name="lblFileDinhKem" xml:space="preserve">
+    <value>File đính kèm</value>
+  </data>
+  <data name="lblFileVanBan" xml:space="preserve">
+    <value>File văn bản</value>
+  </data>
+  <data name="lblGap" xml:space="preserve">
+    <value>Gấp</value>
+  </data>
+  <data name="lblGhiChu" xml:space="preserve">
+    <value>Ghi chú</value>
+  </data>
+  <data name="lblGiaHan" xml:space="preserve">
+    <value>Gia hạn</value>
+  </data>
+  <data name="lblGiaHanCongViec" xml:space="preserve">
+    <value>Gia hạn công việc</value>
+  </data>
+  <data name="lblGiaHanCongViecCaNhan" xml:space="preserve">
+    <value>Gia hạn công việc cá nhân</value>
+  </data>
+  <data name="lblGiaoViecTiep" xml:space="preserve">
+    <value>Giao việc tiếp</value>
+  </data>
+  <data name="lblGiaoXuLy" xml:space="preserve">
+    <value>Giao xử lý</value>
+  </data>
+  <data name="lblGioBaoCao" xml:space="preserve">
+    <value>Giờ báo cáo</value>
+  </data>
+  <data name="lblGui" xml:space="preserve">
+    <value>Gửi</value>
+  </data>
+  <data name="lblGuiBanGiaoCongViec" xml:space="preserve">
+    <value>Gửi bàn giao công việc</value>
+  </data>
+  <data name="lblGuiBaoCao" xml:space="preserve">
+    <value>Gửi báo cáo</value>
+  </data>
+  <data name="lblGuiGiaHan" xml:space="preserve">
+    <value>Gửi gia hạn</value>
+  </data>
+  <data name="lblGuiYKien" xml:space="preserve">
+    <value>Gửi ý kiến</value>
+  </data>
+  <data name="lblHanNop" xml:space="preserve">
+    <value>Hạn nộp</value>
+  </data>
+  <data name="lblHaNoi" xml:space="preserve">
+    <value>Hà Nội</value>
+  </data>
+  <data name="lblHanXuLy" xml:space="preserve">
+    <value>Ngày kết thúc</value>
+  </data>
+  <data name="lblHanXuLyCu" xml:space="preserve">
+    <value>Ngày kết thúc cũ</value>
+  </data>
+  <data name="lblHanXuLyMoi" xml:space="preserve">
+    <value>Ngày kết thúc mới</value>
+  </data>
+  <data name="lblHienThiDanhSachDaChon" xml:space="preserve">
+    <value>Hiển thị danh sách đã chọn</value>
+  </data>
+  <data name="lblHinhThuc" xml:space="preserve">
+    <value>Hình thức</value>
+  </data>
+  <data name="lblHinhThucBaoCao" xml:space="preserve">
+    <value>Hình thức báo cáo</value>
+  </data>
+  <data name="lblHinhThucDaoTao" xml:space="preserve">
+    <value>Hình thức báo cáo</value>
+  </data>
+  <data name="lblHinhThucNhac" xml:space="preserve">
+    <value>Hình thức nhắc</value>
+  </data>
+  <data name="lblHoanTac" xml:space="preserve">
+    <value>Hoàn tác</value>
+  </data>
+  <data name="lblHome" xml:space="preserve">
+    <value>Trang chủ</value>
+  </data>
+  <data name="lblInThongTin" xml:space="preserve">
+    <value>In thông tin</value>
+  </data>
+  <data name="lblKem" xml:space="preserve">
+    <value>Kém</value>
+  </data>
+  <data name="lblKetLuanGiaoBan" xml:space="preserve">
+    <value>Kết luận giao ban</value>
+  </data>
+  <data name="lblKetThuc" xml:space="preserve">
+    <value>Kết thúc</value>
+  </data>
+  <data name="lblKetThucCongiViec" xml:space="preserve">
+    <value>Kết thúc công việc</value>
+  </data>
+  <data name="lblKha" xml:space="preserve">
+    <value>Khá</value>
+  </data>
+  <data name="lblKhongDat" xml:space="preserve">
+    <value>Không đạt</value>
+  </data>
+  <data name="lblKichNutThem" xml:space="preserve">
+    <value>Kích nút Thêm để chọn văn bản liên quan</value>
+  </data>
+  <data name="lblKichVaoDay" xml:space="preserve">
+    <value>Kích vào đây</value>
+  </data>
+  <data name="lblLa" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLanhDaoBaoCao" xml:space="preserve">
+    <value>zzzz</value>
+  </data>
+  <data name="lblLanhDaoDauMoi" xml:space="preserve">
+    <value>zzzz</value>
+  </data>
+  <data name="lblLanhDaoPheDuyet" xml:space="preserve">
+    <value>Quản lý phê duyệt</value>
+  </data>
+  <data name="lblLayLaiFileVuaXoa" xml:space="preserve">
+    <value>Lấy lại file vừa xóa</value>
+  </data>
+  <data name="lblLichSuCapNhatTienDo" xml:space="preserve">
+    <value>Lịch sử cập nhật tiến độ</value>
+  </data>
+  <data name="lblLoai" xml:space="preserve">
+    <value>Loại</value>
+  </data>
+  <data name="lblLoaiBanGiao" xml:space="preserve">
+    <value>Loại bàn giao</value>
+  </data>
+  <data name="lblLoaiBaoCao" xml:space="preserve">
+    <value>Loại báo cáo</value>
+  </data>
+  <data name="lblLoaiHoSo" xml:space="preserve">
+    <value>Loại hồ sơ</value>
+  </data>
+  <data name="lblLoaiKetLuan" xml:space="preserve">
+    <value>Loại kết luận</value>
+  </data>
+  <data name="lblLoaiVanBan" xml:space="preserve">
+    <value>Loại văn bản</value>
+  </data>
+  <data name="lblLoaiXuLy" xml:space="preserve">
+    <value>Loại xử lý</value>
+  </data>
+  <data name="lblLuu" xml:space="preserve">
+    <value>Lưu</value>
+  </data>
+  <data name="lblLuuY" xml:space="preserve">
+    <value>Lưu ý</value>
+  </data>
+  <data name="lblLyDo" xml:space="preserve">
+    <value>Lý do</value>
+  </data>
+  <data name="lblMoLai" xml:space="preserve">
+    <value>Mở lại</value>
+  </data>
+  <data name="lblMoLaiCongViec" xml:space="preserve">
+    <value>Mở lại công việc</value>
+  </data>
+  <data name="lblMoTa" xml:space="preserve">
+    <value>Mô tả</value>
+  </data>
+  <data name="lblMoTatCa" xml:space="preserve">
+    <value>Mở tất cả</value>
+  </data>
+  <data name="lblMucDoDanhGia" xml:space="preserve">
+    <value>Mức độ đánh giá</value>
+  </data>
+  <data name="lblNam" xml:space="preserve">
+    <value>Năm</value>
+  </data>
+  <data name="lblNamBaoCao" xml:space="preserve">
+    <value>Năm báo cáo</value>
+  </data>
+  <data name="lblNgay" xml:space="preserve">
+    <value>Ngày</value>
+  </data>
+  <data name="lblNgayBanGiao" xml:space="preserve">
+    <value>Ngày bàn giao</value>
+  </data>
+  <data name="lblNgayBanHanh" xml:space="preserve">
+    <value>Ngày ban hành</value>
+  </data>
+  <data name="lblNgayBaoCao" xml:space="preserve">
+    <value>Ngày báo cáo</value>
+  </data>
+  <data name="lblNgayBatDau" xml:space="preserve">
+    <value>Ngày bắt đầu</value>
+  </data>
+  <data name="lblNgayCapNhat" xml:space="preserve">
+    <value>Ngày cập nhật</value>
+  </data>
+  <data name="lblNgayDen" xml:space="preserve">
+    <value>Ngày đến</value>
+  </data>
+  <data name="lblNgayGui" xml:space="preserve">
+    <value>Ngày gửi</value>
+  </data>
+  <data name="lblNgayGuiBaoCao" xml:space="preserve">
+    <value>Ngày gửi báo cáo</value>
+  </data>
+  <data name="lblNgayKetThuc" xml:space="preserve">
+    <value>Ngày kết thúc</value>
+  </data>
+  <data name="lblNgayTao" xml:space="preserve">
+    <value>Ngày tạo</value>
+  </data>
+  <data name="lblNgayThuBaoCao" xml:space="preserve">
+    <value>Ngày / thứ báo cáo</value>
+  </data>
+  <data name="lblNgayThucHien" xml:space="preserve">
+    <value>Ngày thực hiện</value>
+  </data>
+  <data name="lblNgayTrinh" xml:space="preserve">
+    <value>Ngày trình</value>
+  </data>
+  <data name="lblNgayVanBan" xml:space="preserve">
+    <value>Ngày văn bản</value>
+  </data>
+  <data name="lblNguoiBanGiao" xml:space="preserve">
+    <value>Người bàn giao</value>
+  </data>
+  <data name="lblNguoiCapNhat" xml:space="preserve">
+    <value>Người cập nhật</value>
+  </data>
+  <data name="lblNguoiDung" xml:space="preserve">
+    <value>Người dùng</value>
+  </data>
+  <data name="lblNguoiDungChuaHoanThanhCV" xml:space="preserve">
+    <value>Người dùng chưa hoàn thành công việc</value>
+  </data>
+  <data name="lblNguoiDungDaHoanThanhCV" xml:space="preserve">
+    <value>Người dùng đã hoàn thành công việc</value>
+  </data>
+  <data name="lblNguoiDuocUyQuyen" xml:space="preserve">
+    <value>Người được ủy quyền</value>
+  </data>
+  <data name="lblNguoiDuyet" xml:space="preserve">
+    <value>Người duyệt</value>
+  </data>
+  <data name="lblNguoiGiaHan" xml:space="preserve">
+    <value>Người gia hạn</value>
+  </data>
+  <data name="lblNguoiGui" xml:space="preserve">
+    <value>Người gửi</value>
+  </data>
+  <data name="lblNguoiLap" xml:space="preserve">
+    <value>Người lập</value>
+  </data>
+  <data name="lblNguoiNhan" xml:space="preserve">
+    <value>Người nhận</value>
+  </data>
+  <data name="lblNguoiNhanBanGiao" xml:space="preserve">
+    <value>Người nhận bàn giao</value>
+  </data>
+  <data name="lblNguoiPhoiHop" xml:space="preserve">
+    <value>Người phối hợp</value>
+  </data>
+  <data name="lblNguoiTrinh" xml:space="preserve">
+    <value>Người trình</value>
+  </data>
+  <data name="lblNguoiUyQuyen" xml:space="preserve">
+    <value>Người ủy quyền</value>
+  </data>
+  <data name="lblNguoiXuLy" xml:space="preserve">
+    <value>Người thực hiện</value>
+  </data>
+  <data name="lblNguoiXuLyPhoiHop" xml:space="preserve">
+    <value>Người thực hiện phối hợp</value>
+  </data>
+  <data name="lblNhacNho" xml:space="preserve">
+    <value>Nhắc nhở</value>
+  </data>
+  <data name="lblNhapDienGiai" xml:space="preserve">
+    <value>Nhập diễn giải</value>
+  </data>
+  <data name="lblNhapHanXuLy" xml:space="preserve">
+    <value>Nhập Ngày kết thúc</value>
+  </data>
+  <data name="lblNhapLai" xml:space="preserve">
+    <value>Nhập lại</value>
+  </data>
+  <data name="lblNhapLyDoGiaHan" xml:space="preserve">
+    <value>Nhập lý do gia hạn</value>
+  </data>
+  <data name="lblNhapLyDoTraLai" xml:space="preserve">
+    <value>Nhập lý do trả lại</value>
+  </data>
+  <data name="lblNhapLyDoTraLaiCongViec" xml:space="preserve">
+    <value>Nhập lý do trả lại công việc</value>
+  </data>
+  <data name="lblNhapLyDoUyQuyen" xml:space="preserve">
+    <value>Nhập lý do ủy quyền</value>
+  </data>
+  <data name="lblNhapMoTa" xml:space="preserve">
+    <value>Nhập mô tả</value>
+  </data>
+  <data name="lblNhapMoTaCongViec" xml:space="preserve">
+    <value>Nhập mô tả công việc</value>
+  </data>
+  <data name="lblNhapNgayBanGiao" xml:space="preserve">
+    <value>Nhập ngày bàn giao</value>
+  </data>
+  <data name="lblNhapNgayBaoCao" xml:space="preserve">
+    <value>Nhập ngày báo cáo</value>
+  </data>
+  <data name="lblNhapNgayBatDau" xml:space="preserve">
+    <value>Nhập ngày bắt đầu</value>
+  </data>
+  <data name="lblNhapNoiDung" xml:space="preserve">
+    <value>Nhập nội dung</value>
+  </data>
+  <data name="lblNhapNoiDungBaoCao" xml:space="preserve">
+    <value>Nhập nội dung báo cáo</value>
+  </data>
+  <data name="lblNhapNoiDungCongViec" xml:space="preserve">
+    <value>Nhập nội dung công việc</value>
+  </data>
+  <data name="lblNhapNoiDungGhiChu" xml:space="preserve">
+    <value>Nhập nội dung ghi chú</value>
+  </data>
+  <data name="lblNhapNoiDungUyQuyen" xml:space="preserve">
+    <value>Nhập nội dung ủy quyền</value>
+  </data>
+  <data name="lblNhapTenBaoCao" xml:space="preserve">
+    <value>Nhập tên báo cáo</value>
+  </data>
+  <data name="lblNhapTenCongViec" xml:space="preserve">
+    <value>Nhập tên công việc</value>
+  </data>
+  <data name="lblNhapThongBao" xml:space="preserve">
+    <value>Nhập thông báo</value>
+  </data>
+  <data name="lblNhapTienDo" xml:space="preserve">
+    <value>Nhập tiến độ</value>
+  </data>
+  <data name="lblNhapTienDoCongViec" xml:space="preserve">
+    <value>Nhập tiến độ công việc</value>
+  </data>
+  <data name="lblNhapTrichYeuDuThao" xml:space="preserve">
+    <value>Nhập trích yếu dự thảo</value>
+  </data>
+  <data name="lblNhapTuKhoaTimKiem" xml:space="preserve">
+    <value>Nhập từ khóa tìm kiếm</value>
+  </data>
+  <data name="lblNoiDung" xml:space="preserve">
+    <value>Nội dung</value>
+  </data>
+  <data name="lblNoiDungBaoCao" xml:space="preserve">
+    <value>Nội dung báo cáo</value>
+  </data>
+  <data name="lblNoiDungCongViec" xml:space="preserve">
+    <value>Nội dung chi tiết</value>
+  </data>
+  <data name="lblNoiDungNhacViec" xml:space="preserve">
+    <value>Nội dung nhắc việc</value>
+  </data>
+  <data name="lblNoiDungUyQuyen" xml:space="preserve">
+    <value>Nội dung ủy quyền</value>
+  </data>
+  <data name="lblNoiDungYKien" xml:space="preserve">
+    <value>Nội dung ý kiến</value>
+  </data>
+  <data name="lblNoiNhan" xml:space="preserve">
+    <value>Nơi nhận</value>
+  </data>
+  <data name="lblNoiNhanNgoaiNganh" xml:space="preserve">
+    <value>zzzz</value>
+  </data>
+  <data name="lblNoiNhanTrongNganh" xml:space="preserve">
+    <value>zzzz</value>
+  </data>
+  <data name="lblPhamVi" xml:space="preserve">
+    <value>Phạm vi</value>
+  </data>
+  <data name="lblPhamViTimKiem" xml:space="preserve">
+    <value>Phạm vi tìm kiếm</value>
+  </data>
+  <data name="lblPhanKy" xml:space="preserve">
+    <value>Phân kỳ</value>
+  </data>
+  <data name="lblPheDuyetGiaHanCV" xml:space="preserve">
+    <value>Phê duyệt gia hạn công việc</value>
+  </data>
+  <data name="lblPheDuyetGiaHanGiaoViec" xml:space="preserve">
+    <value>Phê duyệt gia hạn giao việc</value>
+  </data>
+  <data name="lblPhoiHop" xml:space="preserve">
+    <value>Phối hợp</value>
+  </data>
+  <data name="lblPhongBan" xml:space="preserve">
+    <value>Phòng ban</value>
+  </data>
+  <data name="lblPhongBanDauMoi" xml:space="preserve">
+    <value>Phòng ban xử lý</value>
+  </data>
+  <data name="lblPhongBanPhoiHop" xml:space="preserve">
+    <value>Phòng ban phối hợp</value>
+  </data>
+  <data name="lblPhongDauMoi" xml:space="preserve">
+    <value>zzzz</value>
+  </data>
+  <data name="lblPhongPhoiHop" xml:space="preserve">
+    <value>zzzz</value>
+  </data>
+  <data name="lblQuaEmail" xml:space="preserve">
+    <value>Qua Email</value>
+  </data>
+  <data name="lblQuaHan" xml:space="preserve">
+    <value>Quá hạn</value>
+  </data>
+  <data name="lblQuanLyBaoCaoCongViecCuaDonVi" xml:space="preserve">
+    <value>Quản lý báo cáo công việc của phòng ban/chi nhánh</value>
+  </data>
+  <data name="lblQuanLyCongViec" xml:space="preserve">
+    <value>Quản lý công việc</value>
+  </data>
+  <data name="lblQuanLyCongViecChuaXuLy" xml:space="preserve">
+    <value>Quản lý công việc chưa thực hiện</value>
+  </data>
+  <data name="lblQuanLyCongViecDangXuLy" xml:space="preserve">
+    <value>Quản lý công việc đang thực hiện</value>
+  </data>
+  <data name="lblQuanLyCongViecDaXuLy" xml:space="preserve">
+    <value>Quản lý công việc đã thực hiện</value>
+  </data>
+  <data name="lblQuanLyThongBao" xml:space="preserve">
+    <value>Quản lý thông báo</value>
+  </data>
+  <data name="lblQuanLyUyQuyenThuKy" xml:space="preserve">
+    <value>Quản lý ủy quyền/ thư ký</value>
+  </data>
+  <data name="lblQuanTrong" xml:space="preserve">
+    <value>Quan trọng</value>
+  </data>
+  <data name="lblQuaSMS" xml:space="preserve">
+    <value>Qua SMS</value>
+  </data>
+  <data name="lblQuy" xml:space="preserve">
+    <value>Quý</value>
+  </data>
+  <data name="lblQuyBaoCao" xml:space="preserve">
+    <value>Quý báo cáo</value>
+  </data>
+  <data name="lblQuyKhongBaoCao" xml:space="preserve">
+    <value>Quý không báo cáo</value>
+  </data>
+  <data name="lblSoanThao" xml:space="preserve">
+    <value>Soạn thảo</value>
+  </data>
+  <data name="lblSoanThaoVanBan" xml:space="preserve">
+    <value>Soạn thảo văn bản</value>
+  </data>
+  <data name="lblSoKyHieu" xml:space="preserve">
+    <value>Số ký hiệu</value>
+  </data>
+  <data name="lblSoLuong" xml:space="preserve">
+    <value>Số lượng</value>
+  </data>
+  <data name="lblSoLuongCongViec" xml:space="preserve">
+    <value>Số lượng công việc</value>
+  </data>
+  <data name="lblSTT" xml:space="preserve">
+    <value>STT</value>
+  </data>
+  <data name="lblSua" xml:space="preserve">
+    <value>Sửa</value>
+  </data>
+  <data name="lblSuaCongViec" xml:space="preserve">
+    <value>Sửa công việc</value>
+  </data>
+  <data name="lblSuaVanBan" xml:space="preserve">
+    <value>Sửa văn bản</value>
+  </data>
+  <data name="lblSuDung" xml:space="preserve">
+    <value>Sử dụng</value>
+  </data>
+  <data name="lblTaiLieuLienQuan" xml:space="preserve">
+    <value>Tài liệu liên quan</value>
+  </data>
+  <data name="lblTaoMoi" xml:space="preserve">
+    <value>Tạo mới</value>
+  </data>
+  <data name="lblTatCa" xml:space="preserve">
+    <value>Tất cả</value>
+  </data>
+  <data name="lblTenBaoCao" xml:space="preserve">
+    <value>Tên báo cáo</value>
+  </data>
+  <data name="lblTenCongViec" xml:space="preserve">
+    <value>Tên công việc</value>
+  </data>
+  <data name="lblTenThongBao" xml:space="preserve">
+    <value>Tên thông báo</value>
+  </data>
+  <data name="lblThang" xml:space="preserve">
+    <value>Tháng </value>
+  </data>
+  <data name="lblThangBaoCao" xml:space="preserve">
+    <value>Tháng báo cáo</value>
+  </data>
+  <data name="lblThangKhongBaoCao" xml:space="preserve">
+    <value>Tháng không báo cáo</value>
+  </data>
+  <data name="lblThanhPhan" xml:space="preserve">
+    <value>Thành phần</value>
+  </data>
+  <data name="lblThanhPhanThamGia" xml:space="preserve">
+    <value>Thành phần tham gia</value>
+  </data>
+  <data name="lblThem" xml:space="preserve">
+    <value>Thêm</value>
+  </data>
+  <data name="lblThemLienTiep" xml:space="preserve">
+    <value>Thêm liên tiếp</value>
+  </data>
+  <data name="lblThemMoi" xml:space="preserve">
+    <value>Thêm mới</value>
+  </data>
+  <data name="lblThemThanhPhanThamGia" xml:space="preserve">
+    <value>Thêm thành phần tham gia</value>
+  </data>
+  <data name="lblThemThuKy" xml:space="preserve">
+    <value>Thêm thư ký</value>
+  </data>
+  <data name="lblThemUyQuyen" xml:space="preserve">
+    <value>Thêm ủy quyền</value>
+  </data>
+  <data name="lblTheoDoiUyQuyen" xml:space="preserve">
+    <value>Theo dõi ủy quyền</value>
+  </data>
+  <data name="lblThietDatThoiGianBaoCao" xml:space="preserve">
+    <value>Thiết đặt thời gian báo cáo</value>
+  </data>
+  <data name="lblThietDatThoiGianKhongBaoCao" xml:space="preserve">
+    <value>Thiết đặt thời gian không báo cáo</value>
+  </data>
+  <data name="lblThietDatThoiGianKhongBaoCaoNam" xml:space="preserve">
+    <value>Thiết đặt thời gian không báo cáo năm</value>
+  </data>
+  <data name="lblThietDatThoiGianKhongNopBaoCao" xml:space="preserve">
+    <value>Thiết đặt thời gian không nộp báo cáo</value>
+  </data>
+  <data name="lblThietDatThoiGianNopBaoCao" xml:space="preserve">
+    <value>Thiết đặt thời gian nộp báo cáo</value>
+  </data>
+  <data name="lblThoat" xml:space="preserve">
+    <value>Thoát</value>
+  </data>
+  <data name="lblThoiGian" xml:space="preserve">
+    <value>Thời gian</value>
+  </data>
+  <data name="lblThoiGianBatDau" xml:space="preserve">
+    <value>Thời gian bắt đầu</value>
+  </data>
+  <data name="lblThoiGianDoc" xml:space="preserve">
+    <value>Thời gian đọc</value>
+  </data>
+  <data name="lblThoiGianGui" xml:space="preserve">
+    <value>Thời gian gửi</value>
+  </data>
+  <data name="lblThoiGianKetThuc" xml:space="preserve">
+    <value>Thời gian kết thúc</value>
+  </data>
+  <data name="lblThoiGianNhan" xml:space="preserve">
+    <value>Thời gian nhận</value>
+  </data>
+  <data name="lblThoiGianThuHoi" xml:space="preserve">
+    <value>Thời gian thu hồi</value>
+  </data>
+  <data name="lblThongBao" xml:space="preserve">
+    <value>Thông báo</value>
+  </data>
+  <data name="lblThongBaoChung" xml:space="preserve">
+    <value>Thông báo chung</value>
+  </data>
+  <data name="lblThongTinChiTietCongViec" xml:space="preserve">
+    <value>Thông tin chi tiết công việc</value>
+  </data>
+  <data name="lblThongTinChiTietCongViecCapDuoi" xml:space="preserve">
+    <value>Thông tin chi tiết công việc cấp dưới</value>
+  </data>
+  <data name="lblThongTinCongViec" xml:space="preserve">
+    <value>Thông tin công việc</value>
+  </data>
+  <data name="lblThongTinGiaHanCongViec" xml:space="preserve">
+    <value>Thông tin gia hạn công việc</value>
+  </data>
+  <data name="lblThongTinGuiNhan" xml:space="preserve">
+    <value>Thông tin gửi nhận</value>
+  </data>
+  <data name="lblThongTinVeCongViecXuLy" xml:space="preserve">
+    <value>Thông tin về công việc xử lý</value>
+  </data>
+  <data name="lblThu" xml:space="preserve">
+    <value>Thứ</value>
+  </data>
+  <data name="lblThuBa" xml:space="preserve">
+    <value>Thứ ba</value>
+  </data>
+  <data name="lblThuBaoCao" xml:space="preserve">
+    <value>Thứ báo cáo</value>
+  </data>
+  <data name="lblThuBay" xml:space="preserve">
+    <value>Thứ bảy</value>
+  </data>
+  <data name="lblThuHai" xml:space="preserve">
+    <value>Thứ hai</value>
+  </data>
+  <data name="lblThuHoiUyQuyen" xml:space="preserve">
+    <value>Thu hồi ủy quyền</value>
+  </data>
+  <data name="lblThuKy" xml:space="preserve">
+    <value>Thư ký</value>
+  </data>
+  <data name="lblThuNam" xml:space="preserve">
+    <value>Thứ năm</value>
+  </data>
+  <data name="lblThuNgay" xml:space="preserve">
+    <value>Ngày</value>
+  </data>
+  <data name="lblThuSau" xml:space="preserve">
+    <value>Thứ sáu</value>
+  </data>
+  <data name="lblThuTu" xml:space="preserve">
+    <value>Thứ tư</value>
+  </data>
+  <data name="lblThuTuBC" xml:space="preserve">
+    <value>Thứ tự</value>
+  </data>
+  <data name="lblTienDo" xml:space="preserve">
+    <value>Tiến độ (%)</value>
+  </data>
+  <data name="lblTienDoCongViec" xml:space="preserve">
+    <value>Tiến độ công việc</value>
+  </data>
+  <data name="lblTiepNhan" xml:space="preserve">
+    <value>Tiếp nhận</value>
+  </data>
+  <data name="lblTimKiem" xml:space="preserve">
+    <value>Tìm kiếm</value>
+  </data>
+  <data name="lblTimKiemTrong" xml:space="preserve">
+    <value>Tìm kiếm trong</value>
+  </data>
+  <data name="lblToanBo" xml:space="preserve">
+    <value>Toàn bộ</value>
+  </data>
+  <data name="lblToanBoCongViec" xml:space="preserve">
+    <value>Toàn bộ công việc</value>
+  </data>
+  <data name="lblToanCV" xml:space="preserve">
+    <value>Toàn CV</value>
+  </data>
+  <data name="lblToiNgay" xml:space="preserve">
+    <value>Tới ngày</value>
+  </data>
+  <data name="lblTongHopVaTheoDoiBaoCao" xml:space="preserve">
+    <value>Tổng hợp và theo dõi báo cáo</value>
+  </data>
+  <data name="lblTot" xml:space="preserve">
+    <value>Tốt </value>
+  </data>
+  <data name="lblTraLai" xml:space="preserve">
+    <value>Trả lại</value>
+  </data>
+  <data name="lblTraLaiBaoCao" xml:space="preserve">
+    <value>Trả lại báo cáo</value>
+  </data>
+  <data name="lblTraLaiCongViec" xml:space="preserve">
+    <value>Trả lại công việc</value>
+  </data>
+  <data name="lblTraLoiYKienCho" xml:space="preserve">
+    <value>Trả lời ý kiến</value>
+  </data>
+  <data name="lblTrangChu" xml:space="preserve">
+    <value>Trang chủ</value>
+  </data>
+  <data name="lblTrangThai" xml:space="preserve">
+    <value>Trạng thái</value>
+  </data>
+  <data name="lblTrangThaiBaoCao" xml:space="preserve">
+    <value>Trạng thái báo cáo</value>
+  </data>
+  <data name="lblTrangThaiCV" xml:space="preserve">
+    <value>Trạng thái công việc</value>
+  </data>
+  <data name="lblTrangThaiGui" xml:space="preserve">
+    <value>Trạng thái gửi</value>
+  </data>
+  <data name="lblTrichYeu" xml:space="preserve">
+    <value>Trích yếu</value>
+  </data>
+  <data name="lblTrungBinh" xml:space="preserve">
+    <value>Trung bình</value>
+  </data>
+  <data name="lblTuan" xml:space="preserve">
+    <value>Tuần</value>
+  </data>
+  <data name="lblTuanBaoCao" xml:space="preserve">
+    <value>Tuần báo cáo</value>
+  </data>
+  <data name="lblTuanKhongBaoCao" xml:space="preserve">
+    <value>Tuần không báo cáo</value>
+  </data>
+  <data name="lblTuanThangQuy" xml:space="preserve">
+    <value>Tuần / Tháng/ Quý</value>
+  </data>
+  <data name="lblTuChoi" xml:space="preserve">
+    <value>Từ chối</value>
+  </data>
+  <data name="lblTuChoiGiaHan" xml:space="preserve">
+    <value>Từ chối gia hạn</value>
+  </data>
+  <data name="lblTuChoiGiaHanCV" xml:space="preserve">
+    <value>Từ chối gia hạn công việc</value>
+  </data>
+  <data name="lblTuKhoa" xml:space="preserve">
+    <value>Từ khóa</value>
+  </data>
+  <data name="lblTuNgay" xml:space="preserve">
+    <value>Từ ngày</value>
+  </data>
+  <data name="lblUyQuyen" xml:space="preserve">
+    <value>Ủy quyền</value>
+  </data>
+  <data name="lblVaiTro" xml:space="preserve">
+    <value>Vai trò</value>
+  </data>
+  <data name="lblVanBanDen" xml:space="preserve">
+    <value>Văn bản đến</value>
+  </data>
+  <data name="lblVanBanDenLienQuan" xml:space="preserve">
+    <value>Văn bản đến liên quan</value>
+  </data>
+  <data name="lblVanBanDiDuThaoLienQuan" xml:space="preserve">
+    <value>Văn bản đi, dự thảo liên quan</value>
+  </data>
+  <data name="lblVanBanDuThao" xml:space="preserve">
+    <value>Văn bản dự thảo</value>
+  </data>
+  <data name="lblVao" xml:space="preserve">
+    <value>Vào</value>
+  </data>
+  <data name="lblVietNam" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblXemChiTietCongViec" xml:space="preserve">
+    <value>Xem chi tiết công việc</value>
+  </data>
+  <data name="lblXemTruoc" xml:space="preserve">
+    <value>Xem trước</value>
+  </data>
+  <data name="lblXoaCanBoThamGiaVaoCongViec" xml:space="preserve">
+    <value>Xóa người tham gia vào công việc ?</value>
+  </data>
+  <data name="lblXoaCanBoXuLyCongViec" xml:space="preserve">
+    <value>Xóa người thực hiện công việc</value>
+  </data>
+  <data name="lblXoaDanhSachDaChon" xml:space="preserve">
+    <value>Xóa danh sách đã chọn</value>
+  </data>
+  <data name="lblXoaFileDinhKem" xml:space="preserve">
+    <value>Xóa file đính kèm</value>
+  </data>
+  <data name="lblXoaVanBan" xml:space="preserve">
+    <value>Xóa văn bản</value>
+  </data>
+  <data name="lblXuatFileWord" xml:space="preserve">
+    <value>Xuất file Word</value>
+  </data>
+  <data name="lblXuatSac" xml:space="preserve">
+    <value>Xuất Sắc</value>
+  </data>
+  <data name="lblXuLyChoVanBan" xml:space="preserve">
+    <value>Xử lý cho văn bản</value>
+  </data>
+  <data name="lblXuLyChoVanBanDen" xml:space="preserve">
+    <value>Xử lý cho văn bản đến</value>
+  </data>
+  <data name="lblXuLyCongViec" xml:space="preserve">
+    <value>Xử lý công việc</value>
+  </data>
+  <data name="lblXuLyCongViecChoVanBanDen" xml:space="preserve">
+    <value>Xử lý công việc cho văn bản đến</value>
+  </data>
+  <data name="lblXuLyVanBan" xml:space="preserve">
+    <value>Xử lý văn bản</value>
+  </data>
+  <data name="lblYeu" xml:space="preserve">
+    <value>Yếu</value>
+  </data>
+  <data name="lblYeuCauLamLai" xml:space="preserve">
+    <value>Yêu cầu làm lại</value>
+  </data>
+  <data name="lblYKien" xml:space="preserve">
+    <value>Ý kiến</value>
+  </data>
+  <data name="lblYKienXuLy" xml:space="preserve">
+    <value>Ý kiến xử lý</value>
+  </data>
+  <data name="lblTonghopcongviec" xml:space="preserve">
+    <value>Tổng hợp công việc</value>
+  </data>
+  <data name="lblXuatExcel" xml:space="preserve">
+    <value>Excel</value>
+  </data>
+  <data name="lblKhac" xml:space="preserve">
+    <value>Khác</value>
+  </data>
+  <data name="lblBanCoChacMuonXoaDonViPhongBanKhoiCV" xml:space="preserve">
+    <value>Bạn có chắc muốn xóa người tham gia khỏi công việc?</value>
+  </data>
+  <data name="lblGiamSat" xml:space="preserve">
+    <value>Giám sát công việc</value>
+  </data>
+  <data name="lblDanhMuc" xml:space="preserve">
+    <value>Danh mục</value>
+  </data>
+</root>

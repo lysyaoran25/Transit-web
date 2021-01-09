@@ -1,0 +1,284 @@
+﻿<w:tr wsp:rsidR="00CA3636"
+      wsp:rsidRPr="00726090"
+      wsp:rsidTr="00F752A7">
+  <w:trPr>
+    <w:trHeight w:val="345"/>
+    <w:jc w:val="center"/>
+  </w:trPr>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="559"
+             w:type="dxa"/>
+      <w:shd w:val="clear"
+             w:color="auto"
+             w:fill="auto"/>
+      <w:vAlign w:val="center"/>
+    </w:tcPr>
+    <w:p wsp:rsidR="00CA3636"
+         wsp:rsidRPr="00726090"
+         wsp:rsidRDefault="00CA3636"
+         wsp:rsidP="00DD3E19">
+      <w:pPr>
+        <w:jc w:val="center"/>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r wsp:rsidRPr="00726090">
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+        </w:rPr>
+        <w:t>[SoDen]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="1424"
+             w:type="dxa"/>
+      <w:shd w:val="clear"
+             w:color="auto"
+             w:fill="auto"/>
+      <w:vAlign w:val="center"/>
+    </w:tcPr>
+    <w:p wsp:rsidR="00CA3636"
+         wsp:rsidRPr="00726090"
+         wsp:rsidRDefault="00CA3636"
+         wsp:rsidP="00DD3E19">
+      <w:pPr>
+        <w:jc w:val="center"/>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r wsp:rsidRPr="00726090">
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+        </w:rPr>
+        <w:t>[NgayDen]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="2174"
+             w:type="dxa"/>
+      <w:shd w:val="clear"
+             w:color="auto"
+             w:fill="auto"/>
+      <w:vAlign w:val="center"/>
+    </w:tcPr>
+    <w:p wsp:rsidR="00CA3636"
+         wsp:rsidRPr="00726090"
+         wsp:rsidRDefault="00CA3636"
+         wsp:rsidP="00DD3E19">
+      <w:pPr>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r wsp:rsidRPr="00726090">
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+        </w:rPr>
+        <w:t>[NoiGui]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="1856"
+             w:type="dxa"/>
+      <w:shd w:val="clear"
+             w:color="auto"
+             w:fill="auto"/>
+      <w:vAlign w:val="center"/>
+    </w:tcPr>
+    <w:p wsp:rsidR="00CA3636"
+         wsp:rsidRPr="00726090"
+         wsp:rsidRDefault="00CA3636"
+         wsp:rsidP="00DD3E19">
+      <w:pPr>
+        <w:jc w:val="center"/>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r wsp:rsidRPr="00726090">
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+        </w:rPr>
+        <w:t>[SoKyHieu]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="1264"
+             w:type="dxa"/>
+      <w:shd w:val="clear"
+             w:color="auto"
+             w:fill="auto"/>
+      <w:vAlign w:val="center"/>
+    </w:tcPr>
+    <w:p wsp:rsidR="00CA3636"
+         wsp:rsidRPr="00726090"
+         wsp:rsidRDefault="00CA3636"
+         wsp:rsidP="00DD3E19">
+      <w:pPr>
+        <w:jc w:val="center"/>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r wsp:rsidRPr="00726090">
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+        </w:rPr>
+        <w:t>[NgayBanHanh]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="2355"
+             w:type="dxa"/>
+      <w:shd w:val="clear"
+             w:color="auto"
+             w:fill="auto"/>
+      <w:vAlign w:val="center"/>
+    </w:tcPr>
+    <w:p wsp:rsidR="00CA3636"
+         wsp:rsidRPr="00726090"
+         wsp:rsidRDefault="00CA3636"
+         wsp:rsidP="00DD3E19">
+      <w:pPr>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r wsp:rsidRPr="00726090">
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+        </w:rPr>
+        <w:t>[TrichYeu]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  [DoMat]
+  [DoKhan]
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="1345"
+             w:type="dxa"/>
+      <w:shd w:val="clear"
+             w:color="auto"
+             w:fill="auto"/>
+      <w:vAlign w:val="center"/>
+    </w:tcPr>
+    <w:p wsp:rsidR="00CA3636"
+         wsp:rsidRPr="00726090"
+         wsp:rsidRDefault="00F752A7"
+         wsp:rsidP="00DD3E19">
+      <w:pPr>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+        </w:rPr>
+        <w:t>[SoBuuDien]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="1703"
+             w:type="dxa"/>
+      <w:shd w:val="clear"
+             w:color="auto"
+             w:fill="auto"/>
+      <w:vAlign w:val="center"/>
+    </w:tcPr>
+    <w:p wsp:rsidR="00CA3636"
+         wsp:rsidRPr="00726090"
+         wsp:rsidRDefault="00F752A7"
+         wsp:rsidP="00DD3E19">
+      <w:pPr>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+        </w:rPr>
+        <w:t>[GhiChu]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="1174"
+             w:type="dxa"/>
+      <w:shd w:val="clear"
+             w:color="auto"
+             w:fill="auto"/>
+      <w:vAlign w:val="center"/>
+    </w:tcPr>
+    <w:p wsp:rsidR="00CA3636"
+         wsp:rsidRPr="00726090"
+         wsp:rsidRDefault="002826F7"
+         wsp:rsidP="00DD3E19">
+      <w:pPr>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+        </w:rPr>
+        <w:t> </w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+</w:tr>

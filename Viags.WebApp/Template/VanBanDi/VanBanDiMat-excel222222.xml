@@ -1,0 +1,212 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Hoàng Văn Dũng</Author>
+  <LastAuthor>Hoàng Văn Dũng</LastAuthor>
+  <Created>2015-11-18T02:28:59Z</Created>
+  <LastSaved>2015-11-18T08:45:04Z</LastSaved>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>7905</WindowHeight>
+  <WindowWidth>20490</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s16">
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="11"
+    ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s17">
+   <Alignment ss:Vertical="Bottom"/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="11"
+    ss:Color="#000000" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s18">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="12"
+    ss:Color="#000000" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s19">
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="12"
+    ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s20">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="12"
+    ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s21">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="12"
+    ss:Color="#000000"/>
+   <NumberFormat ss:Format="Short Date"/>
+  </Style>
+  <Style ss:ID="s22">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="12"
+    ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s23">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="12"
+    ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s35">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="11"
+    ss:Color="#000000" ss:Italic="1"/>
+  </Style>
+  <Style ss:ID="s39">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="16"
+    ss:Color="#000000" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s41">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="12"
+    ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s42">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="11"
+    ss:Color="#000000" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s43">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="12"
+    ss:Color="#000000" ss:Italic="1"/>
+  </Style>
+  <Style ss:ID="s94">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="12"
+    ss:Color="#000000"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="16" ss:ExpandedRowCount="15" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s16" ss:DefaultRowHeight="15">
+   <Column ss:Index="8" ss:StyleID="s16" ss:AutoFitWidth="0" ss:Width="58.5"/>
+   <Column ss:Index="11" ss:StyleID="s16" ss:AutoFitWidth="0" ss:Width="66"/>
+   <Row ss:Index="2">
+    <Cell ss:Index="2" ss:StyleID="s17"/>
+    <Cell ss:MergeAcross="2" ss:StyleID="s42"><Data ss:Type="String">Công ty Viags</Data></Cell>
+    <Cell ss:Index="12" ss:MergeAcross="3" ss:StyleID="s35"><Data ss:Type="String">Hà Nội, ngày 18 tháng 11 năm 2015</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s17"/>
+    <Cell ss:MergeAcross="2" ss:StyleID="s42"><Data ss:Type="String">VIỆT NAM</Data></Cell>
+   </Row>
+   <Row ss:Index="5" ss:Height="20.25">
+    <Cell ss:Index="6" ss:MergeAcross="5" ss:StyleID="s39"><Data ss:Type="String">SỔ ĐĂNG KÝ VĂN BẢN ĐI MẬT</Data></Cell>
+   </Row>
+   <Row ss:Height="20.25">
+    <Cell ss:Index="6" ss:MergeAcross="5" ss:StyleID="s39"><Data ss:Type="String">TẤT CẢ</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="6" ss:MergeAcross="5" ss:StyleID="s41"><Data ss:Type="String">( Từ ngày 12/4/2015 đến ngày 12/11/2015</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="6" ss:MergeAcross="5" ss:StyleID="s42"><Data ss:Type="String">Tổng số văn bản là 7 văn bản</Data></Cell>
+   </Row>
+   <Row ss:Index="10" ss:Height="15.75" ss:StyleID="s18">
+    <Cell ss:Index="2"><Data ss:Type="String">STT</Data></Cell>
+    <Cell ss:MergeAcross="1"><Data ss:Type="String">Số ký hiệu</Data></Cell>
+    <Cell ss:MergeAcross="1"><Data ss:Type="String">Ngày ban hành</Data></Cell>
+    <Cell ss:MergeAcross="1"><Data ss:Type="String">Người ký</Data></Cell>
+    <Cell ss:MergeAcross="4"><Data ss:Type="String">Nơi nhận</Data></Cell>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">Đơn vị soạn thảo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="35.25" ss:StyleID="s18">
+    <Cell ss:Index="2" ss:StyleID="s22"><Data ss:Type="String">thứ tự</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s22"><Data ss:Type="String">số ký hiệu</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s22"><Data ss:Type="String">Ngày ban hành</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s22"><Data ss:Type="String">người ký</Data></Cell>
+    <Cell ss:MergeAcross="4" ss:StyleID="s94"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><B><Font html:Color="#000000">Trong ngành:</Font></B><Font
+       html:Color="#000000"> tng nhành 1&#10;</Font><B><Font html:Color="#000000">Ngoài ngành:</Font></B><Font
+       html:Color="#000000"> ngoài ngành 1</Font></ss:Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s20"><Data ss:Type="String">Đơn vị soạn thảo</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75" ss:StyleID="s19">
+    <Cell ss:Index="2" ss:StyleID="s22"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:Height="15.75" ss:StyleID="s19">
+    <Cell ss:Index="2" ss:StyleID="s22"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:MergeAcross="3" ss:StyleID="s43"><Data ss:Type="String">Hà Nội, ngày….tháng….năm 20….</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:Height="15.75" ss:StyleID="s19">
+    <Cell ss:Index="3" ss:MergeAcross="2" ss:StyleID="s18"><Data ss:Type="String">Người lập</Data></Cell>
+    <Cell ss:Index="12" ss:MergeAcross="3" ss:StyleID="s18"><Data ss:Type="String">Người ký nhận</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75" ss:StyleID="s19">
+    <Cell ss:Index="3" ss:MergeAcross="2" ss:StyleID="s18"><Data ss:Type="String">Nguyễn Văn A</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>13</ActiveRow>
+     <ActiveCol>16</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

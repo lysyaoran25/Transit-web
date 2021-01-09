@@ -1,0 +1,117 @@
+﻿<w:tr wsp:rsidR="009C0717"
+      wsp:rsidTr="00325349">
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="810"
+             w:type="dxa"/>
+      <w:tcBorders>
+        <w:bottom w:val="dash-small-gap"
+                  w:sz="4"
+                  wx:bdrwidth="10"
+                  w:space="0"
+                  w:color="auto"/>
+      </w:tcBorders>
+      <w:shd w:val="clear"
+             w:color="auto"
+             w:fill="auto"/>
+    </w:tcPr>
+    <w:p wsp:rsidR="009C0717"
+         wsp:rsidRDefault="009C0717"
+         wsp:rsidP="00325349">
+      <w:pPr>
+        <w:jc w:val="center"/>
+      </w:pPr>
+      <w:r>
+        <w:t>[STT]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="1620"
+             w:type="dxa"/>
+      <w:tcBorders>
+        <w:bottom w:val="dash-small-gap"
+                  w:sz="4"
+                  wx:bdrwidth="10"
+                  w:space="0"
+                  w:color="auto"/>
+      </w:tcBorders>
+      <w:shd w:val="clear"
+             w:color="auto"
+             w:fill="auto"/>
+    </w:tcPr>
+    <w:p wsp:rsidR="009C0717"
+         wsp:rsidRDefault="009C0717">
+      <w:r>
+        <w:t>[HOSOSO]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="5670"
+             w:type="dxa"/>
+      <w:tcBorders>
+        <w:bottom w:val="dash-small-gap"
+                  w:sz="4"
+                  wx:bdrwidth="10"
+                  w:space="0"
+                  w:color="auto"/>
+      </w:tcBorders>
+      <w:shd w:val="clear"
+             w:color="auto"
+             w:fill="auto"/>
+    </w:tcPr>
+    <w:p wsp:rsidR="009C0717"
+         wsp:rsidRDefault="009C0717">
+      <w:r>
+        <w:t>[TIEUDEHOSO]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="1260"
+             w:type="dxa"/>
+      <w:tcBorders>
+        <w:bottom w:val="dash-small-gap"
+                  w:sz="4"
+                  wx:bdrwidth="10"
+                  w:space="0"
+                  w:color="auto"/>
+      </w:tcBorders>
+      <w:shd w:val="clear"
+             w:color="auto"
+             w:fill="auto"/>
+    </w:tcPr>
+    <w:p wsp:rsidR="009C0717"
+         wsp:rsidRDefault="009C0717">
+      <w:r>
+        <w:t>[SOTO]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="1800"
+             w:type="dxa"/>
+      <w:tcBorders>
+        <w:bottom w:val="dash-small-gap"
+                  w:sz="4"
+                  wx:bdrwidth="10"
+                  w:space="0"
+                  w:color="auto"/>
+      </w:tcBorders>
+      <w:shd w:val="clear"
+             w:color="auto"
+             w:fill="auto"/>
+    </w:tcPr>
+    <w:p wsp:rsidR="009C0717"
+         wsp:rsidRDefault="009C0717">
+      <w:r>
+        <w:t>[THOIHANBAOQUAN]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+</w:tr>

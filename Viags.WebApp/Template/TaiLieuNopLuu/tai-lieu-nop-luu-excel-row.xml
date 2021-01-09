@@ -1,0 +1,22 @@
+﻿<Row>
+  <Cell ss:Index="2"
+        ss:StyleID="s68">
+    <Data ss:Type="String">[ThuTu]</Data>
+  </Cell>
+  <Cell ss:MergeAcross="2"
+        ss:StyleID="s78">
+    <Data ss:Type="String">[HoSoSo]</Data>
+  </Cell>
+  <Cell ss:MergeAcross="2"
+        ss:StyleID="s78">
+    <Data ss:Type="String">[TenHoSo]</Data>
+  </Cell>
+  <Cell ss:MergeAcross="1"
+        ss:StyleID="s64">
+    <Data ss:Type="String">[SoLuong]</Data>
+  </Cell>
+  <Cell ss:MergeAcross="1"
+        ss:StyleID="s70">
+    <Data ss:Type="String">[ThoiHanBaoQuan]</Data>
+  </Cell>
+</Row>

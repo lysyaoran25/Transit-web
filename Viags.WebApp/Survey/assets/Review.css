@@ -1,0 +1,44 @@
+﻿.survey-table-approval-answer {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    border: none !important;
+}
+
+    .survey-table-approval-answer tbody tr:first-child td {
+        border-top: none !important;
+    }
+
+    .survey-table-approval-answer tbody tr td:last-child {
+        border-right: none !important;
+    }
+
+p.survey-table-approval-show-category {
+    padding: 5px 10px !important;
+    text-transform: uppercase !important;
+    font-weight: bold !important;
+    text-align: center !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    width: 100% !important;
+    background: #6dd5ed;
+    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0, #6dd5ed);
+    background: linear-gradient(to right,#6dd5ed, #2193b0, #6dd5ed);
+    color: #fff;
+}
+
+.per-sur {
+    color: #fff;
+}
+
+p.survey-table-approval-show-category tbody tr td {
+    border-top: 0 !important;
+    border-bottom: 0 !important;
+    border-right: 0 !important;
+    border-left: 0 !important;
+}
+
+.approval-comment {
+    width: 100% !important
+}

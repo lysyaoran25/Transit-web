@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblBanDaXuLyVBThanhCong" xml:space="preserve">
+    <value>You have processed the text  successfully</value>
+  </data>
+  <data name="lblBanGocDaNhanRoi" xml:space="preserve">
+    <value>The original has already received</value>
+  </data>
+  <data name="lblCapNhatThanhCongVBDen" xml:space="preserve">
+    <value>Successfully updated incoming document</value>
+  </data>
+  <data name="lblCapNhatTrangThaiVB" xml:space="preserve">
+    <value>Update status document</value>
+  </data>
+  <data name="lblCoLoiTrongQuaTrinhCapNhat" xml:space="preserve">
+    <value>There was an error in the update process</value>
+  </data>
+  <data name="lblCoLoiVuiLongXemLai" xml:space="preserve">
+    <value>An error occurred please review</value>
+  </data>
+  <data name="lblCoLoiXayRa" xml:space="preserve">
+    <value>An error occurred</value>
+  </data>
+  <data name="lblCoLoiXayRaVuiLongXemLai" xml:space="preserve">
+    <value>An error occurred please review</value>
+  </data>
+  <data name="lblCoSoDenLa" xml:space="preserve">
+    <value>have the incoming document number is</value>
+  </data>
+  <data name="lblDaDcGuiNenKoGuiDcNua" xml:space="preserve">
+    <value>Has been sent so it can not be sent anymore</value>
+  </data>
+  <data name="lblDaNhanBanGoc" xml:space="preserve">
+    <value>Received original</value>
+  </data>
+  <data name="lblDaThuHoi" xml:space="preserve">
+    <value>Has revoked the text</value>
+  </data>
+  <data name="lblDaThuhoiVBThanhCong" xml:space="preserve">
+    <value>Text revoked successfully</value>
+  </data>
+  <data name="lblDaTonTai" xml:space="preserve">
+    <value>Already exists</value>
+  </data>
+  <data name="lblDaTonTaiCoMuonLuuKo" xml:space="preserve">
+    <value>Already exists do you want to save</value>
+  </data>
+  <data name="lblDaTraLaiVB" xml:space="preserve">
+    <value>Document has returned</value>
+  </data>
+  <data name="lblDaTraLaiVBThanhCong" xml:space="preserve">
+    <value>Document has returned successfully</value>
+  </data>
+  <data name="lblDaXoaThanhCong" xml:space="preserve">
+    <value>Deleted successfully</value>
+  </data>
+  <data name="lblDonVi" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="lblDuaYKienXuLyVBDen" xml:space="preserve">
+    <value>Processing ideas to incoming documents</value>
+  </data>
+  <data name="lblDuocThemMoi" xml:space="preserve">
+    <value>Added new</value>
+  </data>
+  <data name="lblGuiThanhCongVBD" xml:space="preserve">
+    <value> Sent to incoming document successfully</value>
+  </data>
+  <data name="lblGuiVBThanhCong" xml:space="preserve">
+    <value>Sent to document successfully</value>
+  </data>
+  <data name="lblGuiYKienThanhCong" xml:space="preserve">
+    <value>Submit your comments successfully</value>
+  </data>
+  <data name="lblHanXuLyKoNhoHonNgayDenCuaVB" xml:space="preserve">
+    <value>Processing time should not be less than the arrival date of the document</value>
+  </data>
+  <data name="lblHeThongDangCapNhatVuiLongXemLai" xml:space="preserve">
+    <value>The system is updating, please review</value>
+  </data>
+  <data name="lblKoGuiDcDoChuaCoNgDugDaiDien" xml:space="preserve">
+    <value>Can not send due to no user representation</value>
+  </data>
+  <data name="lblKoTonTaiVBChoVaoSo" xml:space="preserve">
+    <value>Not exists waiting text in the book</value>
+  </data>
+  <data name="lblLoi" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="lblLuuTrinhLanhDaoThanhCong" xml:space="preserve">
+    <value>Save submit manager successfully</value>
+  </data>
+  <data name="lblLuuYKienThanhCong" xml:space="preserve">
+    <value>Save your comments successfully</value>
+  </data>
+  <data name="lblNgayDenKoLonHonNgayHTai" xml:space="preserve">
+    <value>Date received is not greater than the current date</value>
+  </data>
+  <data name="lblNgayNhanPhaiLonHonNgayVB" xml:space="preserve">
+    <value>Date received must be greater than text date</value>
+  </data>
+  <data name="lblNgDungPhongBanDonVi" xml:space="preserve">
+    <value>User, department, unit</value>
+  </data>
+  <data name="lblNguoiDung" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="lblSoKyHieu" xml:space="preserve">
+    <value>Symbol number</value>
+  </data>
+  <data name="lblSoKyHieuCuaVB" xml:space="preserve">
+    <value>Symbol number of the document</value>
+  </data>
+  <data name="lblSoKyHieuVB" xml:space="preserve">
+    <value>Symbol number of the document</value>
+  </data>
+  <data name="lblSoVanBan" xml:space="preserve">
+    <value>Document book</value>
+  </data>
+  <data name="lblThanhCong" xml:space="preserve">
+    <value>successfully</value>
+  </data>
+  <data name="lblThemMoiDTThanhCong" xml:space="preserve">
+    <value>Add new drafts to the the incoming document  successfully</value>
+  </data>
+  <data name="lblThemMoiVBDenThanhCong" xml:space="preserve">
+    <value> Added new incoming document successfully</value>
+  </data>
+  <data name="lblTrinhLanhDaoThanhCong" xml:space="preserve">
+    <value>Submit manager successfully</value>
+  </data>
+  <data name="lblVanBan" xml:space="preserve">
+    <value>Document</value>
+  </data>
+  <data name="lblVaoSoVBDenPB" xml:space="preserve">
+    <value>input incoming document department's book</value>
+  </data>
+  <data name="lblVBDen" xml:space="preserve">
+    <value>Incoming document</value>
+  </data>
+  <data name="lblVBDenKoXoaDcDoDagSuDung" xml:space="preserve">
+    <value>Incoming document can not be deleted because it is in use</value>
+  </data>
+  <data name="lblVBkhongTonTai" xml:space="preserve">
+    <value>Document does not exist</value>
+  </data>
+  <data name="lblVuiLongKTLaiNgayVB" xml:space="preserve">
+    <value>Please check the date of document</value>
+  </data>
+  <data name="lblVuiLongThuLaiSau" xml:space="preserve">
+    <value>Please try again later</value>
+  </data>
+  <data name="lblXayRaLoi" xml:space="preserve">
+    <value>Error occur</value>
+  </data>
+  <data name="lblXoaVBDenChoVaoSo" xml:space="preserve">
+    <value>Delete documents waiting to book</value>
+  </data>
+  <data name="lblXoaVBThanhCong" xml:space="preserve">
+    <value>Delete documents  successfully</value>
+  </data>
+  <data name="lblXoaYKienVBThanhCong" xml:space="preserve">
+    <value>Delete the text comments successfully</value>
+  </data>
+  <data name="lblYeuCauBanGocCuaVBDcGuiDenBan" xml:space="preserve">
+    <value>Request original document sent to you</value>
+  </data>
+  <data name="lblYeuCauBanGocDaDuocGuiToiVanThu" xml:space="preserve">
+    <value>Request original has been sent to the Clerk</value>
+  </data>
+  <data name="lblYeuCauTuChoiGuiVB9ThanhCong" xml:space="preserve">
+    <value>Request refusal to send the main document successfully</value>
+  </data>
+  <data name="lblYeuCauTuHoiGuiVB9DenBan" xml:space="preserve">
+    <value>Request refusal to send the main document to you</value>
+  </data>
+  <data name="lblCongTyTINHVAN" xml:space="preserve">
+    <value>TINHVAN Company</value>
+  </data>
+  <data name="lblNam" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="lblSOVANBANDENBANLANHDAOTINHVAN" xml:space="preserve">
+    <value>RECEIPT DOCUMENTS BOOK FOR MANAGER OF TINHVAN</value>
+  </data>
+  <data name="lblXemChiTietVanBan" xml:space="preserve">
+    <value>Read detail document</value>
+  </data>
+  <data name="lblGuiThanhCongVBDenNguoiDung" xml:space="preserve">
+    <value>Send document successfully to users, departments, units!</value>
+  </data>
+  <data name="lblLoiVanBanKhongTonTai" xml:space="preserve">
+    <value>Error! Document does not exist</value>
+  </data>
+  <data name="lblThemVanBanVaoChuongTrinhCongTacThanhCong" xml:space="preserve">
+    <value>Add document to the successful business program.</value>
+  </data>
+  <data name="lblThemVanBanVaoCongViecThanhCong" xml:space="preserve">
+    <value>Add document to the task successfully.</value>
+  </data>
+  <data name="lblThemVanBanVaoHoSoTaiLieuThanhCong" xml:space="preserve">
+    <value>Add document successfully.</value>
+  </data>
+  <data name="lblChuyenXuLyVanBanThanhCong" xml:space="preserve">
+    <value>Transfer successful document processing!</value>
+  </data>
+  <data name="lblHanXuLyLonHonHayBangNgayDenVB" xml:space="preserve">
+    <value>Processing timelines must be greater than or equal to the arrival date of the document</value>
+  </data>
+  <data name="lblKhongCoNguoiDungDaiDien" xml:space="preserve">
+    <value>no user represented</value>
+  </data>
+</root>

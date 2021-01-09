@@ -1,0 +1,205 @@
+﻿<w:tr wsp:rsidR="006A3113"
+      wsp:rsidRPr="00CE1F10"
+      wsp:rsidTr="007A20D3">
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="900"
+             w:type="dxa"/>
+      <w:tcBorders>
+        <w:top w:val="single"
+               w:sz="12"
+               wx:bdrwidth="30"
+               w:space="0"
+               w:color="auto"/>
+        <w:bottom w:val="dash-small-gap"
+                  w:sz="4"
+                  wx:bdrwidth="10"
+                  w:space="0"
+                  w:color="auto"/>
+        <w:right w:val="single"
+                 w:sz="8"
+                 wx:bdrwidth="20"
+                 w:space="0"
+                 w:color="auto"/>
+      </w:tcBorders>
+    </w:tcPr>
+    <w:p wsp:rsidR="006A3113"
+         wsp:rsidRPr="00CD78CE"
+         wsp:rsidRDefault="006A3113"
+         wsp:rsidP="006A3113">
+      <w:pPr>
+        <w:spacing w:before="120"
+                   w:after="120"/>
+        <w:jc w:val="center"/>
+        <w:rPr>
+          <w:rFonts w:ascii=".VnTime"
+                    w:h-ansi=".VnTime"/>
+          <wx:font wx:val=".VnTime"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r wsp:rsidRPr="00CD78CE">
+        <w:rPr>
+          <w:rFonts w:ascii=".VnTime"
+                    w:h-ansi=".VnTime"/>
+          <wx:font wx:val=".VnTime"/>
+        </w:rPr>
+        <w:t>[STT]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="1620"
+             w:type="dxa"/>
+      <w:tcBorders>
+        <w:top w:val="single"
+               w:sz="12"
+               wx:bdrwidth="30"
+               w:space="0"
+               w:color="auto"/>
+        <w:left w:val="single"
+                w:sz="8"
+                wx:bdrwidth="20"
+                w:space="0"
+                w:color="auto"/>
+        <w:bottom w:val="dash-small-gap"
+                  w:sz="4"
+                  wx:bdrwidth="10"
+                  w:space="0"
+                  w:color="auto"/>
+        <w:right w:val="single"
+                 w:sz="8"
+                 wx:bdrwidth="20"
+                 w:space="0"
+                 w:color="auto"/>
+      </w:tcBorders>
+    </w:tcPr>
+    <w:p wsp:rsidR="006A3113"
+         wsp:rsidRPr="00CD78CE"
+         wsp:rsidRDefault="006A3113"
+         wsp:rsidP="006A3113">
+      <w:pPr>
+        <w:spacing w:before="120"
+                   w:after="120"/>
+        <w:jc w:val="center"/>
+        <w:rPr>
+          <w:rFonts w:ascii=".VnTime"
+                    w:h-ansi=".VnTime"/>
+          <wx:font wx:val=".VnTime"/>
+          <w:b/>
+        </w:rPr>
+      </w:pPr>
+      <w:r wsp:rsidRPr="00CD78CE">
+        <w:rPr>
+          <w:rFonts w:ascii=".VnTime"
+                    w:h-ansi=".VnTime"/>
+          <wx:font wx:val=".VnTime"/>
+        </w:rPr>
+        <w:t>[HOSOSO]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="5040"
+             w:type="dxa"/>
+      <w:tcBorders>
+        <w:top w:val="single"
+               w:sz="12"
+               wx:bdrwidth="30"
+               w:space="0"
+               w:color="auto"/>
+        <w:left w:val="single"
+                w:sz="8"
+                wx:bdrwidth="20"
+                w:space="0"
+                w:color="auto"/>
+        <w:bottom w:val="dash-small-gap"
+                  w:sz="4"
+                  wx:bdrwidth="10"
+                  w:space="0"
+                  w:color="auto"/>
+        <w:right w:val="single"
+                 w:sz="8"
+                 wx:bdrwidth="20"
+                 w:space="0"
+                 w:color="auto"/>
+      </w:tcBorders>
+    </w:tcPr>
+    <w:r wsp:rsidRPr="00CD78CE">
+      <w:rPr>
+        <w:rFonts w:ascii=".VnTime"
+                  w:h-ansi=".VnTime"/>
+        <wx:font wx:val=".VnTime"/>
+      </w:rPr>
+      <w:t>[TIEUDEHOSO]</w:t>
+    </w:r>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="1272"
+             w:type="dxa"/>
+      <w:tcBorders>
+        <w:top w:val="single"
+               w:sz="12"
+               wx:bdrwidth="30"
+               w:space="0"
+               w:color="auto"/>
+        <w:left w:val="single"
+                w:sz="8"
+                wx:bdrwidth="20"
+                w:space="0"
+                w:color="auto"/>
+        <w:bottom w:val="dash-small-gap"
+                  w:sz="4"
+                  wx:bdrwidth="10"
+                  w:space="0"
+                  w:color="auto"/>
+        <w:right w:val="single"
+                 w:sz="8"
+                 wx:bdrwidth="20"
+                 w:space="0"
+                 w:color="auto"/>
+      </w:tcBorders>
+    </w:tcPr>
+    <w:r wsp:rsidRPr="00CD78CE">
+      <w:rPr>
+        <w:rFonts w:ascii=".VnTime"
+                  w:h-ansi=".VnTime"/>
+        <wx:font wx:val=".VnTime"/>
+      </w:rPr>
+      <w:t>[SOTO]</w:t>
+    </w:r>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="1608"
+             w:type="dxa"/>
+      <w:tcBorders>
+        <w:top w:val="single"
+               w:sz="12"
+               wx:bdrwidth="30"
+               w:space="0"
+               w:color="auto"/>
+        <w:left w:val="single"
+                w:sz="8"
+                wx:bdrwidth="20"
+                w:space="0"
+                w:color="auto"/>
+        <w:bottom w:val="dash-small-gap"
+                  w:sz="4"
+                  wx:bdrwidth="10"
+                  w:space="0"
+                  w:color="auto"/>
+      </w:tcBorders>
+    </w:tcPr>
+    <w:r wsp:rsidRPr="00CD78CE">
+      <w:rPr>
+        <w:rFonts w:ascii=".VnTime"
+                  w:h-ansi=".VnTime"/>
+        <wx:font wx:val=".VnTime"/>
+      </w:rPr>
+      <w:t>[THOIHANBAOQUAN]</w:t>
+    </w:r>
+  </w:tc>
+</w:tr>

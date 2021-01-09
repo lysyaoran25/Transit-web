@@ -1,0 +1,151 @@
+﻿<w:tr wsp:rsidR="00283149"
+      wsp:rsidRPr="00400AED"
+      wsp:rsidTr="00243E14">
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="748"
+             w:type="dxa"/>
+    </w:tcPr>
+    <w:p wsp:rsidR="007C252C"
+         wsp:rsidRPr="00400AED"
+         wsp:rsidRDefault="00283149"
+         wsp:rsidP="00283149">
+      <w:pPr>
+        <w:spacing w:before="120"
+                   w:after="120"
+                   w:line="168"
+                   w:line-rule="auto"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:t>[STT]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="1379"
+             w:type="dxa"/>
+    </w:tcPr>
+    <w:p wsp:rsidR="007C252C"
+         wsp:rsidRPr="00400AED"
+         wsp:rsidRDefault="00283149"
+         wsp:rsidP="00283149">
+      <w:pPr>
+        <w:spacing w:before="120"
+                   w:after="120"
+                   w:line="168"
+                   w:line-rule="auto"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:t>[MAHOSO]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="2644"
+             w:type="dxa"/>
+    </w:tcPr>
+    <w:p wsp:rsidR="007C252C"
+         wsp:rsidRPr="00400AED"
+         wsp:rsidRDefault="00283149"
+         wsp:rsidP="00283149">
+      <w:pPr>
+        <w:spacing w:before="120"
+                   w:after="120"
+                   w:line="168"
+                   w:line-rule="auto"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:t>[TIEUDEHOSO]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="1355"
+             w:type="dxa"/>
+    </w:tcPr>
+    <w:p wsp:rsidR="007C252C"
+         wsp:rsidRPr="00400AED"
+         wsp:rsidRDefault="00283149"
+         wsp:rsidP="00283149">
+      <w:pPr>
+        <w:spacing w:before="120"
+                   w:after="120"
+                   w:line="168"
+                   w:line-rule="auto"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:t>[THOIGIANTAILIEU]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="1367"
+             w:type="dxa"/>
+    </w:tcPr>
+    <w:p wsp:rsidR="007C252C"
+         wsp:rsidRPr="00400AED"
+         wsp:rsidRDefault="00283149"
+         wsp:rsidP="00243E14">
+      <w:pPr>
+        <w:spacing w:before="120"
+                   w:after="120"
+                   w:line="168"
+                   w:line-rule="auto"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:t>[THOIHANBAOQUAN]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="871"
+             w:type="dxa"/>
+    </w:tcPr>
+    <w:p wsp:rsidR="007C252C"
+         wsp:rsidRPr="00400AED"
+         wsp:rsidRDefault="00283149"
+         wsp:rsidP="00243E14">
+      <w:pPr>
+        <w:spacing w:before="120"
+                   w:after="120"
+                   w:line="168"
+                   w:line-rule="auto"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:t>[SOTO]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="1191"
+             w:type="dxa"/>
+    </w:tcPr>
+    <w:p wsp:rsidR="007C252C"
+         wsp:rsidRPr="00400AED"
+         wsp:rsidRDefault="00283149"
+         wsp:rsidP="00243E14">
+      <w:pPr>
+        <w:spacing w:before="120"
+                   w:after="120"
+                   w:line="168"
+                   w:line-rule="auto"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:t>[GHICHU]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+</w:tr>

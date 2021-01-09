@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="bcrTrangChu" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="btnDongY" xml:space="preserve">
+    <value>Agreed</value>
+  </data>
+  <data name="btnHienTai" xml:space="preserve">
+    <value>Current</value>
+  </data>
+  <data name="btnLuu" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="btnSau" xml:space="preserve">
+    <value>After</value>
+  </data>
+  <data name="btnThemMoi" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="btnThoat" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="btnTruoc" xml:space="preserve">
+    <value>Before</value>
+  </data>
+  <data name="btnXoa" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="btnXuatWord" xml:space="preserve">
+    <value>Export .doc</value>
+  </data>
+  <data name="lblBanCoChacXoaSuKien" xml:space="preserve">
+    <value>Are you sure you want to delete?</value>
+  </data>
+  <data name="lblBatBuocNhapThongTin" xml:space="preserve">
+    <value>Information Required</value>
+  </data>
+  <data name="lblCacTruongCoDau" xml:space="preserve">
+    <value>Fields marked</value>
+  </data>
+  <data name="lblChiaSe" xml:space="preserve">
+    <value>Sharing</value>
+  </data>
+  <data name="lblChuNhat" xml:space="preserve">
+    <value>Sun</value>
+  </data>
+  <data name="lblChuTri" xml:space="preserve">
+    <value>Owner</value>
+  </data>
+  <data name="lblCoLoiXayRa" xml:space="preserve">
+    <value>Error.!</value>
+  </data>
+  <data name="lblCongTacChuanBi" xml:space="preserve">
+    <value>Preparation</value>
+  </data>
+  <data name="lblDaCoLoiXayRa" xml:space="preserve">
+    <value>Error.!</value>
+  </data>
+  <data name="lblDiaDiem" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="lblDongLai" xml:space="preserve">
+    <value>Closed</value>
+  </data>
+  <data name="lblDongY" xml:space="preserve">
+    <value>Agree</value>
+  </data>
+  <data name="lblHienTai" xml:space="preserve">
+    <value>Current</value>
+  </data>
+  <data name="lblHomNay" xml:space="preserve">
+    <value>Today</value>
+  </data>
+  <data name="lblLichHopCongTacTuan" xml:space="preserve">
+    <value>Meeting schedule and woking weekly</value>
+  </data>
+  <data name="lblLichHopVaCongTacTuan" xml:space="preserve">
+    <value>Meeting schedule and woking weekly</value>
+  </data>
+  <data name="lblLuuY" xml:space="preserve">
+    <value>Notice</value>
+  </data>
+  <data name="lblMatKhau" xml:space="preserve">
+    <value>Pass</value>
+  </data>
+  <data name="lblNgayBatDau" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="lblNgayKetThuc" xml:space="preserve">
+    <value>Finish</value>
+  </data>
+  <data name="lblNguoiDuocChiaSe" xml:space="preserve">
+    <value>Who shared</value>
+  </data>
+  <data name="lblNguoiDuocChiaSeKhongDuocTrong" xml:space="preserve">
+    <value>Who shared is empty. Pls Enter a name</value>
+  </data>
+  <data name="lblNhapCongTacChuanBi" xml:space="preserve">
+    <value>Enter work preparation</value>
+  </data>
+  <data name="lblNhapDiaDiemHop" xml:space="preserve">
+    <value>Enter meeting place</value>
+  </data>
+  <data name="lblNhapLai" xml:space="preserve">
+    <value>Retype</value>
+  </data>
+  <data name="lblNhapNoiDung" xml:space="preserve">
+    <value>Enter content</value>
+  </data>
+  <data name="lblNhapTenNguoiChuTri" xml:space="preserve">
+    <value>Enter Chairman's name</value>
+  </data>
+  <data name="lblNhapThanhPhanThamDu" xml:space="preserve">
+    <value>Enter Participants</value>
+  </data>
+  <data name="lblNhapTuKhoaTimKiem" xml:space="preserve">
+    <value>Enter Search Keyword</value>
+  </data>
+  <data name="lblNoiDung" xml:space="preserve">
+    <value>Content</value>
+  </data>
+  <data name="lblNoiDung1" xml:space="preserve">
+    <value>Content</value>
+  </data>
+  <data name="lblRiengTu" xml:space="preserve">
+    <value>Private</value>
+  </data>
+  <data name="lblSau" xml:space="preserve">
+    <value>After</value>
+  </data>
+  <data name="lblThang" xml:space="preserve">
+    <value>Monthly</value>
+  </data>
+  <data name="lblThanhPhanThamDu" xml:space="preserve">
+    <value> Participants</value>
+  </data>
+  <data name="lblThemLienTiep" xml:space="preserve">
+    <value>Add continue</value>
+  </data>
+  <data name="lblThemMoiLichHopCongTacTuan" xml:space="preserve">
+    <value>Add new</value>
+  </data>
+  <data name="lblThoiGian" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="lblThoiGian1" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="lblThongBao" xml:space="preserve">
+    <value>Notification</value>
+  </data>
+  <data name="lblThuBa" xml:space="preserve">
+    <value>Tue</value>
+  </data>
+  <data name="lblThuBay" xml:space="preserve">
+    <value>Sat</value>
+  </data>
+  <data name="lblThuHai" xml:space="preserve">
+    <value>Mon</value>
+  </data>
+  <data name="lblThuNam" xml:space="preserve">
+    <value>Thu</value>
+  </data>
+  <data name="lblThuSau" xml:space="preserve">
+    <value>Fri</value>
+  </data>
+  <data name="lblThuTu" xml:space="preserve">
+    <value>Wed</value>
+  </data>
+  <data name="lblTieuChiTimKiem" xml:space="preserve">
+    <value>Enter Search Keyword</value>
+  </data>
+  <data name="lblTrangThai" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="lblTruoc" xml:space="preserve">
+    <value>Before</value>
+  </data>
+  <data name="lblTuan" xml:space="preserve">
+    <value>Weekly</value>
+  </data>
+  <data name="lblTuanTu" xml:space="preserve">
+    <value>From week</value>
+  </data>
+  <data name="lblXacNhanMatKhauEmailDeTiepTuc" xml:space="preserve">
+    <value>Confirm password to continous</value>
+  </data>
+  <data name="lblXoaLichHopCongTac" xml:space="preserve">
+    <value>Delete meeting schedule</value>
+  </data>
+  <data name="lblXuatWord" xml:space="preserve">
+    <value>Export .doc</value>
+  </data>
+</root>

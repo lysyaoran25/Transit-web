@@ -1,0 +1,453 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="bcrTrangChu" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="btnDongY" xml:space="preserve">
+    <value>Agree</value>
+  </data>
+  <data name="btnLuu" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="btnThemMoi" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="btnThoat" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="btnXoa" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="lblBanCoMuonGuiEmail" xml:space="preserve">
+    <value>Would you like to send email to participants in the meeting?</value>
+  </data>
+  <data name="lblBanGuiEmailThanhCong" xml:space="preserve">
+    <value>The mail has been sent successfully </value>
+  </data>
+  <data name="lblBatBuocNhapThongTin" xml:space="preserve">
+    <value>Information required</value>
+  </data>
+  <data name="lblCacTruongCoDau" xml:space="preserve">
+    <value>Fields marked</value>
+  </data>
+  <data name="lblChiTietThongTinDatPhong" xml:space="preserve">
+    <value>Detail booking information</value>
+  </data>
+  <data name="lblChoDuyet" xml:space="preserve">
+    <value>Waiting approve</value>
+  </data>
+  <data name="lblChonHinhThucHop" xml:space="preserve">
+    <value>Select meeting form</value>
+  </data>
+  <data name="lblChonNguoiDung" xml:space="preserve">
+    <value>Select user</value>
+  </data>
+  <data name="lblChonPhamViTimKiem" xml:space="preserve">
+    <value>Select search scope</value>
+  </data>
+  <data name="lblChonTrangThai" xml:space="preserve">
+    <value>Select status</value>
+  </data>
+  <data name="lblChuTri" xml:space="preserve">
+    <value>Owner</value>
+  </data>
+  <data name="lblCoLoiTrongQuaTrinhGuiEmail" xml:space="preserve">
+    <value>Error in sending email</value>
+  </data>
+  <data name="lblCoLoiXayRa" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="lblConTrong" xml:space="preserve">
+    <value>Empty</value>
+  </data>
+  <data name="lblDaCoLoiXayRa" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="lblDaDuocDat" xml:space="preserve">
+    <value>Booked</value>
+  </data>
+  <data name="lblDaHuy" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="lblDangTai" xml:space="preserve">
+    <value>Loading</value>
+  </data>
+  <data name="lblDenNgay" xml:space="preserve">
+    <value>To date</value>
+  </data>
+  <data name="lblDiaDiem" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="lblDienTich" xml:space="preserve">
+    <value>Space</value>
+  </data>
+  <data name="lblDoiPhong" xml:space="preserve">
+    <value>Change</value>
+  </data>
+  <data name="lblDongLai" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="lblDonVi" xml:space="preserve">
+    <value>Dept/Branch</value>
+  </data>
+  <data name="lblDonViDangKy" xml:space="preserve">
+    <value>Dept/Branch register</value>
+  </data>
+  <data name="lblDuyet" xml:space="preserve">
+    <value>Approve</value>
+  </data>
+  <data name="lblDuyetDatPhong" xml:space="preserve">
+    <value>Approve</value>
+  </data>
+  <data name="lblEmail" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="lblFilrDinhKem" xml:space="preserve">
+    <value>File attachment</value>
+  </data>
+  <data name="lblGui" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="lblGuiEmailThanhCong" xml:space="preserve">
+    <value>Send email sucessful</value>
+  </data>
+  <data name="lblGuiQuaEmail" xml:space="preserve">
+    <value>Send email</value>
+  </data>
+  <data name="lblGuiQuaSms" xml:space="preserve">
+    <value>Send via SMS</value>
+  </data>
+  <data name="lblGuiVanBanquaEmail" xml:space="preserve">
+    <value>Send document via Email</value>
+  </data>
+  <data name="lblHinhThucHop" xml:space="preserve">
+    <value>Meeting form</value>
+  </data>
+  <data name="lblHopTrucTuyenVoi" xml:space="preserve">
+    <value>Online Meeting with</value>
+  </data>
+  <data name="lblHuyDuyet" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="lblKhongCoKQ" xml:space="preserve">
+    <value>No result</value>
+  </data>
+  <data name="lblKinhPhi" xml:space="preserve">
+    <value>Budget</value>
+  </data>
+  <data name="lblLanhDaoChuTri" xml:space="preserve">
+    <value>Owner</value>
+  </data>
+  <data name="lblLuuY" xml:space="preserve">
+    <value>Notice</value>
+  </data>
+  <data name="lblLyDo" xml:space="preserve">
+    <value>Reason</value>
+  </data>
+  <data name="lblLyDoTuChoi" xml:space="preserve">
+    <value>Reason for refusal</value>
+  </data>
+  <data name="lblNgayBatDau" xml:space="preserve">
+    <value>Start date</value>
+  </data>
+  <data name="lblNgayBatDauKhongDuocLonHonNgayKT" xml:space="preserve">
+    <value>Start date cannot be greater than the end date</value>
+  </data>
+  <data name="lblNgayKetThuc" xml:space="preserve">
+    <value>End date</value>
+  </data>
+  <data name="lblNgayKTPhaiLonHonNgayBatDau" xml:space="preserve">
+    <value>End date must be greater than start date</value>
+  </data>
+  <data name="lblNguoiDangKy" xml:space="preserve">
+    <value>Register </value>
+  </data>
+  <data name="lblNguoiDat" xml:space="preserve">
+    <value>Register </value>
+  </data>
+  <data name="lblNguoiDung" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="lblNguonKinhPhi" xml:space="preserve">
+    <value>Budget</value>
+  </data>
+  <data name="lblNhapEmail" xml:space="preserve">
+    <value>Enter an email</value>
+  </data>
+  <data name="lblNhapLai" xml:space="preserve">
+    <value>Retype</value>
+  </data>
+  <data name="lblNhapLyDoTuChoi" xml:space="preserve">
+    <value>Enter reason for refusal</value>
+  </data>
+  <data name="lblNhapNguoiChuTri" xml:space="preserve">
+    <value>Enter owner</value>
+  </data>
+  <data name="lblNhapNguoiDung" xml:space="preserve">
+    <value>Enter user</value>
+  </data>
+  <data name="lblNhapNguoiDungNhanEmail" xml:space="preserve">
+    <value>Enter receiver's email</value>
+  </data>
+  <data name="lblNhapNguonKinhPhi" xml:space="preserve">
+    <value>Enter budget</value>
+  </data>
+  <data name="lblNhapSoDienThoai" xml:space="preserve">
+    <value>Enter a phonenumber</value>
+  </data>
+  <data name="lblNhapSoNguoiThamGia" xml:space="preserve">
+    <value>Enter attendees</value>
+  </data>
+  <data name="lblNhapThanhPhanThamDu" xml:space="preserve">
+    <value>Enter the attendees list</value>
+  </data>
+  <data name="lblNhapTuKhoaTimKiem" xml:space="preserve">
+    <value>Enter a keysearch</value>
+  </data>
+  <data name="lblNhapYeuCau" xml:space="preserve">
+    <value>Enter a require</value>
+  </data>
+  <data name="lblNoiDung" xml:space="preserve">
+    <value>Content</value>
+  </data>
+  <data name="lblNoiDungCuocHop" xml:space="preserve">
+    <value>Meeting content</value>
+  </data>
+  <data name="lblNoiDungHop" xml:space="preserve">
+    <value>Meeting content</value>
+  </data>
+  <data name="lblNuoc" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPhamVi" xml:space="preserve">
+    <value>Scope</value>
+  </data>
+  <data name="lblQuanLyThongTinDatPhong" xml:space="preserve">
+    <value>Management booking information </value>
+  </data>
+  <data name="lblSoDienThoai" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="lblSoNguoi" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="lblSoNguoiThamGia" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="lblSucChua" xml:space="preserve">
+    <value>Capacity</value>
+  </data>
+  <data name="lblTenDonVi" xml:space="preserve">
+    <value>Dept/Branch name</value>
+  </data>
+  <data name="lblTenNguoiDangKy" xml:space="preserve">
+    <value>Register name</value>
+  </data>
+  <data name="lblTenPhong" xml:space="preserve">
+    <value>Room name</value>
+  </data>
+  <data name="lblTenPhongHop" xml:space="preserve">
+    <value>Room name</value>
+  </data>
+  <data name="lblThanhPhan" xml:space="preserve">
+    <value>Components</value>
+  </data>
+  <data name="lblThemLienTiep" xml:space="preserve">
+    <value>Add continue</value>
+  </data>
+  <data name="lblThoat" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="lblThoiGian" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="lblThongBao" xml:space="preserve">
+    <value>Notification</value>
+  </data>
+  <data name="lblThongTinDatPhong" xml:space="preserve">
+    <value>Booking information</value>
+  </data>
+  <data name="lblThuong" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="lblTimKiem" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="lblTrangChu" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="lblTrangThai" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="lblTrangThietBi" xml:space="preserve">
+    <value>Equipment</value>
+  </data>
+  <data name="lblTrucTuyen" xml:space="preserve">
+    <value>Online</value>
+  </data>
+  <data name="lblTuChoiPheDuyetYeuCauDatPhong" xml:space="preserve">
+    <value>Rejected</value>
+  </data>
+  <data name="lblTuKhoa" xml:space="preserve">
+    <value>Keyword</value>
+  </data>
+  <data name="lblTuNgay" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="lblXoaDanhSachDaChon" xml:space="preserve">
+    <value>Delete list of selected</value>
+  </data>
+  <data name="lblXoaFileDinhKem" xml:space="preserve">
+    <value>Delete file attachment</value>
+  </data>
+  <data name="lblYeuCau" xml:space="preserve">
+    <value>Requires</value>
+  </data>
+  <data name="lblCapNhatThongTinDatPhongThanhCong" xml:space="preserve">
+    <value>Update booking information successfully.</value>
+  </data>
+  <data name="lblCoLoiXayRaVuiLongXemLai" xml:space="preserve">
+    <value>An error occurred please review</value>
+  </data>
+  <data name="lblDaXoaThanhCong" xml:space="preserve">
+    <value>Deleted successfully</value>
+  </data>
+  <data name="lblDuyetDatPhongHopThanhCong" xml:space="preserve">
+    <value>Approve for meeting room reservations successfully</value>
+  </data>
+  <data name="lblGuiYeuCauDatPhongThanhCong" xml:space="preserve">
+    <value>Submit a booking request successfully.</value>
+  </data>
+  <data name="lblThemMoiThongTinDatPhongThanhCong" xml:space="preserve">
+    <value>Add new booking meeting room information successfully</value>
+  </data>
+  <data name="lblThoiGianBatDauKhongDuocLonHonTGKetThuc" xml:space="preserve">
+    <value>Start time is not greater than end time</value>
+  </data>
+  <data name="lblThongTinDatPhongKhongHuyDuocDoSuDung" xml:space="preserve">
+    <value>Reservation information can not be canceled due to current usage</value>
+  </data>
+  <data name="lblThongTinDatPhongKhongTheXoaDuoc" xml:space="preserve">
+    <value>Reservation information can not be deleted due to being processed</value>
+  </data>
+  <data name="lblTuChoiPheDuyetDatPhongThanhCong" xml:space="preserve">
+    <value>Refusal to approve the booking successfully</value>
+  </data>
+</root>

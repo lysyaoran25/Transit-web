@@ -1,0 +1,26 @@
+﻿<Row>
+  <Cell ss:Index="2">
+    <Data ss:Type="Number">[ID]</Data>
+  </Cell>
+  <Cell ss:MergeAcross="2">
+    <Data ss:Type="String">[Module]</Data>
+  </Cell>
+  <Cell ss:MergeAcross="1">
+    <Data ss:Type="String">[ThaoTac]</Data>
+  </Cell>
+  <Cell ss:MergeAcross="2">
+    <Data ss:Type="String">[NoiDung]</Data>
+  </Cell>
+  <Cell ss:MergeAcross="2">
+    <Data ss:Type="String">[NguoiThucHien]</Data>
+  </Cell>
+  <Cell ss:MergeAcross="1">
+    <Data ss:Type="String">[DonVi]</Data>
+  </Cell>
+  <Cell ss:MergeAcross="1">
+    <Data ss:Type="String">[IP]</Data>
+  </Cell>
+  <Cell ss:MergeAcross="1">
+    <Data ss:Type="String">[ThoiGian]</Data>
+  </Cell>
+</Row>

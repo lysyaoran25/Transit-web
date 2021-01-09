@@ -1,0 +1,818 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.Master.cs" Inherits="Viags.WebApp.Site" %>
+
+<%@ Register Src="~/Common/ucMenuDesignNew.ascx" TagPrefix="uc1" TagName="ucMenuDesignNew" %>
+<%@ Register Src="~/Common/ucNav.ascx" TagPrefix="uc3" TagName="ucNav" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=10" />
+    <meta http-equiv="Expires" content="0" />
+    <title>Hệ thống ứng dụng E-Office</title>
+    <link href="/Publishing_Resources/img/sg31/icon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous" />
+    <style>
+        .modal-overflow .modal-body {
+            overflow: hidden !important;
+            overflow-y: auto !important;
+            max-height: auto !important;
+        }
+
+        .modal-content {
+            margin-top: 0 !important;
+        }
+
+        .brown.btn:hover, .brown.btn:active:hover, .brown.btn.active, .brown.btn:active {
+            background: #0076be !important;
+        }
+
+        .tab ul li > a {
+            display: block;
+            padding: 10px 20px 10px 20px;
+        }
+    </style>
+
+</head>
+<body class="sidebar-mini page-sidebar-closed">
+    <link rel="shortcut icon" href="/_catalogs/masterpage/favicon.ico" />
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+    <meta name="description" />
+    <meta name="author" />
+    <!-- styles sử dụng -->
+    <link href="/Publishing_Resources/dist/app.min.css" rel="stylesheet" type="text/css" />
+    <form method="post" id="aspnetForm" runat="server">
+
+        <div id="s4-workspace" style="">
+            <div id="s4-bodyContainer">
+                <!-- BEGIN CONTAINER -->
+                <div class="page-container" style="margin-top: 60px;">
+                    <!-- BEGIN SIDEBAR MENU LEFT-->
+                    <%  
+                        HttpCookie cookie = Request.Cookies["ngonngu"];
+                        if (cookie != null && cookie.Value != null)
+                        {
+                            if (cookie.Value.ToString() == "en-US")
+                            {
+                    %>
+                   <%-- <uc2:ucMenuLeftNewEnglish runat="server" ID="ucMenuLeftNewEnglish" />--%>
+                    <%
+                        }
+                        else
+                        {
+                            if (cookie.Value.ToString() == "vi-VN")
+                            {
+                    %>
+                    <uc1:ucMenuDesignNew runat="server" ID="ucMenuDesignNew1" />
+                    <%                                
+                                }
+                            }
+                        }
+                        else
+                        {
+                    %>
+                    <uc1:ucMenuDesignNew runat="server" ID="ucMenuDesignNew2" />
+                    <%
+                        }
+                    %>
+                    <!-- END SIDEBAR MENU LEFT-->
+                    <script src="/Publishing_Resources/dist/app.min.js" type="text/javascript"></script>
+                    <script src="/Publishing_Resources/scripts/GridView.js" type="text/javascript"></script>
+                    <div class="page-content-wrapper" id="style-1">
+                        <!-- Navbar -->
+                        <uc3:ucNav runat="server" ID="ucNav" />
+                        <!-- End Navbar -->
+                        <div class="page-content" style="min-height: 904px; background: none;">
+                            <%--Tạm ẩn
+                            <div class="row" <%= HttpContext.Current.Request.Url.AbsolutePath.Contains("Pagess/Home.aspx") ? "hidden" :"" %>>
+                                <div class="col-md-12 col-sm-12 ">
+                                    <ol class="breadcrumb2 " id="setbreadcrumb">
+                                    </ol>
+                                </div>
+                            </div>--%>
+                            <div class="<%= HttpContext.Current.Request.Url.AbsolutePath.Contains("Pagess/Home.aspx") ? "" : (HttpContext.Current.Request.Url.AbsolutePath.Contains("Pagess/trang-chu.aspx") ? "" : (HttpContext.Current.Request.Url.AbsolutePath.Contains("Pagess/thong-bao-chi-tiet.aspx") ? "" : (HttpContext.Current.Request.Url.AbsolutePath.Contains("Pagess/ban-tin-danh-muc.aspx") ? "" : (HttpContext.Current.Request.Url.AbsolutePath.Contains("Pagess/tin-tuc-chi-tiet.aspx") ? "" : "panel")))) %> list-panel">
+                                <!-- styles sử dụng -->
+                                <style type="text/css">
+                                    div#suiteBar {
+                                        display: none;
+                                    }
+
+                                    #s4-workspace {
+                                        overflow: inherit;
+                                    }
+
+                                    body {
+                                        overflow: auto;
+                                    }
+
+                                    .page-container {
+                                        margin-top: 40px;
+                                    }
+
+                                    .page-footer {
+                                        height: auto !important;
+                                    }
+
+                                    #s4-bodyContainer {
+                                        padding-bottom: 0px;
+                                    }
+
+                                    .centerdesk {
+                                        margin: 10px -2px 0px;
+                                    }
+
+                                    .centerdesk {
+                                        display: block;
+                                        float: left;
+                                        font-size: 17px;
+                                        color: #fff;
+                                        text-align: left;
+                                        text-transform: uppercase;
+                                        font-weight: bold;
+                                        margin-left: 10px;
+                                    }
+
+                                    .page-header.navbar .top-menu {
+                                        margin: 7px 0px;
+                                        padding: 0;
+                                        float: right;
+                                    }
+
+                                    .page-header.navbar .page-logo {
+                                        width: 254px;
+                                        float: left;
+                                        display: block;
+                                        height: 59px;
+                                        padding-right: 0;
+                                        vertical-align: middle;
+                                        background: #fff;
+                                    }
+
+                                        .page-header.navbar .page-logo .logo-default {
+                                            width: 65%;
+                                            margin-top: 5px;
+                                            float: left;
+                                        }
+
+                                    .page-header.navbar {
+                                        height: 60px;
+                                        min-height: 60px;
+                                        border-bottom: 1px solid #ccc;
+                                        background: #0066a4;
+                                    }
+
+                                    .table th, .table th a, .table tr .text-center {
+                                        text-align: left !important;
+                                        vertical-align: middle !important;
+                                        font-size: 12px !important;
+                                    }
+
+                                    .table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+                                        padding-left: 4px;
+                                        padding-right: 4px;
+                                    }
+
+                                    .page-header.navbar .top-menu .navbar-nav > li.dropdown > .dropdown-toggle > i, .page-header.navbar .top-menu .navbar-nav > li.dropdown-user .dropdown-toggle > .username {
+                                        font-size: 12px;
+                                        color: #fff;
+                                    }
+
+                                    .portlet > .portlet-title > .captionview {
+                                        font-size: 10px !important;
+                                    }
+
+                                    .content-border, .action-bar {
+                                        border: 1px solid transparent;
+                                        border-radius: 4px;
+                                        -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+                                        box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+                                        box-shadow: 0 1px 1px rgba(0,0,0,0.5);
+                                    }
+
+                                    .page-sidebar .page-sidebar-menu > li, #btnHideMenu {
+                                        border-right: 1px solid #ccc !important;
+                                    }
+
+                                    .breadcrumb {
+                                        padding: 5px 10px;
+                                        margin-bottom: 20px;
+                                        list-style: none;
+                                        font-size: 13px;
+                                        background: #ecf0f1;
+                                    }
+
+                                    .table-striped-custom tr th, .bottom-pager {
+                                        border-top: 1px solid;
+                                        background: #fff;
+                                    }
+
+                                    body {
+                                        min-height: 100%;
+                                        background: #e5e5e5 url(/Image/pattern01.png);
+                                        position: relative;
+                                        padding: 0;
+                                        margin: 0 !important;
+                                        max-width: 100%;
+                                        overflow-x: hidden;
+                                    }
+
+                                    .page-content-wrapper .page-content {
+                                        background: none;
+                                        margin-top: 15px !important;
+                                    }
+
+                                    .panel {
+                                        border: 1px solid transparent;
+                                        border-radius: 4px;
+                                        -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.05) !important;
+                                        box-shadow: 0 1px 1px rgba(0,0,0,0.05) !important;
+                                        box-shadow: 0 1px 1px rgba(0,0,0,0.5) !important;
+                                        padding: 5px;
+                                    }
+
+                                    .gridView td a,
+                                    .gridView td a:link,
+                                    .gridView td a:visited {
+                                        font: 12px arial;
+                                        color: green;
+                                    }
+
+                                    .gridView .even td {
+                                        background: #fff;
+                                        font-size: 12px;
+                                    }
+
+                                    .gridView .odd td {
+                                        background: #fff;
+                                        font-size: 12px;
+                                    }
+
+                                    .gridView .hightlight td {
+                                        background: #85c44e !important;
+                                        /*color: #fff;*/
+                                    }
+
+                                        .gridView .hightlight td a {
+                                            /*color: #fff;
+                                    text-decoration: underline;*/
+                                        }
+
+                                    .gridView tr:hover td {
+                                        background-color: #cee7b8;
+                                        /*color: #fff;*/
+                                    }
+
+                                        .gridView tr:hover td a {
+                                            /*color: #fff;
+                                    text-decoration: underline;*/
+                                        }
+
+                                    .table > tbody > tr > td,
+                                    .table > tbody > tr > th,
+                                    .table > tfoot > tr > td,
+                                    .table > tfoot > tr > th,
+                                    .table > thead > tr > td,
+                                    .table > thead > tr > th {
+                                        padding: 4px;
+                                        line-height: 1.4;
+                                    }
+
+                                    .action-bar .box-search {
+                                        float: right;
+                                    }
+
+                                    .page-sidebar .page-sidebar-menu .sub-menu > li.active > a,
+                                    .page-sidebar .page-sidebar-menu .sub-menu > li.open > a {
+                                        font-weight: bold;
+                                        background: #d8d8d8;
+                                    }
+
+                                    .page-sidebar .page-sidebar-menu > li.active.open > a,
+                                    .page-sidebar .page-sidebar-menu > li.active > a {
+                                        background: #0066a4;
+                                    }
+
+                                    .page-sidebar .page-sidebar-menu .sub-menu > li {
+                                        border-top: none;
+                                        border-bottom: none;
+                                    }
+
+                                        .page-sidebar .page-sidebar-menu .sub-menu > li :hover,
+                                        .page-sidebar .page-sidebar-menu .sub-menu > li:hover > a,
+                                        .page-sidebar .page-sidebar-menu .sub-menu > li:hover > a > i {
+                                            background-color: #85c44e;
+                                            color: #fff;
+                                        }
+
+                                    .page-sidebar-menu > li > .sub-menu > li > a {
+                                        font-weight: normal !important;
+                                    }
+
+                                    .page-sidebar .sub-menu li > a > .arrow:before,
+                                    .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .sub-menu li > a > .arrow:before {
+                                        font-size: 10px;
+                                    }
+
+                                    .page-sidebar .page-sidebar-menu .sub-menu > li > a > i {
+                                        margin-right: 7px;
+                                        font-size: 15px;
+                                    }
+
+                                    .label {
+                                        font-size: 10px;
+                                    }
+
+                                    .list-group-custom {
+                                        font-size: 12px;
+                                    }
+
+                                    .caption, .caption a {
+                                        color: #0066a4 !important;
+                                    }
+
+                                    .portlet .action-bar {
+                                        border: none;
+                                        box-shadow: none;
+                                        margin-bottom: -10px;
+                                    }
+
+                                    .portlet > .portlet-title {
+                                        border-bottom: 2px solid #85c44e;
+                                    }
+
+                                        .portlet > .portlet-title > .caption {
+                                            font-size: 17px;
+                                        }
+
+                                    .table > thead:first-child > tr:first-child > th {
+                                        background: #fff;
+                                        color: #000;
+                                        text-shadow: none;
+                                        border: none;
+                                        border-bottom: 1px solid;
+                                    }
+
+                                    .gridView th a, .gridView th a:link, .gridView th a, .gridView th a:link, .gridView th a:visited {
+                                        color: #000;
+                                    }
+                                    /* sontt new block use anovafeed */
+                                    .block-pending {
+                                        background: #9c9898;
+                                        padding-left: 10px;
+                                        padding-right: 10px;
+                                    }
+
+                                    .block-process {
+                                        background: #4c4cff;
+                                        padding-left: 10px;
+                                        padding-right: 10px;
+                                    }
+
+                                    .block-success {
+                                        background: #329932;
+                                        padding-left: 10px;
+                                        padding-right: 10px;
+                                    }
+
+                                    .breadcrumb2 {
+                                        padding: 5px 10px;
+                                        margin-bottom: 20px;
+                                        list-style: none;
+                                        font-size: 13px;
+                                        background: #ecf0f1;
+                                    }
+
+                                        .breadcrumb2 > li {
+                                            display: inline-block;
+                                        }
+
+                                            .breadcrumb2 > li + li:before {
+                                                padding: 0 5px;
+                                                color: #ccc;
+                                                content: "/\00a0";
+                                            }
+
+                                        .breadcrumb2 > .active {
+                                            color: #777;
+                                        }
+
+                                    .list-panel .breadcrumb {
+                                        display: none;
+                                    }
+
+                                    .btn {
+                                        padding: 4px 16px;
+                                        font-size: 11px;
+                                        display: inline-block;
+                                        margin: 2px 7px !important;
+                                        -webkit-border-radius: 2px;
+                                        border-radius: 2px;
+                                        color: #fff;
+                                        font-weight: bold;
+                                        text-transform: uppercase;
+                                        background-position: bottom right;
+                                        background-position: bottom left, top right, 0 0, 0 0;
+                                        background-clip: border-box;
+                                        -webkit-transition: background-position 1s;
+                                        -moz-transition: background-position 1s;
+                                        transition: background-position 1s;
+                                    }
+
+                                    .brown.btn {
+                                        background-image: url(/image/bubbleButton.png), url(/image/bubbleButton.png), linear-gradient(to bottom, #0066a4 0%,#3284b6 100%) !important;
+                                        border: 1px solid #3284b6;
+                                        text-shadow: 0 1px 0 #3284b6;
+                                        box-shadow: inset 0 1px 0 #3284b6, 0 0 0 4px #d5d5d5;
+                                    }
+
+                                    .red.btn, .btnclosesearchBLD.btn {
+                                        background-image: url(/image/bubbleButton.png), url(/image/bubbleButton.png), linear-gradient(to bottom, #cb5a5e 0%,#cb5a5e 100%) !important;
+                                        border: 1px solid #cb5a5e;
+                                        text-shadow: 0 1px 0 #cb5a5e;
+                                        box-shadow: inset 0 1px 0 #cb5a5e, 0 0 0 4px #d5d5d5;
+                                    }
+
+                                    .brown.btn:hover {
+                                        background-image: url(/image/bubbleButton.png), url(/image/bubbleButton.png), linear-gradient(to bottom, #0066a4 0%,#3284b6 100%) !important;
+                                        border: 1px solid #3284b6;
+                                        border: 1px solid #3284b6;
+                                        box-shadow: inset 0 1px 0 #3284b6, 0 0 0 4px #d5d5d5;
+                                        color: #fff !important;
+                                        text-decoration: none !important;
+                                        background-position: top left !important;
+                                        background-position: top left, bottom right, 0 0, 0 0 !important;
+                                    }
+
+                                    .red.btn:hover, .btnclosesearchBLD.btn:hover {
+                                        background-image: url(/image/bubbleButton.png), url(/image/bubbleButton.png), linear-gradient(to bottom, #cb5a5e 0%,#cb5a5e 100%) !important;
+                                        border: 1px solid #cb5a5e;
+                                        border: 1px solid #cb5a5e;
+                                        box-shadow: inset 0 1px 0 #cb5a5e, 0 0 0 4px #d5d5d5;
+                                        color: #fff !important;
+                                        text-decoration: none !important;
+                                        background-position: top left !important;
+                                        background-position: top left, bottom right, 0 0, 0 0 !important;
+                                    }
+
+                                    .btn-fix-height {
+                                        height: auto !important;
+                                        line-height: 15px !important;
+                                    }
+
+                                    .page-header.navbar {
+                                        height: 60px;
+                                        min-height: 60px;
+                                        border-bottom: 1px solid #ccc;
+                                        background: #fff;
+                                    }
+
+                                    .centerdesk {
+                                        display: block;
+                                        float: left;
+                                        font-size: 17px;
+                                        color: #0066a4;
+                                        text-align: left;
+                                        text-transform: uppercase;
+                                        font-weight: bold;
+                                        margin-left: 10px;
+                                    }
+
+                                    .page-header.navbar .top-menu .navbar-nav > li.dropdown > .dropdown-toggle > i, .page-header.navbar .top-menu .navbar-nav > li.dropdown-user .dropdown-toggle > .username {
+                                        font-size: 12px;
+                                        color: #0066a4;
+                                    }
+
+                                    .portlet .action-bar {
+                                        border: none;
+                                        box-shadow: none;
+                                        margin-bottom: 20px;
+                                    }
+
+                                    .soncustumanova {
+                                        margin-bottom: -15px;
+                                        margin-top: 40px;
+                                    }
+
+                                    .qq-upload-button {
+                                        color: #FFF;
+                                        background-color: #c23f44;
+                                        padding: 7px;
+                                        width: auto;
+                                    }
+
+                                    .content-border {
+                                        border: none;
+                                        border-radius: 0px;
+                                        -webkit-box-shadow: none;
+                                        box-shadow: none;
+                                    }
+
+                                    #home_left .col-md-4 .content-border:hover, #home_left .col-md-4 .content-border:hover .post-summary-2 {
+                                        background: #85c44e;
+                                        color: #fff;
+                                    }
+
+                                    .portlet > .portlet-title {
+                                        margin-bottom: 20px;
+                                        margin-top: -5px;
+                                    }
+
+                                    .ms-inputBox, .sp-peoplepicker-autoFillContainer, .sp-peoplepicker-topLevel, .sp-peoplepicker-topLevelDisabled, input[type=file], input[type=password], input[type=text], select, textarea, .form-control, .input-group-btn input {
+                                        border: 1px solid #ccc;
+                                    }
+
+                                        .form-control:focus, .select2-container .select2-choice:focus, .select2-container-active, .select2-container-multi.select2-container-active.select2-choices {
+                                            border-color: #85c44e !important;
+                                            box-shadow: none !important;
+                                        }
+
+                                    .footer-fixed {
+                                        border-top: 1px solid #85c44e;
+                                    }
+
+                                    .control-label {
+                                        font-weight: bold;
+                                    }
+
+                                    .table-bordered > tbody > tr > td {
+                                        border: none;
+                                        border-bottom: 1px solid #ccc;
+                                        font-size: 12px;
+                                    }
+
+                                    .table-bordered {
+                                        border: 1px solid #cee7b8;
+                                    }
+
+                                    .table-striped-custom tr {
+                                        background: #f8f9fb;
+                                        height: 42.4px;
+                                    }
+
+                                    .unread {
+                                        /*height: 13px;*/
+                                    }
+                                    /** Colors **/
+                                    ol.progress-track {
+                                        display: table;
+                                        list-style-type: none;
+                                        margin: 0;
+                                        padding: 2em 1em;
+                                        table-layout: fixed;
+                                        width: 100%;
+                                    }
+
+                                        ol.progress-track li {
+                                            display: table-cell;
+                                            line-height: 0em;
+                                            position: relative;
+                                            text-align: center;
+                                        }
+
+                                            ol.progress-track li .icon-wrap {
+                                                border-radius: 50% !important;
+                                                top: -1.3em;
+                                                color: #fff;
+                                                display: block;
+                                                height: 2em;
+                                                margin: 0 auto -2em;
+                                                left: 0;
+                                                right: 0;
+                                                position: absolute;
+                                                width: 2em;
+                                            }
+
+                                            ol.progress-track li .icon-check-mark,
+                                            ol.progress-track li .icon-down-arrow {
+                                                height: 25px;
+                                                width: 15px;
+                                                display: inline-block;
+                                                fill: currentColor;
+                                            }
+
+                                            ol.progress-track li .progress-number {
+                                                position: relative;
+                                                top: -15px;
+                                                font-size: 14px;
+                                                font-weight: bold;
+                                            }
+
+                                            ol.progress-track li .progress-text {
+                                                position: relative;
+                                                top: -55px;
+                                                font-size: 16px;
+                                                font-weight: bold;
+                                            }
+
+                                            ol.progress-track li.progress-done {
+                                                transition: border-color 1s ease-in-out;
+                                                -webkit-transition: border-color 1s ease-in-out;
+                                                -moz-transition: border-color 1s ease-in-out;
+                                            }
+
+                                                ol.progress-track li.progress-done .icon-down-arrow {
+                                                    display: none;
+                                                }
+
+                                                ol.progress-track li.progress-done.progress-current .icon-wrap {
+                                                    background-color: #0070c0;
+                                                }
+
+                                                    ol.progress-track li.progress-done.progress-current .icon-wrap .icon-check-mark {
+                                                        display: none;
+                                                    }
+
+                                                    ol.progress-track li.progress-done.progress-current .icon-wrap .icon-down-arrow {
+                                                        display: block;
+                                                    }
+
+                                    .progress-done img {
+                                        width: 12%;
+                                        position: relative;
+                                        top: -64px;
+                                    }
+
+                                    .line-green {
+                                        border-top: 9px solid #329932;
+                                    }
+
+                                        .line-green .icon-wrap {
+                                            background-color: #FFF;
+                                            border: 5px solid #329932;
+                                        }
+
+                                    .line-blue {
+                                        border-top: 9px solid #4c4cff;
+                                    }
+
+                                        .line-blue .icon-wrap {
+                                            background-color: #FFF;
+                                            border: 5px solid #4c4cff;
+                                        }
+
+                                    .line-gray {
+                                        border-top: 9px solid #9c9898;
+                                    }
+
+                                        .line-gray .icon-wrap {
+                                            background-color: #FFF;
+                                            border: 5px solid #9c9898;
+                                        }
+
+                                    .line-orange {
+                                        border-top: 9px solid orange;
+                                    }
+
+                                        .line-orange .icon-wrap {
+                                            background-color: #FFF;
+                                            border: 5px solid orange;
+                                        }
+
+                                    .line-red {
+                                        border-top: 9px solid red;
+                                    }
+
+                                        .line-red .icon-wrap {
+                                            background-color: #FFF;
+                                            border: 5px solid red;
+                                        }
+
+                                    .s4-skipribbonshortcut {
+                                        display: none;
+                                    }
+                                </style>
+                                <script type="text/javascript">
+                                    jQuery(document).ready(function () {
+                                        Index.init();
+                                        Layout.init(); // init layout
+                                        setInterval(function () {
+                                            var time = new Date();
+                                            var year = time.getFullYear();
+                                            var month = time.getMonth() + 1;
+                                            if (month < 10) month = "0" + month;
+                                            var day = time.getDate();
+                                            if (day < 10) day = "0" + day;
+                                            var hour = time.getHours();
+                                            if (hour < 10) hour = "0" + hour;
+                                            var minute = time.getMinutes();
+                                            if (minute < 10) minute = "0" + minute;
+                                            var second = time.getSeconds();
+                                            if (second < 10) second = "0" + second;
+                                            $(".current-time")
+                                                .html(hour + ":" + minute + ":" + second + " - " + day + "/" + month + "/" + year);
+                                        },
+                                            1000);
+                                        //Dropdownlist select
+                                        $(".select2").select2();
+                                        $(".select2ReadOnly").select2("readonly", true);
+                                        //$(".js-example-tags").select2({tags:true});
+                                        //Hiện form search
+                                        $(".gridSearch").hide();
+                                        $(".opensearch").click(function () {
+                                            var _rel = $(this).attr('rel');
+                                            $(".gridSearch").slideUp();
+                                            $("#" + _rel).slideDown();
+                                        });
+                                        $(".btnclosesearch").click(function () {
+                                            $(".gridSearch").slideUp();
+                                            $("#gridSearch").slideUp();
+                                        });
+                                        $('#selectAll').click(function (event) { //on click 
+                                            if (this.checked) { // check select status
+                                                $('.selectItem').prop('checked', true);
+                                                $('.selectItem').parent().addClass('checked');
+                                            } else {
+                                                $('.selectItem').prop('checked', false);
+                                                $('.selectItem').parent().removeClass('checked');
+                                            }
+                                        });
+                                        $("#btnThem,#btnAddForm").click(function () {
+                                            myfocus();
+                                        });
+                                    });
+                                    function myfocus() {
+                                        $('.modal').on('shown.bs.modal', function () {
+                                            setTimeout(function () {
+                                                $('.form-horizontal').find("input[type=text]:first").focus();
+                                            }, 100);
+                                        });
+                                    }
+                                </script>
+                                <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                                </asp:ContentPlaceHolder>
+                                <link href="/Publishing_Resources/dist/corgi/corgipembroke.css" rel="stylesheet" />
+                            </div>
+                        </div>
+                        <div class="close-layer" id="close-Layer"></div>
+                    </div>
+                    <!-- END CONTENT-->
+                    <div id="dialog-form" class="modal fade" tabindex="-1" role="basic" aria-hidden="true" data-focus-on="input:first" data-keyboard="false">
+                    </div>
+                    <div id="dialog-pdf" class="modal fade" tabindex="-1" role="basic" aria-hidden="true" data-focus-on="input:first" data-keyboard="false">
+                    </div>
+                    <div id="dialog-message" class="modal fade" tabindex="-1" data-keyboard="false">
+                    </div>
+                    <div id="dialog-ultility" class="modal fade" tabindex="-1" data-backdrop="static" data-keyboard="false" data-focus-on="input:first"></div>
+                    <div id="dialog-confirm" class="modal fade" tabindex="-1" data-backdrop="static" data-keyboard="false"></div>
+                    <div id="dialog-loading" class="modal fade" tabindex="-1" data-keyboard="false"></div>
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <script type="text/javascript">
+        var sessionRefreshTimer;
+        function StartSessionRefresh() {
+
+            if (sessionRefreshTimer == null) {
+                sessionRefreshTimer = setInterval("SessionRefresh()", 1000 * 10);
+            }
+        }
+        function SessionRefresh() {
+            $.ajax({
+                type: "POST",
+                url: "/DefaultPageSession.aspx/RefreshSession",
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (data) {
+                    console.log("OK");
+                },
+                error: function (data) {
+                    window.location.href = "/LoginNew.aspx";
+                    //window.location.replace("/LoginNew.aspx");
+                    //$.ajax({
+                    //    type: "POST",
+                    //    url: "/api/notification.asmx/AddLogLogoutSession",
+                    //    contentType: "application/json; charset=utf-8",
+                    //    dataType: "json",
+                    //    success: function (msg) {
+                    //        debugger
+                    //        window.location.href = "/LoginNew.aspx";
+                    //    }
+                    //});
+                }
+            });
+        }
+        $(document).ready(function () {
+            StartSessionRefresh();
+            var xxx = $(".breadcrumb").html();
+            $("#setbreadcrumb").html(xxx);
+            //setInterval(function () {
+            //    $.ajax({
+            //        type: "POST",
+            //        url: "/HoSoTaiLieu/AjaxForm.aspx/CheckSession",
+            //        contentType: "application/json; charset=utf-8",
+            //        dataType: "json",
+            //        success: function (data) {
+            //            console.log(data.d);
+            //            if (data.d == false) {
+            //                window.location.replace("/LoginNew.aspx");
+            //            }
+            //        }
+            //    });
+            //}, 10000);
+        });
+
+    </script>
+</body>
+</html>

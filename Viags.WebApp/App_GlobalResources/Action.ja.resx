@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblAn" xml:space="preserve">
+    <value>隠します</value>
+  </data>
+  <data name="lblCapNhat" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="lblCapNhatFileVanBanThanhCong" xml:space="preserve">
+    <value>成功したテキストファイルを更新</value>
+  </data>
+  <data name="lblCapNhatThanhCongVB" xml:space="preserve">
+    <value>の成功旅行書類を更新</value>
+  </data>
+  <data name="lblCapNhatVaGuiThanhCongVB" xml:space="preserve">
+    <value>正常に更新され、送信されたテキストは、一部を行きます</value>
+  </data>
+  <data name="lblCapSo" xml:space="preserve">
+    <value>進行</value>
+  </data>
+  <data name="lblCauHinh" xml:space="preserve">
+    <value>コンフィギュレーション</value>
+  </data>
+  <data name="lblChiaSeVBDiCoSoKyHieu" xml:space="preserve">
+    <value>シンボルとドキュメントの共有は行きます</value>
+  </data>
+  <data name="lblChoDuyet" xml:space="preserve">
+    <value>ペンディング</value>
+  </data>
+  <data name="lblChonFileDinhKem" xml:space="preserve">
+    <value>添付ファイルを選択します</value>
+  </data>
+  <data name="lblChoPhatHanh" xml:space="preserve">
+    <value>循環します</value>
+  </data>
+  <data name="lblChuaDat" xml:space="preserve">
+    <value>達していません</value>
+  </data>
+  <data name="lblChuaDay" xml:space="preserve">
+    <value>以下</value>
+  </data>
+  <data name="lblChuaDuyet" xml:space="preserve">
+    <value>承認されていません</value>
+  </data>
+  <data name="lblChuaThucHien" xml:space="preserve">
+    <value>満たされていません</value>
+  </data>
+  <data name="lblChuaXuLy" xml:space="preserve">
+    <value>未処理の</value>
+  </data>
+  <data name="lblCo" xml:space="preserve">
+    <value>持っています</value>
+  </data>
+  <data name="lblDaBanGiao" xml:space="preserve">
+    <value>手渡しました</value>
+  </data>
+  <data name="lblDaDuyet" xml:space="preserve">
+    <value>既に承認</value>
+  </data>
+  <data name="lblDaHoanThanh" xml:space="preserve">
+    <value>完成しました</value>
+  </data>
+  <data name="lblDaHuy" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="lblDangBanGiao" xml:space="preserve">
+    <value>ハンドオーバーされます</value>
+  </data>
+  <data name="lblDangNhap" xml:space="preserve">
+    <value>ログイン</value>
+  </data>
+  <data name="lblDangThucHien" xml:space="preserve">
+    <value>継続</value>
+  </data>
+  <data name="lblDangTrinhKy" xml:space="preserve">
+    <value>サインです</value>
+  </data>
+  <data name="lblDangXuLy" xml:space="preserve">
+    <value>処理</value>
+  </data>
+  <data name="lblDat" xml:space="preserve">
+    <value>ダット</value>
+  </data>
+  <data name="lblDaThucHien" xml:space="preserve">
+    <value>作られています</value>
+  </data>
+  <data name="lblDaTonTai" xml:space="preserve">
+    <value>すでに存在しています。</value>
+  </data>
+  <data name="lblDaTrungSo" xml:space="preserve">
+    <value>同一の番号を持っています。</value>
+  </data>
+  <data name="lblDaXoaThanhCongVBDi" xml:space="preserve">
+    <value>正常にテキストが行く削除。</value>
+  </data>
+  <data name="lblDaXuLy" xml:space="preserve">
+    <value>処理されました</value>
+  </data>
+  <data name="lblDay" xml:space="preserve">
+    <value>フル</value>
+  </data>
+  <data name="lblDoi" xml:space="preserve">
+    <value>変更</value>
+  </data>
+  <data name="lblDoiMatKhau" xml:space="preserve">
+    <value>パスワードを変更</value>
+  </data>
+  <data name="lblDuyet" xml:space="preserve">
+    <value>ブラウズ</value>
+  </data>
+  <data name="lblDuyetTheThuc" xml:space="preserve">
+    <value>ブラウズモダリティ</value>
+  </data>
+  <data name="lblDuyetTieuHuy" xml:space="preserve">
+    <value>ブラウズ破壊</value>
+  </data>
+  <data name="lblHien" xml:space="preserve">
+    <value>ショー</value>
+  </data>
+  <data name="lblHienThi" xml:space="preserve">
+    <value>ショー</value>
+  </data>
+  <data name="lblHuyChiaSeThanhCongVBDi" xml:space="preserve">
+    <value>成功非共有旅行書類。</value>
+  </data>
+  <data name="lblHuyDuyet" xml:space="preserve">
+    <value>ブラウザをキャンセル</value>
+  </data>
+  <data name="lblKem" xml:space="preserve">
+    <value>最低</value>
+  </data>
+  <data name="lblKeoVaThaFileVaoDeTaiLen" xml:space="preserve">
+    <value>アップロードするファイルをドラッグ＆ドロップ</value>
+  </data>
+  <data name="lblKetThuc" xml:space="preserve">
+    <value>結論を下します</value>
+  </data>
+  <data name="lblKha" xml:space="preserve">
+    <value>むしろ</value>
+  </data>
+  <data name="lblKhong" xml:space="preserve">
+    <value>しません</value>
+  </data>
+  <data name="lblKhongDat" xml:space="preserve">
+    <value>失敗します</value>
+  </data>
+  <data name="lblKhongDuocDuyet" xml:space="preserve">
+    <value>承認されません</value>
+  </data>
+  <data name="lblKhongDuyet" xml:space="preserve">
+    <value>何のブラウザません</value>
+  </data>
+  <data name="lblKhongTheDuyet" xml:space="preserve">
+    <value>閲覧することができません。</value>
+  </data>
+  <data name="lblKhongTheDuyetTieuHuy" xml:space="preserve">
+    <value>破壊を閲覧することができません。</value>
+  </data>
+  <data name="lblKhongTiepNhan" xml:space="preserve">
+    <value>フロントはありません</value>
+  </data>
+  <data name="lblLanhDaoDaDuyet" xml:space="preserve">
+    <value>承認されたリーダー</value>
+  </data>
+  <data name="lblPhanQuyenCho" xml:space="preserve">
+    <value>分権的</value>
+  </data>
+  <data name="lblPhanVaiTroCho" xml:space="preserve">
+    <value>以下のための役割</value>
+  </data>
+  <data name="lblPhatHanh" xml:space="preserve">
+    <value>リリース</value>
+  </data>
+  <data name="lblQuy" xml:space="preserve">
+    <value>あなた</value>
+  </data>
+  <data name="lblSua" xml:space="preserve">
+    <value>修理</value>
+  </data>
+  <data name="lblTaoMoi" xml:space="preserve">
+    <value>新しい作成</value>
+  </data>
+  <data name="lblThang" xml:space="preserve">
+    <value>月</value>
+  </data>
+  <data name="lblThanhCong" xml:space="preserve">
+    <value>成功します</value>
+  </data>
+  <data name="lblThemMoi" xml:space="preserve">
+    <value>引っ越し先</value>
+  </data>
+  <data name="lblThemMoiThanhCongVB" xml:space="preserve">
+    <value>成功の新たな旅行書類を追加します。</value>
+  </data>
+  <data name="lblThemMoiVaGuiThanhCongVB" xml:space="preserve">
+    <value>新しいテキストを追加し、いくつかの成功を去ら</value>
+  </data>
+  <data name="lblTot" xml:space="preserve">
+    <value>良いです</value>
+  </data>
+  <data name="lblTraLaiChuongTrinhCT" xml:space="preserve">
+    <value>作業プログラムを返します</value>
+  </data>
+  <data name="lblTrinhDuyetTheThuc" xml:space="preserve">
+    <value>モダリティブラウザ</value>
+  </data>
+  <data name="lblTrinhKy" xml:space="preserve">
+    <value>署名者</value>
+  </data>
+  <data name="lblTrungBinh" xml:space="preserve">
+    <value>メディア</value>
+  </data>
+  <data name="lblTuChoi" xml:space="preserve">
+    <value>断ります</value>
+  </data>
+  <data name="lblTuChoiVaoSo" xml:space="preserve">
+    <value>登録の拒否</value>
+  </data>
+  <data name="lblVanBanDi" xml:space="preserve">
+    <value>旅券</value>
+  </data>
+  <data name="lblVanBanDiKhongXoaDuoc" xml:space="preserve">
+    <value>テキストは、使用中の消えない行きます！</value>
+  </data>
+  <data name="lblVanBanDiSoKyHieu" xml:space="preserve">
+    <value>テキストは、一部の記号を行きます</value>
+  </data>
+  <data name="lblVanBanDiThuTu" xml:space="preserve">
+    <value>注文の旅行書類</value>
+  </data>
+  <data name="lblVanBanSoKyHieu" xml:space="preserve">
+    <value>テキストシンボル</value>
+  </data>
+  <data name="lblVaoSo" xml:space="preserve">
+    <value>登録</value>
+  </data>
+  <data name="lblVuiLongKTNgayVanBan" xml:space="preserve">
+    <value>書き込みの日付を確認してください。より大きなテキスト日付を処理する用語</value>
+  </data>
+  <data name="lblXem" xml:space="preserve">
+    <value>見ます</value>
+  </data>
+  <data name="lblXoa" xml:space="preserve">
+    <value>消します</value>
+  </data>
+  <data name="lblXuatSac" xml:space="preserve">
+    <value>エクセレンス</value>
+  </data>
+  <data name="lblYeu" xml:space="preserve">
+    <value>弱いです</value>
+  </data>
+  <data name="lblYKien" xml:space="preserve">
+    <value>意見</value>
+  </data>
+</root>

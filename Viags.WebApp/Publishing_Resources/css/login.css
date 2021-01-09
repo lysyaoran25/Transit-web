@@ -1,0 +1,20 @@
+﻿body { background: url(/Publishing_Resources/img/SG31/bg-header.png) #DFD9D9 !important; }
+.divform { background: #eceef1; /* border: 2px solid #996932; */ padding: 10px 30px; width: 400px; min-height: 272px; margin: 40px auto 10px auto; box-shadow: 0px 2px 2px 2px rgba(25, 31, 19, 0.18); }
+
+.footer { position: fixed; bottom: 0; left: 0; }
+
+/*body {
+    background: url(/Publishing_Resources/img/SG31/bg-header.png) #DFD9D9;
+}*/
+
+.page-content { background: transparent !important; }
+
+.form-control.form-control-solid { border: none; background-color: #FAF8F5; height: 43px; color: #9A6F40; border: 1px solid #dde3ec; font-size: 16px; }
+
+.form-group { margin-bottom: 14px; }
+
+.btn-login { font-weight: 600; margin-right: 20px; padding: 10px 20px !important; }
+
+.form-title { color: #97581A; font-size: 26px; }
+
+.forget-password { font-size: 14px; float: right; display: inline-block; margin-top: 10px; }

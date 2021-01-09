@@ -1,0 +1,11 @@
+﻿<Row ss:Height="15.75">
+  <Cell ss:Index="2" ss:MergeAcross="1" ss:StyleID="s90">
+    <Data ss:Type="Number">[STT]</Data>
+  </Cell>
+  <Cell ss:MergeAcross="5" ss:StyleID="s65">
+    <Data ss:Type="String">[LoaiVanBan]</Data>
+  </Cell>
+  <Cell ss:MergeAcross="3" ss:StyleID="s65">
+    <Data ss:Type="Number">[SoLuong]</Data>
+  </Cell>
+</Row>

@@ -1,0 +1,116 @@
+﻿<w:tr w:rsidR="00264018" w:rsidTr="00264018">
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="1165" w:type="dxa"/>
+    </w:tcPr>
+    <w:p w:rsidR="00264018" w:rsidRDefault="00264018" w:rsidP="00264018">
+      <w:pPr>
+        <w:jc w:val="center"/>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/>
+        </w:rPr>
+        <w:t>[ThuTu]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="2070" w:type="dxa"/>
+    </w:tcPr>
+    <w:p w:rsidR="00264018" w:rsidRDefault="00264018" w:rsidP="00264018">
+      <w:pPr>
+        <w:jc w:val="center"/>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/>
+        </w:rPr>
+        <w:t>[SKH]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="2430" w:type="dxa"/>
+    </w:tcPr>
+    <w:p w:rsidR="00264018" w:rsidRDefault="00264018" w:rsidP="00264018">
+      <w:pPr>
+        <w:jc w:val="center"/>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/>
+        </w:rPr>
+        <w:t>[NgayBH]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="3510" w:type="dxa"/>
+    </w:tcPr>
+    <w:p w:rsidR="00264018" w:rsidRDefault="00264018" w:rsidP="00264018">
+      <w:pPr>
+        <w:jc w:val="center"/>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/>
+        </w:rPr>
+        <w:t>[TrichYeu]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="2250" w:type="dxa"/>
+    </w:tcPr>
+    <w:p w:rsidR="00264018" w:rsidRDefault="00264018" w:rsidP="00264018">
+      <w:pPr>
+        <w:jc w:val="center"/>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/>
+        </w:rPr>
+        <w:t>[NguoiKy]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="2070" w:type="dxa"/>
+    </w:tcPr>
+    <w:p w:rsidR="00264018" w:rsidRDefault="00264018" w:rsidP="00264018">
+      <w:pPr>
+        <w:jc w:val="center"/>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/>
+        </w:rPr>
+        <w:t>[DonViSoanThao]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+</w:tr>

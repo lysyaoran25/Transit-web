@@ -1,0 +1,449 @@
+﻿<w:tr wsp:rsidR="00F40253"
+      wsp:rsidTr="00B24CD3">
+  <w:tblPrEx>
+    <w:tblCellMar>
+      <w:top w:w="0"
+             w:type="dxa"/>
+      <w:left w:w="0"
+              w:type="dxa"/>
+      <w:bottom w:w="0"
+                w:type="dxa"/>
+      <w:right w:w="0"
+               w:type="dxa"/>
+    </w:tblCellMar>
+  </w:tblPrEx>
+  <w:trPr>
+    <w:trHeight w:val="360"/>
+  </w:trPr>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="1357"
+             w:type="dxa"/>
+      <w:tcBorders>
+        <w:top w:val="single"
+               w:sz="8"
+               wx:bdrwidth="20"
+               w:space="0"
+               w:color="000000"/>
+        <w:left w:val="single"
+                w:sz="8"
+                wx:bdrwidth="20"
+                w:space="0"
+                w:color="000000"/>
+        <w:bottom w:val="single"
+                  w:sz="8"
+                  wx:bdrwidth="20"
+                  w:space="0"
+                  w:color="000000"/>
+        <w:right w:val="single"
+                 w:sz="8"
+                 wx:bdrwidth="20"
+                 w:space="0"
+                 w:color="000000"/>
+      </w:tcBorders>
+      <w:tcMar>
+        <w:top w:w="40"
+               w:type="dxa"/>
+        <w:left w:w="40"
+                w:type="dxa"/>
+        <w:bottom w:w="40"
+                  w:type="dxa"/>
+        <w:right w:w="40"
+                 w:type="dxa"/>
+      </w:tcMar>
+    </w:tcPr>
+    <w:p wsp:rsidR="00000000"
+         wsp:rsidRDefault="00F40253">
+      <w:pPr>
+        <w:jc w:val="center"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:color w:val="000000"/>
+          <w:sz w:val="28"/>
+        </w:rPr>
+        <w:t>[NgayDen]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="909"
+             w:type="dxa"/>
+      <w:tcBorders>
+        <w:top w:val="single"
+               w:sz="8"
+               wx:bdrwidth="20"
+               w:space="0"
+               w:color="000000"/>
+        <w:left w:val="single"
+                w:sz="8"
+                wx:bdrwidth="20"
+                w:space="0"
+                w:color="000000"/>
+        <w:bottom w:val="single"
+                  w:sz="8"
+                  wx:bdrwidth="20"
+                  w:space="0"
+                  w:color="000000"/>
+        <w:right w:val="single"
+                 w:sz="8"
+                 wx:bdrwidth="20"
+                 w:space="0"
+                 w:color="000000"/>
+      </w:tcBorders>
+      <w:tcMar>
+        <w:top w:w="40"
+               w:type="dxa"/>
+        <w:left w:w="40"
+                w:type="dxa"/>
+        <w:bottom w:w="40"
+                  w:type="dxa"/>
+        <w:right w:w="40"
+                 w:type="dxa"/>
+      </w:tcMar>
+    </w:tcPr>
+    <w:p wsp:rsidR="00000000"
+         wsp:rsidRDefault="00F40253">
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="36"/>
+        </w:rPr>
+        <w:t>[SoDen]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="2506"
+             w:type="dxa"/>
+      <w:tcBorders>
+        <w:top w:val="single"
+               w:sz="8"
+               wx:bdrwidth="20"
+               w:space="0"
+               w:color="000000"/>
+        <w:left w:val="single"
+                w:sz="8"
+                wx:bdrwidth="20"
+                w:space="0"
+                w:color="000000"/>
+        <w:bottom w:val="single"
+                  w:sz="8"
+                  wx:bdrwidth="20"
+                  w:space="0"
+                  w:color="000000"/>
+        <w:right w:val="single"
+                 w:sz="8"
+                 wx:bdrwidth="20"
+                 w:space="0"
+                 w:color="000000"/>
+      </w:tcBorders>
+      <w:tcMar>
+        <w:top w:w="40"
+               w:type="dxa"/>
+        <w:left w:w="40"
+                w:type="dxa"/>
+        <w:bottom w:w="40"
+                  w:type="dxa"/>
+        <w:right w:w="40"
+                 w:type="dxa"/>
+      </w:tcMar>
+    </w:tcPr>
+    <w:p wsp:rsidR="00000000"
+         wsp:rsidRDefault="00F40253">
+      <w:r>
+        <w:rPr>
+          <w:color w:val="000000"/>
+          <w:sz w:val="28"/>
+        </w:rPr>
+        <w:t> [NoiGui]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="1605"
+             w:type="dxa"/>
+      <w:tcBorders>
+        <w:top w:val="single"
+               w:sz="8"
+               wx:bdrwidth="20"
+               w:space="0"
+               w:color="000000"/>
+        <w:left w:val="single"
+                w:sz="8"
+                wx:bdrwidth="20"
+                w:space="0"
+                w:color="000000"/>
+        <w:bottom w:val="single"
+                  w:sz="8"
+                  wx:bdrwidth="20"
+                  w:space="0"
+                  w:color="000000"/>
+        <w:right w:val="single"
+                 w:sz="8"
+                 wx:bdrwidth="20"
+                 w:space="0"
+                 w:color="000000"/>
+      </w:tcBorders>
+      <w:tcMar>
+        <w:top w:w="40"
+               w:type="dxa"/>
+        <w:left w:w="40"
+                w:type="dxa"/>
+        <w:bottom w:w="40"
+                  w:type="dxa"/>
+        <w:right w:w="40"
+                 w:type="dxa"/>
+      </w:tcMar>
+    </w:tcPr>
+    <w:p wsp:rsidR="00000000"
+         wsp:rsidRDefault="00F40253">
+      <w:r>
+        <w:rPr>
+          <w:color w:val="000000"/>
+          <w:sz w:val="28"/>
+        </w:rPr>
+        <w:t>[SoKyHieu]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="1356"
+             w:type="dxa"/>
+      <w:tcBorders>
+        <w:top w:val="single"
+               w:sz="8"
+               wx:bdrwidth="20"
+               w:space="0"
+               w:color="000000"/>
+        <w:left w:val="single"
+                w:sz="8"
+                wx:bdrwidth="20"
+                w:space="0"
+                w:color="000000"/>
+        <w:bottom w:val="single"
+                  w:sz="8"
+                  wx:bdrwidth="20"
+                  w:space="0"
+                  w:color="000000"/>
+        <w:right w:val="single"
+                 w:sz="8"
+                 wx:bdrwidth="20"
+                 w:space="0"
+                 w:color="000000"/>
+      </w:tcBorders>
+      <w:tcMar>
+        <w:top w:w="40"
+               w:type="dxa"/>
+        <w:left w:w="40"
+                w:type="dxa"/>
+        <w:bottom w:w="40"
+                  w:type="dxa"/>
+        <w:right w:w="40"
+                 w:type="dxa"/>
+      </w:tcMar>
+    </w:tcPr>
+    <w:p wsp:rsidR="00000000"
+         wsp:rsidRDefault="00F40253">
+      <w:pPr>
+        <w:jc w:val="center"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:color w:val="000000"/>
+          <w:sz w:val="28"/>
+        </w:rPr>
+        <w:t>[NgayBanHanh]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="3694"
+             w:type="dxa"/>
+      <w:tcBorders>
+        <w:top w:val="single"
+               w:sz="8"
+               wx:bdrwidth="20"
+               w:space="0"
+               w:color="000000"/>
+        <w:left w:val="single"
+                w:sz="8"
+                wx:bdrwidth="20"
+                w:space="0"
+                w:color="000000"/>
+        <w:bottom w:val="single"
+                  w:sz="8"
+                  wx:bdrwidth="20"
+                  w:space="0"
+                  w:color="000000"/>
+        <w:right w:val="single"
+                 w:sz="8"
+                 wx:bdrwidth="20"
+                 w:space="0"
+                 w:color="000000"/>
+      </w:tcBorders>
+      <w:tcMar>
+        <w:top w:w="40"
+               w:type="dxa"/>
+        <w:left w:w="40"
+                w:type="dxa"/>
+        <w:bottom w:w="40"
+                  w:type="dxa"/>
+        <w:right w:w="40"
+                 w:type="dxa"/>
+      </w:tcMar>
+    </w:tcPr>
+    <w:p wsp:rsidR="00000000"
+         wsp:rsidRDefault="00F40253">
+      <w:r>
+        <w:rPr>
+          <w:color w:val="000000"/>
+          <w:sz w:val="28"/>
+        </w:rPr>
+        <w:t>[TrichYeu]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="3694"
+             w:type="dxa"/>
+      <w:tcBorders>
+        <w:top w:val="single"
+               w:sz="8"
+               wx:bdrwidth="20"
+               w:space="0"
+               w:color="000000"/>
+        <w:left w:val="single"
+                w:sz="8"
+                wx:bdrwidth="20"
+                w:space="0"
+                w:color="000000"/>
+        <w:bottom w:val="single"
+                  w:sz="8"
+                  wx:bdrwidth="20"
+                  w:space="0"
+                  w:color="000000"/>
+        <w:right w:val="single"
+                 w:sz="8"
+                 wx:bdrwidth="20"
+                 w:space="0"
+                 w:color="000000"/>
+      </w:tcBorders>
+      <w:tcMar>
+        <w:top w:w="40"
+               w:type="dxa"/>
+        <w:left w:w="40"
+                w:type="dxa"/>
+        <w:bottom w:w="40"
+                  w:type="dxa"/>
+        <w:right w:w="40"
+                 w:type="dxa"/>
+      </w:tcMar>
+    </w:tcPr>
+    <w:p wsp:rsidR="00000000"
+         wsp:rsidRDefault="00F40253">
+      <w:r>
+        <w:rPr>
+          <w:color w:val="000000"/>
+          <w:sz w:val="28"/>
+        </w:rPr>
+        <w:t>[LanhDaoXL]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="3694"
+             w:type="dxa"/>
+      <w:tcBorders>
+        <w:top w:val="single"
+               w:sz="8"
+               wx:bdrwidth="20"
+               w:space="0"
+               w:color="000000"/>
+        <w:left w:val="single"
+                w:sz="8"
+                wx:bdrwidth="20"
+                w:space="0"
+                w:color="000000"/>
+        <w:bottom w:val="single"
+                  w:sz="8"
+                  wx:bdrwidth="20"
+                  w:space="0"
+                  w:color="000000"/>
+        <w:right w:val="single"
+                 w:sz="8"
+                 wx:bdrwidth="20"
+                 w:space="0"
+                 w:color="000000"/>
+      </w:tcBorders>
+      <w:tcMar>
+        <w:top w:w="40"
+               w:type="dxa"/>
+        <w:left w:w="40"
+                w:type="dxa"/>
+        <w:bottom w:w="40"
+                  w:type="dxa"/>
+        <w:right w:w="40"
+                 w:type="dxa"/>
+      </w:tcMar>
+    </w:tcPr>
+    <w:p wsp:rsidR="00000000"
+         wsp:rsidRDefault="00F40253">
+      <w:r>
+        <w:rPr>
+          <w:color w:val="000000"/>
+          <w:sz w:val="28"/>
+        </w:rPr>
+        <w:t>[DonViNhan]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="1382"
+             w:type="dxa"/>
+      <w:tcBorders>
+        <w:top w:val="single"
+               w:sz="8"
+               wx:bdrwidth="20"
+               w:space="0"
+               w:color="000000"/>
+        <w:left w:val="single"
+                w:sz="8"
+                wx:bdrwidth="20"
+                w:space="0"
+                w:color="000000"/>
+        <w:bottom w:val="single"
+                  w:sz="8"
+                  wx:bdrwidth="20"
+                  w:space="0"
+                  w:color="000000"/>
+        <w:right w:val="single"
+                 w:sz="8"
+                 wx:bdrwidth="20"
+                 w:space="0"
+                 w:color="000000"/>
+      </w:tcBorders>
+      <w:tcMar>
+        <w:top w:w="40"
+               w:type="dxa"/>
+        <w:left w:w="40"
+                w:type="dxa"/>
+        <w:bottom w:w="40"
+                  w:type="dxa"/>
+        <w:right w:w="40"
+                 w:type="dxa"/>
+      </w:tcMar>
+    </w:tcPr>
+    <w:p wsp:rsidR="00000000"
+         wsp:rsidRDefault="00597B56"/>
+  </w:tc>
+</w:tr>

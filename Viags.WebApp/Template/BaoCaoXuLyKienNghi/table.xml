@@ -1,0 +1,391 @@
+﻿<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <Created>2006-09-16T00:00:00Z</Created>
+    <LastSaved>2015-10-22T05:05:17Z</LastSaved>
+    <Version>15.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG/>
+    <RemovePersonalInformation/>
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>8010</WindowHeight>
+    <WindowWidth>14805</WindowWidth>
+    <WindowTopX>240</WindowTopX>
+    <WindowTopY>105</WindowTopY>
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom"/>
+      <Borders/>
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+      <Interior/>
+      <NumberFormat/>
+      <Protection/>
+    </Style>
+    <Style ss:ID="s67">
+      <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+    </Style>
+    <Style ss:ID="s70">
+      <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="11"
+       ss:Color="#000000"/>
+    </Style>
+    <Style ss:ID="s72">
+      <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+      <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="11"
+       ss:Color="#000000" ss:Bold="1" ss:Italic="1"/>
+    </Style>
+    <Style ss:ID="s76">
+      <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+      <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="16"
+       ss:Color="#000000" ss:Bold="1"/>
+    </Style>
+    <Style ss:ID="s78">
+      <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+       ss:Bold="1"/>
+    </Style>
+    <Style ss:ID="s81">
+      <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+       ss:Bold="1"/>
+    </Style>
+    <Style ss:ID="s83">
+      <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+      <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="11"
+       ss:Color="#000000" ss:Bold="1"/>
+    </Style>
+    <Style ss:ID="s93">
+      <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+    </Style>
+    <Style ss:ID="s95">
+      <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+       ss:Bold="1"/>
+    </Style>
+    <Style ss:ID="s97">
+      <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+      <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="11"
+       ss:Color="#000000" ss:Bold="1"/>
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Sheet1">
+    <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="70" x:FullColumns="1"
+     x:FullRows="1" ss:DefaultRowHeight="15">
+      <Column ss:AutoFitWidth="0" ss:Width="45"/>
+      <Column ss:AutoFitWidth="0" ss:Width="225"/>
+      <Column ss:AutoFitWidth="0" ss:Width="112.5" ss:Span="3"/>
+      <Row>
+        <Cell ss:MergeAcross="1" ss:StyleID="s83">
+          <Data ss:Type="String">NGÂN HÀNG NHÀ NƯỚC</Data>
+        </Cell>
+        <Cell ss:StyleID="s97"/>
+        <Cell ss:StyleID="s97"/>
+        <Cell ss:MergeAcross="1" ss:StyleID="s72">
+          <Data ss:Type="String">Ngày 6 tháng 10 năm 2015</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:MergeAcross="1" ss:StyleID="s83">
+          <Data ss:Type="String">VIỆT NAM</Data>
+        </Cell>
+        <Cell ss:StyleID="s97"/>
+        <Cell ss:StyleID="s97"/>
+        <Cell ss:StyleID="s70"/>
+        <Cell ss:StyleID="s70"/>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="34.5">
+        <Cell ss:MergeAcross="5" ss:StyleID="s76">
+          <Data ss:Type="String">TỔNG HỢP BÁO CÁO ĐƠN VỊ THÁNG 6</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="43.5" ss:StyleID="s93">
+        <Cell ss:StyleID="s81">
+          <Data ss:Type="String">STT</Data>
+        </Cell>
+        <Cell ss:StyleID="s81">
+          <Data ss:Type="String">Chỉ tiêu</Data>
+        </Cell>
+        <Cell ss:StyleID="s81">
+          <Data ss:Type="String">Tháng/quý trước tháng báo cáo</Data>
+        </Cell>
+        <Cell ss:StyleID="s81">
+          <Data ss:Type="String">Ước thực hiện tháng báo cáo</Data>
+        </Cell>
+        <Cell ss:StyleID="s81">
+          <Data ss:Type="String">Tăng/giảm tháng/quý trước tháng báo cáo so với 31/12 năm trước</Data>
+        </Cell>
+        <Cell ss:StyleID="s81">
+          <Data ss:Type="String">Tăng/giảm tháng/quý báo cáo so với 31/12 năm trước</Data>
+        </Cell>
+        <Cell ss:StyleID="s81"/>
+      </Row>
+
+      <Row>
+        <Cell>
+          <Data ss:Type="String">STT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Chỉ tiêu</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tháng/quý trước tháng báo cáo</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ước thực hiện tháng báo cáo</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tăng/giảm tháng/quý trước tháng báo cáo so với 31/12 năm trước</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tăng/giảm tháng/quý báo cáo so với 31/12 năm trước</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">A</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">B</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">4</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NGUỒN HUY ĐỘNG VỐN</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String"></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Trong đó: huy động >12</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">2</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tiền gửi</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">1.1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Theo loại tiền tệ</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String"></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Đồng Việt Nam</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">12</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String"></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ngoại Tệ</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">1.2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Theo cơ cấu tiền gửi</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String"></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tiền gửi tiết kiệm</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">11</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String"></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tiền gửi thanh toán (gồm cả tiền ủy thác, ký quỹ, LC, giấy tờ có giá)</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Phát hành giấy tờ có giá</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String"></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Đồng Việt Nam</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">11111</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String"></Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ngoại tệ</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <PageSetup>
+        <Header x:Margin="0.3"/>
+        <Footer x:Margin="0.3"/>
+        <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+      </PageSetup>
+      <Print>
+        <ValidPrinterInfo/>
+        <HorizontalResolution>200</HorizontalResolution>
+        <VerticalResolution>200</VerticalResolution>
+      </Print>
+      <Selected/>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>6</ActiveRow>
+          <RangeSelection>R7C1:R7C2</RangeSelection>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

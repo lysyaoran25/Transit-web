@@ -1,0 +1,34 @@
+﻿<Row ss:AutoFitHeight="0">
+  <Cell ss:Index="2"
+        ss:StyleID="s69">
+    <Data ss:Type="String">[STT]</Data>
+  </Cell>
+  <Cell ss:MergeAcross="2"
+        ss:StyleID="s73">
+    <Data ss:Type="String">[CoQuanBanHanh]</Data>
+  </Cell>
+  <Cell ss:MergeAcross="1"
+        ss:StyleID="s73">
+    <Data ss:Type="String">[SoKyHieu]</Data>
+  </Cell>
+  <!--<Cell ss:StyleID="s71">
+    <Data ss:Type="String">[SoVanBan]</Data>
+  </Cell>-->
+  [SoVanBan]
+  <Cell ss:MergeAcross="1"
+        ss:StyleID="s73">
+    <Data ss:Type="String">[BuuDien]</Data>
+  </Cell>
+  <Cell ss:StyleID="s71">
+    <Data ss:Type="String">[DoMat]</Data>
+  </Cell>
+  <Cell ss:StyleID="s71">
+    <Data ss:Type="String">[DoKhan]</Data>
+  </Cell>
+  <Cell ss:MergeAcross="2"
+        ss:StyleID="s73">
+    <Data ss:Type="String">[GhiChu]</Data>
+  </Cell>
+  <Cell ss:MergeAcross="1"
+        ss:StyleID="s73"/>
+</Row>

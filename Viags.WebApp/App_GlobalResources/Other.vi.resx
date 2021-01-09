@@ -1,0 +1,1458 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblCapNhatVanBan" xml:space="preserve">
+    <value>Cập nhật văn bản</value>
+  </data>
+  <data name="lblCoSoKyHieu" xml:space="preserve">
+    <value>có số ký hiệu</value>
+  </data>
+  <data name="lblCoThuTu" xml:space="preserve">
+    <value>có thứ tự</value>
+  </data>
+  <data name="lblHoaTocKhan" xml:space="preserve">
+    <value>Hỏa tốc, khẩn</value>
+  </data>
+  <data name="lblQuanLyVanBan" xml:space="preserve">
+    <value>Quản lý văn bản</value>
+  </data>
+  <data name="lblQuanLyVanBanChuaXuLy" xml:space="preserve">
+    <value>Quản lý văn bản chưa xử lý</value>
+  </data>
+  <data name="lblQuanLyVanBanDangXuLy" xml:space="preserve">
+    <value>Quản lý văn bản đang xử lý</value>
+  </data>
+  <data name="lblQuanLyVanBanDaXuLy" xml:space="preserve">
+    <value>Quản lý văn bản đã xử lý</value>
+  </data>
+  <data name="lblSoPB" xml:space="preserve">
+    <value>Số PB</value>
+  </data>
+  <data name="lblVanBan" xml:space="preserve">
+    <value>Văn bản</value>
+  </data>
+  <data name="lblVanBanChuaDoc" xml:space="preserve">
+    <value>Văn bản chưa đọc</value>
+  </data>
+  <data name="lblVanBanDenChuaXuLy" xml:space="preserve">
+    <value>Văn bản đến chưa xử lý</value>
+  </data>
+  <data name="lblVanBanDenDangXuLy" xml:space="preserve">
+    <value>Văn bản đến đang xử lý</value>
+  </data>
+  <data name="lblVanBanDenDaXuLy" xml:space="preserve">
+    <value>Văn bản đến đã xử lý</value>
+  </data>
+  <data name="lblVanBanHoaTocKhan" xml:space="preserve">
+    <value>Văn bản hỏa tốc, khẩn</value>
+  </data>
+  <data name="lblVanBanSo" xml:space="preserve">
+    <value>Văn bản số</value>
+  </data>
+  <data name="lblXemChuyenXuLy" xml:space="preserve">
+    <value>Xem chuyển xử lý</value>
+  </data>
+  <data name="lblXemQuyTrinhChuyenXuLy" xml:space="preserve">
+    <value>Xem quy trình chuyển xử lý</value>
+  </data>
+  <data name="lblXoaVanBan" xml:space="preserve">
+    <value>Xóa văn bản</value>
+  </data>
+  <data name="lblChoTiepNhan" xml:space="preserve">
+    <value>Chờ tiếp nhận</value>
+  </data>
+  <data name="lblChoXacNhan" xml:space="preserve">
+    <value>Chờ xác nhận</value>
+  </data>
+  <data name="lblChuaGuiNgayDuKien" xml:space="preserve">
+    <value>Chưa gửi ngày dự kiến</value>
+  </data>
+  <data name="lblDaGui" xml:space="preserve">
+    <value>Đã gửi</value>
+  </data>
+  <data name="lblDaGuiXacNhan" xml:space="preserve">
+    <value>Đã gửi xác nhận</value>
+  </data>
+  <data name="lblDaNhan" xml:space="preserve">
+    <value>Đã nhận</value>
+  </data>
+  <data name="lblDaTiepNhan" xml:space="preserve">
+    <value>Đã tiếp nhận</value>
+  </data>
+  <data name="lblHoanThanh" xml:space="preserve">
+    <value>Hoàn thành</value>
+  </data>
+  <data name="lblKhongTiepNhan" xml:space="preserve">
+    <value>Không tiếp nhận</value>
+  </data>
+  <data name="lblBanChuaChonLoaiVB" xml:space="preserve">
+    <value>Bạn chưa chọn Loại văn bản</value>
+  </data>
+  <data name="lblBanChuaNhapNgayTrinh" xml:space="preserve">
+    <value>Bạn chưa nhập Ngày trình</value>
+  </data>
+  <data name="lblBanChuaNhapTrichYeu" xml:space="preserve">
+    <value>Bạn chưa nhập trích yếu</value>
+  </data>
+  <data name="lblBanCoChacMuonXoaFileSoanThao" xml:space="preserve">
+    <value>Bạn có chắc chắn muốn xóa file soạn thảo</value>
+  </data>
+  <data name="lblBanNhapNoiDungKiTu2Den1000" xml:space="preserve">
+    <value>Bạn nhập nội dung có kí tự từ 2-1000</value>
+  </data>
+  <data name="lblChonCanBoLienQuan" xml:space="preserve">
+    <value>Chọn cán bộ liên quan</value>
+  </data>
+  <data name="lblChonCongViecLienQuan" xml:space="preserve">
+    <value>Chọn công việc liên quan</value>
+  </data>
+  <data name="lblChonLanhDaoLienQuan" xml:space="preserve">
+    <value>Chọn lãnh đạo liên quan</value>
+  </data>
+  <data name="lblChonNguoiDungLienQuan" xml:space="preserve">
+    <value>Chọn người dùng liên quan</value>
+  </data>
+  <data name="lblChonNguoiNhan" xml:space="preserve">
+    <value>Chọn người nhận</value>
+  </data>
+  <data name="lblChonPhongBanLienQuan" xml:space="preserve">
+    <value>Chọn phòng ban liên quan</value>
+  </data>
+  <data name="lblChoVaoSo" xml:space="preserve">
+    <value>Chờ vào sổ</value>
+  </data>
+  <data name="lblChuyenPhatHanhVanBanDuThao" xml:space="preserve">
+    <value>Chuyển phát hành văn bản dự thảo</value>
+  </data>
+  <data name="lblDuyetTheThucVanBanDuThao" xml:space="preserve">
+    <value>Duyệt thể thức văn bản dự thảo</value>
+  </data>
+  <data name="lblGuiPheDuyetTheThuc" xml:space="preserve">
+    <value>Gửi phê duyệt thể thức</value>
+  </data>
+  <data name="lblNhapTenCoQuanDonViGuiDen" xml:space="preserve">
+    <value>Nhập tên cơ quan đơn vị gửi đến</value>
+  </data>
+  <data name="lblNoiNhanBenNgoai" xml:space="preserve">
+    <value>Nơi nhận bên ngoài</value>
+  </data>
+  <data name="lblPheDuyetVanBanDuThao" xml:space="preserve">
+    <value>Phê duyệt hồ sơ trình ký</value>
+  </data>
+  <data name="lblTuChoiVaoSo" xml:space="preserve">
+    <value>Từ chối vào sổ</value>
+  </data>
+  <data name="lblLichLamViecCaNhan" xml:space="preserve">
+    <value>Lịch làm việc cá nhân</value>
+  </data>
+  <data name="lblBaoCaoThongKeVBDenBLD" xml:space="preserve">
+    <value>báo cáo thống kê văn bản đến ban lãnh đạo</value>
+  </data>
+  <data name="lblNgoaiNganh" xml:space="preserve">
+    <value>Ngoài ngành</value>
+  </data>
+  <data name="lblTrongNganh" xml:space="preserve">
+    <value>Trong ngành</value>
+  </data>
+  <data name="lblTuTruocDenNgay" xml:space="preserve">
+    <value>Từ trước đến ngày</value>
+  </data>
+  <data name="lblAnDonViPB" xml:space="preserve">
+    <value>Ẩn đơn vị, phòng ban</value>
+  </data>
+  <data name="lblCapNhatThongTin" xml:space="preserve">
+    <value>Cập nhật thông tin</value>
+  </data>
+  <data name="lblChiTietVaiTro" xml:space="preserve">
+    <value>Chi tiết vai trò</value>
+  </data>
+  <data name="lblHienThiDonViPB" xml:space="preserve">
+    <value>Hiển thị đơn vị, phòng ban</value>
+  </data>
+  <data name="lblSapXepThuTuHienThi" xml:space="preserve">
+    <value>Sắp xếp thứ tự hiển thị</value>
+  </data>
+  <data name="lblThemMoiDonViPBCapDuoi" xml:space="preserve">
+    <value>Thêm mới đơn vị, phòng ban cấp dưới</value>
+  </data>
+  <data name="lblXoaDonViPB" xml:space="preserve">
+    <value>Xóa đơn vị, phòng ban</value>
+  </data>
+  <data name="lblBanDaCapNhatTrangThaiVBThanhCong" xml:space="preserve">
+    <value>Bạn đã cập nhật trạng thái văn bản thành công</value>
+  </data>
+  <data name="lblCapNhatThanhCongVanBanDuThao" xml:space="preserve">
+    <value>Cập nhật thành công văn bản dự thảo</value>
+  </data>
+  <data name="lblCoLoiXayRa" xml:space="preserve">
+    <value>Có lỗi xảy ra</value>
+  </data>
+  <data name="lblDaTaoVanBanDuThaoChoCongViec" xml:space="preserve">
+    <value>đã tạo văn bản dự thảo cho công việc</value>
+  </data>
+  <data name="lblDaXoaThanhCongVanBanDuThao" xml:space="preserve">
+    <value>Đã xóa thành công văn bản dự thảo</value>
+  </data>
+  <data name="lblThemMoiThanhCongVanBanDuThao" xml:space="preserve">
+    <value>Thêm mới thành công văn bản dự thảo</value>
+  </data>
+  <data name="lblVBDTKhongXoaDuocDoDangSuDung" xml:space="preserve">
+    <value>Văn bản dự thảo không xóa được do đang sử dụng</value>
+  </data>
+  <data name="lblAnThanhCongDanhMucXe" xml:space="preserve">
+    <value>Ẩn thành công danh mục xe</value>
+  </data>
+  <data name="lblCapNhatDanhMucXe" xml:space="preserve">
+    <value>Cập nhật danh mục xe</value>
+  </data>
+  <data name="lblDanhMucXeHienDangAn" xml:space="preserve">
+    <value>Danh mục xe hiện đang ẩn hoặc đang sử dụng</value>
+  </data>
+  <data name="lblDanhMucXeHienDangHienThi" xml:space="preserve">
+    <value>Danh mục xe hiện đang hiển thị hoặc đang sử dụng</value>
+  </data>
+  <data name="lblDanhMucXeKhongXoaDuocDoDangSD" xml:space="preserve">
+    <value>Danh mục xe không xóa được do đang sử dụng</value>
+  </data>
+  <data name="lblHienThiThanhCongDanhMucXe" xml:space="preserve">
+    <value>Hiển thị thành công danh mục xe</value>
+  </data>
+  <data name="lblTenDanhMucChuyenNguAnh" xml:space="preserve">
+    <value>Tên danh mục chuyển ngữ Anh</value>
+  </data>
+  <data name="lblThanhCong" xml:space="preserve">
+    <value>thành công</value>
+  </data>
+  <data name="lblThemMoiDanhMucXe" xml:space="preserve">
+    <value>Thêm mới danh mục xe</value>
+  </data>
+  <data name="lblCapNhatThongTinXeThanhCong" xml:space="preserve">
+    <value>Cập nhật thông tin đặt xe thành công</value>
+  </data>
+  <data name="lblDaTuChoiDuyetXe" xml:space="preserve">
+    <value>đã từ chối phê duyệt yêu cầu đặt xe</value>
+  </data>
+  <data name="lblDaXoaThanhCong" xml:space="preserve">
+    <value>Đã xóa thành công</value>
+  </data>
+  <data name="lblDuyetDatXeThanhCong" xml:space="preserve">
+    <value>Duyệt đặt xe thành công</value>
+  </data>
+  <data name="lblLichDatXeDaDuocPheDuyetVao" xml:space="preserve">
+    <value>Lịch đặt xe của bạn đã được phê duyệt vào</value>
+  </data>
+  <data name="lblNguoiDung" xml:space="preserve">
+    <value>Người dùng</value>
+  </data>
+  <data name="lblThemMoiThongTinXeThanhCong" xml:space="preserve">
+    <value>Thêm mới thông tin đặt xe thành công</value>
+  </data>
+  <data name="lblThoiGianBDKhongTheLonHon" xml:space="preserve">
+    <value>Thời gian bắt đầu không được lớn hơn thời gian kết thúc</value>
+  </data>
+  <data name="lblThongTinDatXe" xml:space="preserve">
+    <value>Thông tin đặt xe</value>
+  </data>
+  <data name="lblThongTinDatXeDangDuocThaoTac" xml:space="preserve">
+    <value>Thông tin đặt xe không xóa được do đang được thao tác</value>
+  </data>
+  <data name="lblThongTinDatXeKhongHuyDoSuDung" xml:space="preserve">
+    <value>Thông tin đặt xe không hủy được do đang sử dụng</value>
+  </data>
+  <data name="lblTuChoiDuyetDatXeThanhCong" xml:space="preserve">
+    <value>Từ chối phê duyệt đặt xe thành công</value>
+  </data>
+  <data name="lblTenSoVBDichSangTiengAnh" xml:space="preserve">
+    <value>Tên sổ văn bản dịch sang tiếng anh</value>
+  </data>
+  <data name="lblTenTiengAnh" xml:space="preserve">
+    <value>Tên tiếng Anh</value>
+  </data>
+  <data name="lblQuanLyVBDHVaLuuTruCTyTINHVAN" xml:space="preserve">
+    <value>Quản lý văn bản, điều hành tác nghiệp và lưu trữ tại công ty Tinh Vân</value>
+  </data>
+  <data name="lblNhapHanGiaoXuLy" xml:space="preserve">
+    <value>Nhập hạn giao xử lý</value>
+  </data>
+  <data name="lblNhapNoiDung" xml:space="preserve">
+    <value>Nhập nội dung</value>
+  </data>
+  <data name="lblTenLoaiVanBanTiengAnh" xml:space="preserve">
+    <value>Tên loại văn bản tiếng Anh</value>
+  </data>
+  <data name="lblBanCoChacMuonXoa" xml:space="preserve">
+    <value>Bạn có chắc muốn xóa ?</value>
+  </data>
+  <data name="lblChonDonViNhanDeBiet" xml:space="preserve">
+    <value>Chọn đơn vị nhận để biết</value>
+  </data>
+  <data name="lblChonDonViXuLy" xml:space="preserve">
+    <value>Chọn đơn vị xử lý</value>
+  </data>
+  <data name="lblNhapNguoiDungNhanDeBiet" xml:space="preserve">
+    <value>Nhập người dùng nhận để biết</value>
+  </data>
+  <data name="lblCapNhatYKienXuLy" xml:space="preserve">
+    <value>Cập nhật ý kiến xử lý</value>
+  </data>
+  <data name="lblChuongTrinhQLVBDTCTTINHVANVN" xml:space="preserve">
+    <value>Chương trình quản lý văn bản điện tử Công ty Tinh Vân Việt Nam</value>
+  </data>
+  <data name="lblNguoi" xml:space="preserve">
+    <value>Người</value>
+  </data>
+  <data name="lblNhanBiet" xml:space="preserve">
+    <value>Nhận biết</value>
+  </data>
+  <data name="lblThuHoi" xml:space="preserve">
+    <value>Thu hồi</value>
+  </data>
+  <data name="lblThuHoiVanBanDoiVoi" xml:space="preserve">
+    <value>Thu hồi văn bản đối với</value>
+  </data>
+  <data name="lblXoaYKienCua" xml:space="preserve">
+    <value>Xóa ý kiến của</value>
+  </data>
+  <data name="lblXuLy" xml:space="preserve">
+    <value>Xử lý</value>
+  </data>
+  <data name="lblBanCo" xml:space="preserve">
+    <value>Bạn có</value>
+  </data>
+  <data name="lblMoiVeVanBanDen" xml:space="preserve">
+    <value>mới về văn bản đến</value>
+  </data>
+  <data name="lblThongBao" xml:space="preserve">
+    <value>thông báo</value>
+  </data>
+  <data name="lblThongBaoMoi" xml:space="preserve">
+    <value>thông báo mới</value>
+  </data>
+  <data name="lblXemTatCa" xml:space="preserve">
+    <value>Xem tất cả</value>
+  </data>
+  <data name="lblMoiVeCongViec" xml:space="preserve">
+    <value>mới về công việc</value>
+  </data>
+  <data name="lblThongBaoChungGuiDenBan" xml:space="preserve">
+    <value>Thông báo chung gửi đến bạn</value>
+  </data>
+  <data name="lblThongBaoNhomDieuHanhGuiDenBan" xml:space="preserve">
+    <value>Thông báo nhóm điều hành gửi đến bạn</value>
+  </data>
+  <data name="lblThongBaoNhomVanBanGuiDenBan" xml:space="preserve">
+    <value>Thông báo nhóm văn bản gửi đến bạn</value>
+  </data>
+  <data name="lblTinNhan" xml:space="preserve">
+    <value>tin nhắn</value>
+  </data>
+  <data name="lblXoaThongBao" xml:space="preserve">
+    <value>Xóa thông báo</value>
+  </data>
+  <data name="lblKhongDuyetDuocVBChoPhatHanh" xml:space="preserve">
+    <value>Không duyệt được văn bản chờ phát hành hoặc đã phát hành.</value>
+  </data>
+  <data name="lblKhongDuyetDuocVBDaGuiDuyetTheThuc" xml:space="preserve">
+    <value>Không duyệt được văn bản đã gửi duyệt thể thức hoặc đã được duyệt thể thức.</value>
+  </data>
+  <data name="lblBanGiaoCongViecThanhCong" xml:space="preserve">
+    <value>Bàn giao công việc thành công</value>
+  </data>
+  <data name="lblCapNhatThanhCongCongViec" xml:space="preserve">
+    <value>Cập nhật thành công công việc</value>
+  </data>
+  <data name="lblCapNhatThanhPhanThamGiaCV" xml:space="preserve">
+    <value>Cập nhật thành phần tham gia công việc</value>
+  </data>
+  <data name="lblCapNhatTienDoCVThanhCong" xml:space="preserve">
+    <value>Cập nhật tiến độ công việc thành công</value>
+  </data>
+  <data name="lblCapNhatTrangThaiCaNhanThanhCong" xml:space="preserve">
+    <value>Cập nhật trạng thái cá nhân thành công</value>
+  </data>
+  <data name="lblChuaHoanThanh" xml:space="preserve">
+    <value>Chưa hoàn thành</value>
+  </data>
+  <data name="lblCoLoiTrongQuaTrinhBanGiaoCV" xml:space="preserve">
+    <value>Có lỗi trong quá trình bàn giao công việc</value>
+  </data>
+  <data name="lblCongViecKhongXoaDuocDoDangSuDung" xml:space="preserve">
+    <value>Công việc không xóa được do đang sử dụng</value>
+  </data>
+  <data name="lblDaDuocGuiThanhCong" xml:space="preserve">
+    <value>đã được gửi thành công</value>
+  </data>
+  <data name="lblDaHoanThanh" xml:space="preserve">
+    <value>Đã hoàn thành</value>
+  </data>
+  <data name="lblDanhGiaCongViecThanhCong" xml:space="preserve">
+    <value>Đánh giá công việc thành công</value>
+  </data>
+  <data name="lblDaTraLaiCongViecThanhCong" xml:space="preserve">
+    <value>Đã trả lại công việc thành công</value>
+  </data>
+  <data name="lblDaXoaThanhCongDonViKhoiCV" xml:space="preserve">
+    <value>Đã xóa thành công đơn vị khỏi công việc</value>
+  </data>
+  <data name="lblDaXoaThanhCongNguoiDungKhoiCV" xml:space="preserve">
+    <value>Đã xóa thành công người dùng khỏi công việc</value>
+  </data>
+  <data name="lblDuaYKienDongGopCVThanhCong" xml:space="preserve">
+    <value>Đưa ý kiến góp ý công việc thành công</value>
+  </data>
+  <data name="lblDuyetYeuCauThayHanCV" xml:space="preserve">
+    <value>Duyệt yêu cầu thay hạn công việc</value>
+  </data>
+  <data name="lblGiaoViecThanhCong" xml:space="preserve">
+    <value>Giao việc thành công</value>
+  </data>
+  <data name="lblHanXuLyCaNhanKhongDuocNhoHonCV" xml:space="preserve">
+    <value>Hạn xử lý cá nhân không được lớn hơn hạn xử lý của công việc</value>
+  </data>
+  <data name="lblHanXuLyCVPhaiNhoHonHXL" xml:space="preserve">
+    <value>Hạn xử lý công việc con phải nhỏ hơn hạn xử lý công việc cha</value>
+  </data>
+  <data name="lblHanXuLyKhongDuocNhoHonNgayBatDauCV" xml:space="preserve">
+    <value>Hạn xử lý không được nhỏ hơn ngày bắt đầu của công việc</value>
+  </data>
+  <data name="lblKetThucXuLyCongViec" xml:space="preserve">
+    <value>Kết thúc xử lý công việc</value>
+  </data>
+  <data name="lblMoLaiCongViec" xml:space="preserve">
+    <value>Mở lại công việc</value>
+  </data>
+  <data name="lblNgayBanHanh" xml:space="preserve">
+    <value>Ngày ban hành</value>
+  </data>
+  <data name="lblNgayMoCVPhaiLonHonHoacBang" xml:space="preserve">
+    <value>Ngày mở công việc con phải lớn hơn hoặc bằng ngày mở công việc cha</value>
+  </data>
+  <data name="lblNgayVanBan" xml:space="preserve">
+    <value>Ngày văn bản</value>
+  </data>
+  <data name="lblSoKyHieu" xml:space="preserve">
+    <value>Số ký hiệu</value>
+  </data>
+  <data name="lblThayHanCongViecThanhCong" xml:space="preserve">
+    <value>Thay hạn công việc thành công</value>
+  </data>
+  <data name="lblThemMoiThanhCongCongViec" xml:space="preserve">
+    <value>Thêm mới thành công công việc</value>
+  </data>
+  <data name="lblTrichYeu" xml:space="preserve">
+    <value>Trích yếu</value>
+  </data>
+  <data name="lblTuChoiYeuCauThayHanCV" xml:space="preserve">
+    <value>Từ chối yêu cầu thay hạn công việc</value>
+  </data>
+  <data name="lblYeuCauLamLaiCVThanhCong" xml:space="preserve">
+    <value>Yêu cầu làm lại công việc thành công</value>
+  </data>
+  <data name="lblYeuCauThayHanCV" xml:space="preserve">
+    <value>Yêu cầu thay hạn công việc</value>
+  </data>
+  <data name="lblBanChuaChonBaoCaoCanGui" xml:space="preserve">
+    <value>Bạn chưa chọn báo cáo cần gửi</value>
+  </data>
+  <data name="lblCapNhatBaoCaoDinhKy" xml:space="preserve">
+    <value>Cập nhật báo cáo định kỳ</value>
+  </data>
+  <data name="lblCauHinhThoiHanNopBaoCaoThanhCong" xml:space="preserve">
+    <value>Cấu hình thời hạn nộp báo cáo thành công</value>
+  </data>
+  <data name="lblDaDuocGuiDi" xml:space="preserve">
+    <value>đã được gửi đi</value>
+  </data>
+  <data name="lblDaGuiThanhCong" xml:space="preserve">
+    <value>Đã gửi thành công</value>
+  </data>
+  <data name="lblDaTraLaiBaoCaoDinhKy" xml:space="preserve">
+    <value>Đã trả lại báo cáo định kỳ</value>
+  </data>
+  <data name="lblKhongGuiDuocBaoCaoDoChuaNhapSoLieu" xml:space="preserve">
+    <value>Không gửi được báo cáo do chưa nhập số liệu</value>
+  </data>
+  <data name="lblKhongSuaDuocBaoCao" xml:space="preserve">
+    <value>Không sửa được báo cáo</value>
+  </data>
+  <data name="lblKhongTonTaiBaoCaoDinhKyTrenHeThong" xml:space="preserve">
+    <value>Không tồn tại báo cáo định kỳ trên hệ thống</value>
+  </data>
+  <data name="lblKhongXoaDuocCacBaoCaoDaGui" xml:space="preserve">
+    <value>Không xóa được các báo cáo đã gửi</value>
+  </data>
+  <data name="lblMoiThangChiDuocTaoMotBaoCao" xml:space="preserve">
+    <value>Mỗi tháng chỉ được tạo một báo cáo</value>
+  </data>
+  <data name="lblTaoMoiKienNghi" xml:space="preserve">
+    <value>Tạo mới kiến nghị</value>
+  </data>
+  <data name="lblThemMoiBaoCaoDinhKy" xml:space="preserve">
+    <value>Thêm mới báo cáo định kỳ</value>
+  </data>
+  <data name="lblAnThanhCongDanhMuc" xml:space="preserve">
+    <value>Ẩn thành công danh mục</value>
+  </data>
+  <data name="lblAnThanhCongDanhMucChucNang" xml:space="preserve">
+    <value>Ẩn thành công danh mục chức năng</value>
+  </data>
+  <data name="lblAnThanhCongDonViChuyenPhat" xml:space="preserve">
+    <value>Ẩn thành công đơn vị chuyển phát</value>
+  </data>
+  <data name="lblAnThanhCongNhomDanhMuc" xml:space="preserve">
+    <value>Ẩn thành công nhóm danh mục</value>
+  </data>
+  <data name="lblBanChuaChonNgayKetThucHoSo" xml:space="preserve">
+    <value>Bạn chưa chọn ngày kết thúc hồ sơ</value>
+  </data>
+  <data name="lblBaoCaoQuy" xml:space="preserve">
+    <value>Báo cáo quý</value>
+  </data>
+  <data name="lblBaoCaoThang" xml:space="preserve">
+    <value>Báo cáo tháng</value>
+  </data>
+  <data name="lblBaoCaoTuan" xml:space="preserve">
+    <value>Báo cáo tuần</value>
+  </data>
+  <data name="lblCapNhatCauHinhModuleThanhCong" xml:space="preserve">
+    <value>Cập nhật cấu hình Module thành công</value>
+  </data>
+  <data name="lblCapNhatCauHinhThoiGianGuiBaoCaoThanhCong" xml:space="preserve">
+    <value>Cập nhật cấu hình thời gian gửi báo cáo thành công</value>
+  </data>
+  <data name="lblCapNhatCauHinhTuanThangQuyCuaNam" xml:space="preserve">
+    <value>Cập nhật cấu hình tuần/tháng/quý của năm</value>
+  </data>
+  <data name="lblCapNhatDanhMuc" xml:space="preserve">
+    <value>Cập nhật danh mục</value>
+  </data>
+  <data name="lblCapNhatDonViChuyenPhat" xml:space="preserve">
+    <value>Cập nhật đơn vị chuyển phát</value>
+  </data>
+  <data name="lblCapNhatHoSo" xml:space="preserve">
+    <value>Cập nhật hồ sơ</value>
+  </data>
+  <data name="lblCapNhatThanhCongNhomDanhMuc" xml:space="preserve">
+    <value>Cập nhật thành công nhóm danh mục</value>
+  </data>
+  <data name="lblCapNhatThanhCongThongTinChuyenPhatChoVB" xml:space="preserve">
+    <value>Cập nhật thành công thông tin chuyển phát cho các văn bản</value>
+  </data>
+  <data name="lblCauHinhModuleKhongXoaDuocDoDangSuDung" xml:space="preserve">
+    <value>Cấu hình module không xóa được do đang sử dụng</value>
+  </data>
+  <data name="lblCauHinhThoiGianBaoCaoKhongXoaDuoc" xml:space="preserve">
+    <value>Cấu hình thời gian báo cáo không xóa được do đang sử dụng</value>
+  </data>
+  <data name="lblCauHinhThoiGianGuiBaoCaoCuaLoaiBC" xml:space="preserve">
+    <value>Cấu hình thời gian gửi báo cáo của loại báo cáo</value>
+  </data>
+  <data name="lblCauHinhThoiGianKhongBCKhongXoaDuoc" xml:space="preserve">
+    <value>Cấu hình thời gian không báo cáo không xóa được do đang sử dụng</value>
+  </data>
+  <data name="lblCauHinhTuanThangQuyCuaNam" xml:space="preserve">
+    <value>Cấu hình tuần/tháng/quý của năm</value>
+  </data>
+  <data name="lblChuaChonThongTinHoSo" xml:space="preserve">
+    <value>Chưa chọn thông tin hồ sơ tài liệu nào</value>
+  </data>
+  <data name="lblChuyenPhatHanhKhongXoaDuoc" xml:space="preserve">
+    <value>Chuyển phát hành không xóa được do đang sử dụng</value>
+  </data>
+  <data name="lblCoLoiXayRaVuiLongLienHe" xml:space="preserve">
+    <value>Có lỗi xảy ra, vui lòng liên hệ với quản trị hệ thống</value>
+  </data>
+  <data name="lblCoLoiXayRaVuiLongXemLai" xml:space="preserve">
+    <value>Có lỗi xảy ra vui lòng xem lại</value>
+  </data>
+  <data name="lblCuaBanKhongCoQuyenThemMoiCVLienQuan" xml:space="preserve">
+    <value>của bạn, không có quyền thêm mới công việc liên quan</value>
+  </data>
+  <data name="lblCuaBanKhongCoQuyenThemMoiVBLienQuan" xml:space="preserve">
+    <value>của bạn, không có quyền thêm mới văn bản liên quan</value>
+  </data>
+  <data name="lblCuaBanKhongCoQuyenXoaCV" xml:space="preserve">
+    <value>của bạn, không có quyền xóa công việc liên quan</value>
+  </data>
+  <data name="lblCuaBanKhongCoQuyenXoaVB" xml:space="preserve">
+    <value>của bạn, không có quyền xóa văn bản liên quan</value>
+  </data>
+  <data name="lblDaChuyenLuuTru" xml:space="preserve">
+    <value>đã chuyển lưu trữ</value>
+  </data>
+  <data name="lblDaCoCongViecLienQuanTrongHS" xml:space="preserve">
+    <value>Đã có công việc liên quan trong hồ sơ tài liệu</value>
+  </data>
+  <data name="lblDaCoVanBanLienQuanTrongHS" xml:space="preserve">
+    <value>Đã có văn bản liên quan trong hồ sơ tài liệu</value>
+  </data>
+  <data name="lblDanhMuc" xml:space="preserve">
+    <value>Danh mục</value>
+  </data>
+  <data name="lblDanhMucChucNang" xml:space="preserve">
+    <value>Danh mục chức năng</value>
+  </data>
+  <data name="lblDanhMucChucNangDangHienThi" xml:space="preserve">
+    <value>Danh mục chức năng đang hiển thị</value>
+  </data>
+  <data name="lblDanhMucChucNangHienDangAn" xml:space="preserve">
+    <value>Danh mục chức năng hiện đang ẩn</value>
+  </data>
+  <data name="lblDanhMucHienDangAn" xml:space="preserve">
+    <value>Danh mục hiện đang ẩn</value>
+  </data>
+  <data name="lblDanhMucHienDangHienThi" xml:space="preserve">
+    <value>Danh mục hiện đang hiển thị</value>
+  </data>
+  <data name="lblDanhMucKhongXoaDuoc" xml:space="preserve">
+    <value>Danh mục không xóa được do đang sử dụng</value>
+  </data>
+  <data name="lblDanhMucKhongXoaDuocDoDangSuDung" xml:space="preserve">
+    <value>Danh mục không xóa được do đang sử dụng</value>
+  </data>
+  <data name="lblDaTonTai" xml:space="preserve">
+    <value>đã tồn tại</value>
+  </data>
+  <data name="lblDonViChuyenPhat" xml:space="preserve">
+    <value>Đơn vị chuyển phát</value>
+  </data>
+  <data name="lblDonViChuyenPhatDangSuDung" xml:space="preserve">
+    <value>Đơn vị chuyển phát này đang sử dụng nên không thể bỏ sử dụng</value>
+  </data>
+  <data name="lblDonViChuyenPhatHienDangAn" xml:space="preserve">
+    <value>Đơn vị chuyển phát hiện đang ẩn hoặc đang sử dụng</value>
+  </data>
+  <data name="lblDonViChuyenPhatHienDangHienThi" xml:space="preserve">
+    <value>Đơn vị chuyển phát hiện đang hiển thị</value>
+  </data>
+  <data name="lblDonViChuyenPhatKhongXoaDuoc" xml:space="preserve">
+    <value>Đơn vị chuyển phát không xóa được do đang sử dụng</value>
+  </data>
+  <data name="lblGiaTriDanhMuc" xml:space="preserve">
+    <value>Danh mục giá trị</value>
+  </data>
+  <data name="lblHienThiThanhCongDanhMuc" xml:space="preserve">
+    <value>Hiển thị thành công danh mục</value>
+  </data>
+  <data name="lblHienThiThanhCongDanhMucChucNang" xml:space="preserve">
+    <value>Hiển thị thành công danh mục chức năng</value>
+  </data>
+  <data name="lblHienThiThanhCongDonViChuyenPhat" xml:space="preserve">
+    <value>Hiển thị thành công đơn vị chuyển phát</value>
+  </data>
+  <data name="lblHienThiThanhCongNhomDanhMuc" xml:space="preserve">
+    <value>Hiển thị thành công nhóm danh mục</value>
+  </data>
+  <data name="lblKetThucHoSo" xml:space="preserve">
+    <value>Kết thúc hồ sơ</value>
+  </data>
+  <data name="lblKhongCapNhatDuocHoSoDaChuyenLuuTru" xml:space="preserve">
+    <value>Không cập nhật được hồ sơ đã chuyển lưu trữ</value>
+  </data>
+  <data name="lblKhongCapNhatDuocHoSoTaiLieu" xml:space="preserve">
+    <value>Không cập nhật được hồ sơ tài liệu</value>
+  </data>
+  <data name="lblKhongGuiBaoCaoThanhCong" xml:space="preserve">
+    <value>không gửi báo cáo thành công</value>
+  </data>
+  <data name="lblKhongTonTaiHoSoTrenHeThong" xml:space="preserve">
+    <value>Không tồn tại hồ sơ trên hệ thống</value>
+  </data>
+  <data name="lblKhongXoaDuocHoSoDaChuyenLuuTru" xml:space="preserve">
+    <value>Không xóa được hồ sơ đã chuyển lưu trữ</value>
+  </data>
+  <data name="lblMaHoSo" xml:space="preserve">
+    <value>Mã hồ sơ</value>
+  </data>
+  <data name="lblNamCauHinhThoiGianKhongGuiBCDaTonTai" xml:space="preserve">
+    <value>Năm cấu hình thời gian không gửi báo cáo đã tồn tại</value>
+  </data>
+  <data name="lblNamCauHinhTuanThangQuyKhongGuiBCDaTonTai" xml:space="preserve">
+    <value>Năm cấu hình tuần/tháng/quý không gửi báo cáo đã tồn tại</value>
+  </data>
+  <data name="lblNgayTaoKhongDuocLonHonNgayXuLy" xml:space="preserve">
+    <value>Ngày tạo không được lớn hơn ngày xử lý</value>
+  </data>
+  <data name="lblNhomDanhMuc" xml:space="preserve">
+    <value>Nhóm danh mục</value>
+  </data>
+  <data name="lblNhomDanhMucDangHienThi" xml:space="preserve">
+    <value>Nhóm danh mục đang hiển thị</value>
+  </data>
+  <data name="lblNhomDanhMucHienDangAnHoacDangDung" xml:space="preserve">
+    <value>Nhóm danh mục hiện đang ẩn hoặc đang được sử dụng</value>
+  </data>
+  <data name="lblNhomDanhMucKhongXoaDuocDoDangDung" xml:space="preserve">
+    <value>Nhóm danh mục không xóa được do đang sử dụng</value>
+  </data>
+  <data name="lblQuy" xml:space="preserve">
+    <value>quý</value>
+  </data>
+  <data name="lblTaiKhoan" xml:space="preserve">
+    <value>Tài khoản</value>
+  </data>
+  <data name="lblTaiKhoanCuaBanKhongCoQuyenXoaHS" xml:space="preserve">
+    <value>Tài khoản của bạn không có quyền xóa hồ sơ</value>
+  </data>
+  <data name="lblThang" xml:space="preserve">
+    <value>tháng</value>
+  </data>
+  <data name="lblThanhTienVaGiaCuocPhaiLonHon0" xml:space="preserve">
+    <value>Thành tiền và giá cước phải lớn hơn 0</value>
+  </data>
+  <data name="lblThemMoiCauHinhModuleThanhCong" xml:space="preserve">
+    <value>Thêm mới cấu hình Module thành công</value>
+  </data>
+  <data name="lblThemMoiCauHinhThoiGianBaoCaoThanhCong" xml:space="preserve">
+    <value>Thêm mới cấu hình thời gian báo cáo thành công</value>
+  </data>
+  <data name="lblThemMoiCauHinhTuanThangQuyCuaNam" xml:space="preserve">
+    <value>Thêm mới cấu hình tuần/tháng/quý của năm</value>
+  </data>
+  <data name="lblThemMoiCongViecLienQuanThanhCong" xml:space="preserve">
+    <value>Thêm mới công việc liên quan thành công</value>
+  </data>
+  <data name="lblThemMoiDanhMuc" xml:space="preserve">
+    <value>Thêm mới danh mục</value>
+  </data>
+  <data name="lblThemMoiDanhMucChucNang" xml:space="preserve">
+    <value>Thêm mới danh mục chức năng</value>
+  </data>
+  <data name="lblThemMoiDanhMucGiaTri" xml:space="preserve">
+    <value>Thêm mới danh mục giá trị</value>
+  </data>
+  <data name="lblThemMoiDonViChuyenPhat" xml:space="preserve">
+    <value>Thêm mới đơn vị chuyển phát</value>
+  </data>
+  <data name="lblThemMoiHoSo" xml:space="preserve">
+    <value>Thêm mới hồ sơ</value>
+  </data>
+  <data name="lblThemMoiThanhCongNhomDanhMuc" xml:space="preserve">
+    <value>Thêm mới thành công nhóm danh mục</value>
+  </data>
+  <data name="lblThemMoiThanhCongThongTinChuyenPhatVB" xml:space="preserve">
+    <value>Thêm mới thành công thông tin chuyển phát cho các văn bản</value>
+  </data>
+  <data name="lblThemMoiVanBanLienQuanThanhCong" xml:space="preserve">
+    <value>Thêm mới văn bản liên quan thành công</value>
+  </data>
+  <data name="lblThoiGian" xml:space="preserve">
+    <value>Thời gian</value>
+  </data>
+  <data name="lblTuan" xml:space="preserve">
+    <value>tuần</value>
+  </data>
+  <data name="lblVoiSoTien" xml:space="preserve">
+    <value>với số tiền</value>
+  </data>
+  <data name="lblXoaCongViecLienQuanThanhCong" xml:space="preserve">
+    <value>Xóa công việc liên quan thành công</value>
+  </data>
+  <data name="lblXoaVanBanLienQuanThanhCong" xml:space="preserve">
+    <value>Xóa văn bản liên quan thành công</value>
+  </data>
+  <data name="lblAnBanGhiThanhCong" xml:space="preserve">
+    <value>Ẩn bản ghi thành công</value>
+  </data>
+  <data name="lblAnThanhCongDonVi" xml:space="preserve">
+    <value>Ẩn thành công đơn vị</value>
+  </data>
+  <data name="lblAnThanhCongDonViLienThong" xml:space="preserve">
+    <value>Ẩn thành công đơn vị liên thông</value>
+  </data>
+  <data name="lblAnThanhCongLoaiChuDe" xml:space="preserve">
+    <value>Ẩn thành công loại chủ đề</value>
+  </data>
+  <data name="lblAnThanhCongLoaiChuongTrinh" xml:space="preserve">
+    <value>Ẩn thành công loại chương trình</value>
+  </data>
+  <data name="lblAnThanhCongLoaiHoSoTaiLieu" xml:space="preserve">
+    <value>Ẩn thành công loại hồ sơ tài liệu</value>
+  </data>
+  <data name="lblAnThanhCongNguoiDung" xml:space="preserve">
+    <value>Ẩn thành công người dùng</value>
+  </data>
+  <data name="lblBanChuaChonDonVi" xml:space="preserve">
+    <value>Bạn chưa chọn đơn vị</value>
+  </data>
+  <data name="lblBanChuaChonDuLieu" xml:space="preserve">
+    <value>Bạn chưa chọn dữ liệu</value>
+  </data>
+  <data name="lblBanGhi" xml:space="preserve">
+    <value>Bản ghi</value>
+  </data>
+  <data name="lblBanGhiHienDangAn" xml:space="preserve">
+    <value>Bản ghi hiện đang ẩn</value>
+  </data>
+  <data name="lblBanGhiHienDangHienThi" xml:space="preserve">
+    <value>Bản ghi hiện đang hiển thị</value>
+  </data>
+  <data name="lblBanGhiKhongTheXoaDoDangDung" xml:space="preserve">
+    <value>Bản ghi không thể xóa do đang sử dụng</value>
+  </data>
+  <data name="lblCapNhatCoQuanGuiNhan" xml:space="preserve">
+    <value>Cập nhật cơ quan gửi, nhận</value>
+  </data>
+  <data name="lblCapNhatDonVi" xml:space="preserve">
+    <value>Cập nhật đơn vị</value>
+  </data>
+  <data name="lblCapNhatDonViLienThong" xml:space="preserve">
+    <value>Cập nhật đơn vị liên thông</value>
+  </data>
+  <data name="lblCapNhatKhongThanhCong" xml:space="preserve">
+    <value>Cập nhật không thành công</value>
+  </data>
+  <data name="lblCapNhatLichLamViecThanhCong" xml:space="preserve">
+    <value>Cập nhật Lịch làm việc thành công</value>
+  </data>
+  <data name="lblCapNhatLichTrucBanLanhDaoThanhCong" xml:space="preserve">
+    <value>Cập nhật lịch trực ban lãnh đạo thành công</value>
+  </data>
+  <data name="lblCapNhatLoaiChuDe" xml:space="preserve">
+    <value>Cập nhật loại chủ đề</value>
+  </data>
+  <data name="lblCapNhatLoaiChuongTrinh" xml:space="preserve">
+    <value>Cập nhật loại chương trình</value>
+  </data>
+  <data name="lblCapNhatLoaiHoSo" xml:space="preserve">
+    <value>Cập nhật loại hồ sơ</value>
+  </data>
+  <data name="lblCapNhatMatKhauNguoiDung" xml:space="preserve">
+    <value>Cập nhật mật khẩu người dùng</value>
+  </data>
+  <data name="lblCapNhatNguoiDungDaTonTaiTrongPBDV" xml:space="preserve">
+    <value>Cập nhật người dùng đã tồn tại trong phòng ban/đơn vị thành công</value>
+  </data>
+  <data name="lblCapNhatNhomDonVi" xml:space="preserve">
+    <value>Cập nhật nhóm đơn vị</value>
+  </data>
+  <data name="lblCapNhatNhomLienThong" xml:space="preserve">
+    <value>Cập nhật nhóm liên thông</value>
+  </data>
+  <data name="lblCapNhatThanhCongBanGhi" xml:space="preserve">
+    <value>Cập nhật thành công bản ghi</value>
+  </data>
+  <data name="lblCapNhatThanhCongDonVi" xml:space="preserve">
+    <value>Cập nhật thành công đơn vị</value>
+  </data>
+  <data name="lblCapNhatThanhCongNguoiDung" xml:space="preserve">
+    <value>Cập nhật thành công người dùng</value>
+  </data>
+  <data name="lblCapNhatThanhCongNoiNhan" xml:space="preserve">
+    <value>Cập nhật thành công nơi nhận</value>
+  </data>
+  <data name="lblCapNhatThanhCongQuyenNguoiDung" xml:space="preserve">
+    <value>Cập nhật thành công quyền người dùng</value>
+  </data>
+  <data name="lblCapNhatThanhCongVaiTroNguoiDung" xml:space="preserve">
+    <value>Cập nhật thành công vai trò người dùng</value>
+  </data>
+  <data name="lblCapNhatThuTuHienThiThanhCong" xml:space="preserve">
+    <value>Cập nhật thứ tự hiển thị thành công</value>
+  </data>
+  <data name="lblChonCoQuanDonViGuiNhan" xml:space="preserve">
+    <value>Chọn cơ quan/ đơn vị gửi, nhận</value>
+  </data>
+  <data name="lblChuanHoaDuLieuThanhCong" xml:space="preserve">
+    <value>Chuẩn hóa dữ liệu thành công</value>
+  </data>
+  <data name="lblCoLoiTrongQuaTrinhCapNhat" xml:space="preserve">
+    <value>Có lỗi trong quá trình cập nhật</value>
+  </data>
+  <data name="lblCoQuanGuiNhan" xml:space="preserve">
+    <value>Cơ quan gửi nhận</value>
+  </data>
+  <data name="lblCoQuanGuiNhanDaTonTai" xml:space="preserve">
+    <value>Cơ quan gửi nhận đã tồn tại</value>
+  </data>
+  <data name="lblDaAnCacNhomDonVi" xml:space="preserve">
+    <value>Đã ẩn các nhóm đơn vị</value>
+  </data>
+  <data name="lblDaAnCacNhomLienThong" xml:space="preserve">
+    <value>Đã ẩn các nhóm liên thông</value>
+  </data>
+  <data name="lblDaHienThiCacNhomDonVi" xml:space="preserve">
+    <value>Đã hiển thị các nhóm đơn vị</value>
+  </data>
+  <data name="lblDaHienThiCacNhomLienThong" xml:space="preserve">
+    <value>Đã hiển thị các nhóm liên thông</value>
+  </data>
+  <data name="lblDaHienThiDonVi" xml:space="preserve">
+    <value>Đã hiển thị đơn vị</value>
+  </data>
+  <data name="lblDangSuDung" xml:space="preserve">
+    <value>đang sử dụng</value>
+  </data>
+  <data name="lblDaXoaDonVi" xml:space="preserve">
+    <value>Đã xóa đơn vị</value>
+  </data>
+  <data name="lblDaXoaThanhCongNhomDonVi" xml:space="preserve">
+    <value>Đã xóa thành công nhóm đơn vị</value>
+  </data>
+  <data name="lblDaXoaThanhCongNhomLienThong" xml:space="preserve">
+    <value>Đã xóa thành công nhóm liên thông</value>
+  </data>
+  <data name="lblDoiMatKhauKhongThanhCong" xml:space="preserve">
+    <value>Đổi mật khẩu không thành công</value>
+  </data>
+  <data name="lblDonVi" xml:space="preserve">
+    <value>Đơn vị</value>
+  </data>
+  <data name="lblDonViChaKhongDung" xml:space="preserve">
+    <value>Đơn vị cha không đúng</value>
+  </data>
+  <data name="lblDonViChaKhongDuocLaDonViConHienTai" xml:space="preserve">
+    <value>Đơn vị cha không được là đơn vị con hiện tại</value>
+  </data>
+  <data name="lblDonViLienThong" xml:space="preserve">
+    <value>Đơn vị liên thông</value>
+  </data>
+  <data name="lblDonViLienThongHienDangAn" xml:space="preserve">
+    <value>Đơn vị liên thông hiện đang ẩn</value>
+  </data>
+  <data name="lblDonViLienThongHienDangHienThi" xml:space="preserve">
+    <value>Đơn vị liên thông hiện đang hiển thị</value>
+  </data>
+  <data name="lblDonViLienThongKhongXoaDuocDoDangSuDung" xml:space="preserve">
+    <value>Đơn vị liên thông không xóa được do đang sử dụng</value>
+  </data>
+  <data name="lblHienDangAn" xml:space="preserve">
+    <value>hiện đang ẩn</value>
+  </data>
+  <data name="lblHienThiBanGhiThanhCong" xml:space="preserve">
+    <value>Hiển thị bản ghi thành công</value>
+  </data>
+  <data name="lblHienThiThanhCongDonViLienThong" xml:space="preserve">
+    <value>Hiển thị thành công đơn vị liên thông</value>
+  </data>
+  <data name="lblHienThiThanhCongLoaiChuDe" xml:space="preserve">
+    <value>Hiển thị thành công loại chủ đề</value>
+  </data>
+  <data name="lblHienThiThanhCongLoaiChuongTrinh" xml:space="preserve">
+    <value>Hiển thị thành công loại chương trình</value>
+  </data>
+  <data name="lblHienThiThanhCongLoaiHoSoTaiLieu" xml:space="preserve">
+    <value>Hiển thị thành công loại hồ sơ tài liệu</value>
+  </data>
+  <data name="lblHienThiThanhCongNguoiDung" xml:space="preserve">
+    <value>Hiển thị thành công người dùng</value>
+  </data>
+  <data name="lblKhongAnDuocDoCoLoi" xml:space="preserve">
+    <value>Không ẩn được do có lỗi</value>
+  </data>
+  <data name="lblKhongDuocXoaDonVi" xml:space="preserve">
+    <value>Không được xóa đơn vị</value>
+  </data>
+  <data name="lblKhongHienThiDuocDoXayRaLoi" xml:space="preserve">
+    <value>Không hiển thị được do xảy ra lỗi</value>
+  </data>
+  <data name="lblKhongThucHienXoaDoBanGhiDangSuDung" xml:space="preserve">
+    <value>Không thực hiện xóa do bản ghi đang sử dụng</value>
+  </data>
+  <data name="lblKhongTonTaiDonVi" xml:space="preserve">
+    <value>Không tồn tại đơn vị</value>
+  </data>
+  <data name="lblKhongTonTaiDonViTrenHeThong" xml:space="preserve">
+    <value>Không tồn tại thông tin đơn vị trên hệ thống</value>
+  </data>
+  <data name="lblKhongTonTaiLoaiHoSoTrenHeThong" xml:space="preserve">
+    <value>Không tồn tại loại hồ sơ trên hệ thống</value>
+  </data>
+  <data name="lblKhongXoaDuocDoDangSuDung" xml:space="preserve">
+    <value>Không xóa được do đang được sử dụng</value>
+  </data>
+  <data name="lblKiemTraLaiCacTruongThuTuPhaiLaSo" xml:space="preserve">
+    <value>Kiểm tra lại các trường thứ tự phải là số</value>
+  </data>
+  <data name="lblLichLamViecKhongXoaDuocDoDangSuDung" xml:space="preserve">
+    <value>Lịch làm việc không xóa được do đang sử dụng</value>
+  </data>
+  <data name="lblLoaiChuDe" xml:space="preserve">
+    <value>Loại chủ đề</value>
+  </data>
+  <data name="lblLoaiChuDeHienDangAn" xml:space="preserve">
+    <value>Loại chủ đề hiện đang ẩn</value>
+  </data>
+  <data name="lblLoaiChuDeHienDangHienThi" xml:space="preserve">
+    <value>Loại chủ đề hiện đang hiển thị</value>
+  </data>
+  <data name="lblLoaiChuDeKhongXoaDuocDoDangSuDung" xml:space="preserve">
+    <value>Loại chủ đề không xóa được do đang sử dụng</value>
+  </data>
+  <data name="lblLoaiChuongTrinh" xml:space="preserve">
+    <value>Loại chương trình</value>
+  </data>
+  <data name="lblLoaiChuongTrinhHienDangHienThi" xml:space="preserve">
+    <value>Loại chương trình hiện đang hiển thị</value>
+  </data>
+  <data name="lblLoaiChuongTrinhKhongXoaDuocDoDangSuDung" xml:space="preserve">
+    <value>Loại chương trình không xóa được do đang sử dụng</value>
+  </data>
+  <data name="lblLoaiHoSoTaiLieuHienDangAn" xml:space="preserve">
+    <value>Loại hồ sơ tài liệu hiện đang ẩn</value>
+  </data>
+  <data name="lblLoaiHoSoTaiLieuHienDangHienThi" xml:space="preserve">
+    <value>Loại hồ sơ tài liệu hiện đang hiển thị</value>
+  </data>
+  <data name="lblMaLoaiTaiLieu" xml:space="preserve">
+    <value>Mã loại tài liệu</value>
+  </data>
+  <data name="lblNgaySinhKhongDuocLonHonNgayHienTai" xml:space="preserve">
+    <value>Ngày sinh không được lớn hơn ngày hiện tại</value>
+  </data>
+  <data name="lblNgayTrucLDNamNgoaiThoiGianTrongTuanChon" xml:space="preserve">
+    <value>Ngày trực của lãnh đạo nằm ngoài khoảng thời gian trong tuần được chọn</value>
+  </data>
+  <data name="lblNguoiDungChuaDuocGanChoDVPB" xml:space="preserve">
+    <value>Người dùng chưa được gán cho Đơn vị, phòng ban nào</value>
+  </data>
+  <data name="lblNguoiDungChuaDuocPhepDungTrenHT" xml:space="preserve">
+    <value>Người dùng chưa được cho phép sử dụng trên hệ thống</value>
+  </data>
+  <data name="lblNguoiDungDangDuocAn" xml:space="preserve">
+    <value>Người dùng đang được ẩn</value>
+  </data>
+  <data name="lblNguoiDungDangDuocHienThi" xml:space="preserve">
+    <value>Người dùng đang được hiển thị</value>
+  </data>
+  <data name="lblNguoiDungKhongTonTai" xml:space="preserve">
+    <value>Người dùng không tồn tại</value>
+  </data>
+  <data name="lblNguoiDungKhongTonTaiTrenHeThong" xml:space="preserve">
+    <value>Người dùng không tồn tại trên hệ thống</value>
+  </data>
+  <data name="lblNguoiDungKhongXoaDuocDoDangSuDung" xml:space="preserve">
+    <value>Người dùng không xóa được do đang được sử dụng</value>
+  </data>
+  <data name="lblNhomDonVi" xml:space="preserve">
+    <value>Nhóm đơn vị</value>
+  </data>
+  <data name="lblNhomDonViHienDangAn" xml:space="preserve">
+    <value>Nhóm đơn vị hiện đang ẩn</value>
+  </data>
+  <data name="lblNhomDonViHienDangHienThi" xml:space="preserve">
+    <value>Nhóm đơn vị hiện đang hiển thị</value>
+  </data>
+  <data name="lblNhomDonViKhongXoaDuocDoDangSuDung" xml:space="preserve">
+    <value>Nhóm đơn vị không xóa được do đang sử dụng</value>
+  </data>
+  <data name="lblNhomLienThong" xml:space="preserve">
+    <value>Nhóm liên thông</value>
+  </data>
+  <data name="lblNhomLienThongHienDangAn" xml:space="preserve">
+    <value>Nhóm liên thông hiện đang ẩn</value>
+  </data>
+  <data name="lblNhomLienThongHienDangHienThi" xml:space="preserve">
+    <value>Nhóm liên thông hiện đang hiển thị</value>
+  </data>
+  <data name="lblNhomLienThongKhongXoaDuocDoDangDung" xml:space="preserve">
+    <value>Nhóm liên thông không xóa được do đang sử dụng</value>
+  </data>
+  <data name="lblNoiNhanKhongXoaDuocDoDangSuDung" xml:space="preserve">
+    <value>Nơi nhận không xóa được do đang sử dụng</value>
+  </data>
+  <data name="lblPhongBanChaKhongPhaiLaDonVi" xml:space="preserve">
+    <value>Phòng ban cha không phải là đơn vị</value>
+  </data>
+  <data name="lblPhongBanDonViDaCoViTriLonNhat" xml:space="preserve">
+    <value>Phòng ban, đơn vị đã có vị trí lớn nhất</value>
+  </data>
+  <data name="lblTenVietTat" xml:space="preserve">
+    <value>Tên viết tắt</value>
+  </data>
+  <data name="lblThemMoiCoQuanGuiNhan" xml:space="preserve">
+    <value>Thêm mới cơ quan gửi, nhận</value>
+  </data>
+  <data name="lblThemMoiDonViThanhCong" xml:space="preserve">
+    <value>Thêm mới đơn vị liên thông</value>
+  </data>
+  <data name="lblThemMoiKhongThanhCong" xml:space="preserve">
+    <value>Thêm mới không thành công</value>
+  </data>
+  <data name="lblThemMoiLichLamViecThanhCong" xml:space="preserve">
+    <value>Thêm mới lịch làm việc thành công</value>
+  </data>
+  <data name="lblThemMoiLichTrucBLDThanhCong" xml:space="preserve">
+    <value>Thêm mới lịch trực ban lãnh đạo thành công</value>
+  </data>
+  <data name="lblThemMoiLoaiChuDe" xml:space="preserve">
+    <value>Thêm mới loại chủ đề</value>
+  </data>
+  <data name="lblThemMoiLoaiHoSo" xml:space="preserve">
+    <value>Thêm mới loại hồ sơ</value>
+  </data>
+  <data name="lblThemMoiNhomDonVi" xml:space="preserve">
+    <value>Thêm mới nhóm đơn vị</value>
+  </data>
+  <data name="lblThemMoiNhomLienThong" xml:space="preserve">
+    <value>Thêm mới nhóm liên thông</value>
+  </data>
+  <data name="lblThemMoiThanhCongBanGhi" xml:space="preserve">
+    <value>Thêm mới thành công bản ghi</value>
+  </data>
+  <data name="lblThemMoiThanhCongCoQuanGuiNhan" xml:space="preserve">
+    <value>Thêm mới thành công cơ quan gửi, nhận</value>
+  </data>
+  <data name="lblThemMoiThanhCongDonVi" xml:space="preserve">
+    <value>Thêm mới thành công đơn vị</value>
+  </data>
+  <data name="lblThemMoiThanhCongLoaiChuongTrinh" xml:space="preserve">
+    <value>Thêm mới thành công loại chương trình</value>
+  </data>
+  <data name="lblThemMoiThanhCongNguoiDung" xml:space="preserve">
+    <value>Thêm mới thành công người dùng</value>
+  </data>
+  <data name="lblThemThanhCongNguoiDungVaoPBDV" xml:space="preserve">
+    <value>Thêm thành công người dùng vào phòng ban/đơn vị</value>
+  </data>
+  <data name="lblThoiGianBatDauKhongTheNhoHonThoiGianKT" xml:space="preserve">
+    <value>Thời gian bắt đầu không thể nhỏ hơn thời gian kết thúc</value>
+  </data>
+  <data name="lblThongTinLichTrucDaTonTai" xml:space="preserve">
+    <value>Thông tin lịch trực đã tồn tại, vui lòng kiểm tra lại</value>
+  </data>
+  <data name="lblThongTinLichTrucDaTonTaiKiemTraLai" xml:space="preserve">
+    <value>Thông tin lịch trực đã tồn tại, vui lòng kiểm tra lại</value>
+  </data>
+  <data name="lblThuTuPhaiLaSo" xml:space="preserve">
+    <value>Thứ tự phải là số</value>
+  </data>
+  <data name="lblTrongHeThong" xml:space="preserve">
+    <value>trong hệ thống</value>
+  </data>
+  <data name="lblXoaLichTrucBanLanhDaoThanhCong" xml:space="preserve">
+    <value>Xóa lịch trực ban lãnh đạo thành công</value>
+  </data>
+  <data name="lblXoaNguoiDungKhoiPhongBan" xml:space="preserve">
+    <value>xóa người dùng khỏi phòng ban</value>
+  </data>
+  <data name="lblXoaNguoiDungKhoiPhongBanThanhCong" xml:space="preserve">
+    <value>Xóa người dùng khỏi phòng ban thành công</value>
+  </data>
+  <data name="lblXoaThanhCongCacBanGhiDaChon" xml:space="preserve">
+    <value>Xóa thành công các bản ghi đã chọn</value>
+  </data>
+  <data name="lblXoaThanhCongLoaiHoSo" xml:space="preserve">
+    <value>Xóa thành công loại hồ sơ</value>
+  </data>
+  <data name="CapNhatNoiDenThanhCong" xml:space="preserve">
+    <value>Cập nhật nơi đến thành công</value>
+  </data>
+  <data name="lblAnThanhCongPhamViNoiDen" xml:space="preserve">
+    <value>Ẩn thành công phạm vi nơi đến</value>
+  </data>
+  <data name="lblAnThanhCongTinhThanh" xml:space="preserve">
+    <value>Ẩn thành công Tỉnh thành</value>
+  </data>
+  <data name="lblBaoCaoDaDuocGui" xml:space="preserve">
+    <value>Báo cáo đã được gửi</value>
+  </data>
+  <data name="lblCapNhat" xml:space="preserve">
+    <value>Cập nhật</value>
+  </data>
+  <data name="lblCapNhatThanhCong" xml:space="preserve">
+    <value>Cập nhật thành công</value>
+  </data>
+  <data name="lblCapNhatThanhCongGiaCuoc" xml:space="preserve">
+    <value>Cập nhật thành công giá cước</value>
+  </data>
+  <data name="lblCapNhatThongTinLienThong" xml:space="preserve">
+    <value>Cập nhật thông tin liên thông</value>
+  </data>
+  <data name="lblCapNhatTienDoThanhCong" xml:space="preserve">
+    <value>Cập nhật tiến độ thành công</value>
+  </data>
+  <data name="lblCapNhatTinhThanh" xml:space="preserve">
+    <value>Cập nhật tỉnh thành</value>
+  </data>
+  <data name="lblCapNhatTrongLuongThanhCong" xml:space="preserve">
+    <value>Cập nhật trọng lượng thành công</value>
+  </data>
+  <data name="lblCua" xml:space="preserve">
+    <value>của</value>
+  </data>
+  <data name="lblDaThemDuSoCotTrenMotDong" xml:space="preserve">
+    <value>Đã thêm đủ số cột trên một dòng</value>
+  </data>
+  <data name="lblDongCuaFormBMDangSuDung" xml:space="preserve">
+    <value>Dòng của form biểu mẫu báo cáo đang được sử dụng</value>
+  </data>
+  <data name="lblHienThiThanhCongPhamViNoiDen" xml:space="preserve">
+    <value>Hiển thị thành công phạm vi nơi đến</value>
+  </data>
+  <data name="lblHienThiThanhCongTinhThanh" xml:space="preserve">
+    <value>Hiển thị thành công tỉnh thành</value>
+  </data>
+  <data name="lblKhongCapNhatDuocSoLieu" xml:space="preserve">
+    <value>Không cập nhật được số liệu</value>
+  </data>
+  <data name="lblKhongCoThongTinTrenHeThong" xml:space="preserve">
+    <value>Không có thông tin trên hệ thống</value>
+  </data>
+  <data name="lblKhongTonTaiBanGhiTrongHeThong" xml:space="preserve">
+    <value>Không tồn tại bảng ghi trong hệ thống</value>
+  </data>
+  <data name="lblKhongTonTaiThongTinDongTrenHeThong" xml:space="preserve">
+    <value>Không tồn tại thông tin dòng trên hệ thống</value>
+  </data>
+  <data name="lblKhongXoaDuocDongDoDangSuDung" xml:space="preserve">
+    <value>Không xóa được dòng do đang sử dụng</value>
+  </data>
+  <data name="lblNhapSoLieuThanhCong" xml:space="preserve">
+    <value>Nhập số liệu thành công</value>
+  </data>
+  <data name="lblNoiDen" xml:space="preserve">
+    <value>Nơi đến</value>
+  </data>
+  <data name="lblPhamViNoiDenHienDangAn" xml:space="preserve">
+    <value>Phạm vi nơi đến hiện đang ẩn hoặc đang được sử dụng</value>
+  </data>
+  <data name="lblPhamViNoiDenHienDangHienThi" xml:space="preserve">
+    <value>Phạm vi nơi đến hiện đang hiển thị</value>
+  </data>
+  <data name="lblPhamViNoiDenKhongXoaDuocDoDangSuDung" xml:space="preserve">
+    <value>Phạm vi nơi đến không xóa được do đang sử dụng</value>
+  </data>
+  <data name="lblPhamViTrongLuongKhongXoaDuocDoDangSuDung" xml:space="preserve">
+    <value>Phạm vi trọng lượng không xóa được do đang sử dụng</value>
+  </data>
+  <data name="lblThemMoi" xml:space="preserve">
+    <value>Thêm mới</value>
+  </data>
+  <data name="lblThemMoiCotThanhCong" xml:space="preserve">
+    <value>Thêm mới cột thành công</value>
+  </data>
+  <data name="lblThemMoiNoiDenThanhCong" xml:space="preserve">
+    <value>Thêm mới nơi đến thành công</value>
+  </data>
+  <data name="lblThemMoiThongTinGiaCuoc" xml:space="preserve">
+    <value>Thêm mới thành công giá cước</value>
+  </data>
+  <data name="lblThemMoiThongTinLienThong" xml:space="preserve">
+    <value>Thêm mới thông tin liên thông</value>
+  </data>
+  <data name="lblThemMoiTinhThanh" xml:space="preserve">
+    <value>Thêm mới tỉnh thành</value>
+  </data>
+  <data name="lblThemMoiTrongLuongThanhCong" xml:space="preserve">
+    <value>Thêm mới trọng lượng thành công</value>
+  </data>
+  <data name="lblThongTinGiaCuocDaTonTai" xml:space="preserve">
+    <value>Thông tin giá cước đã tồn tại</value>
+  </data>
+  <data name="lblTinhThanh" xml:space="preserve">
+    <value>Tỉnh thành</value>
+  </data>
+  <data name="lblTinhThanhDangDuocSuDung" xml:space="preserve">
+    <value>Tỉnh thành đang được sử dụng</value>
+  </data>
+  <data name="lblTinhThanhHienDangAn" xml:space="preserve">
+    <value>Tỉnh thành hiện đang ẩn</value>
+  </data>
+  <data name="lblTinhThanhHienDangHienThi" xml:space="preserve">
+    <value>Tỉnh thành hiện đang hiển thị</value>
+  </data>
+  <data name="lblTrongLuong" xml:space="preserve">
+    <value>Trọng lượng</value>
+  </data>
+  <data name="lblTrongLuongKhongXoaDuocDoDangSuDung" xml:space="preserve">
+    <value>Trọng lượng không xóa được do đang sử dụng</value>
+  </data>
+  <data name="lblXoaThanhCongCot" xml:space="preserve">
+    <value>Xóa thành công cột</value>
+  </data>
+  <data name="lblXoaThanhCongDongCuaFormBM" xml:space="preserve">
+    <value>Xóa thành công dòng của form biểu mẫu báo cáo</value>
+  </data>
+  <data name="lblXoaThanhCongTinhThanh" xml:space="preserve">
+    <value>Xóa thành công tỉnh thành</value>
+  </data>
+  <data name="lblHanXuLyCaNhanKhongDuocLonHonHXLToanCV" xml:space="preserve">
+    <value>Hạn xử lý cá nhân không được lớn hơn hạn xử lý của toàn bộ công việc</value>
+  </data>
+  <data name="lblHanXuLyKhongDuocNhoHonNgayBDCV" xml:space="preserve">
+    <value>Hạn xử lý không được nhỏ hơn ngày bắt đầu công việc</value>
+  </data>
+  <data name="lblKhongCoKetQuaNao" xml:space="preserve">
+    <value>Không có kết quả nào</value>
+  </data>
+  <data name="lblHienTaiDanhSachNayChuaCoDuLieu" xml:space="preserve">
+    <value>Hiện tại danh sách này chưa có dữ liệu</value>
+  </data>
+  <data name="lblKetQuaTrenMotTrang" xml:space="preserve">
+    <value>Kết quả trên 1 trang</value>
+  </data>
+  <data name="lblTongSo" xml:space="preserve">
+    <value>Tổng số</value>
+  </data>
+  <data name="lblTrangCuoi" xml:space="preserve">
+    <value>Trang cuối</value>
+  </data>
+  <data name="lblTrangDau" xml:space="preserve">
+    <value>Trang đầu</value>
+  </data>
+  <data name="lblTrangTiep" xml:space="preserve">
+    <value>Trang tiếp</value>
+  </data>
+  <data name="lblTrangTruoc" xml:space="preserve">
+    <value>Trang trước</value>
+  </data>
+  <data name="lblTrang" xml:space="preserve">
+    <value>Trang</value>
+  </data>
+  <data name="lblDungHan" xml:space="preserve">
+    <value>đúng hạn</value>
+  </data>
+  <data name="lblQuaHan" xml:space="preserve">
+    <value>quá hạn</value>
+  </data>
+  <data name="lblSoDenBiTrung" xml:space="preserve">
+    <value>Số đến bị trùng</value>
+  </data>
+  <data name="lblThemMoiVatPham" xml:space="preserve">
+    <value>Thêm mới vật phẩm</value>
+  </data>
+  <data name="lblCapNhatDanhMucVatPham" xml:space="preserve">
+    <value>Cập nhật vật phẩm</value>
+  </data>
+  <data name="lblDanhMucVatPhamHienDangAn" xml:space="preserve">
+    <value>Danh mục vật phẩm hiện đang ẩn hoặc đang sử dụng</value>
+  </data>
+  <data name="lblAnThanhCongDanhMucVatPham" xml:space="preserve">
+    <value>Ẩn thành công danh mục vật phẩm</value>
+  </data>
+  <data name="lblDanhMucVatPhamHienDangHienThi" xml:space="preserve">
+    <value>Danh mục vật phẩm hiện đang hiển thị hoặc đang sử dụng</value>
+  </data>
+  <data name="lblHienThiThanhCongDanhMucVatPham" xml:space="preserve">
+    <value>Hiển thị thành công danh mục xe</value>
+  </data>
+  <data name="lblGuiTrinhDuyet" xml:space="preserve">
+    <value>Gửi trình duyệt</value>
+  </data>
+  <data name="lblDuyet" xml:space="preserve">
+    <value>Duyệt</value>
+  </data>
+  <data name="lblTuChoi" xml:space="preserve">
+    <value>Từ chối</value>
+  </data>
+  <data name="lblChuyenTrangThai" xml:space="preserve">
+    <value>Chuyển trạng thái</value>
+  </data>
+</root>

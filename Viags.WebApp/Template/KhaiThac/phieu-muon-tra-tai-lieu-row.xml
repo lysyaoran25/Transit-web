@@ -1,0 +1,100 @@
+﻿<w:tr w:rsidR="00FC2223" w:rsidRPr="00FC2223" w:rsidTr="00FC2223">
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="670" w:type="dxa"/>
+      <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+    </w:tcPr>
+    <w:p w:rsidR="00FC2223" w:rsidRPr="00FC2223" w:rsidRDefault="0066500B" w:rsidP="00FC2223">
+      <w:pPr>
+        <w:spacing w:before="120" w:after="120" w:line="240" w:lineRule="auto"/>
+        <w:jc w:val="center"/>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r w:rsidRPr="00FC2223">
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+        <w:t>[STT]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="1598" w:type="dxa"/>
+    </w:tcPr>
+    <w:p w:rsidR="00FC2223" w:rsidRPr="00FC2223" w:rsidRDefault="0066500B" w:rsidP="00FC2223">
+      <w:pPr>
+        <w:spacing w:before="120" w:after="120" w:line="240" w:lineRule="auto"/>
+        <w:jc w:val="center"/>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+        <w:t>[TENHOSO]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="1598" w:type="dxa"/>
+    </w:tcPr>
+    <w:p w:rsidR="00FC2223" w:rsidRPr="00FC2223" w:rsidRDefault="0066500B" w:rsidP="00FC2223">
+      <w:pPr>
+        <w:spacing w:before="120" w:after="120" w:line="240" w:lineRule="auto"/>
+        <w:jc w:val="center"/>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+        <w:t>[NGAYMUON]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="1598" w:type="dxa"/>
+    </w:tcPr>
+    <w:p w:rsidR="00FC2223" w:rsidRPr="00FC2223" w:rsidRDefault="0066500B" w:rsidP="00FC2223">
+      <w:pPr>
+        <w:spacing w:before="120" w:after="120" w:line="240" w:lineRule="auto"/>
+        <w:jc w:val="center"/>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+        <w:t>[NGAYTRA]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+
+</w:tr>

@@ -1,0 +1,20 @@
+﻿<Row>
+  <Cell ss:Index="2" ss:StyleID="s17">
+    <Data ss:Type="String">[ThuTu]</Data>
+  </Cell>
+  <Cell ss:StyleID="s17">
+    <Data ss:Type="String">[SKH]</Data>
+  </Cell>
+  <Cell ss:StyleID="s17">
+    <Data ss:Type="String">[NgayBH]</Data>
+  </Cell>
+  <Cell ss:StyleID="s17">
+    <Data ss:Type="String">[TrichYeu]</Data>
+  </Cell>
+  <Cell ss:StyleID="s17">
+    <Data ss:Type="String">[NguoiKy]</Data>
+  </Cell>
+  <Cell ss:StyleID="s17">
+    <Data ss:Type="String">[DonViSoanThao]</Data>
+  </Cell>
+</Row>

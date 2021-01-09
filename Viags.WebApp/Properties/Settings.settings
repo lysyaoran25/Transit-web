@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Viags.WebApp.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Viags_WebApp_SoHoaService_FCProxy" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://10.1.20.13/FCProxy/FCProxy.asmx</Value>
+    </Setting>
+    <Setting Name="Viags_WebApp_UploadFileService_UploadFile" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://demo-tv:9080/Uploadfile.asmx</Value>
+    </Setting>
+    <Setting Name="Viags_WebApp_VBLT_SendVBLT" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://10.1.20.10:9981/API/SendVBLT.asmx</Value>
+    </Setting>
+    <Setting Name="SBV_WebApp_UploadFileService_UploadFile" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://demo-tv:9080/Uploadfile.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

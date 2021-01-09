@@ -1,0 +1,21 @@
+﻿<Row>
+  <Cell ss:StyleID="s85">
+    <Data ss:Type="String">[ThuTu]</Data>
+  </Cell>
+  <Cell ss:MergeAcross="2"
+        ss:StyleID="s64">
+    <Data ss:Type="String">[SKH]</Data>
+  </Cell>
+  <Cell ss:MergeAcross="2"
+        ss:StyleID="s64">
+    <Data ss:Type="String">[NgayBH]</Data>
+  </Cell>
+  <Cell ss:MergeAcross="3"
+        ss:StyleID="s87">
+    <Data ss:Type="String">[TrichYeu]</Data>
+  </Cell>
+  <Cell ss:MergeAcross="1"
+        ss:StyleID="s64">
+    <Data ss:Type="String">[SoTo]</Data>
+  </Cell>
+</Row>

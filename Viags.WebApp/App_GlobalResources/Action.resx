@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblCapNhat" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="lblCapSo" xml:space="preserve">
+    <value>Give book</value>
+  </data>
+  <data name="lblChonFileDinhKem" xml:space="preserve">
+    <value>Select file attachment</value>
+  </data>
+  <data name="lblDangNhap" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="lblDuyet" xml:space="preserve">
+    <value>Approve</value>
+  </data>
+  <data name="lblKeoVaThaFileVaoDeTaiLen" xml:space="preserve">
+    <value>Drag and drop files to upload</value>
+  </data>
+  <data name="lblPhatHanh" xml:space="preserve">
+    <value>Promulgate</value>
+  </data>
+  <data name="lblQuy" xml:space="preserve">
+    <value>Quarter</value>
+  </data>
+  <data name="lblSua" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="lblThang" xml:space="preserve">
+    <value>Month</value>
+  </data>
+  <data name="lblThemMoi" xml:space="preserve">
+    <value>Add new</value>
+  </data>
+  <data name="lblVaoSo" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="lblXem" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="lblXoa" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="lblCapNhatFileVanBanThanhCong" xml:space="preserve">
+    <value>Update successful file documents</value>
+  </data>
+  <data name="lblCapNhatThanhCongVB" xml:space="preserve">
+    <value>Update successful transferring out documents</value>
+  </data>
+  <data name="lblCapNhatVaGuiThanhCongVB" xml:space="preserve">
+    <value>Update and sent successful transferring out documents</value>
+  </data>
+  <data name="lblChiaSeVBDiCoSoKyHieu" xml:space="preserve">
+    <value>Share transferring document with symbol number</value>
+  </data>
+  <data name="lblDaTonTai" xml:space="preserve">
+    <value>existed</value>
+  </data>
+  <data name="lblDaTrungSo" xml:space="preserve">
+    <value>existed.</value>
+  </data>
+  <data name="lblDaXoaThanhCongVBDi" xml:space="preserve">
+    <value>Deleted successful transferring document.</value>
+  </data>
+  <data name="lblHuyChiaSeThanhCongVBDi" xml:space="preserve">
+    <value>Cancel successful share transferring document.</value>
+  </data>
+  <data name="lblThanhCong" xml:space="preserve">
+    <value>successful</value>
+  </data>
+  <data name="lblThemMoiThanhCongVB" xml:space="preserve">
+    <value>Add new successful transferring document number</value>
+  </data>
+  <data name="lblThemMoiVaGuiThanhCongVB" xml:space="preserve">
+    <value>Add new and sent successful transferring document number</value>
+  </data>
+  <data name="lblVanBanDi" xml:space="preserve">
+    <value>Transferring document</value>
+  </data>
+  <data name="lblVanBanDiKhongXoaDuoc" xml:space="preserve">
+    <value>Transferring document can't be deleted because the file is used</value>
+  </data>
+  <data name="lblVanBanDiSoKyHieu" xml:space="preserve">
+    <value>Transferring document S/N</value>
+  </data>
+  <data name="lblVanBanDiThuTu" xml:space="preserve">
+    <value>Transferring document No.</value>
+  </data>
+  <data name="lblVanBanSoKyHieu" xml:space="preserve">
+    <value>Document S/N</value>
+  </data>
+  <data name="lblVuiLongKTNgayVanBan" xml:space="preserve">
+    <value>Please check again date document. Deadline must more than the date document</value>
+  </data>
+  <data name="lblAn" xml:space="preserve">
+    <value>Hide</value>
+  </data>
+  <data name="lblCauHinh" xml:space="preserve">
+    <value>Config</value>
+  </data>
+  <data name="lblChoDuyet" xml:space="preserve">
+    <value>Waiting approve</value>
+  </data>
+  <data name="lblChoPhatHanh" xml:space="preserve">
+    <value>Waitting for promulgate</value>
+  </data>
+  <data name="lblChuaDat" xml:space="preserve">
+    <value>Fail</value>
+  </data>
+  <data name="lblChuaDay" xml:space="preserve">
+    <value>Ullage</value>
+  </data>
+  <data name="lblChuaDuyet" xml:space="preserve">
+    <value>Unprocess</value>
+  </data>
+  <data name="lblChuaThucHien" xml:space="preserve">
+    <value>Pending</value>
+  </data>
+  <data name="lblChuaXuLy" xml:space="preserve">
+    <value>Pending</value>
+  </data>
+  <data name="lblCo" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="lblDaBanGiao" xml:space="preserve">
+    <value>Handed over</value>
+  </data>
+  <data name="lblDaDuyet" xml:space="preserve">
+    <value>Approved</value>
+  </data>
+  <data name="lblDaHoanThanh" xml:space="preserve">
+    <value>Completed</value>
+  </data>
+  <data name="lblDaHuy" xml:space="preserve">
+    <value>Cancelled</value>
+  </data>
+  <data name="lblDangBanGiao" xml:space="preserve">
+    <value>Handing over</value>
+  </data>
+  <data name="lblDangThucHien" xml:space="preserve">
+    <value>Excuting</value>
+  </data>
+  <data name="lblDangTrinhKy" xml:space="preserve">
+    <value>Submitting</value>
+  </data>
+  <data name="lblDangXuLy" xml:space="preserve">
+    <value>Processing</value>
+  </data>
+  <data name="lblDat" xml:space="preserve">
+    <value>Pass</value>
+  </data>
+  <data name="lblDaThucHien" xml:space="preserve">
+    <value>Completed</value>
+  </data>
+  <data name="lblDaXuLy" xml:space="preserve">
+    <value>Completed</value>
+  </data>
+  <data name="lblDay" xml:space="preserve">
+    <value>Full </value>
+  </data>
+  <data name="lblDoi" xml:space="preserve">
+    <value>Change</value>
+  </data>
+  <data name="lblDoiMatKhau" xml:space="preserve">
+    <value>Change password</value>
+  </data>
+  <data name="lblDuyetTheThuc" xml:space="preserve">
+    <value>Approve format and object</value>
+  </data>
+  <data name="lblDuyetTieuHuy" xml:space="preserve">
+    <value>zzzz</value>
+  </data>
+  <data name="lblHien" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="lblHienThi" xml:space="preserve">
+    <value>Display</value>
+  </data>
+  <data name="lblHuyDuyet" xml:space="preserve">
+    <value>Cancel approve</value>
+  </data>
+  <data name="lblKem" xml:space="preserve">
+    <value>Weak</value>
+  </data>
+  <data name="lblKetThuc" xml:space="preserve">
+    <value>Finish</value>
+  </data>
+  <data name="lblKha" xml:space="preserve">
+    <value>Enough</value>
+  </data>
+  <data name="lblKhong" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="lblKhongDat" xml:space="preserve">
+    <value>Fail</value>
+  </data>
+  <data name="lblKhongDuocDuyet" xml:space="preserve">
+    <value>Reject</value>
+  </data>
+  <data name="lblKhongDuyet" xml:space="preserve">
+    <value>Reject</value>
+  </data>
+  <data name="lblKhongTheDuyet" xml:space="preserve">
+    <value>Can't approve</value>
+  </data>
+  <data name="lblKhongTheDuyetTieuHuy" xml:space="preserve">
+    <value>zzzz</value>
+  </data>
+  <data name="lblKhongTiepNhan" xml:space="preserve">
+    <value>Reject</value>
+  </data>
+  <data name="lblLanhDaoDaDuyet" xml:space="preserve">
+    <value>Manager approved</value>
+  </data>
+  <data name="lblPhanQuyenCho" xml:space="preserve">
+    <value>Decentralization for</value>
+  </data>
+  <data name="lblPhanVaiTroCho" xml:space="preserve">
+    <value>Role division for</value>
+  </data>
+  <data name="lblTaoMoi" xml:space="preserve">
+    <value>Create new</value>
+  </data>
+  <data name="lblTot" xml:space="preserve">
+    <value>Good</value>
+  </data>
+  <data name="lblTraLaiChuongTrinhCT" xml:space="preserve">
+    <value>zzzz</value>
+  </data>
+  <data name="lblTrinhDuyetTheThuc" xml:space="preserve">
+    <value>Submit approve form and subject</value>
+  </data>
+  <data name="lblTrinhKy" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="lblTrungBinh" xml:space="preserve">
+    <value>Average</value>
+  </data>
+  <data name="lblTuChoi" xml:space="preserve">
+    <value>Reject</value>
+  </data>
+  <data name="lblTuChoiVaoSo" xml:space="preserve">
+    <value>Refused register</value>
+  </data>
+  <data name="lblXuatSac" xml:space="preserve">
+    <value>Excellent</value>
+  </data>
+  <data name="lblYeu" xml:space="preserve">
+    <value>Weak</value>
+  </data>
+  <data name="lblYKien" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="lblBat" xml:space="preserve">
+    <value>Bật</value>
+  </data>
+  <data name="lblTat" xml:space="preserve">
+    <value>Tắt</value>
+  </data>
+  <data name="lblChuaGui" xml:space="preserve">
+    <value>Not send</value>
+  </data>
+  <data name="lblDungHan" xml:space="preserve">
+    <value>Đúng hạn</value>
+  </data>
+  <data name="lblQuaHan" xml:space="preserve">
+    <value>Quá hạn</value>
+  </data>
+</root>

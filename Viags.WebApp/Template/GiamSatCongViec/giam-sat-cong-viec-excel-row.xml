@@ -1,0 +1,33 @@
+﻿<Row>
+  <Cell ss:StyleID="s64">
+    <Data ss:Type="String">[INDEX]</Data>
+  </Cell>
+  <Cell ss:StyleID="s64">
+    <Data ss:Type="String">[WORKNAME]</Data>
+  </Cell>
+  <Cell ss:StyleID="s64">
+    <Data ss:Type="String">[CATEGORY]</Data>
+  </Cell>
+  <Cell ss:StyleID="s64">
+    <Data ss:Type="String">[CREATOR]</Data>
+  </Cell>
+  <Cell ss:StyleID="s64">
+    <Data ss:Type="String">[EXECUTOR]</Data>
+  </Cell>
+  <Cell ss:StyleID="s64">
+    <Data ss:Type="String">[DEPARTMENT]</Data>
+  </Cell>
+  <Cell ss:StyleID="s64">
+    <Data ss:Type="String">[STARTDATE]</Data>
+  </Cell>
+  <Cell ss:StyleID="s64">
+    <Data ss:Type="String">[ENDDATE]</Data>
+  </Cell>  
+  <Cell ss:StyleID="s64">
+    <Data ss:Type="String">[STATUS]</Data>
+  </Cell>  
+
+  <!--<Cell ss:StyleID="s64">
+    <Data ss:Type="String">[TONGTIEN]</Data>
+  </Cell>-->
+</Row>

@@ -1,0 +1,380 @@
+﻿<w:tr wsp:rsidR="00924070"
+      wsp:rsidRPr="00323759"
+      wsp:rsidTr="00924070">
+  <w:trPr>
+    <w:trHeight w:val="405"/>
+    <w:jc w:val="center"/>
+  </w:trPr>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="1124"
+             w:type="dxa"/>
+      <w:tcBorders>
+        <w:top w:val="nil"/>
+        <w:left w:val="single"
+                w:sz="8"
+                wx:bdrwidth="20"
+                w:space="0"
+                w:color="auto"/>
+        <w:bottom w:val="single"
+                  w:sz="8"
+                  wx:bdrwidth="20"
+                  w:space="0"
+                  w:color="auto"/>
+        <w:right w:val="single"
+                 w:sz="8"
+                 wx:bdrwidth="20"
+                 w:space="0"
+                 w:color="auto"/>
+      </w:tcBorders>
+      <w:shd w:val="clear"
+             w:color="auto"
+             w:fill="auto"/>
+      <w:noWrap/>
+      <w:vAlign w:val="center"/>
+    </w:tcPr>
+    <w:p wsp:rsidR="00323759"
+         wsp:rsidRPr="00323759"
+         wsp:rsidRDefault="00323759"
+         wsp:rsidP="00BF1862">
+      <w:pPr>
+        <w:spacing w:after="0"
+                   w:line="240"
+                   w:line-rule="auto"/>
+        <w:jc w:val="center"/>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:fareast="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+          <w:color w:val="000000"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r wsp:rsidRPr="00323759">
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:fareast="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+          <w:color w:val="000000"/>
+        </w:rPr>
+        <w:t>[STT]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="2558"
+             w:type="dxa"/>
+      <w:tcBorders>
+        <w:top w:val="nil"/>
+        <w:left w:val="nil"/>
+        <w:bottom w:val="single"
+                  w:sz="8"
+                  wx:bdrwidth="20"
+                  w:space="0"
+                  w:color="auto"/>
+        <w:right w:val="single"
+                 w:sz="8"
+                 wx:bdrwidth="20"
+                 w:space="0"
+                 w:color="auto"/>
+      </w:tcBorders>
+      <w:shd w:val="clear"
+             w:color="auto"
+             w:fill="auto"/>
+      <w:noWrap/>
+      <w:vAlign w:val="center"/>
+    </w:tcPr>
+    <w:p wsp:rsidR="00323759"
+         wsp:rsidRPr="00323759"
+         wsp:rsidRDefault="00323759"
+         wsp:rsidP="00BF1862">
+      <w:pPr>
+        <w:spacing w:after="0"
+                   w:line="240"
+                   w:line-rule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:fareast="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+          <w:color w:val="000000"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r wsp:rsidRPr="00323759">
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:fareast="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+          <w:color w:val="000000"/>
+        </w:rPr>
+        <w:t>[SoKyHieu]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="1440"
+             w:type="dxa"/>
+      <w:tcBorders>
+        <w:top w:val="nil"/>
+        <w:left w:val="nil"/>
+        <w:bottom w:val="single"
+                  w:sz="8"
+                  wx:bdrwidth="20"
+                  w:space="0"
+                  w:color="auto"/>
+        <w:right w:val="single"
+                 w:sz="8"
+                 wx:bdrwidth="20"
+                 w:space="0"
+                 w:color="auto"/>
+      </w:tcBorders>
+      <w:shd w:val="clear"
+             w:color="auto"
+             w:fill="auto"/>
+      <w:noWrap/>
+      <w:vAlign w:val="center"/>
+    </w:tcPr>
+    <w:p wsp:rsidR="00323759"
+         wsp:rsidRPr="00323759"
+         wsp:rsidRDefault="00323759"
+         wsp:rsidP="00BF1862">
+      <w:pPr>
+        <w:spacing w:after="0"
+                   w:line="240"
+                   w:line-rule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:fareast="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+          <w:color w:val="000000"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r wsp:rsidRPr="00323759">
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:fareast="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+          <w:color w:val="000000"/>
+        </w:rPr>
+        <w:t>[DonViGui]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="1980"
+             w:type="dxa"/>
+      <w:tcBorders>
+        <w:top w:val="nil"/>
+        <w:left w:val="nil"/>
+        <w:bottom w:val="single"
+                  w:sz="8"
+                  wx:bdrwidth="20"
+                  w:space="0"
+                  w:color="auto"/>
+        <w:right w:val="single"
+                 w:sz="8"
+                 wx:bdrwidth="20"
+                 w:space="0"
+                 w:color="auto"/>
+      </w:tcBorders>
+      <w:shd w:val="clear"
+             w:color="auto"
+             w:fill="auto"/>
+      <w:noWrap/>
+      <w:vAlign w:val="center"/>
+    </w:tcPr>
+    <w:p wsp:rsidR="00323759"
+         wsp:rsidRPr="00323759"
+         wsp:rsidRDefault="00323759"
+         wsp:rsidP="00BF1862">
+      <w:pPr>
+        <w:spacing w:after="0"
+                   w:line="240"
+                   w:line-rule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:fareast="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+          <w:color w:val="000000"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r wsp:rsidRPr="00323759">
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:fareast="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+          <w:color w:val="000000"/>
+        </w:rPr>
+        <w:t>[NoiNhan]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="2340"
+             w:type="dxa"/>
+      <w:tcBorders>
+        <w:top w:val="nil"/>
+        <w:left w:val="nil"/>
+        <w:bottom w:val="single"
+                  w:sz="8"
+                  wx:bdrwidth="20"
+                  w:space="0"
+                  w:color="auto"/>
+        <w:right w:val="single"
+                 w:sz="8"
+                 wx:bdrwidth="20"
+                 w:space="0"
+                 w:color="auto"/>
+      </w:tcBorders>
+      <w:shd w:val="clear"
+             w:color="auto"
+             w:fill="auto"/>
+      <w:noWrap/>
+      <w:vAlign w:val="center"/>
+    </w:tcPr>
+    <w:p wsp:rsidR="00323759"
+         wsp:rsidRPr="00323759"
+         wsp:rsidRDefault="00323759"
+         wsp:rsidP="00BF1862">
+      <w:pPr>
+        <w:spacing w:after="0"
+                   w:line="240"
+                   w:line-rule="auto"/>
+        <w:jc w:val="center"/>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:fareast="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+          <w:color w:val="000000"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r wsp:rsidRPr="00323759">
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:fareast="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+          <w:color w:val="000000"/>
+        </w:rPr>
+        <w:t>[SoLuong]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="2001"
+             w:type="dxa"/>
+      <w:tcBorders>
+        <w:top w:val="nil"/>
+        <w:left w:val="nil"/>
+        <w:bottom w:val="single"
+                  w:sz="8"
+                  wx:bdrwidth="20"
+                  w:space="0"
+                  w:color="auto"/>
+        <w:right w:val="single"
+                 w:sz="8"
+                 wx:bdrwidth="20"
+                 w:space="0"
+                 w:color="auto"/>
+      </w:tcBorders>
+      <w:shd w:val="clear"
+             w:color="auto"
+             w:fill="auto"/>
+      <w:noWrap/>
+      <w:vAlign w:val="center"/>
+    </w:tcPr>
+    <w:p wsp:rsidR="00323759"
+         wsp:rsidRPr="00323759"
+         wsp:rsidRDefault="00323759"
+         wsp:rsidP="00BF1862">
+      <w:pPr>
+        <w:spacing w:after="0"
+                   w:line="240"
+                   w:line-rule="auto"/>
+        <w:jc w:val="center"/>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:fareast="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+          <w:color w:val="000000"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r wsp:rsidRPr="00323759">
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:fareast="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+          <w:color w:val="000000"/>
+        </w:rPr>
+        <w:t>[TrongLuong]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="2078"
+             w:type="dxa"/>
+      <w:tcBorders>
+        <w:top w:val="nil"/>
+        <w:left w:val="nil"/>
+        <w:bottom w:val="single"
+                  w:sz="8"
+                  wx:bdrwidth="20"
+                  w:space="0"
+                  w:color="auto"/>
+        <w:right w:val="single"
+                 w:sz="8"
+                 wx:bdrwidth="20"
+                 w:space="0"
+                 w:color="auto"/>
+      </w:tcBorders>
+      <w:shd w:val="clear"
+             w:color="auto"
+             w:fill="auto"/>
+      <w:noWrap/>
+      <w:vAlign w:val="center"/>
+    </w:tcPr>
+    <w:p wsp:rsidR="00323759"
+         wsp:rsidRPr="00323759"
+         wsp:rsidRDefault="00323759"
+         wsp:rsidP="00BF1862">
+      <w:pPr>
+        <w:spacing w:after="0"
+                   w:line="240"
+                   w:line-rule="auto"/>
+        <w:jc w:val="center"/>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:fareast="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+          <w:color w:val="000000"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r wsp:rsidRPr="00323759">
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:fareast="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+          <w:color w:val="000000"/>
+        </w:rPr>
+        <w:t>[ThanhTien]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+</w:tr>

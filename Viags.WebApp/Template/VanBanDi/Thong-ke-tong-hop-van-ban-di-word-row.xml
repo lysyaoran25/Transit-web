@@ -1,0 +1,70 @@
+﻿<w:tr w:rsidR="00540D0B" w:rsidTr="00940B98">
+  <w:trPr>
+    <w:jc w:val="center"/>
+  </w:trPr>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="985" w:type="dxa"/>
+    </w:tcPr>
+    <w:p w:rsidR="00540D0B" w:rsidRPr="00884681" w:rsidRDefault="00901605" w:rsidP="00901605">
+      <w:pPr>
+        <w:jc w:val="center"/>
+        <w:rPr>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r w:rsidRPr="00884681">
+        <w:rPr>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+        <w:t>[STT]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="6030" w:type="dxa"/>
+    </w:tcPr>
+    <w:p w:rsidR="00540D0B" w:rsidRPr="00884681" w:rsidRDefault="00901605" w:rsidP="00901605">
+      <w:pPr>
+        <w:jc w:val="center"/>
+        <w:rPr>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r w:rsidRPr="00884681">
+        <w:rPr>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+        <w:t>[LoaiVanBan]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="3060" w:type="dxa"/>
+    </w:tcPr>
+    <w:p w:rsidR="00540D0B" w:rsidRPr="00884681" w:rsidRDefault="00901605" w:rsidP="00901605">
+      <w:pPr>
+        <w:jc w:val="center"/>
+        <w:rPr>
+          <w:b/>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r w:rsidRPr="00884681">
+        <w:rPr>
+          <w:b/>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+        <w:t>[SoLuong]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+</w:tr>

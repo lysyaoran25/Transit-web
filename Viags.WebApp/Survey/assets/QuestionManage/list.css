@@ -1,0 +1,77 @@
+﻿/*CONTAIN*/
+#grid_QuestionManage {
+    margin-top: 10px;
+}
+
+    #grid_QuestionManage #question_manage_nav_box {
+        border-top-left-radius: 5px !important;
+        border-bottom-right-radius: 5px !important;
+        border-top-right-radius: 0 !important;
+        border-bottom-right-radius: 0 !important;
+    }
+
+    #grid_QuestionManage #question_manage_content_box {
+        border-top-right-radius: 5px !important;
+        border-bottom-right-radius: 5px !important;
+        border-top-left-radius: 0 !important;
+        border-bottom-left-radius: 0 !important;
+        border-left: 1px solid #d1d8e0;
+    }
+
+    #grid_QuestionManage .question-nav-box {
+        padding: 10px !important;
+        margin-bottom: 0 !important;
+    }
+
+    #grid_QuestionManage .question-content-box {
+        padding: 10px !important;
+        margin-bottom: 0 !important;
+    }
+    /*CONTAIN*/
+    /*TAB*/
+    #grid_QuestionManage .nav-stacked {
+        display: flex;
+        flex-direction: column !important;
+    }
+
+        #grid_QuestionManage .nav-stacked > li {
+            width: 100%;
+            flex: 1 1 auto;
+        }
+
+    #grid_QuestionManage .nav-pills > li > a {
+        text-transform: uppercase;
+        font-size: 1em;
+        font-weight: bold;
+        border-radius: 5px !important;
+        padding: 10px !important;
+    }
+
+    #grid_QuestionManage .nav-pills > li.active > a,
+    #grid_QuestionManage .nav-pills > li.active > a:focus,
+    #grid_QuestionManage .nav-pills > li.active > a:hover {
+        border: none !important;
+        background: #00a8ff !important;
+        color: white;
+    }
+
+    #grid_QuestionManage #question_manage_nav_box {
+        padding: 0 !important;
+    }
+
+    #grid_QuestionManage #question_manage_content_box {
+        padding: 0 !important;
+    }
+
+/*TAB*/
+.row.row-question-manage {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    border-radius: 5px !important;
+    border: 1px solid #d1d8e0;
+    padding: 0 !important;
+}
+
+#survey-table-evaluate-manage > tbody > tr {
+    height: 40px !important;
+}

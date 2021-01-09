@@ -1,0 +1,639 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblAnDanhSachDaChon" xml:space="preserve">
+    <value>選択されたリストを非表示にします</value>
+  </data>
+  <data name="lblAnhDaiDien" xml:space="preserve">
+    <value>個人的な写真</value>
+  </data>
+  <data name="lblBanChuaChonVaiTroChoChucVu" xml:space="preserve">
+    <value>あなたは同省のための役割を選択しません</value>
+  </data>
+  <data name="lblBanLanhDao" xml:space="preserve">
+    <value>リーダーシップ</value>
+  </data>
+  <data name="lblBanLanhDaoCapCao" xml:space="preserve">
+    <value>リーダーシップ・サミット</value>
+  </data>
+  <data name="lblBatBuocNhapThongTin" xml:space="preserve">
+    <value>必須情報</value>
+  </data>
+  <data name="lblCacTruongCoDau" xml:space="preserve">
+    <value>マークされたフィールド</value>
+  </data>
+  <data name="lblCapNhat" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="lblCapNhatMatKhauNguoiDung" xml:space="preserve">
+    <value>ユーザーのパスワードを更新</value>
+  </data>
+  <data name="lblCapNhatQuyenChoNguoiDung" xml:space="preserve">
+    <value>ユーザーへのアクセス権を更新</value>
+  </data>
+  <data name="lblCapNhatQuyenChoVaiTro" xml:space="preserve">
+    <value>役割の権限を更新します</value>
+  </data>
+  <data name="lblCapNhatVaiTroChoChucVu" xml:space="preserve">
+    <value>同省のための役割を更新</value>
+  </data>
+  <data name="lblCauHinhVaiTroNguoiDung" xml:space="preserve">
+    <value>ユーザーロールの設定</value>
+  </data>
+  <data name="lblChiaSe" xml:space="preserve">
+    <value>シェア</value>
+  </data>
+  <data name="lblChiTietChucVu" xml:space="preserve">
+    <value>詳細な位置</value>
+  </data>
+  <data name="lblChiTietCoQuanGuiNhan" xml:space="preserve">
+    <value>代理店を送る詳細 - 受信</value>
+  </data>
+  <data name="lblChiTietLoaiVanBan" xml:space="preserve">
+    <value>詳細なテキストタイプ</value>
+  </data>
+  <data name="lblChiTietNhomNguoiDung" xml:space="preserve">
+    <value>ユーザー・グループの詳細</value>
+  </data>
+  <data name="lblChiTietSoVanBan" xml:space="preserve">
+    <value>詳細なテキストブック</value>
+  </data>
+  <data name="lblChon" xml:space="preserve">
+    <value>選択します</value>
+  </data>
+  <data name="lblChonAnhDaiDien" xml:space="preserve">
+    <value>あなたのアバターを選択してください</value>
+  </data>
+  <data name="lblChonAnhKhac" xml:space="preserve">
+    <value>画像のリフレッシュ</value>
+  </data>
+  <data name="lblChonChucDanh" xml:space="preserve">
+    <value>タイトルを選択します</value>
+  </data>
+  <data name="lblChonChucNang" xml:space="preserve">
+    <value>選択機能</value>
+  </data>
+  <data name="lblChonChucNangSuDung" xml:space="preserve">
+    <value>[ツール]を選択</value>
+  </data>
+  <data name="lblChonDonVi" xml:space="preserve">
+    <value>単位を選択</value>
+  </data>
+  <data name="lblChonDonViPhongBan" xml:space="preserve">
+    <value>単位/部署を選択</value>
+  </data>
+  <data name="lblChonLoai" xml:space="preserve">
+    <value>タイプを選択</value>
+  </data>
+  <data name="lblChonLoaiVanBan" xml:space="preserve">
+    <value>テキストの種類を選択</value>
+  </data>
+  <data name="lblChonNguoiDung" xml:space="preserve">
+    <value>ユーザを選択します</value>
+  </data>
+  <data name="lblChonNoiNhan" xml:space="preserve">
+    <value>目的地を選択してください</value>
+  </data>
+  <data name="lblChonPhamViTimKiem" xml:space="preserve">
+    <value>検索範囲を選択します</value>
+  </data>
+  <data name="lblChonTatCaDonVi" xml:space="preserve">
+    <value>すべてのユニットを選択します</value>
+  </data>
+  <data name="lblChonViTriCongTac" xml:space="preserve">
+    <value>位置を選択します。</value>
+  </data>
+  <data name="lblChuanHoa" xml:space="preserve">
+    <value>標準化</value>
+  </data>
+  <data name="lblChucDanh" xml:space="preserve">
+    <value>タイトル</value>
+  </data>
+  <data name="lblChucNang" xml:space="preserve">
+    <value>機能</value>
+  </data>
+  <data name="lblChuyenVien" xml:space="preserve">
+    <value>専門家</value>
+  </data>
+  <data name="lblCo" xml:space="preserve">
+    <value>持っています</value>
+  </data>
+  <data name="lblCoLoiXayRa" xml:space="preserve">
+    <value>エラーが発生しました。！</value>
+  </data>
+  <data name="lblCoQuanGuiNhan" xml:space="preserve">
+    <value>遺体は、送信、受信します</value>
+  </data>
+  <data name="lblDaCoLoiXayRa" xml:space="preserve">
+    <value>エラー発生がありました</value>
+  </data>
+  <data name="lblDangTai" xml:space="preserve">
+    <value>ローディング</value>
+  </data>
+  <data name="lblDanhSachNguoiDungTrong" xml:space="preserve">
+    <value>ユーザーのリスト</value>
+  </data>
+  <data name="lblDanhSachNhomNguoiDung" xml:space="preserve">
+    <value>ユーザグループのリスト</value>
+  </data>
+  <data name="lblDaTonTaiChonFileKhac" xml:space="preserve">
+    <value>すでに存在しています！あなたは別のファイルを選択します</value>
+  </data>
+  <data name="lblDatVeAnhMacDinh" xml:space="preserve">
+    <value>デフォルトの写真を設定します。</value>
+  </data>
+  <data name="lblDiaChi" xml:space="preserve">
+    <value>アドレス</value>
+  </data>
+  <data name="lblDiDong" xml:space="preserve">
+    <value>モバイル</value>
+  </data>
+  <data name="lblDongLai" xml:space="preserve">
+    <value>近いです</value>
+  </data>
+  <data name="lblDongTatCa" xml:space="preserve">
+    <value>すべて閉じます</value>
+  </data>
+  <data name="lblDongTatCaCacNhanh" xml:space="preserve">
+    <value>すべてのブランチを閉じます</value>
+  </data>
+  <data name="lblDonVi" xml:space="preserve">
+    <value>ユニット</value>
+  </data>
+  <data name="lblDonViNhomDaiDien" xml:space="preserve">
+    <value>単位/グループ/表現</value>
+  </data>
+  <data name="lblDonViPhongBan" xml:space="preserve">
+    <value>ユニット/部門</value>
+  </data>
+  <data name="lblDonViSuDung" xml:space="preserve">
+    <value>ユニット使用</value>
+  </data>
+  <data name="lblEmailKhongDungDinhDang" xml:space="preserve">
+    <value>不正な形式の電子メール、戻って確認してください</value>
+  </data>
+  <data name="lblGioiTinh" xml:space="preserve">
+    <value>セックス</value>
+  </data>
+  <data name="lblHeThong" xml:space="preserve">
+    <value>システム</value>
+  </data>
+  <data name="lblHienThiDanhSachDaChon" xml:space="preserve">
+    <value>選択されたリストを表示</value>
+  </data>
+  <data name="lblKhoiPhongBanDonVi" xml:space="preserve">
+    <value>部門単位から</value>
+  </data>
+  <data name="lblKhong" xml:space="preserve">
+    <value>しません</value>
+  </data>
+  <data name="lblKhongCoKetQua" xml:space="preserve">
+    <value>効果のありません</value>
+  </data>
+  <data name="lblKyThuaLenh" xml:space="preserve">
+    <value>代表して</value>
+  </data>
+  <data name="lblLaLanhDao" xml:space="preserve">
+    <value>リーダーとして</value>
+  </data>
+  <data name="lblLanhDaoDonVi" xml:space="preserve">
+    <value>ユニットリーダー</value>
+  </data>
+  <data name="lblLanhDaoHanhChinh" xml:space="preserve">
+    <value>行政的リーダーシップ</value>
+  </data>
+  <data name="lblLanhDaoPhongBan" xml:space="preserve">
+    <value>部署のリーダー</value>
+  </data>
+  <data name="lblLanhDaoVanPhong" xml:space="preserve">
+    <value>リーダーのオフィス</value>
+  </data>
+  <data name="lblLaSoMat" xml:space="preserve">
+    <value>シークレットウィンドウで</value>
+  </data>
+  <data name="lblLoai" xml:space="preserve">
+    <value>種類</value>
+  </data>
+  <data name="lblLoaiVanBan" xml:space="preserve">
+    <value>ドキュメントの種類</value>
+  </data>
+  <data name="lblLoaiVBDenVBDi" xml:space="preserve">
+    <value>タイプ（/ VBへ行くVB）</value>
+  </data>
+  <data name="lblLuu" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="lblLuuY" xml:space="preserve">
+    <value>注意</value>
+  </data>
+  <data name="lblMatKhau" xml:space="preserve">
+    <value>パスワード</value>
+  </data>
+  <data name="lblMatKhauCoItNhat" xml:space="preserve">
+    <value>小文字、特殊文字と数字を含むパスワードは少なくとも8文字</value>
+  </data>
+  <data name="lblMatKhauNhapLaiPhaiTrung" xml:space="preserve">
+    <value>パスワードと一致する必要があり、パスワードを再入力します。</value>
+  </data>
+  <data name="lblMoTa" xml:space="preserve">
+    <value>説明</value>
+  </data>
+  <data name="lblMoTatCa" xml:space="preserve">
+    <value>すべて開きます</value>
+  </data>
+  <data name="lblMoTatCaCacNhanh" xml:space="preserve">
+    <value>すべてのブランチを開きます。</value>
+  </data>
+  <data name="lblNam" xml:space="preserve">
+    <value>南</value>
+  </data>
+  <data name="lblNgayHienThi" xml:space="preserve">
+    <value>日付表示</value>
+  </data>
+  <data name="lblNgaySinh" xml:space="preserve">
+    <value>生年月日</value>
+  </data>
+  <data name="lblNgaySinhKhongDung" xml:space="preserve">
+    <value>生年月日が間違っている、戻って確認してください</value>
+  </data>
+  <data name="lblNguoiDung" xml:space="preserve">
+    <value>ユーザー</value>
+  </data>
+  <data name="lblNguoiDungKhongTonTaiTrongHT" xml:space="preserve">
+    <value>ユーザーがシステムに存在しません</value>
+  </data>
+  <data name="lblNguoiTao" xml:space="preserve">
+    <value>クリエイター</value>
+  </data>
+  <data name="lblNguoiTaoChiTietNhomNguoiDung" xml:space="preserve">
+    <value>クリエーター/詳細ユーザーグループ</value>
+  </data>
+  <data name="lblNhapDiaChi" xml:space="preserve">
+    <value>アドレスを入力してください</value>
+  </data>
+  <data name="lblNhapEmail" xml:space="preserve">
+    <value>あなたのメールアドレスを入力して</value>
+  </data>
+  <data name="lblNhapLai" xml:space="preserve">
+    <value>リセット</value>
+  </data>
+  <data name="lblNhapLaiMatKhau" xml:space="preserve">
+    <value>パスワードを再設定します</value>
+  </data>
+  <data name="lblNhapMatKhau" xml:space="preserve">
+    <value>パスワードを入力します</value>
+  </data>
+  <data name="lblNhapMoTa" xml:space="preserve">
+    <value>説明を入力します</value>
+  </data>
+  <data name="lblNhapNgaySinh" xml:space="preserve">
+    <value>誕生日</value>
+  </data>
+  <data name="lblNhapSoDiDong" xml:space="preserve">
+    <value>あなたの携帯電話番号を入力してください</value>
+  </data>
+  <data name="lblNhapSoDienThoai" xml:space="preserve">
+    <value>自分の電話番号を入力</value>
+  </data>
+  <data name="lblNhapSoThuTu" xml:space="preserve">
+    <value>シリアル番号を入力してください</value>
+  </data>
+  <data name="lblNhapTenChucDanh" xml:space="preserve">
+    <value>タイトルの名前を入力します。</value>
+  </data>
+  <data name="lblNhapTenCoQuan" xml:space="preserve">
+    <value>代理店の名前を入力します。</value>
+  </data>
+  <data name="lblNhapTenCoQuanDonViGuiDen" xml:space="preserve">
+    <value>代理店の名前を入力します - 受信ユニット</value>
+  </data>
+  <data name="lblNhapTenHienThi" xml:space="preserve">
+    <value>表示名を入力してください</value>
+  </data>
+  <data name="lblNhapTenLoaiVanBan" xml:space="preserve">
+    <value>テキストを入力</value>
+  </data>
+  <data name="lblNhapTenNhomNguoiDung" xml:space="preserve">
+    <value>ユーザグループ名を入力します。</value>
+  </data>
+  <data name="lblNhapTenNoiNhan" xml:space="preserve">
+    <value>宛先名を入力します。</value>
+  </data>
+  <data name="lblNhapTenSoVanBan" xml:space="preserve">
+    <value>書かれた本の名前を入力します。</value>
+  </data>
+  <data name="lblNhapTenTruyCap" xml:space="preserve">
+    <value>ユーザー名を入力してください</value>
+  </data>
+  <data name="lblNhapTenVaiTro" xml:space="preserve">
+    <value>ロールの名前を入力します。</value>
+  </data>
+  <data name="lblNhapTenVietTat" xml:space="preserve">
+    <value>略称を入力してください</value>
+  </data>
+  <data name="lblNhapThuTu" xml:space="preserve">
+    <value>注文を入力してください</value>
+  </data>
+  <data name="lblNhapThuTuHienThi" xml:space="preserve">
+    <value>表示順序を入力します</value>
+  </data>
+  <data name="lblNhapTuKhoaTimKiem" xml:space="preserve">
+    <value>検索キーワードを入力してください</value>
+  </data>
+  <data name="lblNhomNguoiDung" xml:space="preserve">
+    <value>グループのユーザー</value>
+  </data>
+  <data name="lblNu" xml:space="preserve">
+    <value>女性</value>
+  </data>
+  <data name="lblPhamVi" xml:space="preserve">
+    <value>スコープ</value>
+  </data>
+  <data name="lblQuanLyChucDanh" xml:space="preserve">
+    <value>管理職</value>
+  </data>
+  <data name="lblQuanLyCoQuanGuiNhan" xml:space="preserve">
+    <value>管理機関は、送信 - 受信しました</value>
+  </data>
+  <data name="lblQuanLyLoaiVanBan" xml:space="preserve">
+    <value>text型の管理</value>
+  </data>
+  <data name="lblQuanLyNguoiDung" xml:space="preserve">
+    <value>ユーザー管理</value>
+  </data>
+  <data name="lblQuanLyNhomNguoiDung" xml:space="preserve">
+    <value>ユーザグループの管理</value>
+  </data>
+  <data name="lblQuanLySoVanBan" xml:space="preserve">
+    <value>マネジメント教科書</value>
+  </data>
+  <data name="lblQuanLyVaiTroHeThong" xml:space="preserve">
+    <value>ロール管理システム</value>
+  </data>
+  <data name="lblQuyenHan" xml:space="preserve">
+    <value>管轄</value>
+  </data>
+  <data name="lblSoDenDonViPhongBan" xml:space="preserve">
+    <value>ユニット/部門にウィンドウ</value>
+  </data>
+  <data name="lblSoDienThoai" xml:space="preserve">
+    <value>電話</value>
+  </data>
+  <data name="lblSoToTrinh" xml:space="preserve">
+    <value>ブックレポート</value>
+  </data>
+  <data name="lblSoVanBan" xml:space="preserve">
+    <value>本を書きます</value>
+  </data>
+  <data name="lblSTT" xml:space="preserve">
+    <value>注文番号</value>
+  </data>
+  <data name="lblSuDung" xml:space="preserve">
+    <value>使用</value>
+  </data>
+  <data name="lblTen" xml:space="preserve">
+    <value>名前</value>
+  </data>
+  <data name="lblTenChucDanh" xml:space="preserve">
+    <value>名前タイトル</value>
+  </data>
+  <data name="lblTenChucVu" xml:space="preserve">
+    <value>名前位置</value>
+  </data>
+  <data name="lblTenCoQuan" xml:space="preserve">
+    <value>組織の名前</value>
+  </data>
+  <data name="lblTenCoQuanGuiNhan" xml:space="preserve">
+    <value>代理店の名前は、受信/送信しました</value>
+  </data>
+  <data name="lblTenDangNhap" xml:space="preserve">
+    <value>ユーザー名</value>
+  </data>
+  <data name="lblTenHienThi" xml:space="preserve">
+    <value>表示名</value>
+  </data>
+  <data name="lblTenLoai" xml:space="preserve">
+    <value>上品さ</value>
+  </data>
+  <data name="lblTenLoaiVanBan" xml:space="preserve">
+    <value>ドキュメントの種類に名前を付けます</value>
+  </data>
+  <data name="lblTenNguoiDung" xml:space="preserve">
+    <value>ユーザー名</value>
+  </data>
+  <data name="lblTenNhomNguoiDung" xml:space="preserve">
+    <value>ユーザグループ名</value>
+  </data>
+  <data name="lblTenSo" xml:space="preserve">
+    <value>名前ウィンドウ</value>
+  </data>
+  <data name="lblTenSoVanBan" xml:space="preserve">
+    <value>教科書に名前を付け</value>
+  </data>
+  <data name="lblTenTruyCap" xml:space="preserve">
+    <value>ユーザー名</value>
+  </data>
+  <data name="lblTenVaiTro" xml:space="preserve">
+    <value>役割名称</value>
+  </data>
+  <data name="lblTenVietTat" xml:space="preserve">
+    <value>略語</value>
+  </data>
+  <data name="lblThemLienTiep" xml:space="preserve">
+    <value>行を追加します。</value>
+  </data>
+  <data name="lblThemMoi" xml:space="preserve">
+    <value>引っ越し先</value>
+  </data>
+  <data name="lblThemMoiTuAD" xml:space="preserve">
+    <value>新しいADを追加</value>
+  </data>
+  <data name="lblThemNguoiDungSanCo" xml:space="preserve">
+    <value>他のユニットに既存のユーザーを追加します。</value>
+  </data>
+  <data name="lblThoat" xml:space="preserve">
+    <value>出口</value>
+  </data>
+  <data name="lblThongBao" xml:space="preserve">
+    <value>通知します</value>
+  </data>
+  <data name="lblThongTinNguoiDung" xml:space="preserve">
+    <value>ユーザー情報</value>
+  </data>
+  <data name="lblThuKy" xml:space="preserve">
+    <value>秘書</value>
+  </data>
+  <data name="lblThuTu" xml:space="preserve">
+    <value>オーダー</value>
+  </data>
+  <data name="lblThuTuHienThi" xml:space="preserve">
+    <value>表示順</value>
+  </data>
+  <data name="lblTim" xml:space="preserve">
+    <value>シーク</value>
+  </data>
+  <data name="lblTimKiem" xml:space="preserve">
+    <value>検索</value>
+  </data>
+  <data name="lblTimKiemTrong" xml:space="preserve">
+    <value>検索します</value>
+  </data>
+  <data name="lblTrangChu" xml:space="preserve">
+    <value>ホーム</value>
+  </data>
+  <data name="lblTuKhoa" xml:space="preserve">
+    <value>キーワード</value>
+  </data>
+  <data name="lblVaiTro" xml:space="preserve">
+    <value>一部</value>
+  </data>
+  <data name="lblVanBan" xml:space="preserve">
+    <value>テキスト</value>
+  </data>
+  <data name="lblVanBanDen" xml:space="preserve">
+    <value>テキストに</value>
+  </data>
+  <data name="lblVanBanDi" xml:space="preserve">
+    <value>旅券</value>
+  </data>
+  <data name="lblVanThu" xml:space="preserve">
+    <value>ドキュメント</value>
+  </data>
+  <data name="lblVietTat" xml:space="preserve">
+    <value>速記</value>
+  </data>
+  <data name="lblViTriCongTac" xml:space="preserve">
+    <value>作業位置</value>
+  </data>
+  <data name="lblVTCTToNhat" xml:space="preserve">
+    <value>最大音量VTCT</value>
+  </data>
+  <data name="lblXoaDanhSachDaChon" xml:space="preserve">
+    <value>選択したリストを削除します</value>
+  </data>
+  <data name="lblXoaDanhSachNguoiDung" xml:space="preserve">
+    <value>部署から選択したユーザーのリストを削除します。</value>
+  </data>
+  <data name="lblXoaFileDinhKem" xml:space="preserve">
+    <value>添付ファイルを削除</value>
+  </data>
+  <data name="lblXoaNguoiDung" xml:space="preserve">
+    <value>ユーザーを削除</value>
+  </data>
+</root>

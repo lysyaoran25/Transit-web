@@ -1,0 +1,13 @@
+﻿<Row ss:AutoFitHeight="0" ss:Height="45" ss:StyleID="s77">
+    <Cell ss:Index="2" ss:StyleID="s85"><Data ss:Type="String">[ThuTu]</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m1013582816548"><Data ss:Type="String">[SKH]</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m1013582816568"><Data ss:Type="String">[NgayBH]</Data></Cell>
+    <Cell ss:StyleID="s108"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="m1013582816588"><Data ss:Type="String">[NguoiKy]</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="m1013582816608"><Data ss:Type="String">[DonViSoanThao]</Data></Cell>
+  <Cell ss:MergeAcross="2"
+        ss:StyleID="m1013582816608">
+    <Data ss:Type="String">[DoKhan]</Data>
+  </Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="m1013582816628"><Data ss:Type="String">Trong Ngành: [NNTrongNganh]&#10;Ngoài ngành: [NNNgoaiNganh]</Data></Cell>
+   </Row>

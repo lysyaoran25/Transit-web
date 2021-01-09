@@ -1,0 +1,1489 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SiteTrung.Master.cs" Inherits="Viags.WebApp.SiteTrung" %>
+
+<%@ Register Src="~/Common/ucMenuLeftNew.ascx" TagPrefix="uc1" TagName="ucMenuLeftNew" %>
+<%@ Register Src="~/Common/ucMenuLeftNewEnglish.ascx" TagPrefix="uc2" TagName="ucMenuLeftNewEnglish" %>
+
+
+<!DOCTYPE html>
+
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<!--<![endif]-->
+<!-- BEGIN HEAD -->
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=10" />
+    <meta name="GENERATOR" content="Microsoft SharePoint" />
+    <meta http-equiv="Expires" content="0" />
+    <!--<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet"/>-->
+    <title><%=Resources.Other.lblQuanLyVBDHVaLuuTruCTyTINHVAN %></title>
+    <link href="/Publishing_Resources/img/sg31/logo-TINHVAN.ico" rel="shortcut icon" type="image/x-icon" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <style>
+        .modal-overflow .modal-body {
+            overflow: hidden !important;
+            overflow-y: auto !important;
+            max-height: 493px !important;
+        }
+
+        .brown.btn:hover, .brown.btn:active:hover, .brown.btn.active, .brown.btn:active {
+            background: #0076be !important;
+        }
+    </style>
+
+</head>
+<!-- END HEAD -->
+<!-- BEGIN BODY -->
+<body class="page-header-fixed  page-container-bg-solid ">
+    <link rel="shortcut icon" href="/_catalogs/masterpage/favicon.ico" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta name="description" />
+    <meta name="author" />
+
+    <!-- styles sử dụng -->
+    <link href="/Publishing_Resources/dist/app.min.css" rel="stylesheet" type="text/css" />
+    <script src="/Publishing_Resources/dist/vendor/jquery.js" type="text/javascript"></script>
+    <%--<script src="/Publishing_Resources/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="/Publishing_Resources/global/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js" type="text/javascript"></script>
+    <script src="/Publishing_Resources/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+    <script src="/Publishing_Resources/global/scripts/metronic.js" type="text/javascript"></script>
+    <script src="/Publishing_Resources/scripts/GridView.js" type="text/javascript"></script>--%>
+    <%--<script src="/Publishing_Resources/dist/app.min.js" type="text/javascript"></script>
+    <script src="/Publishing_Resources/scripts/GridView.js" type="text/javascript"></script>--%>
+    <script>
+        /*var Layout = function () {
+
+            var layoutImgPath = 'admin/layout/img/';
+
+            var layoutCssPath = 'admin/layout/css/';
+
+            var resBreakpointMd = Metronic.getResponsiveBreakpoint('md');
+
+            //* BEGIN:CORE HANDLERS #1#/
+            // this function handles responsive layout on screen size resize or mobile device rotate.
+
+            // Set proper height for sidebar and content. The content and sidebar height must be synced always.
+            var handleSidebarAndContentHeight = function () {
+                var content = $('.page-content');
+                var sidebar = $('.page-sidebar');
+                var body = $('body');
+                var height;
+
+                if (body.hasClass("page-footer-fixed") === true && body.hasClass("page-sidebar-fixed") === false) {
+                    var available_height = Metronic.getViewPort().height - $('.page-footer').outerHeight() - $('.page-header').outerHeight();
+                    if (content.height() < available_height) {
+                        content.attr('style', 'min-height:' + available_height + 'px');
+                    }
+                } else {
+                    if (body.hasClass('page-sidebar-fixed')) {
+                        height = _calculateFixedSidebarViewportHeight();
+                        if (body.hasClass('page-footer-fixed') === false) {
+                            height = height - $('.page-footer').outerHeight();
+                        }
+                    } else {
+                        var headerHeight = $('.page-header').outerHeight();
+                        var footerHeight = $('.page-footer').outerHeight();
+
+                        if (Metronic.getViewPort().width < resBreakpointMd) {
+                            height = Metronic.getViewPort().height - headerHeight - footerHeight;
+                        } else {
+                            height = sidebar.height() + 20;
+                        }
+
+                        if ((height + headerHeight + footerHeight) <= Metronic.getViewPort().height) {
+                            height = Metronic.getViewPort().height - headerHeight - footerHeight;
+                        }
+                    }
+                    content.attr('style', 'min-height:' + height + 'px');
+                }
+            };
+
+            // Handle sidebar menu links
+            var handleSidebarMenuActiveLink = function (mode, el) {
+                var url = location.hash.toLowerCase();
+
+                var menu = $('.page-sidebar-menu');
+
+                if (mode === 'click' || mode === 'set') {
+                    el = $(el);
+                } else if (mode === 'match') {
+                    menu.find("li > a").each(function () {
+                        var path = $(this).attr("href").toLowerCase();
+                        // url match condition         
+                        if (path.length > 1 && url.substr(1, path.length - 1) == path.substr(1)) {
+                            el = $(this);
+                            return;
+                        }
+                    });
+                }
+
+                if (!el || el.size() == 0) {
+                    return;
+                }
+
+                if (el.attr('href').toLowerCase() === 'javascript:;' || el.attr('href').toLowerCase() === '#') {
+                    return;
+                }
+
+                var slideSpeed = parseInt(menu.data("slide-speed"));
+                var keepExpand = menu.data("keep-expanded");
+
+                // disable active states
+                menu.find('li.active').removeClass('active');
+                menu.find('li > a > .selected').remove();
+
+                if (menu.hasClass('page-sidebar-menu-hover-submenu') === false) {
+                    menu.find('li.open').each(function () {
+                        if ($(this).children('.sub-menu').size() === 0) {
+                            //$(this).removeClass('open');
+                            // $(this).find('> a > .arrow.open').removeClass('open');
+                        }
+                    });
+                } else {
+                    //menu.find('li.open').removeClass('open');
+                }
+
+                el.parents('li').each(function () {
+                    $(this).addClass('active');
+                    $(this).find('> a > span.arrow').addClass('open');
+
+                    if ($(this).parent('ul.page-sidebar-menu').size() === 1) {
+                        $(this).find('> a').append('<span class="selected"></span>');
+                    }
+
+                    if ($(this).children('ul.sub-menu').size() === 1) {
+                        $(this).addClass('open');
+                    }
+                });
+
+                if (mode === 'click') {
+                    if (Metronic.getViewPort().width < resBreakpointMd && $('.page-sidebar').hasClass("in")) { // close the menu on mobile view while laoding a page 
+                        $('.page-header .responsive-toggler').click();
+                    }
+                }
+            };
+
+            // Handle sidebar menu
+            var handleSidebarMenu = function () {
+                // handle sidebar link click
+                $('.page-sidebar').on('click', 'li > a', function (e) {
+                    var hasSubMenu = $(this).next().hasClass('sub-menu');
+
+                    if (Metronic.getViewPort().width >= resBreakpointMd && $(this).parents('.page-sidebar-menu-hover-submenu').size() === 1) { // exit of hover sidebar menu
+                        return;
+                    }
+
+                    if (hasSubMenu === false) {
+                        if (Metronic.getViewPort().width < resBreakpointMd && $('.page-sidebar').hasClass("in")) { // close the menu on mobile view while laoding a page 
+                            $('.page-header .responsive-toggler').click();
+                        }
+                        return;
+                    }
+
+                    if ($(this).next().hasClass('sub-menu always-open')) {
+                        return;
+                    }
+
+                    var parent = $(this).parent().parent();
+                    var the = $(this);
+                    var menu = $('.page-sidebar-menu');
+                    var sub = $(this).next();
+
+                    var autoScroll = menu.data("auto-scroll");
+                    var slideSpeed = parseInt(menu.data("slide-speed"));
+                    var keepExpand = menu.data("keep-expanded");
+
+                    if (keepExpand !== true) {
+                        //parent.children('li.open').children('a').children('.arrow').removeClass('open');
+                        //parent.children('li.open').children('.sub-menu:not(.always-open)').slideUp(slideSpeed);
+                        //parent.children('li.open').removeClass('open');
+                    }
+
+                    var slideOffeset = -200;
+
+                    if (sub.is(":visible")) {
+                        $('.arrow', $(this)).removeClass("open");
+                        $(this).parent().removeClass("open");
+                        sub.slideUp(slideSpeed, function () {
+                            if (autoScroll === true && $('body').hasClass('page-sidebar-closed') === false) {
+                                if ($('body').hasClass('page-sidebar-fixed')) {
+                                    menu.slimScroll({
+                                        'scrollTo': (the.position()).top
+                                    });
+                                } else {
+                                    Metronic.scrollTo(the, slideOffeset);
+                                }
+                            }
+                            handleSidebarAndContentHeight();
+                        });
+                    } else if (hasSubMenu) {
+                        $('.arrow', $(this)).addClass("open");
+                        $(this).parent().addClass("open");
+                        sub.slideDown(slideSpeed, function () {
+                            if (autoScroll === true && $('body').hasClass('page-sidebar-closed') === false) {
+                                if ($('body').hasClass('page-sidebar-fixed')) {
+                                    menu.slimScroll({
+                                        'scrollTo': (the.position()).top
+                                    });
+                                } else {
+                                    Metronic.scrollTo(the, slideOffeset);
+                                }
+                            }
+                            handleSidebarAndContentHeight();
+                        });
+                    }
+
+                    e.preventDefault();
+                });
+
+                // handle ajax links within sidebar menu
+                $('.page-sidebar').on('click', ' li > a.ajaxify', function (e) {
+                    e.preventDefault();
+                    Metronic.scrollTop();
+
+                    var url = $(this).attr("href");
+                    var menuContainer = $('.page-sidebar ul');
+                    var pageContent = $('.page-content');
+                    var pageContentBody = $('.page-content .page-content-body');
+
+                    //menuContainer.children('li.active').removeClass('active');
+                    //menuContainer.children('arrow.open').removeClass('open');
+
+                    $(this).parents('li').each(function () {
+                        $(this).addClass('active');
+                        $(this).children('a > span.arrow').addClass('open');
+                    });
+                    $(this).parents('li').addClass('active');
+
+                    if (Metronic.getViewPort().width < resBreakpointMd && $('.page-sidebar').hasClass("in")) { // close the menu on mobile view while laoding a page 
+                        $('.page-header .responsive-toggler').click();
+                    }
+
+                    Metronic.startPageLoading();
+
+                    var the = $(this);
+
+                    $.ajax({
+                        type: "GET",
+                        cache: false,
+                        url: url,
+                        dataType: "html",
+                        success: function (res) {
+                            if (the.parents('li.open').size() === 0) {
+                                $('.page-sidebar-menu > li.open > a').click();
+                            }
+
+                            Metronic.stopPageLoading();
+                            pageContentBody.html(res);
+                            Layout.fixContentHeight(); // fix content height
+                            Metronic.initAjax(); // initialize core stuff
+                        },
+                        error: function (xhr, ajaxOptions, thrownError) {
+                            Metronic.stopPageLoading();
+                            pageContentBody.html('<h4>Could not load the requested content.</h4>');
+                        }
+                    });
+                });
+
+                // handle ajax link within main content
+                $('.page-content').on('click', '.ajaxify', function (e) {
+                    e.preventDefault();
+                    Metronic.scrollTop();
+
+                    var url = $(this).attr("href");
+                    var pageContent = $('.page-content');
+                    var pageContentBody = $('.page-content .page-content-body');
+
+                    Metronic.startPageLoading();
+
+                    if (Metronic.getViewPort().width < resBreakpointMd && $('.page-sidebar').hasClass("in")) { // close the menu on mobile view while laoding a page 
+                        $('.page-header .responsive-toggler').click();
+                    }
+
+                    $.ajax({
+                        type: "GET",
+                        cache: false,
+                        url: url,
+                        dataType: "html",
+                        success: function (res) {
+                            Metronic.stopPageLoading();
+                            pageContentBody.html(res);
+                            Layout.fixContentHeight(); // fix content height
+                            Metronic.initAjax(); // initialize core stuff
+                        },
+                        error: function (xhr, ajaxOptions, thrownError) {
+                            pageContentBody.html('<h4>Could not load the requested content.</h4>');
+                            Metronic.stopPageLoading();
+                        }
+                    });
+                });
+
+                // handle scrolling to top on responsive menu toggler click when header is fixed for mobile view
+                $(document).on('click', '.page-header-fixed-mobile .page-header .responsive-toggler', function () {
+                    Metronic.scrollTop();
+                });
+
+                // handle sidebar hover effect        
+                handleFixedSidebarHoverEffect();
+
+                // handle the search bar close
+                $('.page-sidebar').on('click', '.sidebar-search .remove', function (e) {
+                    e.preventDefault();
+                    $('.sidebar-search').removeClass("open");
+                });
+
+                // handle the search query submit on enter press
+                $('.page-sidebar .sidebar-search').on('keypress', 'input.form-control', function (e) {
+                    if (e.which == 13) {
+                        $('.sidebar-search').submit();
+                        return false; //<---- Add this line
+                    }
+                });
+
+
+
+                // handle close on body click
+                if ($('.sidebar-search').size() !== 0) {
+                    $('.sidebar-search .input-group').on('click', function (e) {
+                        e.stopPropagation();
+                    });
+
+                    $('body').on('click', function () {
+                        if ($('.sidebar-search').hasClass('open')) {
+                            $('.sidebar-search').removeClass("open");
+                        }
+                    });
+                }
+            };
+
+            // Helper function to calculate sidebar height for fixed sidebar layout.
+            var _calculateFixedSidebarViewportHeight = function () {
+                var sidebarHeight = Metronic.getViewPort().height - $('.page-header').outerHeight();
+                if ($('body').hasClass("page-footer-fixed")) {
+                    sidebarHeight = sidebarHeight - $('.page-footer').outerHeight();
+                }
+
+                return sidebarHeight;
+            };
+
+            // Handles fixed sidebar
+            var handleFixedSidebar = function () {
+                var menu = $('.page-sidebar-menu');
+
+                Metronic.destroySlimScroll(menu);
+
+                if ($('.page-sidebar-fixed').size() === 0) {
+                    handleSidebarAndContentHeight();
+                    return;
+                }
+
+                if (Metronic.getViewPort().width >= resBreakpointMd) {
+                    menu.attr("data-height", _calculateFixedSidebarViewportHeight());
+                    Metronic.initSlimScroll(menu);
+                    handleSidebarAndContentHeight();
+                }
+            };
+
+            // Handles sidebar toggler to close/hide the sidebar.
+            var handleFixedSidebarHoverEffect = function () {
+                var body = $('body');
+                if (body.hasClass('page-sidebar-fixed')) {
+                    $('.page-sidebar').on('mouseenter', function () {
+                        if (body.hasClass('page-sidebar-closed')) {
+                            $(this).find('.page-sidebar-menu').removeClass('page-sidebar-menu-closed');
+
+                        }
+                    }).on('mouseleave', function () {
+                        if (body.hasClass('page-sidebar-closed')) {
+                            $(this).find('.page-sidebar-menu').addClass('page-sidebar-menu-closed');
+
+                        }
+                    });
+                }
+            };
+
+            // Hanles sidebar toggler
+            var handleSidebarToggler = function () {
+                var body = $('body');
+                if ($.cookie && $.cookie('sidebar_closed') === '1' && Metronic.getViewPort().width >= resBreakpointMd) {
+                    $('body').addClass('page-sidebar-closedpage-sidebar-closed');
+                    $('.page-sidebar-menu').addClass('page-sidebar-menu-closed');
+                    $("#services").hide();
+
+                }
+
+                // handle sidebar show/hide
+                $('body').on('click', '.sidebar-toggler', function (e) {
+                    var sidebar = $('.page-sidebar');
+                    var sidebarMenu = $('.page-sidebar-menu');
+                    $(".page-sidebar-menu .sidebar-search", sidebar).removeClass("open");
+
+                    if (body.hasClass("page-sidebar-closed")) {
+                        body.removeClass("page-sidebar-closed");
+                        sidebarMenu.removeClass("page-sidebar-menu-closed");
+                        $("#services").show();
+
+
+                        if ($.cookie) {
+                            $.cookie('sidebar_closed', '0');
+                        }
+                    } else {
+                        body.addClass("page-sidebar-closed");
+                        sidebarMenu.addClass("page-sidebar-menu-closed");
+                        $("#services").hide();
+
+                        if (body.hasClass("page-sidebar-fixed")) {
+                            sidebarMenu.trigger("mouseleave");
+                        }
+                        if ($.cookie) {
+                            $.cookie('sidebar_closed', '1');
+                        }
+                    }
+
+                    $(window).trigger('resize');
+                });
+            };
+
+            // Handles the horizontal menu
+            var handleHorizontalMenu = function () {
+                //handle tab click
+                $('.page-header').on('click', '.hor-menu a[data-toggle="tab"]', function (e) {
+                    e.preventDefault();
+                    var nav = $(".hor-menu .nav");
+                    var active_link = nav.find('li.current');
+                    $('li.active', active_link).removeClass("active");
+                    $('.selected', active_link).remove();
+                    var new_link = $(this).parents('li').last();
+                    new_link.addClass("current");
+                    new_link.find("a:first").append('<span class="selected"></span>');
+                });
+
+                // handle search box expand/collapse        
+                $('.page-header').on('click', '.search-form', function (e) {
+                    $(this).addClass("open");
+                    $(this).find('.form-control').focus();
+
+                    $('.page-header .search-form .form-control').on('blur', function (e) {
+                        $(this).closest('.search-form').removeClass("open");
+                        $(this).unbind("blur");
+                    });
+                });
+
+                // handle hor menu search form on enter press
+                $('.page-header').on('keypress', '.hor-menu .search-form .form-control', function (e) {
+                    if (e.which == 13) {
+                        $(this).closest('.search-form').submit();
+                        return false;
+                    }
+                });
+
+                // handle header search button click
+                $('.page-header').on('mousedown', '.search-form.open .submit', function (e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    $(this).closest('.search-form').submit();
+                });
+
+                // handle hover dropdown menu for desktop devices only
+                $('[data-hover="megamenu-dropdown"]').not('.hover-initialized').each(function () {
+                    $(this).dropdownHover();
+                    $(this).addClass('hover-initialized');
+                });
+
+                $(document).on('click', '.mega-menu-dropdown .dropdown-menu', function (e) {
+                    e.stopPropagation();
+                });
+            };
+
+            // Handles Bootstrap Tabs.
+            var handleTabs = function () {
+                // fix content height on tab click
+                $('body').on('shown.bs.tab', 'a[data-toggle="tab"]', function () {
+                    handleSidebarAndContentHeight();
+                });
+            };
+
+            // Handles the go to top button at the footer
+            var handleGoTop = function () {
+                var offset = 300;
+                var duration = 500;
+
+                if (navigator.userAgent.match(/iPhone|iPad|iPod/i)) {  // ios supported
+                    $(window).bind("touchend touchcancel touchleave", function (e) {
+                        if ($(this).scrollTop() > offset) {
+                            $('.scroll-to-top').fadeIn(duration);
+                        } else {
+                            $('.scroll-to-top').fadeOut(duration);
+                        }
+                    });
+                } else {  // general 
+                    $(window).scroll(function () {
+                        if ($(this).scrollTop() > offset) {
+                            $('.scroll-to-top').fadeIn(duration);
+                        } else {
+                            $('.scroll-to-top').fadeOut(duration);
+                        }
+                    });
+                }
+
+                $('.scroll-to-top').click(function (e) {
+                    e.preventDefault();
+                    $('html, body').animate({ scrollTop: 0 }, duration);
+                    return false;
+                });
+            };
+
+            // Hanlde 100% height elements(block, portlet, etc)
+            var handle100HeightContent = function () {
+
+                var target = $('.full-height-content');
+                var height;
+
+                height = Metronic.getViewPort().height -
+                    $('.page-header').outerHeight(true) -
+                    $('.page-footer').outerHeight(true) -
+                    $('.page-title').outerHeight(true) -
+                    $('.page-bar').outerHeight(true);
+
+                if (target.hasClass('portlet')) {
+                    var portletBody = target.find('.portlet-body');
+
+                    if (Metronic.getViewPort().width < resBreakpointMd) {
+                        Metronic.destroySlimScroll(portletBody.find('.full-height-content-body')); // destroy slimscroll 
+                        return;
+                    }
+
+                    height = height -
+                        target.find('.portlet-title').outerHeight(true) -
+                        parseInt(target.find('.portlet-body').css('padding-top')) -
+                        parseInt(target.find('.portlet-body').css('padding-bottom')) - 2;
+
+                    if (target.hasClass("full-height-content-scrollable")) {
+                        height = height - 35;
+                        portletBody.find('.full-height-content-body').css('height', height);
+                        Metronic.initSlimScroll(portletBody.find('.full-height-content-body'));
+                    } else {
+                        portletBody.css('min-height', height);
+                    }
+                } else {
+                    if (Metronic.getViewPort().width < resBreakpointMd) {
+                        Metronic.destroySlimScroll(target.find('.full-height-content-body')); // destroy slimscroll 
+                        return;
+                    }
+
+                    if (target.hasClass("full-height-content-scrollable")) {
+                        height = height - 35;
+                        target.find('.full-height-content-body').css('height', height);
+                        Metronic.initSlimScroll(target.find('.full-height-content-body'));
+                    } else {
+                        target.css('min-height', height);
+                    }
+                }
+            };
+            //* END:CORE HANDLERS #1#/
+
+            return {
+                // Main init methods to initialize the layout
+                //IMPORTANT!!!: Do not modify the core handlers call order.
+
+                initHeader: function () {
+                    handleHorizontalMenu(); // handles horizontal menu    
+                },
+
+                setSidebarMenuActiveLink: function (mode, el) {
+                    handleSidebarMenuActiveLink(mode, el);
+                },
+
+                initSidebar: function () {
+                    //layout handlers
+                    handleFixedSidebar(); // handles fixed sidebar menu
+                    handleSidebarMenu(); // handles main menu
+                    handleSidebarToggler(); // handles sidebar hide/show
+
+                    if (Metronic.isAngularJsApp()) {
+                        handleSidebarMenuActiveLink('match'); // init sidebar active links 
+                    }
+
+                    Metronic.addResizeHandler(handleFixedSidebar); // reinitialize fixed sidebar on window resize
+                },
+
+                initContent: function () {
+                    handle100HeightContent(); // handles 100% height elements(block, portlet, etc)
+                    handleTabs(); // handle bootstrah tabs
+
+                    Metronic.addResizeHandler(handleSidebarAndContentHeight); // recalculate sidebar & content height on window resize
+                    Metronic.addResizeHandler(handle100HeightContent); // reinitialize content height on window resize 
+                },
+
+                initFooter: function () {
+                    handleGoTop(); //handles scroll to top functionality in the footer
+                },
+
+                init: function () {
+                    this.initHeader();
+                    this.initSidebar();
+                    this.initContent();
+                    this.initFooter();
+                },
+
+                //public function to fix the sidebar and content height accordingly
+                fixContentHeight: function () {
+                    handleSidebarAndContentHeight();
+                },
+
+                initFixedSidebarHoverEffect: function () {
+                    handleFixedSidebarHoverEffect();
+                },
+
+                initFixedSidebar: function () {
+                    handleFixedSidebar();
+                },
+
+                getLayoutImgPath: function () {
+                    return Metronic.getAssetsPath() + layoutImgPath;
+                },
+
+                getLayoutCssPath: function () {
+                    return Metronic.getAssetsPath() + layoutCssPath;
+                }
+            };
+
+        }();*/
+        $(document).ready(function() {
+            //Layout.init();
+        })
+    </script>
+    <style type="text/css">
+        div#suiteBar {
+            display: none;
+        }
+
+        #s4-workspace {
+            overflow: inherit;
+        }
+
+        body {
+            overflow: auto;
+        }
+
+        .page-container {
+            margin-top: 40px;
+        }
+
+        .page-footer {
+            height: auto !important;
+        }
+
+        #s4-bodyContainer {
+            padding-bottom: 0px;
+        }
+
+        .centerdesk {
+            margin: 10px -2px 0px;
+        }
+
+        .centerdesk {
+            display: block;
+            float: left;
+            font-size: 17px;
+            color: #fff;
+            text-align: left;
+            text-transform: uppercase;
+            font-weight: bold;
+            margin-left: 10px;
+        }
+
+        .page-header.navbar .top-menu {
+            margin: 7px 0px;
+            padding: 0;
+            float: right;
+        }
+
+        .page-header.navbar .page-logo {
+            width: 254px;
+            float: left;
+            display: block;
+            height: 59px;
+            padding-right: 0;
+            vertical-align: middle;
+            background: #fff;
+        }
+
+            .page-header.navbar .page-logo .logo-default {
+                width: 65%;
+                margin-top: 5px;
+                float: left;
+            }
+
+        .page-header.navbar {
+            height: 60px;
+            min-height: 60px;
+            border-bottom: 1px solid #ccc;
+            background: #0066a4;
+        }
+
+        .table th, .table th a, .table tr .text-center {
+            text-align: left !important;
+            vertical-align: middle !important;
+            font-size: 12px !important;
+        }
+
+        .table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+            padding-left: 4px;
+            padding-right: 4px;
+        }
+
+        .page-header.navbar .top-menu .navbar-nav > li.dropdown > .dropdown-toggle > i, .page-header.navbar .top-menu .navbar-nav > li.dropdown-user .dropdown-toggle > .username {
+            font-size: 12px;
+            color: #fff;
+        }
+
+        .portlet > .portlet-title > .captionview {
+            font-size: 10px !important;
+        }
+
+        .content-border, .action-bar {
+            border: 1px solid transparent;
+            border-radius: 4px;
+            -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+            box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+            box-shadow: 0 1px 1px rgba(0,0,0,0.5);
+        }
+
+        .page-sidebar .page-sidebar-menu > li, #btnHideMenu {
+            border-right: 1px solid #ccc !important;
+        }
+
+        .breadcrumb {
+            padding: 5px 10px;
+            margin-bottom: 20px;
+            list-style: none;
+            font-size: 13px;
+            background: #ecf0f1;
+        }
+
+        .table-striped-custom tr th, .bottom-pager {
+            border-top: 1px solid;
+            background: #fff;
+        }
+
+        body {
+            min-height: 100%;
+            background: #e5e5e5 url(/Image/pattern01.png);
+            position: relative;
+            padding: 0;
+            margin: 0 !important;
+        }
+
+        .page-content-wrapper .page-content {
+            background: none;
+            margin-top: 10px;
+        }
+
+        .panel {
+            border: 1px solid transparent;
+            border-radius: 4px;
+            -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.05) !important;
+            box-shadow: 0 1px 1px rgba(0,0,0,0.05) !important;
+            box-shadow: 0 1px 1px rgba(0,0,0,0.5) !important;
+            padding: 5px;
+        }
+
+        .gridView td a,
+        .gridView td a:link,
+        .gridView td a:visited {
+            font: 12px arial;
+            color: green;
+        }
+
+        .gridView .even td {
+            background: #fff;
+            font-size: 12px;
+        }
+
+        .gridView .odd td {
+            background: #fff;
+            font-size: 12px;
+        }
+
+        .gridView .hightlight td {
+            background: #85c44e !important;
+            /*color: #fff;*/
+        }
+
+            .gridView .hightlight td a {
+                /*color: #fff;
+                text-decoration: underline;*/
+            }
+
+        .gridView tr:hover td {
+            background-color: #cee7b8;
+            /*color: #fff;*/
+        }
+
+            .gridView tr:hover td a {
+                /*color: #fff;
+                text-decoration: underline;*/
+            }
+
+
+        .table > tbody > tr > td,
+        .table > tbody > tr > th,
+        .table > tfoot > tr > td,
+        .table > tfoot > tr > th,
+        .table > thead > tr > td,
+        .table > thead > tr > th {
+            padding: 4px;
+            line-height: 1.4;
+        }
+
+        .action-bar .box-search {
+            float: right;
+        }
+
+        .page-sidebar .page-sidebar-menu .sub-menu > li.active > a,
+        .page-sidebar .page-sidebar-menu .sub-menu > li.open > a {
+            font-weight: bold;
+            background: #d8d8d8;
+        }
+
+        .page-sidebar .page-sidebar-menu > li.active.open > a,
+        .page-sidebar .page-sidebar-menu > li.active > a {
+            background: #0066a4;
+        }
+
+        .page-sidebar .page-sidebar-menu .sub-menu > li {
+            border-top: none;
+            border-bottom: none;
+        }
+
+            .page-sidebar .page-sidebar-menu .sub-menu > li :hover,
+            .page-sidebar .page-sidebar-menu .sub-menu > li:hover > a,
+            .page-sidebar .page-sidebar-menu .sub-menu > li:hover > a > i {
+                background-color: #85c44e;
+                color: #fff;
+            }
+
+        .page-sidebar-menu > li > .sub-menu > li > a {
+            font-weight: normal !important;
+        }
+
+        .page-sidebar .sub-menu li > a > .arrow:before,
+        .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .sub-menu li > a > .arrow:before {
+            font-size: 10px;
+        }
+
+        .page-sidebar .page-sidebar-menu .sub-menu > li > a > i {
+            margin-right: 7px;
+            font-size: 15px;
+        }
+
+        .label {
+            font-size: 10px;
+        }
+
+        .list-group-custom {
+            font-size: 12px;
+        }
+
+        .caption, .caption a {
+            color: #0066a4 !important;
+        }
+
+        .portlet .action-bar {
+            border: none;
+            box-shadow: none;
+            margin-bottom: -10px;
+        }
+
+        .portlet > .portlet-title {
+            border-bottom: 2px solid #85c44e;
+        }
+
+            .portlet > .portlet-title > .caption {
+                font-size: 17px;
+            }
+
+        .table > thead:first-child > tr:first-child > th {
+            background: #fff;
+            color: #000;
+            text-shadow: none;
+            border: none;
+            border-bottom: 1px solid;
+        }
+
+        .gridView th a, .gridView th a:link, .gridView th a, .gridView th a:link, .gridView th a:visited {
+            color: #000;
+        }
+
+
+        /* sontt new block use anovafeed */
+        .block-pending {
+            background: #9c9898;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        .block-process {
+            background: #4c4cff;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        .block-success {
+            background: #329932;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        .breadcrumb2 {
+            padding: 5px 10px;
+            margin-bottom: 20px;
+            list-style: none;
+            font-size: 13px;
+            background: #ecf0f1;
+        }
+
+            .breadcrumb2 > li {
+                display: inline-block;
+            }
+
+                .breadcrumb2 > li + li:before {
+                    padding: 0 5px;
+                    color: #ccc;
+                    content: "/\00a0";
+                }
+
+            .breadcrumb2 > .active {
+                color: #777;
+            }
+
+        .list-panel .breadcrumb {
+            display: none;
+        }
+
+        .btn {
+            padding: 4px 16px;
+            font-size: 11px;
+            display: inline-block;
+            margin: 2px 7px !important;
+            -webkit-border-radius: 2px;
+            border-radius: 2px;
+            color: #fff;
+            font-weight: bold;
+            text-transform: uppercase;
+            background-position: bottom right;
+            background-position: bottom left, top right, 0 0, 0 0;
+            background-clip: border-box;
+            -webkit-transition: background-position 1s;
+            -moz-transition: background-position 1s;
+            transition: background-position 1s;
+        }
+
+        .brown.btn {
+            background-image: url(/image/bubbleButton.png), url(/image/bubbleButton.png), linear-gradient(to bottom, #0066a4 0%,#3284b6 100%) !important;
+            border: 1px solid #3284b6;
+            text-shadow: 0 1px 0 #3284b6;
+            box-shadow: inset 0 1px 0 #3284b6, 0 0 0 4px #d5d5d5;
+        }
+
+        .red.btn, .btnclosesearchBLD.btn {
+            background-image: url(/image/bubbleButton.png), url(/image/bubbleButton.png), linear-gradient(to bottom, #cb5a5e 0%,#cb5a5e 100%) !important;
+            border: 1px solid #cb5a5e;
+            text-shadow: 0 1px 0 #cb5a5e;
+            box-shadow: inset 0 1px 0 #cb5a5e, 0 0 0 4px #d5d5d5;
+        }
+
+        .brown.btn:hover {
+            background-image: url(/image/bubbleButton.png), url(/image/bubbleButton.png), linear-gradient(to bottom, #0066a4 0%,#3284b6 100%) !important;
+            border: 1px solid #3284b6;
+            border: 1px solid #3284b6;
+            box-shadow: inset 0 1px 0 #3284b6, 0 0 0 4px #d5d5d5;
+            color: #fff !important;
+            text-decoration: none !important;
+            background-position: top left !important;
+            background-position: top left, bottom right, 0 0, 0 0 !important;
+        }
+
+        .red.btn:hover, .btnclosesearchBLD.btn:hover {
+            background-image: url(/image/bubbleButton.png), url(/image/bubbleButton.png), linear-gradient(to bottom, #cb5a5e 0%,#cb5a5e 100%) !important;
+            border: 1px solid #cb5a5e;
+            border: 1px solid #cb5a5e;
+            box-shadow: inset 0 1px 0 #cb5a5e, 0 0 0 4px #d5d5d5;
+            color: #fff !important;
+            text-decoration: none !important;
+            background-position: top left !important;
+            background-position: top left, bottom right, 0 0, 0 0 !important;
+        }
+
+        .btn-fix-height {
+            height: auto !important;
+            line-height: 15px !important;
+        }
+
+        .page-header.navbar {
+            height: 60px;
+            min-height: 60px;
+            border-bottom: 1px solid #ccc;
+            background: #fff;
+        }
+
+        .centerdesk {
+            display: block;
+            float: left;
+            font-size: 17px;
+            color: #0066a4;
+            text-align: left;
+            text-transform: uppercase;
+            font-weight: bold;
+            margin-left: 10px;
+        }
+
+        .page-header.navbar .top-menu .navbar-nav > li.dropdown > .dropdown-toggle > i, .page-header.navbar .top-menu .navbar-nav > li.dropdown-user .dropdown-toggle > .username {
+            font-size: 12px;
+            color: #0066a4;
+        }
+
+        .portlet .action-bar {
+            border: none;
+            box-shadow: none;
+            margin-bottom: 20px;
+        }
+
+        .soncustumanova {
+            margin-bottom: -15px;
+            margin-top: 40px;
+        }
+
+        .qq-upload-button {
+            color: #FFF;
+            background-color: #c23f44;
+            padding: 7px;
+            width: auto;
+        }
+
+        .content-border {
+            border: none;
+            border-radius: 0px;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+        }
+
+        #home_left .col-md-4 .content-border:hover, #home_left .col-md-4 .content-border:hover .post-summary-2 {
+            background: #85c44e;
+            color: #fff;
+        }
+
+
+        .portlet > .portlet-title {
+            margin-bottom: 20px;
+            margin-top: -5px;
+        }
+
+        .ms-inputBox, .sp-peoplepicker-autoFillContainer, .sp-peoplepicker-topLevel, .sp-peoplepicker-topLevelDisabled, input[type=file], input[type=password], input[type=text], select, textarea, .form-control, .input-group-btn input {
+            border: 1px solid #ccc;
+        }
+
+            .form-control:focus, .select2-container .select2-choice:focus, .select2-container-active, .select2-container-multi.select2-container-active.select2-choices {
+                border-color: #85c44e !important;
+                box-shadow: none !important;
+            }
+
+        .footer-fixed {
+            border-top: 1px solid #85c44e;
+        }
+
+        .control-label {
+            font-weight: bold;
+        }
+
+        .table-bordered > tbody > tr > td {
+            border: none;
+            border-bottom: 1px solid #ccc;
+            font-size: 12px;
+        }
+
+        .table-bordered {
+            border: 1px solid #cee7b8;
+        }
+
+        .table-striped-custom tr:nth-child(2n+1) {
+            background: #f8f9fb;
+            height: 35px;
+        }
+
+        .unread {
+            height: 13px;
+        }
+        /** Colors **/
+        ol.progress-track {
+            display: table;
+            list-style-type: none;
+            margin: 0;
+            padding: 2em 1em;
+            table-layout: fixed;
+            width: 100%;
+        }
+
+            ol.progress-track li {
+                display: table-cell;
+                line-height: 0em;
+                position: relative;
+                text-align: center;
+            }
+
+                ol.progress-track li .icon-wrap {
+                    border-radius: 50% !important;
+                    top: -1.3em;
+                    color: #fff;
+                    display: block;
+                    height: 2em;
+                    margin: 0 auto -2em;
+                    left: 0;
+                    right: 0;
+                    position: absolute;
+                    width: 2em;
+                }
+
+                ol.progress-track li .icon-check-mark,
+                ol.progress-track li .icon-down-arrow {
+                    height: 25px;
+                    width: 15px;
+                    display: inline-block;
+                    fill: currentColor;
+                }
+
+                ol.progress-track li .progress-number {
+                    position: relative;
+                    top: -15px;
+                    font-size: 14px;
+                    font-weight: bold;
+                }
+
+                ol.progress-track li .progress-text {
+                    position: relative;
+                    top: -55px;
+                    font-size: 16px;
+                    font-weight: bold;
+                }
+
+                ol.progress-track li.progress-done {
+                    transition: border-color 1s ease-in-out;
+                    -webkit-transition: border-color 1s ease-in-out;
+                    -moz-transition: border-color 1s ease-in-out;
+                }
+
+                    ol.progress-track li.progress-done .icon-down-arrow {
+                        display: none;
+                    }
+
+                    ol.progress-track li.progress-done.progress-current .icon-wrap {
+                        background-color: #0070c0;
+                    }
+
+                        ol.progress-track li.progress-done.progress-current .icon-wrap .icon-check-mark {
+                            display: none;
+                        }
+
+                        ol.progress-track li.progress-done.progress-current .icon-wrap .icon-down-arrow {
+                            display: block;
+                        }
+
+        .progress-done img {
+            width: 12%;
+            position: relative;
+            top: -64px;
+        }
+
+
+
+        .line-green {
+            border-top: 9px solid #329932;
+        }
+
+            .line-green .icon-wrap {
+                background-color: #FFF;
+                border: 5px solid #329932;
+            }
+
+        .line-blue {
+            border-top: 9px solid #4c4cff;
+        }
+
+            .line-blue .icon-wrap {
+                background-color: #FFF;
+                border: 5px solid #4c4cff;
+            }
+
+        .line-gray {
+            border-top: 9px solid #9c9898;
+        }
+
+            .line-gray .icon-wrap {
+                background-color: #FFF;
+                border: 5px solid #9c9898;
+            }
+
+        .line-orange {
+            border-top: 9px solid orange;
+        }
+
+            .line-orange .icon-wrap {
+                background-color: #FFF;
+                border: 5px solid orange;
+            }
+
+        .line-red {
+            border-top: 9px solid red;
+        }
+
+            .line-red .icon-wrap {
+                background-color: #FFF;
+                border: 5px solid red;
+            }
+    </style>
+    <%--<script type="text/javascript">
+        jQuery(document).ready(function () {
+            Index.init();
+            Layout.init(); // init layout
+            setInterval(function () {
+                var time = new Date();
+                var year = time.getFullYear();
+                var month = time.getMonth() + 1; if (month < 10) month = "0" + month;
+                var day = time.getDate(); if (day < 10) day = "0" + day;
+                var hour = time.getHours(); if (hour < 10) hour = "0" + hour;
+                var minute = time.getMinutes(); if (minute < 10) minute = "0" + minute;
+                var second = time.getSeconds(); if (second < 10) second = "0" + second;
+                $(".current-time").html(hour + ":" + minute + ":" + second + " - " + day + "/" + month + "/" + year);
+            }, 1000);
+            //Dropdownlist select
+            $(".select2").select2();
+            $(".select2ReadOnly").select2("readonly", true);
+            //$(".js-example-tags").select2({tags:true});
+            //Hiện form search
+            $(".gridSearch").hide();
+            $(".opensearch").click(function () {
+                var _rel = $(this).attr('rel');
+                $(".gridSearch").slideUp();
+                $("#" + _rel).slideDown();
+            });
+            $(".btnclosesearch").click(function () {
+                $(".gridSearch").slideUp();
+                $("#gridSearch").slideUp();
+            });
+            $('#selectAll').click(function (event) {  //on click 
+                if (this.checked) { // check select status
+                    $('.selectItem').prop('checked', true);
+                    $('.selectItem').parent().addClass('checked');
+                } else {
+                    $('.selectItem').prop('checked', false);
+                    $('.selectItem').parent().removeClass('checked');
+                }
+            });
+            $("#btnThem,#btnAddForm").click(function () {
+                myfocus();
+            });
+        });
+        function myfocus() {
+            $('.modal').on('shown.bs.modal', function () {
+                setTimeout(function () {
+                    $('.form-horizontal').find("input[type=text]:first").focus();
+                }, 100);
+            });
+        }
+
+    </script>--%>
+
+    <!-- END JAVASCRIPTS -->
+    <!-- END JAVASCRIPTS -->
+    <style type="text/css">
+        .s4-skipribbonshortcut {
+            display: none;
+        }
+    </style>
+
+    <%--<form method="post" action="/Pagess/van-ban-den.aspx" onsubmit="javascript:return WebForm_OnSubmit();" id="aspnetForm" runat="server">--%>
+    <form method="post" id="aspnetForm" runat="server">
+        <div id="s4-workspace" style="">
+            <div id="s4-bodyContainer">
+                <!-- BEGIN HEADER -->
+                <!-- Phần đầu trang -->
+                <div class="page-header -i navbar navbar-fixed-top">
+                    <div class="navbar-header">
+                    </div>
+
+
+
+
+
+                    <!-- BEGIN TOP NAVIGATION BAR -->
+                    <div class="page-header-inner">
+                        <div class="page-logo">
+                            <a href="/Pagess/bieu-mau.aspx">
+                                <img src="/Publishing_Resources/img/SG31/logo-nhnn.png" alt="logo" class="logo-default" style="width: 68%;" />
+                            </a>
+                        </div>
+                        <!-- END LOGO -->
+                        <!-- BEGIN RESPONSIVE MENU TOGGLER -->
+                        <a href="javascript:;" class="menu-toggler responsive-toggler" data-toggle="collapse" data-target=".navbar-collapse"></a>
+                        <!-- END RESPONSIVE MENU TOGGLER -->
+                        <!-- BEGIN TOP NAVIGATION MENU -->
+                        <div class="top-menu">
+                            <%--<div id="centerdesk">HỆ THỐNG QUẢN LÝ VĂN BẢN VÀ ĐIỀU HÀNH CÔNG TY</div>--%>
+
+                            <div class="page-header -i navbar navbar-fixed-top hidden-xs-bg hidden-sm-bg">
+                                <!-- BEGIN HEADER INNER -->
+                                <div class="page-header-inner">
+                                    <div class="page-logo hidden-xs hidden-sm" style="padding-left: 40px">
+                                        <a href="/Pagess/Home.aspx">
+                                            <img src="/Publishing_Resources/img/SG31/logo-nhnn.png" alt="logo" class="logo-default" />
+                                        </a>
+
+                                    </div>
+                                    <div>
+                                        <div class="centerdesk" style="padding-top: 15px; font-family: 'Noto Sans', sans-serif;">
+                                            <%=Resources.Common.lblTieuDeChinh %>
+                                        </div>
+                                    </div>
+                                    <div class="top-menu">
+                                        <%--<span class="contant-current-time" style="padding: 15px; margin: 0px; display: inline-block">
+                                            <i class="fa fa-clock-o"></i><span class="current-time">17:27:10 - 18/08/2016</span>
+                                        </span>--%>
+                                        <ul class="nav navbar-nav pull-right" id="divNotification">
+                                        </ul>
+
+                                        <!--Icon translate-->
+                                        <%  
+                                            HttpCookie cookielanguage = Request.Cookies["ngonngu"];
+                                            if (cookielanguage != null && cookielanguage.Value != null)
+                                            {
+                                                if (cookielanguage.Value.ToString() == "en-US")
+                                                {
+                                        %>
+                                        <asp:ImageButton runat="server" ID="ImgBtn_Vi" ImageUrl="~/Image/vietnam.png" OnClick="ImgBtn_Vi_Click" Style="height: 20px; width: 20px; margin-top: 13px;" />
+                                        <%
+                                            }
+                                            else
+                                            {
+                                        %>
+                                        <asp:ImageButton runat="server" ID="ImgBtn_En" ImageUrl="~/Image/united-states-of-america.png" OnClick="ImgBtn_En_Click" Style="height: 20px; width: 20px; margin-top: 13px;" />
+                                        <%                                
+                                                }
+                                            }
+                                        %>
+                                     &nbsp;
+                                        
+                                        <%--<asp:ImageButton runat="server" ID="ImgBtn_Jp" ImageUrl="~/Image/flag_jp.png" OnClick="ImgBtn_Jp_Click" style="margin-top:8px" Width="40" Height="25" />--%>
+                                    </div>
+                                </div>
+                                <!-- END HEADER INNER -->
+                            </div>
+                            <!-- END HEADER -->
+                            <div class="clearfix">
+                            </div>
+                            <script type="text/javascript">
+                                /*$(document).ready(function () {
+                                    LoadAjaxPage("/Common/pTopNavigation.aspx", "#divNotification");
+                                    setInterval(function () {
+                                        setTimeout(function () { loadTopNav(); }, 1);
+                                    }, 300000);
+
+                                });
+                                function loadTopNav() {
+                                    LoadAjaxPage("/Common/pTopNavigation.aspx", "#divNotification");
+                                }*/
+                            </script>
+                            <style>
+                                #divNotification .unread a {
+                                    background: #d6b48e;
+                                    border-bottom: 1px solid #E6E6E6 !important;
+                                }
+                            </style>
+
+                        </div>
+                        <!-- END TOP NAVIGATION MENU -->
+                    </div>
+                </div>
+                <div class="clearfix">
+                </div>
+                <!-- END HEADER -->
+                <!-- BEGIN CONTAINER -->
+                <div class="page-container" style="margin-top: 60px;">
+                    <!-- BEGIN SIDEBAR MENU LEFT-->
+                    <%  
+                        HttpCookie cookie = Request.Cookies["ngonngu"];
+                        if (cookie != null && cookie.Value != null)
+                        {
+                            if (cookie.Value.ToString() == "en-US")
+                            {
+                    %>
+                    <uc2:ucMenuLeftNewEnglish runat="server" ID="ucMenuLeftNewEnglish" />
+                    <%
+                        }
+                        else
+                        {
+                            if (cookie.Value.ToString() == "vi-VN")
+                            {
+                    %>
+                    <%--<uc1:ucMenuLeftNew runat="server" ID="ucMenuLeftNew" />--%>
+                    <%                                
+                                }
+                            }
+                        }
+                        else
+                        {
+                    %>
+                    <uc1:ucMenuLeftNew runat="server" ID="ucMenuLeftNew1" />
+                    <%
+                        }
+                    %>
+
+                    <!-- END SIDEBAR MENU LEFT-->
+                    <!-- BEGIN CONTENT -->
+                    <div class="page-content-wrapper">
+                        <div class="page-content" style="min-height: 904px; background: none;">
+                            <div class="row" <%= HttpContext.Current.Request.Url.AbsolutePath.Contains("Pagess/Home.aspx") ? "hidden" :"" %>>
+                                <div class="col-md-12 col-sm-12 ">
+                                    <ol class="breadcrumb2 " id="setbreadcrumb">
+                                    </ol>
+                                </div>
+                            </div>
+                            <div class="<%= HttpContext.Current.Request.Url.AbsolutePath.Contains("Pagess/Home.aspx") ? "" :"panel" %> list-panel">
+                                <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                                </asp:ContentPlaceHolder>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END CONTENT-->
+                    <div id="dialog-form" class="modal fade" tabindex="-1" role="basic" aria-hidden="true" data-focus-on="input:first" data-keyboard="false">
+                    </div>
+                    <div id="dialog-message" class="modal fade" tabindex="-1" data-keyboard="false">
+                    </div>
+                    <div id="dialog-ultility" class="modal fade" tabindex="-1" data-backdrop="static" data-keyboard="false" data-focus-on="input:first"></div>
+                    <div id="dialog-confirm" class="modal fade" tabindex="-1" data-backdrop="static" data-keyboard="false"></div>
+                    <div id="dialog-loading" class="modal fade" tabindex="-1" data-keyboard="false"></div>
+                </div>
+                <!-- END CONTAINER-->
+                <!-- END PAGE -->
+
+                <!-- END CONTAINER -->
+                <!-- BEGIN FOOTER -->
+                <!-- END FOOTER -->
+                <!-- END BODY -->
+            </div>
+        </div>
+    </form>
+    <%-- <div class="footer-fixed">
+        <span class="copyright">© Copyright 2018 TinhVan. All rights reserved.</span>
+    </div>--%>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var xxx = $(".breadcrumb").html();
+            $("#setbreadcrumb").html(xxx);
+        });
+    </script>
+</body>
+</html>

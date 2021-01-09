@@ -1,0 +1,26 @@
+﻿<Row ss:AutoFitHeight="0">
+  <Cell ss:StyleID="s68">
+    <Data ss:Type="String">[STT]</Data>
+  </Cell>
+  <Cell ss:StyleID="s68">
+    <Data ss:Type="String">[NoiDung]</Data>
+  </Cell>
+  <Cell ss:StyleID="s68">
+    <Data ss:Type="String">[ChiNhanh]</Data>
+  </Cell>
+  <Cell ss:StyleID="s68">
+    <Data ss:Type="String">[DonViXuLy]</Data>
+  </Cell>
+  <Cell ss:StyleID="s68">
+    <Data ss:Type="String">[KyBaoCao]</Data>
+  </Cell>
+  <Cell ss:StyleID="s68">
+    <Data ss:Type="String">[ThoiHan]</Data>
+  </Cell>
+  <Cell ss:StyleID="s68">
+    <Data ss:Type="String">[TrangThai]</Data>
+  </Cell>
+  <Cell ss:StyleID="s68">
+    <Data ss:Type="String">[GhiChu]</Data>
+  </Cell>
+</Row>

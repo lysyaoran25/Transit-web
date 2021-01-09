@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblCapNhat" xml:space="preserve">
+    <value>Cập nhật</value>
+  </data>
+  <data name="lblCapNhatFileVanBanThanhCong" xml:space="preserve">
+    <value>Cập nhật file văn bản thành công</value>
+  </data>
+  <data name="lblCapNhatThanhCongVB" xml:space="preserve">
+    <value>Cập nhật thành công văn bản đi số</value>
+  </data>
+  <data name="lblCapNhatVaGuiThanhCongVB" xml:space="preserve">
+    <value>Cập nhật và gửi thành công văn bản đi số</value>
+  </data>
+  <data name="lblCapSo" xml:space="preserve">
+    <value>Cấp sổ</value>
+  </data>
+  <data name="lblChiaSeVBDiCoSoKyHieu" xml:space="preserve">
+    <value>Chia sẻ văn bản đi có số ký hiệu</value>
+  </data>
+  <data name="lblChonFileDinhKem" xml:space="preserve">
+    <value>Chọn file đính kèm</value>
+  </data>
+  <data name="lblDangNhap" xml:space="preserve">
+    <value>Đăng nhập</value>
+  </data>
+  <data name="lblDaTonTai" xml:space="preserve">
+    <value>đã tồn tại.</value>
+  </data>
+  <data name="lblDaTrungSo" xml:space="preserve">
+    <value>đã trùng số.</value>
+  </data>
+  <data name="lblDaXoaThanhCongVBDi" xml:space="preserve">
+    <value>Đã xóa thành công văn bản đi.</value>
+  </data>
+  <data name="lblDuyet" xml:space="preserve">
+    <value>Duyệt</value>
+  </data>
+  <data name="lblHuyChiaSeThanhCongVBDi" xml:space="preserve">
+    <value>Hủy chia sẻ thành công văn bản đi.</value>
+  </data>
+  <data name="lblKeoVaThaFileVaoDeTaiLen" xml:space="preserve">
+    <value>Kéo và thả file vào để tải lên</value>
+  </data>
+  <data name="lblPhatHanh" xml:space="preserve">
+    <value>Phát hành</value>
+  </data>
+  <data name="lblQuy" xml:space="preserve">
+    <value>Quý</value>
+  </data>
+  <data name="lblSua" xml:space="preserve">
+    <value>Sửa</value>
+  </data>
+  <data name="lblThang" xml:space="preserve">
+    <value>Tháng</value>
+  </data>
+  <data name="lblThanhCong" xml:space="preserve">
+    <value>thành công</value>
+  </data>
+  <data name="lblThemMoi" xml:space="preserve">
+    <value>Thêm mới</value>
+  </data>
+  <data name="lblThemMoiThanhCongVB" xml:space="preserve">
+    <value>Thêm mới thành công văn bản đi số</value>
+  </data>
+  <data name="lblThemMoiVaGuiThanhCongVB" xml:space="preserve">
+    <value>Thêm mới và gửi thành công văn bản đi số</value>
+  </data>
+  <data name="lblVanBanDi" xml:space="preserve">
+    <value>Văn bản đi</value>
+  </data>
+  <data name="lblVanBanDiKhongXoaDuoc" xml:space="preserve">
+    <value>Văn bản đi không xóa được do đang sử dụng!</value>
+  </data>
+  <data name="lblVanBanDiSoKyHieu" xml:space="preserve">
+    <value>Văn bản đi số ký hiệu</value>
+  </data>
+  <data name="lblVanBanDiThuTu" xml:space="preserve">
+    <value>Văn bản đi thứ tự</value>
+  </data>
+  <data name="lblVanBanSoKyHieu" xml:space="preserve">
+    <value>Văn bản số ký hiệu</value>
+  </data>
+  <data name="lblVaoSo" xml:space="preserve">
+    <value>Vào sổ</value>
+  </data>
+  <data name="lblVuiLongKTNgayVanBan" xml:space="preserve">
+    <value>Vui lòng kiểm tra lại ngày văn bản. Hạn xử lý phải lớn hơn ngày văn bản</value>
+  </data>
+  <data name="lblXem" xml:space="preserve">
+    <value>Xem</value>
+  </data>
+  <data name="lblXoa" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="lblAn" xml:space="preserve">
+    <value>Ẩn</value>
+  </data>
+  <data name="lblCauHinh" xml:space="preserve">
+    <value>Cấu hình</value>
+  </data>
+  <data name="lblChoDuyet" xml:space="preserve">
+    <value>Chờ duyệt</value>
+  </data>
+  <data name="lblChoPhatHanh" xml:space="preserve">
+    <value>Chờ ban hành</value>
+  </data>
+  <data name="lblChuaDat" xml:space="preserve">
+    <value>Chưa đạt</value>
+  </data>
+  <data name="lblChuaDay" xml:space="preserve">
+    <value>Chưa đầy</value>
+  </data>
+  <data name="lblChuaDuyet" xml:space="preserve">
+    <value>Chưa duyệt</value>
+  </data>
+  <data name="lblChuaThucHien" xml:space="preserve">
+    <value>Chưa thực hiện</value>
+  </data>
+  <data name="lblChuaXuLy" xml:space="preserve">
+    <value>Chưa xử lý</value>
+  </data>
+  <data name="lblCo" xml:space="preserve">
+    <value>Có</value>
+  </data>
+  <data name="lblDaBanGiao" xml:space="preserve">
+    <value>Đã bàn giao</value>
+  </data>
+  <data name="lblDaDuyet" xml:space="preserve">
+    <value>Đã duyệt</value>
+  </data>
+  <data name="lblDaHoanThanh" xml:space="preserve">
+    <value>Đã hoàn thành</value>
+  </data>
+  <data name="lblDaHuy" xml:space="preserve">
+    <value>Đã hủy</value>
+  </data>
+  <data name="lblDangBanGiao" xml:space="preserve">
+    <value>Đang bàn giao</value>
+  </data>
+  <data name="lblDangThucHien" xml:space="preserve">
+    <value>Đang thực hiện</value>
+  </data>
+  <data name="lblDangTrinhKy" xml:space="preserve">
+    <value>Đang trình ký</value>
+  </data>
+  <data name="lblDangXuLy" xml:space="preserve">
+    <value>Đang xử lý</value>
+  </data>
+  <data name="lblDat" xml:space="preserve">
+    <value>Đạt</value>
+  </data>
+  <data name="lblDaThucHien" xml:space="preserve">
+    <value>Đã thực hiện</value>
+  </data>
+  <data name="lblDaXuLy" xml:space="preserve">
+    <value>Đã xử lý</value>
+  </data>
+  <data name="lblDay" xml:space="preserve">
+    <value>Đầy</value>
+  </data>
+  <data name="lblDoi" xml:space="preserve">
+    <value>Đổi</value>
+  </data>
+  <data name="lblDoiMatKhau" xml:space="preserve">
+    <value>Đổi mật khẩu</value>
+  </data>
+  <data name="lblDuyetTheThuc" xml:space="preserve">
+    <value>Duyệt nội dung và cách trình bày</value>
+  </data>
+  <data name="lblDuyetTieuHuy" xml:space="preserve">
+    <value>zzzz</value>
+  </data>
+  <data name="lblHien" xml:space="preserve">
+    <value>Hiện</value>
+  </data>
+  <data name="lblHienThi" xml:space="preserve">
+    <value>Hiển thị</value>
+  </data>
+  <data name="lblHuyDuyet" xml:space="preserve">
+    <value>Hủy duyệt</value>
+  </data>
+  <data name="lblKem" xml:space="preserve">
+    <value>Kém</value>
+  </data>
+  <data name="lblKetThuc" xml:space="preserve">
+    <value>Kết thúc</value>
+  </data>
+  <data name="lblKha" xml:space="preserve">
+    <value>Khá</value>
+  </data>
+  <data name="lblKhong" xml:space="preserve">
+    <value>Không</value>
+  </data>
+  <data name="lblKhongDat" xml:space="preserve">
+    <value>Không đạt</value>
+  </data>
+  <data name="lblKhongDuocDuyet" xml:space="preserve">
+    <value>Không được duyệt</value>
+  </data>
+  <data name="lblKhongDuyet" xml:space="preserve">
+    <value>Không duyệt</value>
+  </data>
+  <data name="lblKhongTheDuyet" xml:space="preserve">
+    <value>Không thể duyệt</value>
+  </data>
+  <data name="lblKhongTheDuyetTieuHuy" xml:space="preserve">
+    <value>zzzz</value>
+  </data>
+  <data name="lblKhongTiepNhan" xml:space="preserve">
+    <value>Không tiếp nhận</value>
+  </data>
+  <data name="lblLanhDaoDaDuyet" xml:space="preserve">
+    <value>Người quản lý đã duyệt</value>
+  </data>
+  <data name="lblPhanQuyenCho" xml:space="preserve">
+    <value>Phân quyền cho</value>
+  </data>
+  <data name="lblPhanVaiTroCho" xml:space="preserve">
+    <value>Phân chia vai trò cho</value>
+  </data>
+  <data name="lblTaoMoi" xml:space="preserve">
+    <value>Tạo mới</value>
+  </data>
+  <data name="lblTot" xml:space="preserve">
+    <value>Tốt</value>
+  </data>
+  <data name="lblTraLaiChuongTrinhCT" xml:space="preserve">
+    <value>zzzz</value>
+  </data>
+  <data name="lblTrinhDuyetTheThuc" xml:space="preserve">
+    <value>Trình duyệt nội dung và hình thức</value>
+  </data>
+  <data name="lblTrinhKy" xml:space="preserve">
+    <value>Trình ký</value>
+  </data>
+  <data name="lblTrungBinh" xml:space="preserve">
+    <value>Trung Bình</value>
+  </data>
+  <data name="lblTuChoi" xml:space="preserve">
+    <value>Từ chối</value>
+  </data>
+  <data name="lblTuChoiVaoSo" xml:space="preserve">
+    <value>Từ chối vào sổ</value>
+  </data>
+  <data name="lblXuatSac" xml:space="preserve">
+    <value>Xuất Sắc</value>
+  </data>
+  <data name="lblYeu" xml:space="preserve">
+    <value>Yếu </value>
+  </data>
+  <data name="lblYKien" xml:space="preserve">
+    <value>Ý kiến</value>
+  </data>
+  <data name="lblBat" xml:space="preserve">
+    <value>Bật</value>
+  </data>
+  <data name="lbtTat" xml:space="preserve">
+    <value>Tắt</value>
+  </data>
+  <data name="lblChuaGui" xml:space="preserve">
+    <value>Chưa gửi</value>
+  </data>
+  <data name="lblDungHan" xml:space="preserve">
+    <value>Đúng hạn</value>
+  </data>
+  <data name="lblQuaHan" xml:space="preserve">
+    <value>Quá hạn</value>
+  </data>
+  <data name="lblDangDung" xml:space="preserve">
+    <value>Đang dùng</value>
+  </data>
+  <data name="lblKhongDung" xml:space="preserve">
+    <value>Không dùng</value>
+  </data>
+</root>

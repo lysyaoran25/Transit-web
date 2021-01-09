@@ -1,0 +1,23 @@
+﻿<Row ss:AutoFitHeight="0"
+          >
+  <Cell ss:Index="4"
+        ss:StyleID="s83">
+    <Data ss:Type="String">[ThuTuCV]</Data>
+  </Cell>
+  <Cell ss:MergeAcross="5"
+        ss:StyleID="s101">
+    <Data ss:Type="String">[TenCV]</Data>
+  </Cell>
+  <Cell ss:MergeAcross="2"
+        ss:StyleID="s101">
+    <Data ss:Type="String">[NguoiLapCV]</Data>
+  </Cell>
+  <Cell ss:MergeAcross="1"
+        ss:StyleID="s101">
+    <Data ss:Type="String">[DauMoiCV]</Data>
+  </Cell>
+  <Cell ss:MergeAcross="2"
+        ss:StyleID="s83">
+    <Data ss:Type="String">[TrangThaiCV]</Data>
+  </Cell>
+</Row>

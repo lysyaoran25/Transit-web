@@ -1,0 +1,485 @@
+﻿<w:tr wsp:rsidR="00C81A09"
+      wsp:rsidRPr="00B8088C"
+      wsp:rsidTr="00C81A09">
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="802"
+             w:type="dxa"/>
+      <w:shd w:val="clear"
+             w:color="auto"
+             w:fill="auto"/>
+    </w:tcPr>
+    <w:p wsp:rsidR="00C81A09"
+         wsp:rsidRDefault="00C81A09"
+         wsp:rsidP="00B8088C">
+      <w:pPr>
+        <w:spacing w:after="0"
+                   w:line="240"
+                   w:line-rule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p wsp:rsidR="00C81A09"
+         wsp:rsidRPr="00B8088C"
+         wsp:rsidRDefault="00C81A09"
+         wsp:rsidP="00B8088C">
+      <w:pPr>
+        <w:spacing w:after="0"
+                   w:line="240"
+                   w:line-rule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+        </w:rPr>
+        <w:t>[ThuTu]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="1272"
+             w:type="dxa"/>
+      <w:shd w:val="clear"
+             w:color="auto"
+             w:fill="auto"/>
+    </w:tcPr>
+    <w:p wsp:rsidR="00C81A09"
+         wsp:rsidRDefault="00C81A09"
+         wsp:rsidP="00B8088C">
+      <w:pPr>
+        <w:spacing w:after="0"
+                   w:line="240"
+                   w:line-rule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p wsp:rsidR="00C81A09"
+         wsp:rsidRPr="00B8088C"
+         wsp:rsidRDefault="00C81A09"
+         wsp:rsidP="00B8088C">
+      <w:pPr>
+        <w:spacing w:after="0"
+                   w:line="240"
+                   w:line-rule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+        </w:rPr>
+        <w:t>[SKH]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="1653"
+             w:type="dxa"/>
+      <w:shd w:val="clear"
+             w:color="auto"
+             w:fill="auto"/>
+    </w:tcPr>
+    <w:p wsp:rsidR="00C81A09"
+         wsp:rsidRDefault="00C81A09"
+         wsp:rsidP="00B8088C">
+      <w:pPr>
+        <w:spacing w:after="0"
+                   w:line="240"
+                   w:line-rule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p wsp:rsidR="00C81A09"
+         wsp:rsidRPr="00B8088C"
+         wsp:rsidRDefault="00C81A09"
+         wsp:rsidP="00B8088C">
+      <w:pPr>
+        <w:spacing w:after="0"
+                   w:line="240"
+                   w:line-rule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+        </w:rPr>
+        <w:t>[NgayBH]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="2649"
+             w:type="dxa"/>
+    </w:tcPr>
+    <w:p wsp:rsidR="00C81A09"
+         wsp:rsidRPr="00B8088C"
+         wsp:rsidRDefault="00C81A09"
+         wsp:rsidP="00B8088C">
+      <w:pPr>
+        <w:spacing w:after="0"
+                   w:line="240"
+                   w:line-rule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+          <w:b/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="1576"
+             w:type="dxa"/>
+      <w:shd w:val="clear"
+             w:color="auto"
+             w:fill="auto"/>
+    </w:tcPr>
+    <w:p wsp:rsidR="00C81A09"
+         wsp:rsidRDefault="00C81A09"
+         wsp:rsidP="00B8088C">
+      <w:pPr>
+        <w:spacing w:after="0"
+                   w:line="240"
+                   w:line-rule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p wsp:rsidR="00C81A09"
+         wsp:rsidRPr="00B8088C"
+         wsp:rsidRDefault="00C81A09"
+         wsp:rsidP="00B8088C">
+      <w:pPr>
+        <w:spacing w:after="0"
+                   w:line="240"
+                   w:line-rule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r wsp:rsidRPr="00007620">
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+        </w:rPr>
+        <w:t>[NguoiKy]</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+        </w:rPr>
+        <w:t></w:t>
+      </w:r>
+      <w:r wsp:rsidRPr="00007620">
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+        </w:rPr>
+        <w:t></w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+        </w:rPr>
+        <w:t> </w:t>
+      </w:r>
+      <w:r wsp:rsidRPr="00007620">
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+        </w:rPr>
+        <w:t></w:t>
+      </w:r>
+    </w:p>
+  </w:tc>  
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="2147"
+             w:type="dxa"/>
+      <w:shd w:val="clear"
+             w:color="auto"
+             w:fill="auto"/>
+    </w:tcPr>
+    <w:p wsp:rsidR="00C81A09"
+         wsp:rsidRDefault="00C81A09"
+         wsp:rsidP="00B8088C">
+      <w:pPr>
+        <w:spacing w:after="0"
+                   w:line="240"
+                   w:line-rule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p wsp:rsidR="00C81A09"
+         wsp:rsidRPr="00B8088C"
+         wsp:rsidRDefault="00C81A09"
+         wsp:rsidP="00B8088C">
+      <w:pPr>
+        <w:spacing w:after="0"
+                   w:line="240"
+                   w:line-rule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+        </w:rPr>
+        <w:t></w:t>
+      </w:r>
+      <w:r wsp:rsidRPr="00007620">
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+        </w:rPr>
+        <w:t></w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+        </w:rPr>
+        <w:t></w:t>
+      </w:r>
+      <w:r wsp:rsidRPr="00007620">
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+        </w:rPr>
+        <w:t>[DonViSoanThao]</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+        </w:rPr>
+        <w:t></w:t>
+      </w:r>
+      <w:r wsp:rsidRPr="00007620">
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+        </w:rPr>
+        <w:t></w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="2147"
+             w:type="dxa"/>
+      <w:shd w:val="clear"
+             w:color="auto"
+             w:fill="auto"/>
+    </w:tcPr>
+    <w:p wsp:rsidR="00C81A09"
+         wsp:rsidRDefault="00C81A09"
+         wsp:rsidP="00B8088C">
+      <w:pPr>
+        <w:spacing w:after="0"
+                   w:line="240"
+                   w:line-rule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p wsp:rsidR="00C81A09"
+         wsp:rsidRPr="00B8088C"
+         wsp:rsidRDefault="00C81A09"
+         wsp:rsidP="00B8088C">
+      <w:pPr>
+        <w:spacing w:after="0"
+                   w:line="240"
+                   w:line-rule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+        </w:rPr>
+        <w:t></w:t>
+      </w:r>
+      <w:r wsp:rsidRPr="00007620">
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+        </w:rPr>
+        <w:t></w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+        </w:rPr>
+        <w:t></w:t>
+      </w:r>
+      <w:r wsp:rsidRPr="00007620">
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+        </w:rPr>
+        <w:t>[DoKhan]</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+        </w:rPr>
+        <w:t></w:t>
+      </w:r>
+      <w:r wsp:rsidRPr="00007620">
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+        </w:rPr>
+        <w:t></w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="2851"
+             w:type="dxa"/>
+      <w:shd w:val="clear"
+             w:color="auto"
+             w:fill="auto"/>
+    </w:tcPr>
+    <w:p wsp:rsidR="00C81A09"
+         wsp:rsidRPr="00B8088C"
+         wsp:rsidRDefault="00C81A09"
+         wsp:rsidP="00B8088C">
+      <w:pPr>
+        <w:spacing w:after="0"
+                   w:line="240"
+                   w:line-rule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r wsp:rsidRPr="00B8088C">
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+        </w:rPr>
+        <w:t>Trong ngành: </w:t>
+      </w:r>
+      <w:r wsp:rsidRPr="00B8088C">
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+        </w:rPr>
+        <w:t>[NNTrongNganh]</w:t>
+      </w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C81A09"
+         wsp:rsidRPr="00B8088C"
+         wsp:rsidRDefault="00C81A09"
+         wsp:rsidP="00B8088C">
+      <w:pPr>
+        <w:spacing w:after="0"
+                   w:line="240"
+                   w:line-rule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r wsp:rsidRPr="00B8088C">
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+        </w:rPr>
+        <w:t>Ngoài ngành: </w:t>
+      </w:r>
+      <w:r wsp:rsidRPr="00B8088C">
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman"
+                    w:h-ansi="Times New Roman"/>
+          <wx:font wx:val="Times New Roman"/>
+        </w:rPr>
+        <w:t>[NNNgoaiNganh]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+</w:tr>

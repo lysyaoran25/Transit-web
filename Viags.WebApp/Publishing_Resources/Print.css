@@ -1,0 +1,330 @@
+﻿ #toolbar{
+            display:none !important;
+        }
+body {
+    font-size: 14px;
+    font-family: "Times New Roman";
+    font-weight: normal;
+    color: #000;
+    margin: 0px 0px;
+    -webkit-print-color-adjust: exact;
+}
+
+.printContainer {
+    padding: 60px 80px 30px 110px;
+    width: 800px;
+    margin: 10px auto;
+    border: 1px solid #999;
+    min-height: 570px;
+    background: #fff;
+}
+
+table {
+    width: 100%;
+    vertical-align: text-top;
+}
+
+    table.padding tr td {
+        padding: 2px 4px;
+    }
+
+    table.border {
+        border: 1px solid #000;
+        border-left: 0px;
+        border-top: 0px;
+    }
+
+        table.border tr th,
+        table.border tr td {
+            border: 1px solid #000;
+            border-right: 0px;
+            border-bottom: 0px;
+        }
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.heading {
+    margin-bottom: 5px;
+}
+
+.subject {
+    margin-bottom: 5px;
+}
+
+    .subject h3 {
+        margin: 0px;
+    }
+
+table.border tr th {
+    background: #ccc;
+    font-weight: bold;
+}
+
+body {
+    background: #fff;
+}
+
+.printContainer {
+    width: auto;
+    margin: auto;
+    border: 0;
+    min-height: inherit;
+    padding: 2px;
+}
+
+.break-page {
+    page-break-after: always !important;
+    padding-top: 8px;
+}
+
+.table-bordered td, .table-bordered th {
+    border: 1px solid #000 !important;
+    border-collapse: collapse !important;
+}
+
+.table {
+    border-collapse: collapse;
+}
+
+    .table tr td {
+        padding: 5px;
+    }
+
+    .table tr th {
+        padding: 6px;
+    }
+    .break-page{
+        float:right;        
+    }
+@media print {
+    /*@page {
+        size: landscape;
+        margin: 2cm 1.5cm 0.5cm 1cm;
+    }*/
+
+    body {
+        font-size: 14px;
+        font-family: "Times New Roman";
+        font-weight: normal;
+        color: #000;
+        margin: 0px 0px;
+        -webkit-print-color-adjust: exact;
+    }
+
+    .printContainer {
+        padding: 60px 80px 30px 110px;
+        width: 800px;
+        margin: 10px auto;
+        border: 1px solid #999;
+        min-height: 570px;
+        background: #fff;
+    }
+
+    table {
+        width: 100%;
+        vertical-align: text-top;
+    }
+
+        table.padding tr td {
+            padding: 2px 4px;
+        }
+
+        table.border {
+            border: 1px solid #000;
+            border-left: 0px;
+            border-top: 0px;
+        }
+
+            table.border tr th,
+            table.border tr td {
+                border: 1px solid #000;
+                border-right: 0px;
+                border-bottom: 0px;
+            }
+
+    .left {
+        text-align: left;
+    }
+
+    .right {
+        text-align: right;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    .heading {
+        margin-bottom: 5px;
+    }
+
+    .subject {
+        margin-bottom: 5px;
+    }
+
+        .subject h3 {
+            margin: 0px;
+        }
+
+    table.border tr th {
+        background: #ccc;
+        font-weight: bold;
+    }
+
+    body {
+        background: #fff;
+    }
+
+    .printContainer {
+        width: auto;
+        margin: auto;
+        border: 0;
+        min-height: inherit;
+        padding: 2px;
+    }
+
+    .break-page {
+        page-break-after: always !important;
+        padding-top: 8px;
+    }
+
+    .table-bordered td, .table-bordered th {
+        border: 1px solid #000 !important;
+        border-collapse: collapse !important;
+    }
+
+    .table {
+        border-collapse: collapse;
+    }
+
+        .table tr td {
+            padding: 5px;
+        }
+
+        .table tr th {
+            padding: 6px;
+        }
+        .break-page{
+        float:right;
+        }
+}
+/**
+ * Example Print Preview site
+ *
+ *	print.css
+ *	author: Tim Connell
+ */
+
+/* -- Hide screen specific elements -- */
+#nav,
+#footer .footer-links,
+#feature a.prev,
+#feature a.next,
+a.print-preview {
+    display: none;
+}
+
+
+/* -- Typography -- */
+body {
+    background: #FFF;
+    color: #000;
+    font-family:'Times New Roman';
+    line-height: 1.2;
+}
+
+p, table, ul, ol, dl, blockquote, pre, code, form {
+    margin: 0 0 1em;
+}
+
+h1,h2,h3,h4,h5 {
+    font-weight: normal;
+    margin: 2em 0 0.5em;
+    text-shadow: rgba(0, 0, 0, 0.44) 1px 1px 2px;
+}
+
+h1 { font-size: 2em; margin: 2em 0 0.25em; }
+h2 { font-size:1.7em; }
+h3 { font-size:1.5em; }
+h4 { font-size:1.2em; }
+h5 { font-size:1em; }
+
+
+/* -- Style site heading -- */
+#header strong {
+    color: #000;
+    display: block;
+    font-weight: normal;
+    font-size: 3em;
+    margin: 0 0 1em;
+    padding: 0;
+    text-shadow: rgba(0, 0, 0, 0.44) 1px 1px 2px;
+}
+    
+
+/* -- Add message re print -- */
+#content:before {
+ /* content: "Thank you for printing this page. Do come back to foo.tld, we are constantly adding new and interesting articles and tutorials. Note: To help the environment we have automatically removed navigaton and other unessessary elements from the page.";*/  
+    display: block;
+    border: 1px solid #ccc;
+    font-style: italic;
+    margin: 0 0 1em;
+    padding: 8px 10px;
+}
+
+a:link:after,
+a:visited:after {
+  content: " (" attr(href) ") ";
+  font-size: 80%;
+  text-decoration: none;
+}
+
+
+/* -- Accommodate JS driven elements --*/
+#feature > div {
+    border: none;
+    overflow: visible;
+    height: auto;
+}
+
+    #feature div.items {
+        left: auto !important;
+        position: relative;
+        overflow: visible;
+        width: auto;
+    }
+
+    #feature div.items div {
+        float: none;
+        margin: 20px 0;
+        position: relative;
+    }
+
+/* -- Photo galleries -- */
+div.gallery {
+    margin: 1em 0;    
+    overflow: hidden;
+}
+
+    div.gallery div.items div {
+        float: left;
+        margin-right: 10px;
+    }
+    
+/* -- Footer -- */
+#footer {
+    border-top: 1px solid #cecece;
+    font-size: 0.83em;
+    margin: 2em 0 0;
+    padding: 1em 0 0;
+}

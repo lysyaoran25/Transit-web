@@ -1,0 +1,184 @@
+/*style cho grid view*/
+#dialog-message button { min-width: 1px !important; }
+
+#dialog-form form button { min-width: 1px !important; }
+
+#dialog-form button { min-width: 1px !important; }
+
+#dialog-confirm button { min-width: 1px !important; }
+
+#dialog-ultility button { min-width: 1px !important; }
+
+.close-open { margin-bottom: 5px; }
+
+    .close-open a { color: #D00000; }
+
+        .close-open a:hover { color: #222; }
+
+.hidden { display: none !important; }
+
+.gridView { width: 100%; background: #fff; border: 1px solid #eaeaea; border-bottom: none; border-spacing: 0; }
+
+    .gridView th { background: none repeat scroll 0 0 #C4C4C4; overflow: hidden; text-align: left; border-bottom: 1px solid #eaeaea; border-spacing: 0px; padding: 8px 12px; font-weight: bold; color: #1A1A1A; text-shadow: 1px 1px #D7D7D7; }
+
+        .gridView th a, .gridView th a:link, .gridView th a:visited { text-decoration: none; display: block; font-weight: bold; font-size: 13px; text-transform: none; color: #1A1A1A; /*text-shadow: 1px 1px #C2C2C2 !important;*/ }
+
+            .gridView th a:hover { color: #082977; }
+
+            .gridView th a span { width: 16px; height: 16px; float: right; }
+
+            .gridView th a.asc span { display: block; background: url("/Publishing_Resources/img/LastIcon/icon.png") no-repeat scroll left -1194px transparent; }
+
+            .gridView th a.desc span { display: block; background: url("/Publishing_Resources/img/LastIcon/icon.png") no-repeat scroll left -1151px transparent; }
+
+    .gridView tr td span.label { color: #fff !important; }
+
+    .gridView td ul.listLink { padding: 0px; margin: 0px; padding: 10px 0px 5px 0px; width: 100%; display: inline-block; clear: both; }
+
+ol { list-style: none; }
+
+ul { list-style: inherit; }
+
+.c_1, .c_1:link, .c_1:visited { color: #0017FF !important; font-weight: bold; }
+
+.c_2, .c_2:link, .c_2:visited { color: #2A7B00 !important; font-weight: bold; }
+
+.c_3, .c_3:link, .c_3:visited { color: #A37700 !important; font-weight: bold; }
+
+.c_4, .c_4:link, .c_4:visited { color: #FB00F1 !important; font-weight: bold; }
+
+.c_5, .c_5:link, .c_5:visited { color: #FF8365 !important; font-weight: bold; }
+
+.c_6, .c_6:link, .c_6:visited { color: #167595 !important; font-weight: bold; }
+
+.c_7, .c_7:link, .c_7:visited { color: #14FF00 !important; font-weight: bold; }
+
+.c_8, .c_8:link, .c_8:visited { color: Red !important; font-weight: bold; }
+
+    .c_1:hover, .c_2:hover, .c_3:hover, .c_4:hover, .c_5:hover, .c_6:hover, .c_7:hover, .c_8:hover { color: Orange !important; }
+
+.greena { color: #d00000 !important; }
+
+.reda { color: #890098 !important; }
+
+.orangea { color: #664401 !important; }
+
+.bluea { color: Blue !important; }
+
+.cHide { display: none; }
+
+.cShow { }
+
+.titleVB { width: 765px; display: inline-block; clear: both; }
+
+    .titleVB h1 { float: left; width: 50%; float: left; }
+
+    .titleVB .flow { width: 46%; float: right; padding: 10px; width: 300px; background: #eee; border: 1px solid #ccc; }
+
+        .titleVB .flow .fb { float: left; width: 45%; }
+
+        .titleVB .flow .gg { float: right; width: 45%; }
+
+.gridView td { background: #fff; border-bottom: 1px solid #EAEAEA; border-spacing: 0; display: table-cell; padding: 8px 12px; vertical-align: middle !important; }
+
+    .gridView td ul.listLink li { float: left; margin-right: 15px; }
+
+    .gridView td.info { width: 170px !important; font-size: 10pt; vertical-align: top; }
+
+    .gridView td a, .gridView td a:link, .gridView td a:visited { color: #3B7EB1; font: 13px arial; }
+
+        .gridView td a:hover { color: #A52A2A; text-decoration: none; }
+
+.gridView .odd td { background: #fafafa; }
+
+.gridView .even td { background: #fff; }
+
+.gridView tr:hover td { background: #E7F6FD; }
+
+.gridView .hightlight td { background: #FFFAB5 !important; }
+
+.gridView .hide { display: none; }
+
+.gridView a.config { display: block; }
+
+.gridView a.tiendo { display: block; }
+
+.gridView a.tralai { display: block; }
+
+.gridView a.hide { display: block; }
+
+.gridView a.pending { display: block; }
+
+.gridView a.approved { display: block; }
+
+.gridView .show { display: block; }
+
+.gridView .approved { display: block; }
+
+.gridView .pending { display: block; }
+
+.gridView a.group { color: #A52A2A !important; font-weight: bold; font-size: 14px; display: block; padding: 0px 5px; float: left; }
+
+.quickFilter { display: inline-block; margin-bottom: 10px; }
+
+    .quickFilter span { font-weight: bold; }
+
+    .quickFilter input[type=text], .quickFilter select { padding: 3px; border: 1px solid #ccc; font-family: arial,Tahoma; font-size: 12px; color: #666; width: 120px; }
+
+    .quickFilter select { padding: 2px 3px; width: 125px; }
+
+.bottom-pager { display: inline-block; clear: both; background: #ddd; font-family: arial,Tahoma; width: 100%; border: 1px solid #dedede; border-top: 0px; height: 35px; }
+
+    .bottom-pager .left { float: left; margin: 8px; }
+    /*padding:2px 3px;*/
+    .bottom-pager .right { float: right; margin: 8px; }
+
+    .bottom-pager span, .bottom-pager a, .bottom-pager input { margin-right: 5px; }
+
+    .bottom-pager span { float: left; font-weight: bold; font-size: 12px; padding-top: 2px; }
+
+    .bottom-pager input { float: left; width: 22px !important; height: 20px !important; border: 1px solid #ccc; font-size: 12px; padding: 1px !important; text-align: center; }
+
+    .bottom-pager select { float: left; width: 50px !important; height: 22px !important; border: 1px solid #ccc; font-size: 11px; padding: 2px !important; }
+
+    .bottom-pager a { float: left; display: block; width: 21px; height: 21px; }
+
+        .bottom-pager a.first { background: url("/Publishing_Resources/img/LastIcon/icon.png") no-repeat scroll left -74px transparent; }
+
+            .bottom-pager a.first:hover { background: url("/Publishing_Resources/img/LastIcon/icon.png") no-repeat scroll left -101px transparent; }
+
+        .bottom-pager a.first-disable { background: url("/Publishing_Resources/img/LastIcon/icon.png") no-repeat scroll left -128px transparent; }
+
+        .bottom-pager a.pre { background: url("/Publishing_Resources/img/LastIcon/icon.png") no-repeat scroll left -392px transparent; }
+
+            .bottom-pager a.pre:hover { background: url("/Publishing_Resources/img/LastIcon/icon.png") no-repeat scroll left -419px transparent; }
+
+        .bottom-pager a.pre-disable { background: url("/Publishing_Resources/img/LastIcon/icon.png") no-repeat scroll left -446px transparent; }
+
+        .bottom-pager a.next { background: url("/Publishing_Resources/img/LastIcon/icon.png") no-repeat scroll left -286px transparent; }
+
+            .bottom-pager a.next:hover { background: url("/Publishing_Resources/img/LastIcon/icon.png") no-repeat scroll left -313px transparent; }
+
+        .bottom-pager a.next-disable { background: url("/Publishing_Resources/img/LastIcon/icon.png") no-repeat scroll left -340px transparent; }
+
+        .bottom-pager a.last { background: url("/Publishing_Resources/img/LastIcon/icon.png") no-repeat scroll left -180px transparent; }
+
+            .bottom-pager a.last:hover { background: url("/Publishing_Resources/img/LastIcon/icon.png") no-repeat scroll left -207px transparent; }
+
+        .bottom-pager a.last-disable { background: url("/Publishing_Resources/img/LastIcon/icon.png") no-repeat scroll left -234px transparent; }
+
+.act_edit, .act_pending, .act_hide { width: 16px !important; }
+
+th.act_edit a, th.act_config a, th.act_config2 a, th.atc_resetpass a, th.act_deleteact_approved a, th.act_delete a { padding: 0px 3px; }
+
+th.act_delete { width: 16px; height: 16px; vertical-align: middle; text-align: center; padding: 5px 3px !important; padding-top: 9px !important; }
+
+td.act_tiendo, td.act_tralai, td.act_view, td.act_delete, td.act_config, td.atc_resetpass, td.act_edit2, td.act_approved, td.act_pending, td.act_roles, td.act_show, td.act_hide, td.act_sort, th.act_add th.act_view, th.act_edit, th.act_approved, th.act_roles, th.act_show, th.act_hide, th.act_sort, td.act_add { width: 16px; height: 16px; vertical-align: middle; text-align: center; padding: 5px 3px !important; }
+
+    th.act_view a, th.act_delete a, th.act_edit a, th.act_approved a, th.act_pending a, th.act_roles a, th.act_show a, th.act_hide a, th.act_sort a, th.act_add a { padding: 0px !important; }
+
+th.act_delete a { padding: 0px !important; }
+
+.deleteAll, .hideAll, .showAll, .approvedAll, .pendingAll { font-family: Arial; }
+
+td.act_view a:hover, td.act_delete a:hover, td.act_edit a:hover, td.act_approved a:hover, td.act_roles a:hover, td.act_show a:hover, td.act_hide a:hover, th.act_view a:hover, th.act_delete a:hover, th.act_edit a:hover, th.act_approved a:hover, th.act_roles a:hover, th.act_show a:hover, th.act_hide a:hover { /*background:#6A7B42;         border:1px solid #394716;*/ }

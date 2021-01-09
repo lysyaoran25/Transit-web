@@ -1,0 +1,26 @@
+﻿<Row ss:AutoFitHeight="0" ss:Height="18" ss:StyleID="s22">
+  <Cell ss:StyleID="s23">
+    <Data ss:Type="String">[STT]</Data>
+  </Cell>
+  <Cell ss:StyleID="s24">
+    <Data ss:Type="String">[DonVi]</Data>
+  </Cell>
+  <Cell ss:StyleID="s25">
+    <Data ss:Type="String">[T1]</Data>
+  </Cell>
+  <Cell ss:StyleID="s25">
+    <Data ss:Type="String">[T2]</Data>
+  </Cell>
+  <Cell ss:StyleID="s25">
+    <Data ss:Type="String">[T3]</Data>
+  </Cell>
+  <Cell ss:StyleID="s25">
+    <Data ss:Type="String">[T4]</Data>
+  </Cell>
+  <Cell ss:StyleID="s25">
+    <Data ss:Type="String">[T5]</Data>
+  </Cell>
+  <Cell ss:StyleID="s25">
+    <Data ss:Type="String">[T6]</Data>
+  </Cell>
+</Row>

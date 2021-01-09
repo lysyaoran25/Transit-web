@@ -1,0 +1,32 @@
+﻿<Row>
+  <Cell ss:StyleID="s68">
+    <Data ss:Type="String">[STT]</Data>
+  </Cell>
+  <Cell ss:StyleID="s68">
+    <Data ss:Type="String">[TRICHYEU]</Data>
+  </Cell>
+  <Cell ss:StyleID="s68">
+    <Data ss:Type="String">[CVLIENQUAN]</Data>
+  </Cell>
+  <Cell ss:StyleID="s68">
+    <Data ss:Type="String">[BOPHANCANHAN]</Data>
+  </Cell>
+  <Cell ss:StyleID="s68">
+    <Data ss:Type="String">[DONVINHANTN]</Data>
+  </Cell>
+  <Cell ss:StyleID="s68">
+    <Data ss:Type="String">[DONVINHANNN]</Data>
+  </Cell>
+  <Cell ss:StyleID="s68">
+    <Data ss:Type="String">[LDP]</Data>
+  </Cell>
+  <Cell ss:StyleID="s68">
+    <Data ss:Type="String">[LDDV]</Data>
+  </Cell>
+  <Cell ss:StyleID="s68">
+    <Data ss:Type="String">[CANHANGOPY]</Data>
+  </Cell>
+  <Cell ss:StyleID="s68">
+    <Data ss:Type="String">[PHATHANH]</Data>
+  </Cell>
+</Row>

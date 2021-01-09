@@ -1,0 +1,20 @@
+﻿<Row>
+  <Cell ss:Index="2" ss:StyleID="s138">
+    <Data ss:Type="String">[STT]</Data>
+  </Cell>
+  <Cell ss:StyleID="s138">
+    <Data ss:Type="String">[Ten]</Data>
+  </Cell>
+  <Cell ss:StyleID="s139">
+    <Data ss:Type="String">[DonVi]</Data>
+  </Cell>
+  <Cell ss:StyleID="s140">
+    <Data ss:Type="String">[LanhDao]</Data>
+  </Cell>
+  <Cell ss:StyleID="s139">
+    <Data ss:Type="String">[ThoiHan]</Data>
+  </Cell>
+  <Cell ss:StyleID="s138">
+    <Data ss:Type="String">[TienDo]</Data>
+  </Cell>
+</Row>

@@ -1,0 +1,40 @@
+﻿<Row ss:AutoFitHeight="0"
+     ss:Height="27"
+     ss:StyleID="s108">
+  <Cell ss:Index="3"
+        ss:StyleID="s102">
+    <Data ss:Type="String">[HopCap]</Data>
+  </Cell>
+  <Cell ss:MergeAcross="1"
+        ss:StyleID="s102">
+    <Data ss:Type="String">[HoSoSo]</Data>
+  </Cell>
+  <Cell ss:MergeAcross="1"
+        ss:StyleID="[StyleID]">
+    <ss:Data ss:Type="String"
+             xmlns="http://www.w3.org/TR/REC-html40">
+      <Font html:Color="#000000">          </Font>
+     [TenHoSo]
+    </ss:Data>
+  </Cell>
+  <Cell ss:MergeAcross="3"
+        ss:StyleID="s106">
+    <ss:Data ss:Type="String"
+             xmlns="http://www.w3.org/TR/REC-html40">
+      <Font html:Color="#000000">[ThoiGianBatDau] - [ThoiGianKetThuc]&#10;</Font>
+      <B>
+        <Font
+          html:Color="#000000">[Nam]</Font>
+      </B>
+    </ss:Data>
+  </Cell>
+  <Cell ss:MergeAcross="1"
+        ss:StyleID="s102">
+    <Data ss:Type="String">[SoTo]</Data>
+  </Cell>
+  <Cell ss:MergeAcross="1"
+        ss:StyleID="s105">
+    <Data ss:Type="String">[GhiChu]</Data>
+  </Cell>
+  <Cell ss:StyleID="s107"/>
+</Row>

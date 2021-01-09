@@ -1,0 +1,27 @@
+﻿<Row ss:Height="18.75">
+  <Cell ss:Index="2"
+        ss:StyleID="s76">
+    <Data ss:Type="String">  [ThuTu]</Data>
+  </Cell>
+  <Cell ss:StyleID="s76">
+    <Data ss:Type="String">  [NoiDung]</Data>
+  </Cell>
+  <Cell ss:StyleID="s76">
+    <Data ss:Type="String">  [DaiBieu]</Data>
+  </Cell>
+  <Cell ss:StyleID="s76">
+      <Data ss:Type="String">  [DonVi]</Data>
+  </Cell>
+  <Cell ss:StyleID="s76">
+    <Data ss:Type="String">  [KyHop]</Data>
+  </Cell>
+  <Cell ss:StyleID="s76">
+    <Data ss:Type="String">  [ThoiHan]</Data>
+  </Cell>
+  <Cell ss:StyleID="s76">
+    <Data ss:Type="String">  [TrangThai]</Data>
+  </Cell>
+  <Cell ss:StyleID="s76">
+    <Data ss:Type="String">  [GhiChu]</Data>
+  </Cell>
+</Row>

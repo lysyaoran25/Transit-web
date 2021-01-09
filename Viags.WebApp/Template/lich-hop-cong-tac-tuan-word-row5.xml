@@ -1,0 +1,359 @@
+﻿<w:tr wsp:rsidR="00F40253"
+      wsp:rsidTr="00B24CD3">
+  <w:tblPrEx>
+    <w:tblCellMar>
+      <w:top w:w="0"
+             w:type="dxa"/>
+      <w:left w:w="0"
+              w:type="dxa"/>
+      <w:bottom w:w="0"
+                w:type="dxa"/>
+      <w:right w:w="0"
+               w:type="dxa"/>
+    </w:tblCellMar>
+  </w:tblPrEx>
+  <w:trPr>
+    <w:trHeight w:val="360"/>
+  </w:trPr>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="1357"
+             w:type="dxa"/>
+      <w:tcBorders>
+        <w:top w:val="single"
+               w:sz="8"
+               wx:bdrwidth="20"
+               w:space="0"
+               w:color="4472C4"/>
+        <w:left w:val="single"
+                w:sz="8"
+                wx:bdrwidth="20"
+                w:space="0"
+                w:color="4472C4"/>
+        <w:bottom w:val="single"
+                  w:sz="8"
+                  wx:bdrwidth="20"
+                  w:space="0"
+                  w:color="4472C4"/>
+        <w:right w:val="single"
+                 w:sz="8"
+                 wx:bdrwidth="20"
+                 w:space="0"
+                 w:color="4472C4"/>
+      </w:tcBorders>
+      <w:tcMar>
+        <w:top w:w="40"
+               w:type="dxa"/>
+        <w:left w:w="40"
+                w:type="dxa"/>
+        <w:bottom w:w="40"
+                  w:type="dxa"/>
+        <w:right w:w="40"
+                 w:type="dxa"/>
+      </w:tcMar>
+    </w:tcPr>
+    <w:p w:rsidR="00DE4D5C" w:rsidRPr="006034CF" w:rsidRDefault="00DE4D5C" w:rsidP="00DE4D5C">
+      <w:pPr>
+        <w:ind w:left="108" w:hanging="108"/>
+        <w:jc w:val="center"/>
+        <w:rPr>
+          <w:b/>
+        </w:rPr>
+      </w:pPr>
+      <w:r w:rsidRPr="006034CF">
+        <w:rPr>
+          <w:b/>
+        </w:rPr>
+        <w:t>[STT]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="1357"
+             w:type="dxa"/>
+      <w:tcBorders>
+        <w:top w:val="single"
+               w:sz="8"
+               wx:bdrwidth="20"
+               w:space="0"
+               w:color="4472C4"/>
+        <w:left w:val="single"
+                w:sz="8"
+                wx:bdrwidth="20"
+                w:space="0"
+                w:color="4472C4"/>
+        <w:bottom w:val="single"
+                  w:sz="8"
+                  wx:bdrwidth="20"
+                  w:space="0"
+                  w:color="4472C4"/>
+        <w:right w:val="single"
+                 w:sz="8"
+                 wx:bdrwidth="20"
+                 w:space="0"
+                 w:color="4472C4"/>
+      </w:tcBorders>
+      <w:tcMar>
+        <w:top w:w="40"
+               w:type="dxa"/>
+        <w:left w:w="40"
+                w:type="dxa"/>
+        <w:bottom w:w="40"
+                  w:type="dxa"/>
+        <w:right w:w="40"
+                 w:type="dxa"/>
+      </w:tcMar>
+    </w:tcPr>
+    <w:p w:rsidR="004035A6" w:rsidRPr="006034CF" w:rsidRDefault="004035A6" w:rsidP="004035A6">
+      <w:pPr>
+        <w:spacing w:line="276" w:lineRule="auto"/>
+        <w:jc w:val="center"/>
+        <w:cnfStyle w:val="000000000000" w:firstRow="0" w:lastRow="0" w:firstColumn="0" w:lastColumn="0" w:oddVBand="0" w:evenVBand="0" w:oddHBand="0" w:evenHBand="0" w:firstRowFirstColumn="0" w:firstRowLastColumn="0" w:lastRowFirstColumn="0" w:lastRowLastColumn="0"/>
+      </w:pPr>
+      <w:r>
+        <w:t>[THOIGIAN]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="1357"
+             w:type="dxa"/>
+      <w:tcBorders>
+        <w:top w:val="single"
+               w:sz="8"
+               wx:bdrwidth="20"
+               w:space="0"
+               w:color="4472C4"/>
+        <w:left w:val="single"
+                w:sz="8"
+                wx:bdrwidth="20"
+                w:space="0"
+                w:color="4472C4"/>
+        <w:bottom w:val="single"
+                  w:sz="8"
+                  wx:bdrwidth="20"
+                  w:space="0"
+                  w:color="4472C4"/>
+        <w:right w:val="single"
+                 w:sz="8"
+                 wx:bdrwidth="20"
+                 w:space="0"
+                 w:color="4472C4"/>
+      </w:tcBorders>
+      <w:tcMar>
+        <w:top w:w="40"
+               w:type="dxa"/>
+        <w:left w:w="40"
+                w:type="dxa"/>
+        <w:bottom w:w="40"
+                  w:type="dxa"/>
+        <w:right w:w="40"
+                 w:type="dxa"/>
+      </w:tcMar>
+    </w:tcPr>
+    <w:p w:rsidR="004035A6" w:rsidRPr="006034CF" w:rsidRDefault="004035A6" w:rsidP="004035A6">
+      <w:pPr>
+        <w:spacing w:line="276" w:lineRule="auto"/>
+        <w:jc w:val="center"/>
+        <w:cnfStyle w:val="000000000000" w:firstRow="0" w:lastRow="0" w:firstColumn="0" w:lastColumn="0" w:oddVBand="0" w:evenVBand="0" w:oddHBand="0" w:evenHBand="0" w:firstRowFirstColumn="0" w:firstRowLastColumn="0" w:lastRowFirstColumn="0" w:lastRowLastColumn="0"/>
+      </w:pPr>
+      <w:r>
+        <w:t>[DIADIEM]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="1357"
+             w:type="dxa"/>
+      <w:tcBorders>
+        <w:top w:val="single"
+               w:sz="8"
+               wx:bdrwidth="20"
+               w:space="0"
+               w:color="4472C4"/>
+        <w:left w:val="single"
+                w:sz="8"
+                wx:bdrwidth="20"
+                w:space="0"
+                w:color="4472C4"/>
+        <w:bottom w:val="single"
+                  w:sz="8"
+                  wx:bdrwidth="20"
+                  w:space="0"
+                  w:color="4472C4"/>
+        <w:right w:val="single"
+                 w:sz="8"
+                 wx:bdrwidth="20"
+                 w:space="0"
+                 w:color="4472C4"/>
+      </w:tcBorders>
+      <w:tcMar>
+        <w:top w:w="40"
+               w:type="dxa"/>
+        <w:left w:w="40"
+                w:type="dxa"/>
+        <w:bottom w:w="40"
+                  w:type="dxa"/>
+        <w:right w:w="40"
+                 w:type="dxa"/>
+      </w:tcMar>
+    </w:tcPr>
+    <w:p w:rsidR="004035A6" w:rsidRPr="006034CF" w:rsidRDefault="004035A6" w:rsidP="004035A6">
+      <w:pPr>
+        <w:spacing w:line="276" w:lineRule="auto"/>
+        <w:jc w:val="center"/>
+        <w:cnfStyle w:val="000000000000" w:firstRow="0" w:lastRow="0" w:firstColumn="0" w:lastColumn="0" w:oddVBand="0" w:evenVBand="0" w:oddHBand="0" w:evenHBand="0" w:firstRowFirstColumn="0" w:firstRowLastColumn="0" w:lastRowFirstColumn="0" w:lastRowLastColumn="0"/>
+      </w:pPr>
+      <w:r>
+        <w:t>[NOIDUNG]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="1357"
+             w:type="dxa"/>
+      <w:tcBorders>
+        <w:top w:val="single"
+               w:sz="8"
+               wx:bdrwidth="20"
+               w:space="0"
+               w:color="4472C4"/>
+        <w:left w:val="single"
+                w:sz="8"
+                wx:bdrwidth="20"
+                w:space="0"
+                w:color="4472C4"/>
+        <w:bottom w:val="single"
+                  w:sz="8"
+                  wx:bdrwidth="20"
+                  w:space="0"
+                  w:color="4472C4"/>
+        <w:right w:val="single"
+                 w:sz="8"
+                 wx:bdrwidth="20"
+                 w:space="0"
+                 w:color="4472C4"/>
+      </w:tcBorders>
+      <w:tcMar>
+        <w:top w:w="40"
+               w:type="dxa"/>
+        <w:left w:w="40"
+                w:type="dxa"/>
+        <w:bottom w:w="40"
+                  w:type="dxa"/>
+        <w:right w:w="40"
+                 w:type="dxa"/>
+      </w:tcMar>
+    </w:tcPr>
+    <w:p w:rsidR="004035A6" w:rsidRPr="006034CF" w:rsidRDefault="004035A6" w:rsidP="004035A6">
+      <w:pPr>
+        <w:spacing w:line="276" w:lineRule="auto"/>
+        <w:jc w:val="center"/>
+        <w:cnfStyle w:val="000000000000" w:firstRow="0" w:lastRow="0" w:firstColumn="0" w:lastColumn="0" w:oddVBand="0" w:evenVBand="0" w:oddHBand="0" w:evenHBand="0" w:firstRowFirstColumn="0" w:firstRowLastColumn="0" w:lastRowFirstColumn="0" w:lastRowLastColumn="0"/>
+      </w:pPr>
+      <w:r>
+        <w:t>[CHUTRI]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="1357"
+             w:type="dxa"/>
+      <w:tcBorders>
+        <w:top w:val="single"
+               w:sz="8"
+               wx:bdrwidth="20"
+               w:space="0"
+               w:color="4472C4"/>
+        <w:left w:val="single"
+                w:sz="8"
+                wx:bdrwidth="20"
+                w:space="0"
+                w:color="4472C4"/>
+        <w:bottom w:val="single"
+                  w:sz="8"
+                  wx:bdrwidth="20"
+                  w:space="0"
+                  w:color="4472C4"/>
+        <w:right w:val="single"
+                 w:sz="8"
+                 wx:bdrwidth="20"
+                 w:space="0"
+                 w:color="4472C4"/>
+      </w:tcBorders>
+      <w:tcMar>
+        <w:top w:w="40"
+               w:type="dxa"/>
+        <w:left w:w="40"
+                w:type="dxa"/>
+        <w:bottom w:w="40"
+                  w:type="dxa"/>
+        <w:right w:w="40"
+                 w:type="dxa"/>
+      </w:tcMar>
+    </w:tcPr>
+    <w:p w:rsidR="004035A6" w:rsidRPr="006034CF" w:rsidRDefault="004035A6" w:rsidP="004035A6">
+      <w:pPr>
+        <w:spacing w:line="276" w:lineRule="auto"/>
+        <w:jc w:val="center"/>
+        <w:cnfStyle w:val="000000000000" w:firstRow="0" w:lastRow="0" w:firstColumn="0" w:lastColumn="0" w:oddVBand="0" w:evenVBand="0" w:oddHBand="0" w:evenHBand="0" w:firstRowFirstColumn="0" w:firstRowLastColumn="0" w:lastRowFirstColumn="0" w:lastRowLastColumn="0"/>
+      </w:pPr>
+      <w:r>
+        <w:t>[THANHPHAN]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="1357"
+             w:type="dxa"/>
+      <w:tcBorders>
+        <w:top w:val="single"
+               w:sz="8"
+               wx:bdrwidth="20"
+               w:space="0"
+               w:color="4472C4"/>
+        <w:left w:val="single"
+                w:sz="8"
+                wx:bdrwidth="20"
+                w:space="0"
+                w:color="4472C4"/>
+        <w:bottom w:val="single"
+                  w:sz="8"
+                  wx:bdrwidth="20"
+                  w:space="0"
+                  w:color="4472C4"/>
+        <w:right w:val="single"
+                 w:sz="8"
+                 wx:bdrwidth="20"
+                 w:space="0"
+                 w:color="4472C4"/>
+      </w:tcBorders>
+      <w:tcMar>
+        <w:top w:w="40"
+               w:type="dxa"/>
+        <w:left w:w="40"
+                w:type="dxa"/>
+        <w:bottom w:w="40"
+                  w:type="dxa"/>
+        <w:right w:w="40"
+                 w:type="dxa"/>
+      </w:tcMar>
+    </w:tcPr>
+    <w:p w:rsidR="004035A6" w:rsidRPr="006034CF" w:rsidRDefault="004035A6" w:rsidP="004035A6">
+      <w:pPr>
+        <w:spacing w:line="276" w:lineRule="auto"/>
+        <w:jc w:val="center"/>
+        <w:cnfStyle w:val="000000000000" w:firstRow="0" w:lastRow="0" w:firstColumn="0" w:lastColumn="0" w:oddVBand="0" w:evenVBand="0" w:oddHBand="0" w:evenHBand="0" w:firstRowFirstColumn="0" w:firstRowLastColumn="0" w:lastRowFirstColumn="0" w:lastRowLastColumn="0"/>
+      </w:pPr>
+      <w:r>
+        <w:t>[CONGTACCHUANBI]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+</w:tr>

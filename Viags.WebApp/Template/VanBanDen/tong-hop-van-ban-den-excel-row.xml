@@ -1,0 +1,20 @@
+﻿<Row ss:AutoFitHeight="0">
+  <Cell ss:Index="2" ss:StyleID="s63">
+    <Data ss:Type="String">[SoTT]</Data>
+  </Cell>
+  <Cell ss:MergeAcross="2" ss:StyleID="s78">
+    <Data ss:Type="String">[DonVi]</Data>
+  </Cell>
+  <Cell ss:MergeAcross="2" ss:StyleID="m1041071288480">
+    <Data ss:Type="String">[CountVBDaXL]</Data>
+  </Cell>
+  <Cell ss:MergeAcross="2" ss:StyleID="m1041071288500">
+    <Data ss:Type="String">[CountVBDangXL]</Data>
+  </Cell>
+  <Cell ss:MergeAcross="3" ss:StyleID="m1041071288540">
+    <Data ss:Type="String">[CountVBChuaXL]</Data>
+  </Cell>
+  <!--<Cell ss:MergeAcross="1" ss:StyleID="s63">
+    <Data ss:Type="String">[CountVBChuaVaoSo]</Data>
+  </Cell>-->
+</Row>

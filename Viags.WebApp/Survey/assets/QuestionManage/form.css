@@ -1,0 +1,121 @@
+﻿.form-control {
+    border-radius: 5px !important;
+    border: 1px solid #d1d8e0 !important;
+    padding: 1px 5px !important;
+}
+
+.select2-container .select2-choice {
+    line-height: 24px !important;
+}
+
+.checkbox-custom {
+    width: 25px !important;
+    height: 25px !important;
+    margin: 0 0 0 0 !important
+}
+
+.survey-contain-answer-part {
+    padding: 10px !important;
+    border: 1px solid #d1d8e0 !important;
+    border-radius: 5px !important;
+    margin-bottom: 10px !important;
+}
+
+    .survey-contain-answer-part:first-child {
+        margin-top: 10px !important;
+    }
+
+    .survey-contain-answer-part .r-contain,
+    .survey-contain-answer-part .answer-r {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        margin-bottom: 10px;
+    }
+
+        .survey-contain-answer-part .r-contain:first-child,
+        .survey-contain-answer-part .answer-r:first-child {
+            margin-top: 0 !important;
+        }
+
+        .survey-contain-answer-part .r-contain:last-child {
+            margin-bottom: 0 !important;
+        }
+
+        .survey-contain-answer-part .r-contain div[class^="col-"] {
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+        }
+
+.survey-title-for-answer-list {
+    padding: 5px 10px;
+    width: auto !important;
+    max-width: 200px !important;
+    border: 1px solid #d1d8e0 !important;
+    border-radius: 5px !important;
+    background-color: white !important;
+    text-align: center !important;
+    margin-top: -25px !important;
+    margin-bottom: 10px !important;
+    font-size: 13px !important;
+    font-weight: bold !important;
+    text-transform: uppercase !important;
+    height: 30px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.survey-contain-answer-part .answer-r .control-label {
+    padding: 5px !important;
+}
+
+.survey-part-contain {
+    margin-bottom: 10px !important;
+}
+
+.survey-contain-part {
+    margin-bottom: 10px !important;
+}
+
+    .survey-contain-part:first-child {
+        margin-top: 10px !important;
+    }
+
+
+.btn-survey-delete {
+    padding: 5px 6px;
+    border-radius: 5px !important;
+    background-color: #FFEBEE !important;
+    color: #E53935 !important;
+    border: 1px solid #E53935 !important;
+}
+
+    .btn-survey-delete:hover {
+        cursor: pointer !important;
+        background-color: #E53935 !important;
+        color: white !important;
+    }
+
+.question_point, .evaluate_point, .evaluate_grade {
+    text-align: center;
+}
+
+.btn-survey-add {
+    border-radius: 5px !important;
+    background-color: #E0F7FA !important;
+    color: #00ACC1;
+    border: 1px solid #00ACC1 !important;
+}
+
+    .btn-survey-add:hover {
+        cursor: pointer !important;
+        background-color: #00ACC1 !important;
+        color: white !important;
+    }
+
+#form-survey-evaluate .evaluate_detail, .evaluate_grade, .evaluate_point {
+    height: 100px !important
+}
+
+#form-survey-question .question_detail, .question_grade, .question_point {
+    height: 100px !important
+}

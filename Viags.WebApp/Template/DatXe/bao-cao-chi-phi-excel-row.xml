@@ -1,0 +1,56 @@
+﻿<Row>
+  <Cell ss:StyleID="s64">
+    <Data ss:Type="String">[STT]</Data>
+  </Cell>
+  <Cell ss:StyleID="s64">
+    <Data ss:Type="String">[TENLOAIXE]</Data>
+  </Cell>
+  <Cell ss:StyleID="s64">
+    <Data ss:Type="String">[NGUOIDANGKI]</Data>
+  </Cell>
+  <Cell ss:StyleID="s64">
+    <Data ss:Type="String">[NGUOIDUYET]</Data>
+  </Cell>
+  <Cell ss:StyleID="s64">
+    <Data ss:Type="String">[NGAYDUYET]</Data>
+  </Cell>
+  <Cell ss:StyleID="s64">
+    <Data ss:Type="String">[NGUOIDIEUPHOI]</Data>
+  </Cell>
+  <Cell ss:StyleID="s64">
+    <Data ss:Type="String">[TAIXE]</Data>
+  </Cell>
+  <Cell ss:StyleID="s64">
+    <Data ss:Type="String">[DIEMDI]</Data>
+  </Cell>
+  <Cell ss:StyleID="s64">
+    <Data ss:Type="String">[DIEMDEN]</Data>
+  </Cell>
+  <Cell ss:StyleID="s64">
+    <Data ss:Type="String">[PHONGBAN]</Data>
+  </Cell>
+  <Cell ss:StyleID="s64">
+    <Data ss:Type="String">[MOTA]</Data>
+  </Cell>
+  <Cell ss:StyleID="s64">
+    <Data ss:Type="String">[THOIGIAN]</Data>
+  </Cell>
+  <Cell ss:StyleID="s64">
+    <Data ss:Type="String">[KM]</Data>
+  </Cell>  
+  <Cell ss:StyleID="s64">
+    <Data ss:Type="String">[PHITHUE]</Data>
+  </Cell>  
+  <Cell ss:StyleID="s64">
+    <Data ss:Type="String">[PHICAUDUONG]</Data>
+  </Cell>
+  <Cell ss:StyleID="s64">
+    <Data ss:Type="String">[PHIXANG]</Data>
+  </Cell>
+  <Cell ss:StyleID="s64">
+    <Data ss:Type="String">[PHIKHAC]</Data>
+  </Cell>
+  <Cell ss:StyleID="s64">
+    <Data ss:Type="String">[TONGTIEN]</Data>
+  </Cell>
+</Row>

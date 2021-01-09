@@ -1,0 +1,89 @@
+﻿<w:tr w:rsidR="00CD7C92" w:rsidRPr="00CD7C92" w:rsidTr="00CD7C92">
+  <w:trPr>
+    <w:trHeight w:val="305"/>
+  </w:trPr>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="805" w:type="dxa"/>
+      <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+    </w:tcPr>
+    <w:p w:rsidR="00CD7C92" w:rsidRPr="00CD7C92" w:rsidRDefault="00CD7C92" w:rsidP="00CD7C92">
+      <w:pPr>
+        <w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r w:rsidRPr="00CD7C92">
+        <w:t>[STT]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="1890" w:type="dxa"/>
+      <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+    </w:tcPr>
+    <w:p w:rsidR="00CD7C92" w:rsidRPr="00CD7C92" w:rsidRDefault="00CD7C92" w:rsidP="00CD7C92">
+      <w:pPr>
+        <w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r w:rsidRPr="00CD7C92">
+        <w:t>[Ten]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="1620" w:type="dxa"/>
+      <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+    </w:tcPr>
+    <w:p w:rsidR="00CD7C92" w:rsidRPr="00CD7C92" w:rsidRDefault="00CD7C92" w:rsidP="00CD7C92">
+      <w:pPr>
+        <w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r w:rsidRPr="00CD7C92">
+        <w:t>[DonVi]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="1917" w:type="dxa"/>
+      <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+    </w:tcPr>
+    <w:p w:rsidR="00CD7C92" w:rsidRPr="00CD7C92" w:rsidRDefault="00CD7C92" w:rsidP="00CD7C92">
+      <w:pPr>
+        <w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r w:rsidRPr="00CD7C92">
+        <w:t>[LanhDao]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="1773" w:type="dxa"/>
+      <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+    </w:tcPr>
+    <w:p w:rsidR="00CD7C92" w:rsidRPr="00CD7C92" w:rsidRDefault="00CD7C92" w:rsidP="00CD7C92">
+      <w:pPr>
+        <w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r w:rsidRPr="00CD7C92">
+        <w:t>[ThoiHan]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+  <w:tc>
+    <w:tcPr>
+      <w:tcW w:w="1345" w:type="dxa"/>
+      <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+    </w:tcPr>
+    <w:p w:rsidR="00CD7C92" w:rsidRPr="00CD7C92" w:rsidRDefault="00CD7C92" w:rsidP="00CD7C92">
+      <w:pPr>
+        <w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r w:rsidRPr="00CD7C92">
+        <w:t>[TienDo]</w:t>
+      </w:r>
+    </w:p>
+  </w:tc>
+</w:tr>
