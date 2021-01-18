@@ -6,7 +6,7 @@
 
     urlForm = "/Transit/DanhSachTaiXe/AjaxFormTaiXe.aspx";
 
-    urlPostAction = "/Transit/Action.ashx";
+    urlPostAction = "/Transit/DanhSachTaiXe/Action.ashx";
 
     
  
