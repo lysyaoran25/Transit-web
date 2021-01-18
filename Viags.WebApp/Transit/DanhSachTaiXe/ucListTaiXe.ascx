@@ -1,14 +1,13 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="ucTransit.ascx.cs" Inherits="Viags.WebApp.Transit.ucTransit" %>
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="ucListTaiXe.ascx.cs" Inherits="Viags.WebApp.Transit.DanhSachTaiXe.ucListTaiXe" %>
+
 <script type="text/javascript">
 
-    urlLists = "/Transit/DieuPhoi/AjaxList.aspx";
-    //urlListsGiaCom = "/HeThong/DanhMuc/ThietLapGiaCom/AjaxList.aspx";
+    urlLists = "/Transit/DanhSachTaiXe/AjaxListTaiXe.aspx";
 
-    urlForm = "/Transit/DieuPhoi/AjaxFormThemDonHang.aspx";
-    urlFormGiaCom = "/HeThong/DanhMuc/ThietLapGiaCom/AjaxForm.aspx";
+    urlForm = "/Transit/DanhSachTaiXe/AjaxFormTaiXe.aspx";
 
     urlPostAction = "/Transit/Action.ashx";
-    //urlPostActionGiaCom = "/HeThong/DanhMuc/ThietLapGiaCom/Action.ashx";
+
     
  
 
@@ -16,7 +15,7 @@
 
         bindHotkey();
         initAjaxLoad(urlLists, '#gridview-container', "gridDanhMuc");
-        //initAjaxLoad(urlListsGiaCom, '#gridviewGiaCom-container', "gridGiaCom");
+
         
         $("#btnSearch").click(function () {
             focusGridview();
@@ -34,28 +33,10 @@
             else
                 return false;
         });
-
-        //$("#btnSearch1").click(function () {
-        //    focusGridview();
-        //    //fix trường hợp: enter khi chuyển trang
-        //    var inputname = '';
-        //    $("input:focus").each(function () {
-        //        inputname = $(this).attr('name');
-        //    });
-        //    if (inputname != 'page') {
-        //        var urlListsGiaCom_search = urlListsGiaCom + "?" + $("#gridSearch1").mySerialize();
-        //        LoadAjaxPage(urlListsGiaCom_search, '#gridviewGiaCom-container');
-        //        return false;
-        //    }
-        //    else
-        //        return false;
-        //});
-
-  
+                       
 
         $('#SearchIn').select2();
-        $('#SearchInGiaCom').select2();
-        $('#SearchInThoiGianDangKy').select2();
+
 
         $('#btnAddForm').on('click', function (ev) {
             ev.preventDefault();
@@ -64,35 +45,10 @@
                 $('#dialog-form').modal({ width: 650 });
             });
         });
-        $('#btnAddFormGiaCom').on('click', function (ev) {
-            ev.preventDefault();
-            $('body').modalmanager('loading');
-            $('#dialog-form').load(urlFormGiaCom, function () {
-                $('#dialog-form').modal({ width: 650 });
-            });
-        });
+ 
      
     });
-
-    function Change1(khuvucID) {
-        urlPostAction = "/HeThong/DanhMuc/DanhMucCa/Action.ashx";
-        initAjaxLoad(urlLists + "?khuvucid=" + khuvucID, '#gridview_SoDoNVTT', 'gridSoDoNVTT');
-        LoadAjaxPage(urlLists, '#gridview_SoDoNVTT');
-        refreshList();
-    }
-    //function Change2() {
-    //    urlPostAction = "/HeThong/DanhMuc/ThietLapGiaCom/Action.ashx";
-    //    refreshList();
-    //}
-    //function Change3() {
-    //    urlPostAction = "/HeThong/DanhMuc/ThietLapThoiGianDangKyCom/Action.ashx";
-    //    refreshList();
-    //}
-    function refreshList() {
-        LoadAjaxPage(urlLists + "#RowPerPage=10&PageStep=3&Field=ID&FieldOption=0&Keyword=&SearchIn=&Page=1", '#gridview-container');
-       //LoadAjaxPage(urlListsGiaCom + "#RowPerPage=10&PageStep=3&Field=ID&FieldOption=0&Keyword=&SearchIn=&Page=1", '#gridviewGiaCom-container');
-      
-    }
+       
 </script>
 <div class="row">
     <div class="col-md-12 col-sm-12 ">
@@ -115,26 +71,11 @@
             <%--tab region--%>
             <ul class="nav nav-tabs">
 
-                <%--    <li class="">
-                    <a onclick="Change1()" href="#DanhMucCaTab" data-toggle="tab" aria-expanded="false">Danh mục ca</a>
-                </li>            
-             
-                <li class="">
-                    <a onclick="Change2()" href="#ThietLapGiaComTab" data-toggle="tab" aria-expanded="false">Thiết lập giá cơm</a>
-                </li>             
-                <li class="">
-                    <a onclick="Change3()" href="#ThietLapThoiGianDangKyTab" data-toggle="tab" aria-expanded="false">Thiết lập thời gian đăng ký</a>
-                </li>  --%>
 
                 <li class="active">
-                    <a onclick="ChangeTab(0)" href="#DanhMucCaTab" data-toggle="tab" aria-expanded="false">Tất cả khu vực</a>
-                </li>
-          <%--      <%foreach (var item in listkhuvuc)
-                    {%>
-                <li>
-                    <a onclick="ChangeTab<%=item.ID %>(<%=item.ID%>)" href="#DanhMucCaTab" data-toggle="tab" aria-expanded="false"><%=item.Ten %></a>
-                </li>
-                <%} %>--%>
+                    <a  href="#DanhMucCaTab" data-toggle="tab" aria-expanded="false">Danh sách tài xế</a>
+                </li>        
+                  
             </ul>
             <%--tab region--%>
             <div class="tab-content">
@@ -144,7 +85,7 @@
                         <div class="box-search">
                             <a id="btnAddForm" class="btn brown btn-fix-height"><i class="fa fa-plus"></i>&nbsp;<%=Resources.TaiKhoan.lblThemMoi %></a>
                             <a id="opensearch" class="btn brown btn-fix-height"><i class="fa fa-search"></i>&nbsp;<%=Resources.TaiKhoan.lblTimKiem %></a>
-                            <a target="_blank" href="/Pagess/list-taixe.aspx" class="btn brown btn-fix-height">DS Tài xế</a>
+                            <a href="/Pagess/transit.aspx" class="btn brown btn-fix-height">DS điều phối</a>
                         </div>
                         <div class="clearfix"></div>
                     </div>
@@ -219,8 +160,7 @@
                     </div>
                     <div id="gridview-container" class="portlet-body_deletecss  content-border_deletecss">
                     </div>
-                </div>
-         
+                </div>        
             </div>
         </div>
     </div>
@@ -228,10 +168,5 @@
 
 
 <script>
-    $('textarea').focus(function () {
-        $(".form-group").addClass("is-focused");
-    });
-    $('input').focus(function () {
-        $(".form-group").addClass("is-focused");
-    });
+
 </script>

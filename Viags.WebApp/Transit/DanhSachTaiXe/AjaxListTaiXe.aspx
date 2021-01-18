@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AjaxList.aspx.cs" Inherits="Viags.WebApp.Transit.AjaxList" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AjaxListTaiXe.aspx.cs" Inherits="Viags.WebApp.Transit.DanhSachTaiXe.AjaxListTaiXe" %>
 
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -53,19 +53,20 @@
     </script>
 </head>
 <body>
-  
+
     <div class="content-padding" id="gridDanhMuc">
         <div class="data-table <%--table-responsive--%>">
             <table class="table table-bordered table-hover table-striped-custom <%--table-responsive--%> gridView">
                 <thead>
                     <tr>
                         <th class="text-center text-justify" style="width: 10%"><%=Resources.TinTuc.lblThuTu %></th>
-                        <th class="text-center text-justify" style="width: 20%">TG khởi hành</th>
-                        <th class="text-center text-justify" style="width: 20%">Phường/xã</th>
+                        <th class="text-center text-justify" style="width: 8%">Tên tài xế</th>
                         <th class="text-center text-justify" style="width: 10%">SDT</th>
-                        <th class="text-center text-justify" style="width: 10%">SL ghế</th>
-                        <th class="text-center text-justify" style="width: 20%"><%=Resources.TinTuc.lblTrangThai %></th>
-                        <th class="text-center text-justify" style="width: 20%">Chọn tài xế</th>
+                        <th class="text-center text-justify" style="width: 10%">Loại xe</th>
+                        <th class="text-center text-justify" style="width: 10%">Khu vực</th>
+                        <th class="text-center text-justify" style="width: 10%">Trạng thái</th>
+                        <th class="text-center text-justify" style="width: 10%">Vị trí GPS</th>                             
+                        <th class="text-center text-justify" style="width: 20%">Thao tác</th>
 
                         <th class="act_edit text-center text-justify"></th>
                         <th class="act_delete text-center">
@@ -80,31 +81,25 @@
                 </thead>
                 <tbody>
 
-                    <%--<%foreach (var item in LstDanhMucCa)
+                    <%foreach (var item in LstDonKhach)
                         {%>
 
-                    <tr title="<%=item.TenDanhMuc %>">
+                    <tr title="<%=item.TenKhuVuc %>">
                         <td class="text-center" style="display: none"><%:item.ID %></td>
                         <td class="text-center"><%:Index %></td>
-                        <td class="text-center"><%:item.TenDanhMuc %></td>
-                        <td class="text-center"><%:item.MoTa %></td>
-                        <td class="text-center"><%=string.IsNullOrEmpty(item.TenNguoiTao) ? "" : item.TenNguoiTao%></td>
-                        <td class="text-center"><%=string.IsNullOrEmpty(item.SoPhanCom.ToString()) ? "0" : string.Format("{0:#,0}", Convert.ToDecimal(item.SoPhanCom)).Replace(".", ",") %></td>
+                        <td class="text-center"><%:(item.GioKhoiHanh<10?"0"+item.GioKhoiHanh: item.GioKhoiHanh.ToString())+":"+(item.PhutKhoiHanh<10?"0"+item.PhutKhoiHanh: item.PhutKhoiHanh.ToString()) %></td>
+                        <td class="text-center"><%:item.TenPhuongXa %></td>
+                        <td></td>
+                        <td class="text-center"><%:item.TenDuongAp %></td>
+                        <td class="text-center"><%=item.SoDienThoai%></td>
+                        <td class="text-center"><%=item.SoGhe %></td>
 
-                       
+                        <td class="text-center text-justify"><%=item.TrangThai%></td>
+                 
 
-                        <td class="text-center text-justify"><%=Viags.Utils.FoldioHtml.LabelInUseOrNotUse(item.SuDung)%></td>
-                         <td></td>
+                        <td class="act_edit"></td>
 
-                        <td class="act_edit">
-                            <%=Viags.Utils.FoldioHtml.GridEdit(item.ID, item.TenDanhMuc)%>
-                        </td>
-
-
-                        <td class="act_delete">
-                            <%=Viags.Utils.ViagsHtml.GridDelete(item.ID, item.TenDanhMuc, true)%>                            
-                        </td>
-
+                        <td class="act_delete"></td>
 
                         <td class="act_roles text-center">
                             <input value="<%=item.ID %>" type="checkbox" />
@@ -113,13 +108,12 @@
 
                     </tr>
                     <%Index++;
-                        } %>--%>
+                        } %>
                 </tbody>
             </table>
         </div>
         <%=HtmlPager%>
     </div>
-   
+
 </body>
 </html>
-

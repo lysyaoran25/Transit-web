@@ -27,12 +27,12 @@ namespace Viags.WebApp.Transit.DieuPhoi
         {
             listkhuvuc = TransitDA.GetListKhuVuc();
 
-            if(ItemID>0)
+            if (ItemID > 0)
             {
 
             }
 
-    
+
 
         }
         [WebMethod]
@@ -40,11 +40,20 @@ namespace Viags.WebApp.Transit.DieuPhoi
         {
             try
             {
+                var xx = HttpContext.Current.Request["dayofweek"];
+                var dayofweek = (string.IsNullOrEmpty(HttpContext.Current.Request["dayofweek"]) || HttpContext.Current.Request["dayofweek"] == "NaN") ? ((int)DateTime.Now.DayOfWeek + 6) % 7 : int.Parse(HttpContext.Current.Request["dayofweek"]);
+
                 var khuvucid = int.Parse(stringKhuvucid);
                 if (khuvucid != 0)
                 {
+                    var listchuyen = TransitDA.GetListDanhMucChuyen(khuvucid, dayofweek);
                     var list = TransitDA.GetListPhuongXa(khuvucid);
-                    return list;
+                    return new ListTemp()
+                    {
+                        LstPhuongXaItem = list,
+                        LstDanhMucChuyenItem = listchuyen,
+
+                    };
                 }
                 else
                 {
@@ -84,5 +93,40 @@ namespace Viags.WebApp.Transit.DieuPhoi
 
 
         }
+
+        [WebMethod]
+        public static object ChangeThoiGianKhoiHanh(string stringKhuvucid)
+        {
+            try
+            {
+                var xx = HttpContext.Current.Request["dayofweek"];
+                var dayofweek = (string.IsNullOrEmpty(HttpContext.Current.Request["dayofweek"]) || HttpContext.Current.Request["dayofweek"] == "NaN") ? ((int)DateTime.Now.DayOfWeek + 6) % 7 : int.Parse(HttpContext.Current.Request["dayofweek"]);
+
+                var khuvucid = int.Parse(stringKhuvucid);
+                if (khuvucid != 0)
+                {
+                    var listchuyen = TransitDA.GetListDanhMucChuyen(khuvucid, dayofweek);
+
+                    return new ListTemp()
+                    {
+
+                        LstDanhMucChuyenItem = listchuyen,
+
+                    };
+                }
+                else
+                {
+                    return null;
+                }
+
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
+
+
+        }
+
     }
 }

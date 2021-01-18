@@ -7,7 +7,7 @@ using System.Web.SessionState;
 using Viags.Data;
 using Viags.Utils;
 
-namespace Viags.WebApp.Transit
+namespace Viags.WebApp.Transit.DanhSachTaiXe
 {
     /// <summary>
     /// Summary description for Action
@@ -29,7 +29,7 @@ namespace Viags.WebApp.Transit
                 case TypeOfAction.Delete:
                     objMsg = Delete();
                     break;
-  
+
                 default:
                     objMsg = new Message()
                     {
@@ -53,6 +53,7 @@ namespace Viags.WebApp.Transit
         {
             return TransitDA.Delete();
         }
+
 
         public bool IsReusable
         {

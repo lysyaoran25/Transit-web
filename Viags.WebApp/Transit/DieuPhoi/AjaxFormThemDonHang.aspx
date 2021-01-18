@@ -11,7 +11,7 @@
         $("#btnCloseModal").click();
 
         $(".NhomNguoiDungID").select2();
-        $("#MaTaiLieu").prop("readonly", true);
+        //$("#MaTaiLieu").prop("readonly", true);
 
         ChangeKhuVuc();
 
@@ -22,10 +22,7 @@
 
 
     var type = "";
-    function submitform(duyet) {
-        type = duyet;
-        $("#btnAddModal").click();
-    }
+
     $(function () {
         $(document).keydown(function (event) {
             if (event.keyCode == 27) {
@@ -39,9 +36,9 @@
 
         $("#FormBaoCao").validate({
             rules: {
-                BaoCaoTen: { required: true, minlength: 3, maxlength: 255 },
-                BaoCaoNoiDung: { maxlength: 2000 },
-                BaoCaoLoaiID: { required: true },
+                DiaChi: { required: true, minlength: 3, maxlength: 255 },
+                KhuVucID: { required: true },
+                ThoiGianKhoiHanh: { required: true },
 
             },
             submitHandler: function () {
@@ -57,7 +54,7 @@
 
                     else {
                         $("#btnCloseModal").click();
-                        createCloseMessage2("<%=Resources.CongViec.lblThongBao %>", data.Title, "/BaoCaoCongViec/BaoCaoCuaDonVi/Default.aspx"); // Tạo thông báo khi click đóng thì chuyển đến url đích
+                        createCloseMessage2("<%=Resources.CongViec.lblThongBao %>", data.Title, "/Pagess/transit.aspx"); // Tạo thông báo khi click đóng thì chuyển đến url đích
                     }
 
                 });
@@ -122,24 +119,26 @@
         $(".form-group").addClass("is-focused");
     });
 
-    $("#NhomNguoiNhan").select2();
+
 
 
     $("#ListNguoiNhan").select2();
 
 
     //datetime
-    $("#NgayBatDauHop").datepicker({
-        format: "dd/mm/yyyy",
+    $("#NgayKhoiHanh").datepicker({
+        format: "dd/MM/yyyy",
         autoclose: true,
-    }).change(function () {
-        $(this).datepicker('hide');
 
+    }).change(function () {
+        debugger;
+        $(this).datepicker('hide');
+        var xx = $("#NgayKhoiHanh").datepicker('getDate').getUTCDay();
+        ChangeThoiGianKhoiHanh();
 
     });
-
-    $("#NgayBatDauHop").datepicker('setDate', '<%:string.Format("{0:dd/MM/yyyy }",DateTime.Now)%>');
-    $("#NgayBatDauHop").datepicker('setStartDate', '<%:string.Format("{0:dd/MM/yyyy}",DateTime.Now)%>');
+<%--    $("#NgayKhoiHanh").datepicker('setDate', '<%:string.Format("{0:dd/MM/yyyy }",DateTime.Now)%>');
+    $("#NgayKhoiHanh").datepicker('setStartDate', '<%:string.Format("{0:dd/MM/yyyy}",DateTime.Now)%>');--%>
 
 
 
@@ -205,47 +204,56 @@
                 <!-- Loại báo cáo/Mã báo cáo -->
                 <div class="form-row">
 
+                    <!-- Ngày bắt đầu -->
+                    <div class="form-group col-md-6">
+                        <label class="control-label">
+                            Ngày khởi hành
+                        </label>
+                        <div>
+                            <div class="date" data-date-format="dd-MM-yyyy">
+                                <input class="form-control date-picker NgayKhoiHanh" id="NgayKhoiHanh" name="NgayKhoiHanh" autocomplete="off" value="" placeholder="Nhập ngày khởi hành">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Ngày bắt đầu -->
+
                     <div class="form-group col-md-6">
                         <label class="control-label">
                             Thời gian xe khởi hành<span class="required" aria-required="true">*</span>
                         </label>
-                        <select id="LoaiTaiLieuID" name="LoaiTaiLieuID" class="select2 form-control">
+                        <input class="form-control " id="ThoiGianKhoiHanh" name="ThoiGianKhoiHanh" />
+                        <%--    <select id="ThoiGianKhoiHanh" name="ThoiGianKhoiHanh" class="select2 form-control">
                             <option value="">Chọn khung giờ xe chạy</option>
                             <%foreach (var item in new List<int>() { 1, 2, 3 })
                                 {%>
                             <option value="<%=item %>">item </option>
                             <%}%>
-                        </select>
+                        </select>--%>
                     </div>
 
-                    <!-- Ngày bắt đầu -->
-                    <div class="form-group col-md-6">
-                        <label class="control-label">
-                            Ngày đi <span class="required" aria-required="true">*</span>
-                        </label>
-                        <input class="form-control" name="NgayBatDauHop" id="NgayBatDauHop" autocomplete="off" value="<%:string.Format("{0:dd/MM/yyyy}",DateTime.Now) %>" />
-                    </div>
-                    <!-- Ngày bắt đầu -->
-
-                </div>
-                <!-- Loại báo cáo/Mã báo cáo -->
-
-                <!-- Người duyệt-->
-
-                <div class="col-md-12 col-sm-12" id="divLoai">
                 </div>
 
-                <!-- Tên báo cáo -->
-
+                <%--sdt--%>
                 <div class="form-row">
-                    <div class="form-group col-md-12">
+                    <div class="form-group col-md-3">
                         <label class="control-label">
-                            Địa chỉ<span class="required" aria-required="true">*</span>
+                            Số điện thoại
                         </label>
-                        <%-- <%=Viags.Utils.FormUtils.TextBox("TenTaiLieu",model.TenTaiLieu,"Nhập địa chỉ",3,255) %>--%>
-                        <input class="form-control" name="DiaChi" id="DiaChi" autocomplete="off" value="yên thế" />
+                        <input class="form-control" name="SoDienThoai" id="SoDienThoai" autocomplete="off" value="0123" maxlength="11" />
                     </div>
+                    <%--sdt--%>
+
                     <!-- Tên báo cáo -->
+                    
+                        <div class="form-group col-md-9">
+                            <label class="control-label">
+                                Địa chỉ<span class="required" aria-required="true">*</span>
+                            </label>
+                            <%-- <%=Viags.Utils.FormUtils.TextBox("TenTaiLieu",model.TenTaiLieu,"Nhập địa chỉ",3,255) %>--%>
+                            <input class="form-control" name="DiaChi" id="DiaChi" autocomplete="off" value="yên thế" />
+                        </div>
+                        <!-- Tên báo cáo -->
+              
                 </div>
                 <!-- Phòng ban -->
 
@@ -254,8 +262,8 @@
                         <label class="control-label">
                             Trạm
                         </label>
-                        <select id="KhuVuc" name="KhuVuc" class="form-control select2" data-placeholder="Chọn phòng ban" onchange="ChangeKhuVuc(this)">
-                            
+                        <select id="KhuVucID" name="KhuVucID" class="form-control select2" data-placeholder="Chọn phòng ban" onchange="ChangeKhuVuc(this)">
+
                             <%foreach (var item in listkhuvuc)
                                 {%>
                             <option value="<%=item.ID %>"><%=item.Ten %> </option>
@@ -266,12 +274,7 @@
                         <label class="control-label">
                             Số ghế
                         </label>
-                        <select id="Soghe" name="Soghe" class="form-control select2">
-                            <%foreach (var item in new List<int>() { 1, 2, 3 })
-                                {%>
-                            <option value="<%=item %>">item </option>
-                            <%}%>
-                        </select>
+                        <input type="number" min="1" class="form-control" name="SoGhe" id="SoGhe" value="1" />
                     </div>
                     <div class="form-group col-md-4">
                         <label class="control-label">
@@ -298,44 +301,31 @@
                             <option value="<%=item %>">item </option>
                             <%}%>
                         </select>--%>
-                        <input class="form-control " id="PhuongXa" name="PhuongXa" onchange="ChangePhuongXa(this)" />
+                        <input class="form-control " id="PhuongXaID" name="PhuongXaID" onchange="ChangePhuongXa(this)" />
                     </div>
                     <div class="form-group col-md-6">
                         <label class="control-label">
                             Đường ấp
                         </label>
-         <%--               <select id="DuongAp" name="DuongAp" class="form-control select2">
+                        <%--               <select id="DuongAp" name="DuongAp" class="form-control select2">
                             <option value="">Chọn đường ấp</option>
                             <%foreach (var item in new List<int>() { 1, 2, 3 })
                                 {%>
                             <option value="<%=item %>">item </option>
                             <%}%>
                         </select>--%>
-                         <input class="form-control " id="DuongAp" name="DuongAp" />
+                        <input class="form-control " id="DuongApID" name="DuongApID" />
                     </div>
 
                 </div>
 
                 <%--Phường xã, Đường ấp--%>
-
-
-
-
-                <!-- Nhóm người nhận -->
-
-                <!-- Ghi chú -->
-
-
-
-
             </div>
 
         </div>
     </div>
 
     <div class="modal-footer">
-
-
 
         <button type="submit" id="btnAddModal" class="btn brown" tabindex="6"><i class="fa fa-save"></i>&nbsp;Lưu</button>
 

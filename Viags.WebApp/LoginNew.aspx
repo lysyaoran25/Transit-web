@@ -117,7 +117,7 @@
                                 }
                                 $("#btnLogin").on("click", function () {
                                     var status = $("#Status").val();
-                                    if (status != 0) {
+                                    if (/*status != 0*/true) {
                                         $.post(urlPostAction, $("#LoginForm").mySerialize(), function (data) {
                                             if (data.Error) {
                                                 // Tạo thông báo lỗi
@@ -207,7 +207,7 @@
                                             <input type="password" class="form-control" name="Password" id="Password" required placeholder="Mật khẩu...">
                                         </div>
                                     </span>
-                                    <span style="display: none; flex-wrap: nowrap;">
+                                    <%--<span style="display: none; flex-wrap: nowrap;">
                                         <span style="width: 100px; margin: 10px; text-align: center;">
                                             <input id="dislike" type="checkbox" value="1" onchange="ChangeStatus(this)" />
                                         </span>
@@ -228,7 +228,7 @@
                                         <span style="width: 100px; margin: 10px; text-align: center;">
                                             <img id="iconlike" onclick="EmoClick(this,3)" width="50" src="../Image/icon/icons-love.png" />
                                         </span>
-                                    </span>
+                                    </span>--%>
                                 </div>
                                 <div class="card-footer justify-content-center">
                                     <button type="button" id="btnLogin" class="btn btn-rose btn-link btn-lg" style="color: #0066a4; font-weight: 600;">

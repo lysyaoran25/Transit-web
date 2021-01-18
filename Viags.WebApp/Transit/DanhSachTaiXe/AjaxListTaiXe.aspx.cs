@@ -8,23 +8,24 @@ using Viags.Base;
 using Viags.Data;
 using Viags.Simple;
 
-namespace Viags.WebApp.Transit
+namespace Viags.WebApp.Transit.DanhSachTaiXe
 {
-    public partial class AjaxList : Base.BaseWebPage
+    public partial class AjaxListTaiXe : Base.BaseWebPage
     {
-        //public List<DanhMucCaItem> LstDanhMucCa { get; set; }
-        //DanhMucCaDA DanhMucCaDA;
+        public List<ThongTinDonKhachItem> LstDonKhach;
+        public TransitDA TransitDA;
         protected int khuvucid = 0;
-        public AjaxList()
+        public AjaxListTaiXe()
         {
-            //LstDanhMucCa = new List<DanhMucCaItem>();
-            //DanhMucCaDA = new DanhMucCaDA();
+            LstDonKhach = new List<ThongTinDonKhachItem>();
+            TransitDA = new TransitDA();
 
         }
         protected void Page_Load(object sender, EventArgs e)
         {
             khuvucid = string.IsNullOrEmpty(Request["khuvucid"]) ? 0 : int.Parse(Request["khuvucid"]);
-            //LstDanhMucCa = DanhMucCaDA.GetListDanhMucCa(CurrentPage, RowPerPage, Field, FieldOption, Keyword, SearchInFiled);
+            LstDonKhach = TransitDA.GetListThongTinDonKhach(CurrentPage, RowPerPage, Field, FieldOption, Keyword, SearchInFiled);
+
             HtmlPager =
                 pagination(
                     string.Format("#RowPerPage={0}&PageStep={1}&Field={2}&FieldOption={3}&Keyword={4}&SearchIn={5}&Page=", RowPerPage, PageStep,
@@ -38,6 +39,5 @@ namespace Viags.WebApp.Transit
                 return nguoidung == null ? string.Empty : nguoidung.TenHienThi;
             }
         }
-
     }
 }
