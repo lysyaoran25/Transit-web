@@ -10,7 +10,7 @@
 // The following connection settings were used to generate this file:
 //     Configuration file:     "Viags.Base\App.config"
 //     Connection String Name: "FoldioContext"
-//     Connection String:      "Data Source=DESKTOP-8MGKJ5U\DESKTOP8MGKJ5U;Initial Catalog=AF_TEST_28122020;User ID=sa;password=**zapped**;"
+//     Connection String:      "Data Source=DESKTOP-8MGKJ5U\DESKTOP8MGKJ5U;Initial Catalog=AF_TEST_28122020_TS;User ID=sa;password=**zapped**;"
 // </auto-generated>
 // ------------------------------------------------------------------------------------------------
 // Database Edition       : Enterprise Edition (64-bit)
@@ -239,6 +239,7 @@ namespace Viags.Base
         DbSet<TS_KhuVuc> TS_KhuVuc { get; set; } // TS_KhuVuc
         DbSet<TS_PhuongXa> TS_PhuongXa { get; set; } // TS_PhuongXa
         DbSet<TS_TaiXe> TS_TaiXe { get; set; } // TS_TaiXe
+        DbSet<TS_ThongTinDonKhach> TS_ThongTinDonKhach { get; set; } // TS_ThongTinDonKhach
         DbSet<UyQuyen> UyQuyen { get; set; } // UyQuyen
         DbSet<UyQuyenGuiNhan> UyQuyenGuiNhan { get; set; } // UyQuyenGuiNhan
         DbSet<VaiTro> VaiTro { get; set; } // VaiTro
@@ -519,6 +520,7 @@ namespace Viags.Base
         public DbSet<TS_KhuVuc> TS_KhuVuc { get; set; } // TS_KhuVuc
         public DbSet<TS_PhuongXa> TS_PhuongXa { get; set; } // TS_PhuongXa
         public DbSet<TS_TaiXe> TS_TaiXe { get; set; } // TS_TaiXe
+        public DbSet<TS_ThongTinDonKhach> TS_ThongTinDonKhach { get; set; } // TS_ThongTinDonKhach
         public DbSet<UyQuyen> UyQuyen { get; set; } // UyQuyen
         public DbSet<UyQuyenGuiNhan> UyQuyenGuiNhan { get; set; } // UyQuyenGuiNhan
         public DbSet<VaiTro> VaiTro { get; set; } // VaiTro
@@ -769,6 +771,7 @@ namespace Viags.Base
             modelBuilder.Configurations.Add(new TS_KhuVucConfiguration());
             modelBuilder.Configurations.Add(new TS_PhuongXaConfiguration());
             modelBuilder.Configurations.Add(new TS_TaiXeConfiguration());
+            modelBuilder.Configurations.Add(new TS_ThongTinDonKhachConfiguration());
             modelBuilder.Configurations.Add(new UyQuyenConfiguration());
             modelBuilder.Configurations.Add(new UyQuyenGuiNhanConfiguration());
             modelBuilder.Configurations.Add(new VaiTroConfiguration());
@@ -995,6 +998,7 @@ namespace Viags.Base
             modelBuilder.Configurations.Add(new TS_KhuVucConfiguration(schema));
             modelBuilder.Configurations.Add(new TS_PhuongXaConfiguration(schema));
             modelBuilder.Configurations.Add(new TS_TaiXeConfiguration(schema));
+            modelBuilder.Configurations.Add(new TS_ThongTinDonKhachConfiguration(schema));
             modelBuilder.Configurations.Add(new UyQuyenConfiguration(schema));
             modelBuilder.Configurations.Add(new UyQuyenGuiNhanConfiguration(schema));
             modelBuilder.Configurations.Add(new VaiTroConfiguration(schema));
@@ -2430,6 +2434,7 @@ namespace Viags.Base
         public DbSet<TS_KhuVuc> TS_KhuVuc { get; set; }
         public DbSet<TS_PhuongXa> TS_PhuongXa { get; set; }
         public DbSet<TS_TaiXe> TS_TaiXe { get; set; }
+        public DbSet<TS_ThongTinDonKhach> TS_ThongTinDonKhach { get; set; }
         public DbSet<UyQuyen> UyQuyen { get; set; }
         public DbSet<UyQuyenGuiNhan> UyQuyenGuiNhan { get; set; }
         public DbSet<VaiTro> VaiTro { get; set; }
@@ -2655,6 +2660,7 @@ namespace Viags.Base
             TS_KhuVuc = new FakeDbSet<TS_KhuVuc>();
             TS_PhuongXa = new FakeDbSet<TS_PhuongXa>();
             TS_TaiXe = new FakeDbSet<TS_TaiXe>();
+            TS_ThongTinDonKhach = new FakeDbSet<TS_ThongTinDonKhach>();
             UyQuyen = new FakeDbSet<UyQuyen>();
             UyQuyenGuiNhan = new FakeDbSet<UyQuyenGuiNhan>();
             VaiTro = new FakeDbSet<VaiTro>();
@@ -5494,10 +5500,10 @@ namespace Viags.Base
             VanPhongPham_DangKy = new List<VanPhongPham_DangKy>();
             VanPhongPham_DinhMuc = new List<VanPhongPham_DinhMuc>();
             VanPhongPham_VatPham = new List<VanPhongPham_VatPham>();
-            NhomNguoiDung1 = new List<NhomNguoiDung>();
             UyQuyen_UyQuyenID = new List<UyQuyen>();
             VaiTro_VaiTroID = new List<VaiTro>();
             KienNghi1 = new List<KienNghi>();
+            NhomNguoiDung1 = new List<NhomNguoiDung>();
             VaiTro1 = new List<VaiTro>();
             KienNghi2 = new List<KienNghi>();
             SoVanBan = new List<SoVanBan>();
@@ -5756,11 +5762,11 @@ namespace Viags.Base
         
         public HoSoTaiLieu()
         {
-            NguoiDung_NguoiDungUpdateID = new List<NguoiDung>();
             NguoiDung_NguoiXemID = new List<NguoiDung>();
             NguoiDung_NguoiViewID = new List<NguoiDung>();
             VanBanDen = new List<VanBanDen>();
             VanBanDi = new List<VanBanDi>();
+            NguoiDung_NguoiDungUpdateID = new List<NguoiDung>();
             CongViec = new List<CongViec>();
             FileDinhKem = new List<FileDinhKem>();
         }
@@ -6741,10 +6747,10 @@ namespace Viags.Base
             YeuCauTuyenDung_NguoiDuyetID = new List<YeuCauTuyenDung>();
             YeuCauTuyenDung_NguoiTuyenDungID = new List<YeuCauTuyenDung>();
             HoSoTaiLieu1 = new List<HoSoTaiLieu>();
-            HoSoTaiLieu2 = new List<HoSoTaiLieu>();
             NhomNguoiDung_NhomNguoiDungID = new List<NhomNguoiDung>();
-            HoSoTaiLieu3 = new List<HoSoTaiLieu>();
+            HoSoTaiLieu2 = new List<HoSoTaiLieu>();
             VaiTro = new List<VaiTro>();
+            HoSoTaiLieu3 = new List<HoSoTaiLieu>();
             BanGiaoCongViec_BanGiaoCongViecID = new List<BanGiaoCongViec>();
             CongViec1 = new List<CongViec>();
             CongViec2 = new List<CongViec>();
@@ -7219,8 +7225,8 @@ namespace Viags.Base
             VanBanDenTrangThai = new List<VanBanDenTrangThai>();
             VanBanDenYKienNhomNguoiDung = new List<VanBanDenYKienNhomNguoiDung>();
             VanBanDi_ChucVuID = new List<VanBanDi>();
-            DonVi_DonViLienQuanID = new List<DonVi>();
             NguoiDung_NguoiDungID = new List<NguoiDung>();
+            DonVi_DonViLienQuanID = new List<DonVi>();
             VaiTro = new List<VaiTro>();
             CongViec1 = new List<CongViec>();
             CongViec2 = new List<CongViec>();
@@ -8450,6 +8456,7 @@ namespace Viags.Base
 
         // Reverse navigation
         public virtual ICollection<TS_DanhMucChuyenDetail> TS_DanhMucChuyenDetail { get; set; } // TS_DanhMucChuyenDetail.FK_TS_DanhMucChuyenDetail_TS_DanhMucChuyen
+        public virtual ICollection<TS_ThongTinDonKhach> TS_ThongTinDonKhach { get; set; } // TS_ThongTinDonKhach.FK_TS_ThongTinDonKhach_TS_DanhMucChuyen
 
         // Foreign keys
         public virtual TS_KhuVuc TS_KhuVuc { get; set; } // FK_TS_DanhMucChuyen_TS_KhuVuc
@@ -8457,6 +8464,7 @@ namespace Viags.Base
         public TS_DanhMucChuyen()
         {
             TS_DanhMucChuyenDetail = new List<TS_DanhMucChuyenDetail>();
+            TS_ThongTinDonKhach = new List<TS_ThongTinDonKhach>();
         }
     }
 
@@ -8473,6 +8481,7 @@ namespace Viags.Base
     }
 
     // TS_DuongAp
+    [GeneratedCodeAttribute("EF.Reverse.POCO.Generator", "2.15.2.0")]
     public class TS_DuongAp
     {
         public int ID { get; set; } // ID (Primary key)
@@ -8480,8 +8489,16 @@ namespace Viags.Base
         public int? PhuongXaID { get; set; } // PhuongXaID
         public bool? isSuDung { get; set; } // isSuDung
 
+        // Reverse navigation
+        public virtual ICollection<TS_ThongTinDonKhach> TS_ThongTinDonKhach { get; set; } // TS_ThongTinDonKhach.FK_TS_ThongTinDonKhach_TS_DuongAp
+
         // Foreign keys
         public virtual TS_PhuongXa TS_PhuongXa { get; set; } // FK_TS_DuongAp_TS_PhuongXa
+        
+        public TS_DuongAp()
+        {
+            TS_ThongTinDonKhach = new List<TS_ThongTinDonKhach>();
+        }
     }
 
     // TS_KhuVuc
@@ -8496,12 +8513,14 @@ namespace Viags.Base
         public virtual ICollection<TS_DanhMucChuyen> TS_DanhMucChuyen { get; set; } // TS_DanhMucChuyen.FK_TS_DanhMucChuyen_TS_KhuVuc
         public virtual ICollection<TS_PhuongXa> TS_PhuongXa { get; set; } // TS_PhuongXa.FK_TS_PhuongXa_TS_KhuVuc
         public virtual ICollection<TS_TaiXe> TS_TaiXe { get; set; } // TS_TaiXe.FK_TS_TaiXe_TS_KhuVuc
+        public virtual ICollection<TS_ThongTinDonKhach> TS_ThongTinDonKhach { get; set; } // TS_ThongTinDonKhach.FK_TS_ThongTinDonKhach_TS_KhuVuc
         
         public TS_KhuVuc()
         {
             TS_DanhMucChuyen = new List<TS_DanhMucChuyen>();
             TS_PhuongXa = new List<TS_PhuongXa>();
             TS_TaiXe = new List<TS_TaiXe>();
+            TS_ThongTinDonKhach = new List<TS_ThongTinDonKhach>();
         }
     }
 
@@ -8516,6 +8535,7 @@ namespace Viags.Base
 
         // Reverse navigation
         public virtual ICollection<TS_DuongAp> TS_DuongAp { get; set; } // TS_DuongAp.FK_TS_DuongAp_TS_PhuongXa
+        public virtual ICollection<TS_ThongTinDonKhach> TS_ThongTinDonKhach { get; set; } // TS_ThongTinDonKhach.FK_TS_ThongTinDonKhach_TS_PhuongXa
 
         // Foreign keys
         public virtual TS_KhuVuc TS_KhuVuc { get; set; } // FK_TS_PhuongXa_TS_KhuVuc
@@ -8523,6 +8543,7 @@ namespace Viags.Base
         public TS_PhuongXa()
         {
             TS_DuongAp = new List<TS_DuongAp>();
+            TS_ThongTinDonKhach = new List<TS_ThongTinDonKhach>();
         }
     }
 
@@ -8548,6 +8569,28 @@ namespace Viags.Base
         {
             TS_ChiTietTaiXe = new List<TS_ChiTietTaiXe>();
         }
+    }
+
+    // TS_ThongTinDonKhach
+    public class TS_ThongTinDonKhach
+    {
+        public int ID { get; set; } // ID (Primary key)
+        public DateTime? NgayKhoiHanh { get; set; } // NgayKhoiHanh
+        public int? SoGhe { get; set; } // SoGhe
+        public bool? isTrungChuyen { get; set; } // isTrungChuyen
+        public string DiaChi { get; set; } // DiaChi
+        public int? KhuVucID { get; set; } // KhuVucID
+        public int? PhuongXaID { get; set; } // PhuongXaID
+        public int? DuongApID { get; set; } // DuongApID
+        public int? DanhMucChuyenID { get; set; } // DanhMucChuyenID
+        public string SoDienThoai { get; set; } // SoDienThoai
+        public int? TrangThai { get; set; } // TrangThai
+
+        // Foreign keys
+        public virtual TS_DanhMucChuyen TS_DanhMucChuyen { get; set; } // FK_TS_ThongTinDonKhach_TS_DanhMucChuyen
+        public virtual TS_DuongAp TS_DuongAp { get; set; } // FK_TS_ThongTinDonKhach_TS_DuongAp
+        public virtual TS_KhuVuc TS_KhuVuc { get; set; } // FK_TS_ThongTinDonKhach_TS_KhuVuc
+        public virtual TS_PhuongXa TS_PhuongXa { get; set; } // FK_TS_ThongTinDonKhach_TS_PhuongXa
     }
 
     // UyQuyen
@@ -11952,12 +11995,6 @@ namespace Viags.Base
             Property(x => x.IsNhanBaoCao).HasColumnName("IsNhanBaoCao").IsOptional().HasColumnType("bit");
             Property(x => x.NgayCauHinh).HasColumnName("NgayCauHinh").IsOptional().HasColumnType("datetime");
             Property(x => x.Email).HasColumnName("Email").IsOptional().HasColumnType("nvarchar").HasMaxLength(500);
-            HasMany(t => t.NhomNguoiDung1).WithMany(t => t.DonVi_DonViLienQuanID).Map(m => 
-            {
-                m.ToTable("NhomNguoiDungDonVi", "dbo");
-                m.MapLeftKey("DonViLienQuanID");
-                m.MapRightKey("NhomNguoiDungID");
-            });
             HasMany(t => t.UyQuyen_UyQuyenID).WithMany(t => t.DonVi_DonViNhanID).Map(m => 
             {
                 m.ToTable("UyQuyenDonVi", "dbo");
@@ -11975,6 +12012,12 @@ namespace Viags.Base
                 m.ToTable("KienNghiCuaChiNhanh", "dbo");
                 m.MapLeftKey("ChiNhanhID");
                 m.MapRightKey("KienNghiID");
+            });
+            HasMany(t => t.NhomNguoiDung1).WithMany(t => t.DonVi_DonViLienQuanID).Map(m => 
+            {
+                m.ToTable("NhomNguoiDungDonVi", "dbo");
+                m.MapLeftKey("DonViLienQuanID");
+                m.MapRightKey("NhomNguoiDungID");
             });
             HasMany(t => t.VaiTro1).WithMany(t => t.DonVi_PhongBanID).Map(m => 
             {
@@ -12345,19 +12388,13 @@ namespace Viags.Base
             HasOptional(a => a.NguoiDung_CanBoXuLyID).WithMany(b => b.HoSoTaiLieu_CanBoXuLyID).HasForeignKey(c => c.CanBoXuLyID); // FK_HoSoTaiLieu_CanBoXuLy
             HasOptional(a => a.NguoiDung_LanhDaoID).WithMany(b => b.HoSoTaiLieu_LanhDaoID).HasForeignKey(c => c.LanhDaoID); // FK_HoSoTaiLieu_LanhDaoPhuTrach
             HasOptional(a => a.NguoiDung_NguoiTaoID).WithMany(b => b.HoSoTaiLieu_NguoiTaoID).HasForeignKey(c => c.NguoiTaoID); // FK_HoSoTaiLieu_NguoiTao
-            HasMany(t => t.NguoiDung_NguoiDungUpdateID).WithMany(t => t.HoSoTaiLieu1).Map(m => 
-            {
-                m.ToTable("HoSoTaiLieuNguoiDungUpdate", "dbo");
-                m.MapLeftKey("HoSoTaiLieuID");
-                m.MapRightKey("NguoiDungUpdateID");
-            });
-            HasMany(t => t.NguoiDung_NguoiXemID).WithMany(t => t.HoSoTaiLieu2).Map(m => 
+            HasMany(t => t.NguoiDung_NguoiXemID).WithMany(t => t.HoSoTaiLieu1).Map(m => 
             {
                 m.ToTable("HoSoTaiLieuNguoiDungView", "dbo");
                 m.MapLeftKey("HoSoTaiLieuID");
                 m.MapRightKey("NguoiXemID");
             });
-            HasMany(t => t.NguoiDung_NguoiViewID).WithMany(t => t.HoSoTaiLieu3).Map(m => 
+            HasMany(t => t.NguoiDung_NguoiViewID).WithMany(t => t.HoSoTaiLieu2).Map(m => 
             {
                 m.ToTable("HoSoTaiLieuNguoiDungViewPhongBan", "dbo");
                 m.MapLeftKey("HoSoTaiLieuID");
@@ -12374,6 +12411,12 @@ namespace Viags.Base
                 m.ToTable("HoSoTaiLieuVanBanDi", "dbo");
                 m.MapLeftKey("HoSoTaiLieuID");
                 m.MapRightKey("VanBanDiID");
+            });
+            HasMany(t => t.NguoiDung_NguoiDungUpdateID).WithMany(t => t.HoSoTaiLieu3).Map(m => 
+            {
+                m.ToTable("HoSoTaiLieuNguoiDungUpdate", "dbo");
+                m.MapLeftKey("HoSoTaiLieuID");
+                m.MapRightKey("NguoiDungUpdateID");
             });
         }
     }
@@ -15544,6 +15587,39 @@ namespace Viags.Base
 
             // Foreign keys
             HasOptional(a => a.TS_KhuVuc).WithMany(b => b.TS_TaiXe).HasForeignKey(c => c.KhuVucID); // FK_TS_TaiXe_TS_KhuVuc
+        }
+    }
+
+    // TS_ThongTinDonKhach
+    public class TS_ThongTinDonKhachConfiguration : EntityTypeConfiguration<TS_ThongTinDonKhach>
+    {
+        public TS_ThongTinDonKhachConfiguration()
+            : this("dbo")
+        {
+        }
+ 
+        public TS_ThongTinDonKhachConfiguration(string schema)
+        {
+            ToTable(schema + ".TS_ThongTinDonKhach");
+            HasKey(x => x.ID);
+
+            Property(x => x.ID).HasColumnName("ID").IsRequired().HasColumnType("int").HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity);
+            Property(x => x.NgayKhoiHanh).HasColumnName("NgayKhoiHanh").IsOptional().HasColumnType("datetime");
+            Property(x => x.SoGhe).HasColumnName("SoGhe").IsOptional().HasColumnType("int");
+            Property(x => x.isTrungChuyen).HasColumnName("isTrungChuyen").IsOptional().HasColumnType("bit");
+            Property(x => x.DiaChi).HasColumnName("DiaChi").IsOptional().HasColumnType("nvarchar");
+            Property(x => x.KhuVucID).HasColumnName("KhuVucID").IsOptional().HasColumnType("int");
+            Property(x => x.PhuongXaID).HasColumnName("PhuongXaID").IsOptional().HasColumnType("int");
+            Property(x => x.DuongApID).HasColumnName("DuongApID").IsOptional().HasColumnType("int");
+            Property(x => x.DanhMucChuyenID).HasColumnName("DanhMucChuyenID").IsOptional().HasColumnType("int");
+            Property(x => x.SoDienThoai).HasColumnName("SoDienThoai").IsOptional().HasColumnType("nvarchar").HasMaxLength(50);
+            Property(x => x.TrangThai).HasColumnName("TrangThai").IsOptional().HasColumnType("int");
+
+            // Foreign keys
+            HasOptional(a => a.TS_DanhMucChuyen).WithMany(b => b.TS_ThongTinDonKhach).HasForeignKey(c => c.DanhMucChuyenID); // FK_TS_ThongTinDonKhach_TS_DanhMucChuyen
+            HasOptional(a => a.TS_DuongAp).WithMany(b => b.TS_ThongTinDonKhach).HasForeignKey(c => c.DuongApID); // FK_TS_ThongTinDonKhach_TS_DuongAp
+            HasOptional(a => a.TS_KhuVuc).WithMany(b => b.TS_ThongTinDonKhach).HasForeignKey(c => c.KhuVucID); // FK_TS_ThongTinDonKhach_TS_KhuVuc
+            HasOptional(a => a.TS_PhuongXa).WithMany(b => b.TS_ThongTinDonKhach).HasForeignKey(c => c.PhuongXaID); // FK_TS_ThongTinDonKhach_TS_PhuongXa
         }
     }
 
