@@ -2,7 +2,8 @@
 <script type="text/javascript">
 
     urlLists = "/Transit/DieuPhoi/AjaxList.aspx";
-    //urlListsGiaCom = "/HeThong/DanhMuc/ThietLapGiaCom/AjaxList.aspx";
+    urlListsTaiXe = "/Transit/DanhSachTaiXe/AjaxListTaiXe.aspx";
+
 
     urlForm = "/Transit/DieuPhoi/AjaxFormThemDonHang.aspx";
     urlFormGiaCom = "/HeThong/DanhMuc/ThietLapGiaCom/AjaxForm.aspx";
@@ -16,6 +17,8 @@
 
         bindHotkey();
         initAjaxLoad(urlLists, '#gridview-container', "gridDanhMuc");
+        initAjaxLoad(urlListsTaiXe, '#gridview-container-driver', "gridDanhMuc");
+
         //initAjaxLoad(urlListsGiaCom, '#gridviewGiaCom-container', "gridGiaCom");
         
         $("#btnSearch").click(function () {
@@ -217,7 +220,12 @@
                             </div>
                         </form>
                     </div>
-                    <div id="gridview-container" class="portlet-body_deletecss  content-border_deletecss">
+                    <div id="gridview-container" class="portlet-body_deletecss  content-border_deletecss col-md-8 col-sm-8" style="
+    border: ridge">
+                    </div>
+                       <div  id="gridview-container-driver" class="portlet-body_deletecss  content-border_deletecss col-md-4 col-sm-4" style="
+    border: ridge" >
+                           
                     </div>
                 </div>
          
@@ -234,4 +242,9 @@
     $('input').focus(function () {
         $(".form-group").addClass("is-focused");
     });
+
+    function ChangeTX(value) {
+        debugger
+        $(".tx5").text(value);
+    }
 </script>

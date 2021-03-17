@@ -50,6 +50,15 @@
             window.location.href = url;
             e.preventDefault();
         });
+
+
+        function editForm(itemid) {
+            var urlFormTaiXe = "/Transit/DanhSachTaiXe/AjaxFormTaiXe.aspx?ItemID=" + itemid + "&do=edit";
+            $('body').modalmanager('loading');
+            $('#dialog-form').load(urlFormTaiXe, function () {
+                $('#dialog-form').modal({ width: 700 });
+            });
+        }
     </script>
 </head>
 <body>
@@ -60,50 +69,53 @@
                 <thead>
                     <tr>
                         <th class="text-center text-justify" style="width: 10%"><%=Resources.TinTuc.lblThuTu %></th>
-                        <th class="text-center text-justify" style="width: 8%">Tên tài xế</th>
+                        <th class="text-center text-justify" style="width: 15%">Tên tài xế</th>
                         <th class="text-center text-justify" style="width: 10%">SDT</th>
                         <th class="text-center text-justify" style="width: 10%">Loại xe</th>
                         <th class="text-center text-justify" style="width: 10%">Khu vực</th>
                         <th class="text-center text-justify" style="width: 10%">Trạng thái</th>
-                        <th class="text-center text-justify" style="width: 10%">Vị trí GPS</th>                             
-                        <th class="text-center text-justify" style="width: 20%">Thao tác</th>
+                        <th class="text-center text-justify" style="width: 10%">Vị trí GPS</th>
+                        <th class="text-center text-justify" style="width: 10%">Số chuyến</th>
+
 
                         <th class="act_edit text-center text-justify"></th>
-                        <th class="act_delete text-center">
+                     <%--   <th class="act_delete text-center">
                             <a href="#deleteAll" class="deleteAll" title="<%=Resources.TinTuc.lblXoaDanhSachDaChon %>">
                                 <img alt="" src="/Publishing_Resources/img/LastIcon/delete.gif" style="border: none" title="<%=Resources.BieuMau.lblXoaDanhSachDaChon %>" />
                             </a>
                         </th>
                         <th class="act_roles text-center">
                             <input value="" type="checkbox" class="checkAll" />
-                        </th>
+                        </th>--%>
                     </tr>
                 </thead>
                 <tbody>
 
-                    <%foreach (var item in LstDonKhach)
+                    <%foreach (var item in LstTaiXe)
                         {%>
 
                     <tr title="<%=item.TenKhuVuc %>">
                         <td class="text-center" style="display: none"><%:item.ID %></td>
                         <td class="text-center"><%:Index %></td>
-                        <td class="text-center"><%:(item.GioKhoiHanh<10?"0"+item.GioKhoiHanh: item.GioKhoiHanh.ToString())+":"+(item.PhutKhoiHanh<10?"0"+item.PhutKhoiHanh: item.PhutKhoiHanh.ToString()) %></td>
-                        <td class="text-center"><%:item.TenPhuongXa %></td>
-                        <td></td>
-                        <td class="text-center"><%:item.TenDuongAp %></td>
-                        <td class="text-center"><%=item.SoDienThoai%></td>
-                        <td class="text-center"><%=item.SoGhe %></td>
+                        <td class="text-center"><%:item.TenTaiXe %></td>
+                        <td class="text-center"><%:item.SoDienThoai %></td>
+                        <td class="text-center"><%:GetTenLoaiXe ((int)item.LoaiXe) %></td>
+                        <td class="text-center"><%=item.TenKhuVuc%></td>
 
                         <td class="text-center text-justify"><%=item.TrangThai%></td>
-                 
+                        <td></td>
+                        <td class="tx<%=item.ID %>"></td>
+                        <td class="act_edit">
+                            <a onclick="editForm(<%=item.ID %>)" title="Điều chỉnh thông tin tài xế">
+                                <i class="fas fa-edit"></i>
+                            </a>
+                        </td>
 
-                        <td class="act_edit"></td>
-
-                        <td class="act_delete"></td>
+                   <%--     <td class="act_delete"></td>
 
                         <td class="act_roles text-center">
                             <input value="<%=item.ID %>" type="checkbox" />
-                        </td>
+                        </td>--%>
 
 
                     </tr>

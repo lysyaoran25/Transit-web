@@ -120,6 +120,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
     <Compile Include="TransitDA.cs" />
+    <Compile Include="Transit_TaiXeDA.cs" />
     <Compile Include="Web References\UploadFileServices\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

@@ -6,9 +6,9 @@
     <title></title>
     <script type="text/javascript">
 
-
         $(document).ready(function () {
             registerGridView('#gridDanhMuc');
+            $('.NamSinh').select2();
         });
         /* Thêm vào nhằm kết hợp sort + search */
         $('.gridView thead tr th a').not(".deleteAll, .showAll, .hideAll").click(function (e) {
@@ -50,6 +50,7 @@
             window.location.href = url;
             e.preventDefault();
         });
+     
     </script>
 </head>
 <body>
@@ -94,7 +95,14 @@
                         <td class="text-center"><%=item.SoGhe %></td>
 
                         <td class="text-center text-justify"><%=item.TrangThai%></td>
-                        <td></td>
+                        <td>
+                            <select id="NamSinh" name="NamSinh" class="form-control select2 NamSinh" data-placeholder="chọn năm sinh"onchange="ChangeTX(this.value)">
+                                <%foreach (var item4 in new List<int>() { 1, 2, 3, 4, 5, 6, 7, 8, 9 })
+                                    {%>
+                                <option value="<%=item4 %>"><%=item4 %></option>
+                                <%}%>
+                            </select>
+                        </td>
 
                         <td class="act_edit"></td>
 

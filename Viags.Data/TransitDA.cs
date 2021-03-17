@@ -18,7 +18,7 @@ namespace Viags.Data
         {
             GetCurrentUser();
             Message objMsg;
-            var itemID = string.IsNullOrEmpty(Request["itemID"]) ? 0 : int.Parse(Request["itemID"]);         
+            var itemID = string.IsNullOrEmpty(Request["itemID"]) ? 0 : int.Parse(Request["itemID"]);
             var thoigiankhoihanh = string.IsNullOrEmpty(Request["ThoiGianKhoiHanh"]) ? 0 : int.Parse(Request["ThoiGianKhoiHanh"]);
 
 
@@ -71,6 +71,31 @@ namespace Viags.Data
             return new Message();
         }
 
+        public ThongTinTaiXe GetSimpleByID_TaiXe(int itemid)
+        {
+            using (var context = new FoldioContext())
+            {
+                var query = context.TS_TaiXe.Where(p => p.ID == itemid).Select(p => new ThongTinTaiXe()
+                {
+                    ID=p.ID,
+                    TenTaiXe=p.TenTaiXe,
+                    SoDienThoai=p.SDT,
+                    TrangThai=p.TrangThai,
+                    LoaiXe=p.LoaiXe,
+                    GPS_Lat=p.GPS_Lat,
+                    GPS_Long=p.GPS_Long,
+                    CMND=p.CMND,
+                    KhuVucID=p.KhuVucID,
+                    TenKhuVuc=p.TS_KhuVuc.Ten,
+                    NamSinh=p.NamSinh.ToString(),
+                    DiaChi=p.DiaChi,
+
+                }).FirstOrDefault();
+
+                return query;
+            };
+        }
+
         public List<ThongTinDonKhachItem> GetListTaiXe(int CurrentPage, int PageSize, string Field, bool FieldOption, string Keyword, List<string> SearchInField)
         {
             using (var context = new FoldioContext())
@@ -118,7 +143,35 @@ namespace Viags.Data
                                  TenDuongAp = p.DuongApID.HasValue ? p.TS_DuongAp.TenDuongAp : "",
                                  GioKhoiHanh = p.DanhMucChuyenID.HasValue ? p.TS_DanhMucChuyen.GioKhoiHanh : 0,
                                  PhutKhoiHanh = p.DanhMucChuyenID.HasValue ? p.TS_DanhMucChuyen.PhutKhoiHanh : 0,
-                                 
+
+
+                             });
+
+                query = query.SortPaging(Field, FieldOption, PageSize, CurrentPage, Keyword, SearchInField, ref TotalRecord);
+                return query.ToList();
+            }
+        }
+
+        public List<ThongTinTaiXe> GetListThongTinTaiXe(int CurrentPage, int PageSize, string Field, bool FieldOption, string Keyword, List<string> SearchInField)
+        {
+            using (var context = new FoldioContext())
+            {
+                GetCurrentUser();
+                var query = (from p in context.TS_TaiXe
+                             select new ThongTinTaiXe()
+                             {
+                                 ID = p.ID,
+                                 TenTaiXe = p.TenTaiXe,
+                                 SoDienThoai = p.SDT,
+                                 LoaiXe = p.LoaiXe,
+                                 DiaChi = p.DiaChi,
+                                 TenKhuVuc = p.KhuVucID.HasValue ? p.TS_KhuVuc.Ten : "",
+                                 NamSinh = p.NamSinh.ToString(),
+                                 KhuVucID = p.KhuVucID,
+                                 CMND = p.CMND,
+                                 TrangThai = p.TrangThai,
+                                 GPS_Lat = p.GPS_Lat,
+                                 GPS_Long = p.GPS_Long,
 
                              });
 

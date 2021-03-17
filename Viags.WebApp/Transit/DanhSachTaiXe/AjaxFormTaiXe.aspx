@@ -12,7 +12,7 @@
         $(".NhomNguoiDungID").select2();
         //$("#MaTaiLieu").prop("readonly", true);
 
-       
+
 
     });
     $(document).bind('keypress', 'd', function (evt) {
@@ -53,7 +53,7 @@
 
                     else {
                         $("#btnCloseModal").click();
-                        createCloseMessage2("<%=Resources.CongViec.lblThongBao %>", data.Title, "/Pagess/transit.aspx"); // Tạo thông báo khi click đóng thì chuyển đến url đích
+                        createCloseMessage2("<%=Resources.CongViec.lblThongBao %>", data.Title, "/Pagess/list-taixe.aspx"); // Tạo thông báo khi click đóng thì chuyển đến url đích
                     }
 
                 });
@@ -200,37 +200,42 @@
 
             <div class="row custom-contain">
 
-                <!-- Loại báo cáo/Mã báo cáo -->
+                <!-- tên tài xế + CMND -->
                 <div class="form-row">
 
                     <!-- Ngày bắt đầu -->
                     <div class="form-group col-md-6">
                         <label class="control-label">
-                            Ngày khởi hành
+                            Tên tài xế
                         </label>
-                        <div>
-                            <div class="date" data-date-format="dd-MM-yyyy">
-                                <input class="form-control date-picker NgayKhoiHanh" id="NgayKhoiHanh" name="NgayKhoiHanh" autocomplete="off" value="" placeholder="Nhập ngày khởi hành">
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Ngày bắt đầu -->
+                        <!-- Tên tài xế -->
 
-                    <div class="form-group col-md-6">
+                        <input class="form-control" name="TenTaiXe" id="TenTaiXe" autocomplete="off" value="<%=ThongTinTaiXe.TenTaiXe %>" />
+
+                        <!-- Tên tài xế -->
+                    </div>
+
+                    <div class="form-group col-md-4">
                         <label class="control-label">
-                            Thời gian xe khởi hành<span class="required" aria-required="true">*</span>
+                            CMND/Căn cước<span class="required" aria-required="true">*</span>
                         </label>
-                        <input class="form-control " id="ThoiGianKhoiHanh" name="ThoiGianKhoiHanh" />
-                        <%--    <select id="ThoiGianKhoiHanh" name="ThoiGianKhoiHanh" class="select2 form-control">
-                            <option value="">Chọn khung giờ xe chạy</option>
-                            <%foreach (var item in new List<int>() { 1, 2, 3 })
+                        <input type="number" class="form-control " id="CMND" name="CMND" min="10" max="1000000000" value="<%=ThongTinTaiXe.CMND %>" />
+                    </div>
+
+                    <div class="form-group col-md-2">
+                        <label class="control-label">
+                            Năm sinh<span class="required" aria-required="true">*</span>
+                        </label>
+                        <select id="NamSinh" name="NamSinh" class="form-control select2" data-placeholder="chọn năm sinh">
+                            <%foreach (var item in ListYear)
                                 {%>
-                            <option value="<%=item %>">item </option>
+                            <option value="<%=item %>"><%=item %></option>
                             <%}%>
-                        </select>--%>
+                        </select>
                     </div>
 
                 </div>
+                <!-- tên tài xế + CMND -->
 
                 <%--sdt--%>
                 <div class="form-row">
@@ -238,30 +243,26 @@
                         <label class="control-label">
                             Số điện thoại
                         </label>
-                        <input class="form-control" name="SoDienThoai" id="SoDienThoai" autocomplete="off" value="0123" maxlength="11" />
+                        <input type="number" class="form-control" name="SDT" id="SDT" autocomplete="off" value="<%=ThongTinTaiXe.SoDienThoai %>" min="10" max="1000000000" />
                     </div>
                     <%--sdt--%>
-
-                    <!-- Tên báo cáo -->
-                    
-                        <div class="form-group col-md-9">
-                            <label class="control-label">
-                                Địa chỉ<span class="required" aria-required="true">*</span>
-                            </label>
-                            <%-- <%=Viags.Utils.FormUtils.TextBox("TenTaiLieu",model.TenTaiLieu,"Nhập địa chỉ",3,255) %>--%>
-                            <input class="form-control" name="DiaChi" id="DiaChi" autocomplete="off" value="yên thế" />
-                        </div>
-                        <!-- Tên báo cáo -->
-              
+                    <div class="form-group col-md-9">
+                        <label class="control-label">
+                            Địa chỉ<span class="required" aria-required="true">*</span>
+                        </label>
+                        <input class="form-control" name="DiaChi" id="DiaChi" autocomplete="off" value="<%=ThongTinTaiXe.DiaChi %>" />
+                    </div>
                 </div>
-                <!-- Phòng ban -->
+
+                <div class="form-row">
+                </div>
 
                 <div class="form-group">
                     <div class="form-group col-md-5">
                         <label class="control-label">
                             Trạm
                         </label>
-                        <select id="KhuVucID" name="KhuVucID" class="form-control select2" data-placeholder="Chọn phòng ban" >
+                        <select id="KhuVucID" name="KhuVucID" class="form-control select2" data-placeholder="Chọn phòng ban">
 
                             <%foreach (var item in listkhuvuc)
                                 {%>
@@ -271,27 +272,27 @@
                     </div>
                     <div class="form-group col-md-3">
                         <label class="control-label">
-                            Số ghế
+                            Loại xe
                         </label>
-                        <input type="number" min="1" class="form-control" name="SoGhe" id="SoGhe" value="1" />
+                        <select id="LoaiXe" name="LoaiXe" class="form-control select2" data-placeholder="Chọn loại xe">
+
+                            <option value="21">Xe máy</option>
+                            <option value="2">Xe 4 chỗ </option>
+                            <option value="3">Xe 7 chỗ </option>
+
+                        </select>
                     </div>
-              
-
                 </div>
-                <!-- Phòng ban -->   
 
-         
             </div>
-
         </div>
-    </div>
 
-    <div class="modal-footer">
+        <div class="modal-footer">
 
-        <button type="submit" id="btnAddModal" class="btn brown" tabindex="6"><i class="fa fa-save"></i>&nbsp;Lưu</button>
+            <button type="submit" id="btnAddModal" class="btn brown" tabindex="6"><i class="fa fa-save"></i>&nbsp;Lưu</button>
 
-        <button type="button" id="btnCloseModal" class="btn red exit" data-dismiss="modal" tabindex="7"><i class="fa fa-remove"></i>&nbsp;<%=Resources.CongViec.lblThoat %></button>
-    </div>
+            <button type="button" id="btnCloseModal" class="btn red exit" data-dismiss="modal" tabindex="7"><i class="fa fa-remove"></i>&nbsp;<%=Resources.CongViec.lblThoat %></button>
+        </div>
 </form>
 
 

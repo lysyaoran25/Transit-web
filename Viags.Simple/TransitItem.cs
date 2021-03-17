@@ -42,6 +42,8 @@ namespace Viags.Simple
         public int ID { get; set; }
         public string TenTaiXe { get; set; }
         public string SoDienThoai { get; set; }
+        public string CMND { get; set; }
+        public string NamSinh { get; set; }
         public int? LoaiXe { get; set; }
         public string TenLoaiXe { get; set; }
         public int? TrangThai { get; set; }
@@ -49,6 +51,7 @@ namespace Viags.Simple
         public string GPS_Long { get; set; }
         public int? KhuVucID { get; set; }
         public string TenKhuVuc { get; set; }
+        public string DiaChi { get; set; }
         
     }
 

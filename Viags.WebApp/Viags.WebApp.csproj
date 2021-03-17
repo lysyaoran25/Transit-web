@@ -255,6 +255,7 @@
     <Content Include="MasterPage\Example.aspx" />
     <Content Include="Pagess\error.aspx" />
     <Content Include="Pagess\Home.aspx" />
+    <Content Include="Pagess\list-taixe.aspx" />
     <Content Include="Pagess\transit.aspx" />
     <Content Include="Publishing_Resources\css\circle.css" />
     <Content Include="Publishing_Resources\css\jquery.treeview.css" />
@@ -6962,10 +6963,13 @@
     <Content Include="Template\VanBanDi\thong-ke-van-ban-di-word-row.xml" />
     <Content Include="Template\VanBanDi\thong-ke-van-ban-di-word-table.xml" />
     <Content Include="Template\VanBanDi\VanBanDiMat-excel222222.xml" />
-    <Content Include="Transit\Ajaxlist.aspx" />
     <Content Include="Transit\asset\DieuPhoi\AjaxFormThemDonHang.js" />
     <Content Include="Transit\DanhMucChuyen\ucDanhMucChuyen.ascx" />
+    <Content Include="Transit\DanhSachTaiXe\AjaxFormTaiXe.aspx" />
+    <Content Include="Transit\DanhSachTaiXe\AjaxListTaiXe.aspx" />
+    <Content Include="Transit\DanhSachTaiXe\ucListTaiXe.ascx" />
     <Content Include="Transit\DieuPhoi\AjaxFormThemDonHang.aspx" />
+    <Content Include="Transit\DieuPhoi\Ajaxlist.aspx" />
     <Content Include="Transit\QuanLyKhach\ucQuanLyKhach.ascx" />
     <Content Include="Transit\ucTransit.ascx" />
     <Content Include="Publishing_Resources\global\plugins\angularjs\angular-cookies.min.js.map" />
@@ -7290,6 +7294,7 @@
     <Content Include="Template\KhoaTaiKhoan\TaiKhoanBiKhoa_Log.xlsx" />
     <Content Include="Template\Survey\ReportMonth.xlsx" />
     <Content Include="Transit\Action.ashx" />
+    <Content Include="Transit\DanhSachTaiXe\Action.ashx" />
     <None Include="Web References\UploadFileService\Reference.map">
       <Generator>MSDiscoCodeGenerator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
@@ -7493,6 +7498,13 @@
     <Compile Include="Pagess\Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Pagess\list-taixe.aspx.cs">
+      <DependentUpon>list-taixe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pagess\list-taixe.aspx.designer.cs">
+      <DependentUpon>list-taixe.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Pagess\transit.aspx.cs">
       <DependentUpon>transit.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -7520,13 +7532,6 @@
     <Compile Include="Transit\Action.ashx.cs">
       <DependentUpon>Action.ashx</DependentUpon>
     </Compile>
-    <Compile Include="Transit\AjaxList.aspx.cs">
-      <DependentUpon>Ajaxlist.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Transit\AjaxList.aspx.designer.cs">
-      <DependentUpon>Ajaxlist.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Transit\DanhMucChuyen\ucDanhMucChuyen.ascx.cs">
       <DependentUpon>ucDanhMucChuyen.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -7534,12 +7539,43 @@
     <Compile Include="Transit\DanhMucChuyen\ucDanhMucChuyen.ascx.designer.cs">
       <DependentUpon>ucDanhMucChuyen.ascx</DependentUpon>
     </Compile>
+    <Compile Include="Transit\DanhSachTaiXe\Action.ashx.cs">
+      <DependentUpon>Action.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Transit\DanhSachTaiXe\AjaxFormTaiXe.aspx.cs">
+      <DependentUpon>AjaxFormTaiXe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Transit\DanhSachTaiXe\AjaxFormTaiXe.aspx.designer.cs">
+      <DependentUpon>AjaxFormTaiXe.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Transit\DanhSachTaiXe\AjaxListTaiXe.aspx.cs">
+      <DependentUpon>AjaxListTaiXe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Transit\DanhSachTaiXe\AjaxListTaiXe.aspx.designer.cs">
+      <DependentUpon>AjaxListTaiXe.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Transit\DanhSachTaiXe\ucListTaiXe.ascx.cs">
+      <DependentUpon>ucListTaiXe.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Transit\DanhSachTaiXe\ucListTaiXe.ascx.designer.cs">
+      <DependentUpon>ucListTaiXe.ascx</DependentUpon>
+    </Compile>
     <Compile Include="Transit\DieuPhoi\AjaxFormThemDonHang.aspx.cs">
       <DependentUpon>AjaxFormThemDonHang.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Transit\DieuPhoi\AjaxFormThemDonHang.aspx.designer.cs">
       <DependentUpon>AjaxFormThemDonHang.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Transit\DieuPhoi\AjaxList.aspx.cs">
+      <DependentUpon>Ajaxlist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Transit\DieuPhoi\AjaxList.aspx.designer.cs">
+      <DependentUpon>Ajaxlist.aspx</DependentUpon>
     </Compile>
     <Compile Include="Transit\QuanLyKhach\ucQuanLyKhach.ascx.cs">
       <DependentUpon>ucQuanLyKhach.ascx</DependentUpon>

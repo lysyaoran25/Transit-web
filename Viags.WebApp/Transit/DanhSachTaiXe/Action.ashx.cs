@@ -14,7 +14,7 @@ namespace Viags.WebApp.Transit.DanhSachTaiXe
     /// </summary>
     public class Action : Base.BaseAction, IHttpHandler, IRequiresSessionState
     {
-        TransitDA TransitDA = new TransitDA();
+        Transit_TaiXeDA Transit_TaiXeDA = new Transit_TaiXeDA();
         public void ProcessRequest(HttpContext context)
         {
             Message objMsg = new Message();
@@ -43,15 +43,15 @@ namespace Viags.WebApp.Transit.DanhSachTaiXe
         }
         public Message Add()
         {
-            return TransitDA.Add();
+            return Transit_TaiXeDA.Add();
         }
         public Message Edit()
         {
-            return TransitDA.Edit();
+            return Transit_TaiXeDA.Edit();
         }
         public Message Delete()
         {
-            return TransitDA.Delete();
+            return Transit_TaiXeDA.Delete();
         }
 
 

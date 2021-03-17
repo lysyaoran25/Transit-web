@@ -16,12 +16,12 @@ namespace Viags.WebApp.Controllers
         }
         [HttpGet]
         [Route("api/categories")]
-        public IHttpActionResult GetCategoriesList()
+        public IHttpActionResult GetLoginInfo(string username,string password)
         {
             var categoriesList = new TransitItem()
             {
-                ID = 1,
-                Ten = "Hello"
+                ID = 12345,
+                Ten = "Hello World"
             };
             return Ok(categoriesList);
         }

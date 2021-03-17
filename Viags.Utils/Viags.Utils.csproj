@@ -98,6 +98,7 @@
     <Compile Include="Enum\TrangThaiLichLD.cs" />
     <Compile Include="Enum\TrangThaiTinTuc.cs" />
     <Compile Include="Enum\TrangThai_ISO.cs" />
+    <Compile Include="Enum\TrangThai_Transit.cs" />
     <Compile Include="Enum\TypeOfAction.cs" />
     <Compile Include="Enum\TypeOfKieuVanBan.cs" />
     <Compile Include="Enum\TypeOfPermission.cs" />
